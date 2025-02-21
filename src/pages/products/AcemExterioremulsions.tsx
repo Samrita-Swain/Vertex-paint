@@ -1,24 +1,24 @@
-const UltimaExterioremulsions = () => {
+const AcemExterioremulsions = () => {
   return (
     <div>
       <div
         className="relative UltimaExterioremulsions-banner p-12 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url(../images/ultima-banner.jpeg)" }}
+        style={{ backgroundImage: "url(../images/acem-banner.jpeg)" }}
       >
         {/* Overlay Layer */}
         <div className="absolute inset-0 bg-black opacity-50"></div>
 
         {/* Content */}
         <div className="relative content text-white text-center">
-          <h1 className="text-[50px] font-bold">Ultima Exterior Emulsions</h1>
+          <h1 className="text-[50px] font-bold">Acem Exterior Emulsions</h1>
         </div>
       </div>
-      <div className="exterior-Ultima-band p-12 bg-[#f6f3fc]">
+      <div className="exterior-Ultima-band p-12 bg-[#fff5eb]">
         <h1 className="text-3xl font-bold text-center mb-[50px]">
           Ultima <span className="gradient-text">Exterior Emulsions</span>
         </h1>
         <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
-          <div className="ultima-box group relative p-4">
+          <div className="ultima-box apex-box group relative p-4">
             <div>
             <div className="flex justify-center items-center h-[150px]">
   <img className="w-[50%] transition-transform duration-300 group-hover:scale-110" src="/images/1.png" alt="" />
@@ -36,7 +36,7 @@ const UltimaExterioremulsions = () => {
               </ul>
             </div>
           </div>
-          <div className="ultima-box group relative p-4">
+          <div className="ultima-box apex-box group relative p-4">
             <div>
             <div className="flex justify-center items-center h-[150px]">
   <img className="w-[50%] transition-transform duration-300 group-hover:scale-110" src="/images/2.png" alt="" />
@@ -54,7 +54,7 @@ const UltimaExterioremulsions = () => {
               </ul>
             </div>
           </div>
-          <div className="ultima-box group relative p-4">
+          <div className="ultima-box apex-box group relative p-4">
             <div>
             <div className="flex justify-center items-center h-[150px]">
   <img className="w-[50%] transition-transform duration-300 group-hover:scale-110" src="/images/3.png" alt="" />
@@ -72,7 +72,7 @@ const UltimaExterioremulsions = () => {
               </ul>
             </div>
           </div>
-          <div className="ultima-box group relative p-4">
+          <div className="ultima-box apex-box group relative p-4">
             <div>
             <div className="flex justify-center items-center h-[150px]">
   <img className="w-[50%] transition-transform duration-300 group-hover:scale-110" src="/images/4.png" alt="" />
@@ -90,7 +90,7 @@ const UltimaExterioremulsions = () => {
               </ul>
             </div>
           </div>
-          <div className="ultima-box group relative p-4">
+          <div className="ultima-box apex-box group relative p-4">
             <div>
             <div className="flex justify-center items-center h-[150px]">
   <img className="w-[50%] transition-transform duration-300 group-hover:scale-110" src="/images/5.png" alt="" />
@@ -120,11 +120,11 @@ const UltimaExterioremulsions = () => {
       <div
         className="relative h-[40vh] rounded-lg p-12 bg-cover bg-center bg-no-repeat flex justify-center items-center overflow-hidden group cursor-pointer"
       >
-        <a href="/ApexExterioremulsions">
+        <a href="/UltimaExterioremulsions">
           {/* Background Image with Zoom Effect */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-500 group-hover:scale-110"
-          style={{ backgroundImage: "url(../images/apex-banner.jpg)" }}
+          style={{ backgroundImage: "url(../images/ultima-banner.jpeg)" }}
         ></div>
 
         {/* Overlay Layer */}
@@ -132,7 +132,7 @@ const UltimaExterioremulsions = () => {
 
         {/* Content */}
         <div className="relative content text-white text-center">
-          <h1 className="text-[50px] font-bold">Apex</h1>
+          <h1 className="text-[50px] font-bold">Ultima</h1>
           <p>Exterior Paints</p>
         </div>
         </a>
@@ -155,7 +155,7 @@ const UltimaExterioremulsions = () => {
 
         {/* Content */}
         <div className="relative content text-white text-center">
-          <h1 className="text-[50px] font-bold">Acem</h1>
+          <h1 className="text-[50px] font-bold">Apex</h1>
           <p>Exterior Paints</p>
         </div>
         </a>
@@ -168,4 +168,4 @@ const UltimaExterioremulsions = () => {
   );
 };
 
-export default UltimaExterioremulsions;
+export default AcemExterioremulsions;

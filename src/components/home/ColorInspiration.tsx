@@ -5,8 +5,8 @@ import { colorInspirations } from '../../data/content';
 const ColorInspiration = () => {
   return (
     <section className="py-16 bg-[#fff5eb]">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-4">Color Inspiration</h2>
+      <div className="container mx-auto px-4 flex flex-col items-center">
+        <h2 className="text-3xl font-bold text-center mb-4 gradient-text">Color Inspiration</h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
           Discover trending color combinations and get inspired for your next home makeover
         </p>

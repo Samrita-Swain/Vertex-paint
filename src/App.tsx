@@ -40,6 +40,8 @@ import LoginPage from './pages/services/LoginPage';
 import CartPage from './pages/services/CartPage';
 import TDS from './pages/TDS';
 import UltimaExterioremulsions from './pages/products/UltimaExterioremulsions';
+import ApexExterioremulsions from './pages/products/ApexExterioremulsions';
+import AcemExterioremulsions from './pages/products/AcemExterioremulsions';
 
 function App() {
   return (
@@ -60,6 +62,12 @@ function App() {
 
               {/* ultima Exterior Emulsions */}
               <Route path="/UltimaExterioremulsions" element={<UltimaExterioremulsions />} />
+
+              {/* Apex Exterior Emulsions */}
+              <Route path="/ApexExterioremulsions" element={<ApexExterioremulsions />} />
+              
+              {/* Acem Exterior Emulsions */}
+              <Route path="/AcemExterioremulsions" element={<AcemExterioremulsions />} />
               
               {/* Paint Routes */}
               <Route path="/products/interior" element={<InteriorPaintsPage />} />
