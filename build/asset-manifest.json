@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a72dbcf3.css",
+    "main.js": "/static/js/main.40946c71.js",
+    "static/media/exterior-texture-banner.webp": "/static/media/exterior-texture-banner.733a6ebacd06736244ac.webp",
+    "index.html": "/index.html",
+    "main.a72dbcf3.css.map": "/static/css/main.a72dbcf3.css.map",
+    "main.40946c71.js.map": "/static/js/main.40946c71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a72dbcf3.css",
+    "static/js/main.40946c71.js"
+  ]
+}
