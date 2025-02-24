@@ -5,16 +5,18 @@ const ExteriorPaintsPage = () => {
   const tabs = ["Wall Paints", "Textures"];
   return (
     <div>
-      <div className="exteriorbanner">
-        <h1 className="text-5xl text-white font-semibold mb-4">
+      <div className="exteriorbanner p-12">
+        <div className="container flex flex-col items-center">
+        <h1 className="text-5xl text-white font-semibold mb-4 text-center">
           Exterior Wall Paints
         </h1>
-        <p className="text-xl mb-8 text-white">
+        <p className="text-xl mb-8 text-white text-center">
           Explore the versatile range of exterior paint products for your home!
         </p>
         <button>
           View Deatils <FaArrowRight className="icon" />
         </button>
+        </div>
       </div>
       <div className="exterior-second-band bg-[#fff5eb] p-12">
         <div className="w-full max-w-[70rem] mx-auto mt-10">
