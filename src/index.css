@@ -114,7 +114,7 @@ body {
   left: 50%;
   width: 100%;
   color: #fff;
-  padding: 54px;
+  padding: 40px;
   opacity: 0; /* Start with hidden */
   visibility: hidden; /* Ensure it's not interactable */
   transition: opacity 0.5s ease, visibility 0s 0.5s; /* Smooth opacity change and delay visibility */
