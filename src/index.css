@@ -145,7 +145,7 @@ body {
   visibility: visible; /* Make the content visible */
   transition: opacity 0.5s ease, visibility 0s 0s; /* Ensure visibility is immediately available after the fade */
 }
-.coloroptions-band-box button {
+.coloroptions-band-box a {
   align-items: center;
   background: #fec940;
   border: 2px solid #fec940;
@@ -160,15 +160,15 @@ body {
   display: flex;
   justify-content: center;
 }
-.coloroptions-band-box button .icon{
+.coloroptions-band-box a .icon{
   transition: 0.5s;
   margin-left: 5px;
   font-size: 15px;
 }
-.coloroptions-band-box button:hover .icon{
+.coloroptions-band-box a:hover .icon{
   transform: translateX(5px);
 }
-.coloroptions-band-box button:hover{
+.coloroptions-band-box a:hover{
   border: 2px solid #fff;
   background-color: transparent;
   color: #fff;
@@ -373,6 +373,13 @@ body {
 
 .apex-box{
   background-color: #ffffff7a;
+}
+.icon{
+  transition: 0.3s;
+  font-size: 15px
+}
+a:hover .icon{
+  transform: translateX(5px);
 }
 
 

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -13,15 +13,14 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent">
           <div className="container mx-auto px-4 h-full flex items-center">
             <div className="max-w-xl text-white">
-              <h1 className="text-5xl font-bold mb-4">
-                Transform Your Home
-              </h1>
+              <h1 className="text-5xl font-bold mb-">Transform Your Home</h1>
               <p className="text-xl mb-8">
-                Discover endless possibilities with Asian Paints' range of interior and exterior paints
+                Discover endless possibilities with Asian Paints' range of
+                interior and exterior paints
               </p>
-              <Link 
+              <Link
                 to="/visualizer"
-                className="bg-primary-600 text-white px-8 py-3 rounded-lg text-lg font-medium hover:bg-primary-700 transition-colors"
+                className="px-8 py-3 rounded-lg text-lg font-medium bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-white hover:text-white" style={{transition: "0.5s"}}
               >
                 Try Color Visualizer
               </Link>
@@ -34,22 +33,22 @@ const Hero = () => {
       <div className="bg-white shadow-lg">
         <div className="container mx-auto px-4 py-6">
           <div className="grid grid-cols-4 gap-8">
-            <QuickLink 
+            <QuickLink
               icon="https://www.asianpaints.com/content/dam/asian_paints/homepage/icons/paint-finder.svg"
               title="Paint Finder"
               description="Find the perfect paint for your space"
             />
-            <QuickLink 
+            <QuickLink
               icon="https://www.asianpaints.com/content/dam/asian_paints/homepage/icons/contractor.svg"
               title="Find a Contractor"
               description="Connect with painting professionals"
             />
-            <QuickLink 
+            <QuickLink
               icon="https://www.asianpaints.com/content/dam/asian_paints/homepage/icons/colour-catalogue.svg"
               title="Colour Catalogue"
               description="Explore our colour collections"
             />
-            <QuickLink 
+            <QuickLink
               icon="https://www.asianpaints.com/content/dam/asian_paints/homepage/icons/store-locator.svg"
               title="Store Locator"
               description="Find a store near you"
@@ -61,7 +60,15 @@ const Hero = () => {
   );
 };
 
-const QuickLink = ({ icon, title, description }: { icon: string; title: string; description: string }) => (
+const QuickLink = ({
+  icon,
+  title,
+  description,
+}: {
+  icon: string;
+  title: string;
+  description: string;
+}) => (
   <div className="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer">
     <img src={icon} alt={title} className="w-12 h-12" />
     <div>
@@ -71,4 +78,4 @@ const QuickLink = ({ icon, title, description }: { icon: string; title: string; 
   </div>
 );
 
-export default Hero; 
+export default Hero;

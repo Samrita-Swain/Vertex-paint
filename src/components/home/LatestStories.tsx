@@ -5,8 +5,8 @@ import { latestStories } from '../../data/content';
 const LatestStories = () => {
   return (
     <section className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-4">Latest Stories</h2>
+      <div className="container mx-auto px-4 flex flex-col items-center">
+        <h2 className="text-3xl font-bold text-center mb-4  gradient-text">Latest Stories</h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
           Get inspired with the latest trends and expert advice
         </p>
@@ -51,7 +51,7 @@ const LatestStories = () => {
         <div className="text-center mt-12">
           <Link 
             to="/stories"
-            className="inline-block border-2 border-primary-600 text-primary-600 px-8 py-3 rounded-lg font-medium hover:bg-primary-600 hover:text-white transition-colors"
+            className="px-8 py-3 rounded-lg text-lg font-medium bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-[#fec940]" style={{transition: "0.5s"}}
           >
             View All Stories
           </Link>

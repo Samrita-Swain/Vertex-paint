@@ -30,7 +30,7 @@ const ColorInspiration = () => {
                   <p className="text-white/80 mb-4">{inspiration.description}</p>
                   <Link 
                     to={`/inspiration/${inspiration.id}`}
-                    className="inline-block bg-white text-gray-900 px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-100 transition-colors"
+                    className="inline-block bg-white text-gray-900 px-4 py-2 rounded-lg text-sm font-medium transition-colors hover:bg-[#fcc740]" style={{transition: "0.5s"}}
                   >
                     Explore Colors
                   </Link>
@@ -43,7 +43,7 @@ const ColorInspiration = () => {
         <div className="text-center mt-12">
           <Link 
             to="/inspiration"
-            className="inline-block bg-primary-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-primary-700 transition-colors"
+            className="px-8 py-3 rounded-lg text-lg font-medium inline-block bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-[#fec940]" style={{transition: "0.5s"}}
           >
             View All Inspirations
           </Link>

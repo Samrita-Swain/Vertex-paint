@@ -21,7 +21,7 @@ const ColorOptions = () => {
                 <div className="overlay-content">
                 <h5 className="text-[20px]">Interior Paints</h5>
                 <p className="text-[#ffffffa6] text-[17px]">Discover a diverse selection of interior paints catering to luxury, premium and economy along with designer Royale collection.</p>
-                <button>View Deatils <FaArrowRight className="icon"/></button>
+                <a>View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@ const ColorOptions = () => {
                 <div className="overlay-content">
                 <h5 className="text-[20px]">Exterior Paints</h5>
                 <p className="text-[#ffffffa6] text-[17px]">Enhance your outdoor spaces with our range of exterior paints and textures tailored for you, from high-end to budget-friendly.</p>
-                <button>View Deatils <FaArrowRight className="icon"/></button>
+                <a href="../products/exterior">View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ const ColorOptions = () => {
                 <div className="overlay-content">
                 <h5 className="text-[20px]">Wall Textures</h5>
                 <p className="text-[#ffffffa6] text-[17px]">Transform your interiors with special texture finishes- Royale Play, inspired by themes around the world, for a personalized.</p>
-                <button>View Deatils <FaArrowRight className="icon"/></button>
+                <a>View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ const ColorOptions = () => {
                 <div className="overlay-content">
                 <h5 className="text-[20px]">Wallpapers</h5>
                 <p className="text-[#ffffffa6] text-[17px]">Discover our extensive wallpaper collections, offering a range of designs from Artisanal to exclusive Sabyasachi collection.</p>
-                <button>View Deatils <FaArrowRight className="icon"/></button>
+                <a>View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>
@@ -85,7 +85,7 @@ const ColorOptions = () => {
                 <div className="overlay-content">
                 <h5 className="text-[20px]">Water- Proofing</h5>
                 <p className="text-[#ffffffa6] text-[17px]">Explore our waterproofing solutions, designed to shield all areas from terrace or bathroom, guaranteeing a leak-proof space.</p>
-                <button>View Deatils <FaArrowRight className="icon"/></button>
+                <a>View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ const ColorOptions = () => {
                 <div className="overlay-content">
                 <h5 className="text-[20px]">Wood Paints</h5>
                 <p className="text-[#ffffffa6] text-[17px]">Delve into our wood finishing options, offering a spectrum of finishes from Clear to Coloured, suitable for all wood types.</p>
-                <button>View Deatils <FaArrowRight className="icon"/></button>
+                <a>View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>
@@ -117,7 +117,7 @@ const ColorOptions = () => {
                 <div className="overlay-content">
                 <h5 className="text-[20px]">Metal Paints</h5>
                 <p className="text-[#ffffffa6] text-[17px]">Explore our range of enamel paints for specially formulated paints that protect and beautify surfaces, and are easy-to-clean.</p>
-                <button>View Deatils <FaArrowRight className="icon"/></button>
+                <a>View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>
