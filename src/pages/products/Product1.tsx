@@ -1,0 +1,75 @@
+const Product1 = () => {
+  return (
+    <div>
+      <div
+        className="relative UltimaExterioremulsions-banner p-12 bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center min-h-[50vh]"
+        style={{ backgroundImage: "url(../images/product1.jpg)" }}
+      >
+        {/* Overlay Layer */}
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+
+        {/* Content */}
+        <div className="relative text-white text-center">
+          <h1 className="text-[50px] font-bold mb-7">Ultima Exterior Emulsions</h1>
+        </div>
+
+        {/* Centered Bouncing Image */}
+        <div className="bounce-container flex justify-center items-center mt-6">
+          <img
+            src="/images/1.png"
+            alt="Bouncing"
+            className="bouncing-img w-[30%]"
+          />
+        </div>
+      </div>
+      <div className="second-banner p-12 flex justify-center items-center">
+        <div className="container">
+          <div className="content flex justify-center items-center flex-col">
+            <h1 className="gradient-text text-[40px] font-bold text-center">Benefits</h1>
+            <p className="mb-[35px] text-center">Here's why Apex Ultima Protek Duralife is perfect for your home.</p>
+          </div>
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-[2rem]">
+          <div className="second-band-box flex flex-col justify-center items-center mb-[30px] p-5 rounded-[15px] border-l border-r border-red-500 transition-all shadow-lg" style={{boxShadow: "0 3px 15px rgba(0, 0, 0, .4)"}} data-aos="flip-up" data-aos-duration="1500">
+            <div className="image mb-5">
+              <img src="/images/STRUCTURAL-PROTECTION.png" alt="" />
+            </div>
+            <div className="content text-center">
+              <h1 className="text-[17px] font-[600] mb-1">STRUCTURAL PROTECTION</h1>
+              <p>Higher longevity leading to better structural protection.</p>
+            </div>
+          </div>
+          <div className="second-band-box flex flex-col justify-center items-center mb-[30px] p-5 rounded-[15px] border-l border-r border-red-500 transition-all shadow-lg" style={{boxShadow: "0 3px 15px rgba(0, 0, 0, .4)"}} data-aos="flip-down" data-aos-duration="1500">
+            <div className="image mb-5">
+              <img src="/images/CRACK-BRIDGING.png" alt="" />
+            </div>
+            <div className="content text-center">
+              <h1 className="text-[17px] font-[600] mb-1">CRACK BRIDGING</h1>
+              <p>Fiber reinforcement that offers crack bridging ability of up to 2.4 mm.</p>
+            </div>
+          </div>
+          <div className="second-band-box flex flex-col justify-center items-center mb-[30px] p-5 rounded-[15px] border-l border-r border-red-500 transition-all shadow-lg" style={{boxShadow: "0 3px 15px rgba(0, 0, 0, .4)"}} data-aos="flip-up" data-aos-duration="1500">
+            <div className="image mb-5">
+              <img src="/images/SUPERIOR-CLEANABILITY.png" alt="" />
+            </div>
+            <div className="content text-center">
+              <h1 className="text-[17px] font-[600] mb-1">SUPERIOR CLEANABILITY</h1>
+              <p>Excellent dust resistance and ease of cleaning ensuring exteriors look fresh for long.</p>
+            </div>
+          </div>
+          <div className="second-band-box flex flex-col justify-center items-center mb-[30px] p-5 rounded-[15px] border-l border-r border-red-500 transition-all shadow-lg" style={{boxShadow: "0 3px 15px rgba(0, 0, 0, .4)"}} data-aos="flip-down" data-aos-duration="1500">
+            <div className="image mb-5">
+              <img src="/images/LOW-VOC.png" alt="" />
+            </div>
+            <div className="content text-center">
+              <h1 className="text-[17px] font-[600] mb-1">LOW VOC</h1>
+              <p>Meets the LEED VOC criteria as per Indian Green Building Council.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Product1;

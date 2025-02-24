@@ -13,7 +13,7 @@ const TDS = () => {
       </div>
 
       <div className="p-12 flex flex-col items-center bg-[#fff5eb]">
-        <h1 className="gradient-text text-3xl font-bold mb-14">
+        <h1 className="gradient-text text-[40px] font-bold mb-14">
           Technical Data Sheets
         </h1>
         <div className="tds-product-part grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-8 p-12">
@@ -28,7 +28,7 @@ const TDS = () => {
   onMouseLeave={(e) => (e.currentTarget.style.transform = "translateY(0px)")}
 >
   <div className="product-img w-[50%]">
-    <img src="/images/4.png" className="rounded-[10px]" alt="" />
+    <img src="/images/10.png" className="rounded-[10px]" alt="" />
   </div>
   <div className="product-content flex flex-col items-center">
     <h1 className="mb-3 text-[19px] text-center">ACME ULTRA-WRP</h1>

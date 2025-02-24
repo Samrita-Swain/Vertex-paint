@@ -42,7 +42,7 @@ const ExteriorPaintsPage = () => {
           {/* Tab Content */}
           <div className="p-4 text-center">
             {activeTab === "Wall Paints" && (
-              <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
+              <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]" data-aos="fade-up" data-aos-duration="1500">
                 <div className="first-img relative">
                   <img
                     src="/images/Metal Guard.png"
@@ -113,7 +113,7 @@ const ExteriorPaintsPage = () => {
               </div>
             )}
             {activeTab === "Textures" && (
-              <div className="grid lg:grid-cols-3 md:grid-cols-3 sm-grid-cols-1  gap-[2rem]">
+              <div className="grid lg:grid-cols-3 md:grid-cols-3 sm-grid-cols-1  gap-[2rem]" data-aos="fade-up" data-aos-duration="1500">
                 <div className="first-img relative">
                   <img
                     src="/images/Luxury Emulsion.png"
@@ -185,7 +185,7 @@ const ExteriorPaintsPage = () => {
       </div>
 
       <div className="inspired-by grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-12 bg-[#f7f2e7] justify-center items-center">
-        <div className="inspired-by-content-part">
+        <div className="inspired-by-content-part" data-aos="fade-right" data-aos-duration="1500">
           <h6 className="text-[40px] font-[500] mb-3">Get inspired by our</h6>
           <h1 className="text-[70px] font-[600] w-1/2 leading-[75px] gradient-text mb-3">
             Exquisite Collections
@@ -204,31 +204,35 @@ const ExteriorPaintsPage = () => {
             <img
               src="/images/first-image.webp"
               alt=""
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover" data-aos="zoom-in"
+              data-aos-duration="1500"
             />
             <img
               src="/images/image-3.webp"
               alt=""
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover" data-aos="zoom-in"
+              data-aos-duration="1500"
             />
           </div>
           <div className="third-img">
             <img
               src="/images/image-5.webp"
               alt=""
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover" data-aos="zoom-in"
+              data-aos-duration="1500"
             />
           </div>
           <div className="second-img flex flex-col gap-3">
             <img
               src="/images/image-1.webp"
               alt=""
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover" data-aos="zoom-in"
+              data-aos-duration="1500"
             />
             <img
               src="/images/image-2.webp"
               alt=""
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover" data-aos="zoom-in" data-aos-duration="1500"
             />
           </div>
         </div>

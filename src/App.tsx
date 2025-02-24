@@ -1,5 +1,7 @@
 import './index.css'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/home/HomePage';
@@ -42,8 +44,12 @@ import TDS from './pages/TDS';
 import UltimaExterioremulsions from './pages/products/UltimaExterioremulsions';
 import ApexExterioremulsions from './pages/products/ApexExterioremulsions';
 import AcemExterioremulsions from './pages/products/AcemExterioremulsions';
+import Product1 from './pages/products/Product1';
 
 function App() {
+  useEffect(() => {
+    import("aos").then((AOS) => AOS.default.init());
+  }, []);
   return (
     <div className="font-times">
       <Router>
@@ -62,6 +68,9 @@ function App() {
 
               {/* ultima Exterior Emulsions */}
               <Route path="/UltimaExterioremulsions" element={<UltimaExterioremulsions />} />
+
+              {/* ultima Exterior Emulsions products */}
+              <Route path="/Product1" element={<Product1 />} />
 
               {/* Apex Exterior Emulsions */}
               <Route path="/ApexExterioremulsions" element={<ApexExterioremulsions />} />

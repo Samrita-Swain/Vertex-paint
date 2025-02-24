@@ -14,11 +14,12 @@ const AcemExterioremulsions = () => {
         </div>
       </div>
       <div className="exterior-Ultima-band p-12 bg-[#fff5eb]">
-        <h1 className="text-3xl font-bold text-center mb-[50px]">
-          Ultima <span className="gradient-text">Exterior Emulsions</span>
+        <h1 className="text-[40px] font-bold text-center mb-[35px]">
+          Acem <span className="gradient-text">Exterior Emulsions</span>
         </h1>
         <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
-          <div className="ultima-box apex-box group relative p-4">
+          <div className="ultima-box apex-box group relative p-4" data-aos="zoom-in"
+              data-aos-duration="1500">
             <div>
             <div className="flex justify-center items-center h-[150px]">
   <img className="w-[50%] transition-transform duration-300 group-hover:scale-110" src="/images/1.png" alt="" />
@@ -54,7 +55,8 @@ const AcemExterioremulsions = () => {
               </ul>
             </div>
           </div>
-          <div className="ultima-box apex-box group relative p-4">
+          <div className="ultima-box apex-box group relative p-4" data-aos="zoom-in"
+              data-aos-duration="1500">
             <div>
             <div className="flex justify-center items-center h-[150px]">
   <img className="w-[50%] transition-transform duration-300 group-hover:scale-110" src="/images/3.png" alt="" />
@@ -90,7 +92,8 @@ const AcemExterioremulsions = () => {
               </ul>
             </div>
           </div>
-          <div className="ultima-box apex-box group relative p-4">
+          <div className="ultima-box apex-box group relative p-4" data-aos="zoom-in"
+              data-aos-duration="1500">
             <div>
             <div className="flex justify-center items-center h-[150px]">
   <img className="w-[50%] transition-transform duration-300 group-hover:scale-110" src="/images/5.png" alt="" />
@@ -116,7 +119,8 @@ const AcemExterioremulsions = () => {
     Explore <span className="gradient-text">Other Exterior Paints</span>
   </h1>
   <div className="image-part gap-8 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
-    <div className="first-img">
+    <div className="first-img" data-aos="zoom-in"
+              data-aos-duration="1500">
       <div
         className="relative h-[40vh] rounded-lg p-12 bg-cover bg-center bg-no-repeat flex justify-center items-center overflow-hidden group cursor-pointer"
       >
@@ -139,7 +143,8 @@ const AcemExterioremulsions = () => {
       </div>
     </div>
 
-    <div className="second-img">
+    <div className="second-img" data-aos="zoom-in"
+              data-aos-duration="1500">
       <div
         className="relative h-[40vh] rounded-lg p-12 bg-cover bg-center bg-no-repeat flex justify-center items-center overflow-hidden group cursor-pointer"
       >
