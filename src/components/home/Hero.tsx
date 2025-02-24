@@ -32,7 +32,7 @@ const Hero = () => {
       {/* Quick Links */}
       <div className="bg-white shadow-lg">
         <div className="container mx-auto px-4 py-6">
-          <div className="grid grid-cols-4 gap-8">
+          <div className="grid lg:grid-cols-4 md:grid-cols-4  sm:grid-cols-4 xs:grid-cols-4 gap-8">
             <QuickLink
               icon="https://www.asianpaints.com/content/dam/asian_paints/homepage/icons/paint-finder.svg"
               title="Paint Finder"

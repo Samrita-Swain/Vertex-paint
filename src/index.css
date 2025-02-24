@@ -153,7 +153,7 @@ body {
   cursor: pointer;
   font-size: 15px;
   font-weight: 500;
-  padding: 5px 5px;
+  padding: 5px 15px;
   transition: .5s;
   /* width: 40%; */
   display: flex;
@@ -216,7 +216,8 @@ body {
   color: #000;
   transition: 0.5s;
   border: 2px solid #fec940;
-  width: 25%;
+  /* width: 25%; */
+  margin-bottom: 30px;
   transition: 0.5s;
   font-size: 15px;
   display: flex;
@@ -244,7 +245,7 @@ body {
   color: #fff;
   transition: 0.5s;
   border: 2px solid #fff;
-  width: 85%;
+  /* width: 85%; */
   transition: 0.5s;
   font-size: 15px;
   display: flex;
@@ -380,6 +381,17 @@ body {
 a:hover .icon{
   transform: translateX(5px);
 }
+.reviews-banner{
+  background-image: url(../public/images/reviews-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
@@ -394,5 +406,17 @@ a:hover .icon{
   }
   50% {
     transform: translateY(-20px);
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px){
+  .overlay-content {
+    padding: 30px;
   }
 }

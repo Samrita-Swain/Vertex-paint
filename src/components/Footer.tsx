@@ -5,16 +5,16 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-2 gap-8">
           <div>
             <h3 className="font-bold text-lg mb-4">About Us</h3>
             <p className="text-gray-400 mb-4">
               Vertex Paints is India's leading paint company with a rich heritage of technology and innovation.
             </p>
             <img 
-              src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=200"
+              src="https://vertexpaint.in/img/logo.png"
               alt="Asian Paints"
-              className="h-12"
+              className="h-20"
             />
           </div>
 

@@ -6,6 +6,7 @@ import Services from '../../components/home/Services';
 // import PaintCalculator from '../../components/home/PaintCalculator';
 import LatestStories from '../../components/home/LatestStories';
 import ColorOptions from '../../components/home/ColorOptions';
+import CustomerReviews from '../../components/home/CustomerReviews';
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <Services />
       {/* <PaintCalculator /> */}
       <LatestStories />
+      <CustomerReviews />
     </div>
   );
 };
