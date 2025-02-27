@@ -190,7 +190,7 @@ const ExteriorPaintsPage = () => {
       <div className="inspired-by grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-12 bg-[#f7f2e7] justify-center items-center">
         <div className="inspired-by-content-part" data-aos="fade-right" data-aos-duration="1500">
           <h6 className="text-[40px] font-[500] mb-3">Get inspired by our</h6>
-          <h1 className="text-[70px] font-[600] lg:w-1/2 md:w-full sm:w-1/2 xs:w-1/2 leading-[75px] gradient-text mb-3">
+          <h1 className="text-[70px] font-[600] w-[89%] leading-[75px] gradient-text mb-3">
             Exquisite Collections
           </h1>
           <p className="text-[22px] font-[500] mb-5">
