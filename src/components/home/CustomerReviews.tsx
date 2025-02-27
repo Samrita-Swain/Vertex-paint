@@ -40,7 +40,7 @@ const reviews = [
 const CustomerReviews = () => {
   return (
     <div className="reviews-banner mx-auto p-12">
-      <div className="container mx-auto px-4 flex flex-col items-center">
+      <div className="container mx-auto flex flex-col items-center">
       <h2 className="text-[40px] font-bold text-center mb-12">What Our <span className="gradient-text">Customer Says!</span></h2>
       <Swiper
         modules={[Pagination, Autoplay]}

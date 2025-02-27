@@ -1,7 +1,27 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const MENU_DATA = {
+// Define TypeScript interfaces
+interface MenuItem {
+  name: string;
+  link: string;
+}
+
+interface MenuSection {
+  title: string;
+  items: MenuItem[];
+}
+
+interface MenuData {
+  title: string;
+  sections: MenuSection[];
+}
+
+interface MenuDataType {
+  [key: string]: MenuData;
+}
+
+const MENU_DATA: MenuDataType = {
   PAINTS: {
     title: 'PAINTS & TEXTURES',
     sections: [
@@ -98,11 +118,40 @@ const MENU_DATA = {
 };
 
 const Navbar = () => {
+  // Fixed state types
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeMobileMenu, setActiveMobileMenu] = useState<string | null>(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
+  const [headerHeight, setHeaderHeight] = useState<number>(0);
+
+  // Calculate header height for proper positioning of mobile menu
+  useEffect(() => {
+    const updateHeaderHeight = () => {
+      const headerElement = document.getElementById('main-header');
+      if (headerElement) {
+        setHeaderHeight(headerElement.offsetHeight);
+      }
+    };
+
+    updateHeaderHeight();
+    window.addEventListener('resize', updateHeaderHeight);
+    
+    return () => {
+      window.removeEventListener('resize', updateHeaderHeight);
+    };
+  }, []);
+
+  // Toggle mobile submenu with properly typed parameter
+  const toggleMobileSubmenu = (key: string) => {
+    if (activeMobileMenu === key) {
+      setActiveMobileMenu(null);
+    } else {
+      setActiveMobileMenu(key);
+    }
+  };
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50 font-times">
+    <header id="main-header" className="bg-white shadow-sm sticky top-0 z-50 font-times">
       {/* Top Bar */}
       <div className="gradient-bg">
         <div className="container mx-auto px-4">
@@ -129,17 +178,37 @@ const Navbar = () => {
               />
             </Link>
 
-            {/* Mobile Menu Button */}
+            {/* Mobile Menu Button - Improved smooth transition to X */}
             <button 
-              className="lg:hidden p-2"
+              className="lg:hidden p-2 relative"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
-              </svg>
+              <div className="w-6 h-6 flex flex-col justify-center items-center">
+                {/* Top bar */}
+                <span 
+                  className={`block absolute h-0.5 w-6 bg-current transform transition duration-300 ease-in-out ${
+                    isMobileMenuOpen ? 'rotate-45' : '-translate-y-2'
+                  }`}
+                ></span>
+
+                {/* Middle bar */}
+                <span 
+                  className={`block absolute h-0.5 w-6 bg-current transition-opacity duration-300 ease-in-out ${
+                    isMobileMenuOpen ? 'opacity-0' : 'opacity-100'
+                  }`}
+                ></span>
+
+                {/* Bottom bar */}
+                <span 
+                  className={`block absolute h-0.5 w-6 bg-current transform transition duration-300 ease-in-out ${
+                    isMobileMenuOpen ? '-rotate-45' : 'translate-y-2'
+                  }`}
+                ></span>
+              </div>
             </button>
 
-            {/* Desktop Menu - Updated with animations and width */}
+            {/* Desktop Menu - Hidden on mobile */}
             <nav className="hidden lg:flex items-center space-x-8">
               {Object.entries(MENU_DATA).map(([key, data]) => (
                 <div 
@@ -191,37 +260,6 @@ const Navbar = () => {
               ))}
             </nav>
 
-            {/* Mobile Menu */}
-            {isMobileMenuOpen && (
-              <div className="lg:hidden absolute top-full left-0 w-full bg-white border-t shadow-lg font-times">
-                <div className="container mx-auto px-4 py-4">
-                  {Object.entries(MENU_DATA).map(([key, data]) => (
-                    <div key={key} className="mb-6">
-                      <h2 className="font-bold text-gray-900 mb-4">{data.title}</h2>
-                      {data.sections.map((section, idx) => (
-                        <div key={idx} className="mb-4">
-                          <h3 className="text-sm font-medium text-gray-600 mb-2">{section.title}</h3>
-                          <ul className="space-y-2">
-                            {section.items.map((item, itemIdx) => (
-                              <li key={itemIdx}>
-                                <Link 
-                                  to={item.link}
-                                  className="text-gray-600 hover:text-[#e51126] block py-1 font-times"
-                                  onClick={() => setIsMobileMenuOpen(false)}
-                                >
-                                  {item.name}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      ))}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
             {/* Search and Cart */}
             <div className="flex items-center space-x-4">
               <button className="p-2 text-gray-600 hover:text-[#e51126]">
@@ -238,6 +276,85 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      
+      
+      
+      {/* Mobile Dropdown Menu - Positioned below header */}
+      {!isMobileMenuOpen && activeMobileMenu && (
+        <div 
+          className="lg:hidden fixed left-0 right-0 bg-white shadow-lg z-40 max-h-[70vh] overflow-y-auto animate-fadeDown"
+          style={{ top: `${headerHeight}px` }}
+        >
+          <div className="p-4">
+            {MENU_DATA[activeMobileMenu].sections.map((section, idx) => (
+              <div key={idx} className="mb-6">
+                <h3 className="font-bold text-gray-900 mb-3 text-sm tracking-wider border-b pb-1">
+                  {section.title}
+                </h3>
+                <ul className="space-y-1 ml-3">
+                  {section.items.map((item, itemIdx) => (
+                    <li key={itemIdx}>
+                      <Link 
+                        to={item.link}
+                        className="text-gray-600 hover:text-[#e51126] block py-1 text-sm"
+                        onClick={() => setActiveMobileMenu(null)}
+                      >
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <div className="sticky bottom-0 p-2 border-t text-right bg-white">
+            <button 
+              className="text-sm text-gray-500 hover:text-[#e51126] py-1 px-3"
+              onClick={() => setActiveMobileMenu(null)}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Full Mobile Menu Panel - Toggled by hamburger/X button */}
+      {isMobileMenuOpen && (
+        <div 
+          className="lg:hidden fixed inset-0 bg-white z-40 overflow-y-auto"
+          style={{ top: `${headerHeight}px` }}
+        >
+          {/* Menu content */}
+          <div className="container mx-auto px-4 py-4">
+            {Object.entries(MENU_DATA).map(([key, data]) => (
+              <div key={key} className="mb-8">
+                <h2 className="font-bold text-xl text-gray-900 mb-4 font-times border-b pb-2">{data.title}</h2>
+                {data.sections.map((section, idx) => (
+                  <div key={idx} className="mb-6 ml-4">
+                    <h3 className="text-md font-bold text-gray-800 mb-3 font-times">{section.title}</h3>
+                    <ul className="space-y-2 ml-4">
+                      {section.items.map((item, itemIdx) => (
+                        <li key={itemIdx}>
+                          <Link 
+                            to={item.link}
+                            className="text-gray-600 hover:text-[#e51126] block py-1 font-times"
+                            onClick={() => {
+                              setIsMobileMenuOpen(false);
+                              setActiveMobileMenu(null);
+                            }}
+                          >
+                            {item.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </header>
   );
 };
@@ -255,7 +372,27 @@ const styles = {
         transform: 'translateY(0) translateX(-50%)'
       }
     }
+  },
+  '.animate-fadeDown': {
+    '@keyframes fadeDown': {
+      '0%': {
+        opacity: '0',
+        transform: 'translateY(-10px)'
+      },
+      '100%': {
+        opacity: '1',
+        transform: 'translateY(0)'
+      }
+    },
+    'animation': 'fadeDown 0.2s ease-out'
+  },
+  '.scrollbar-hide': {
+    '-ms-overflow-style': 'none',
+    'scrollbar-width': 'none',
+    '&::-webkit-scrollbar': {
+      'display': 'none'
+    }
   }
 };
 
-export default Navbar; 
+export default Navbar;

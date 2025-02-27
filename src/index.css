@@ -484,4 +484,7 @@ a:hover .icon{
   .overlay-content {
     padding: 30px;
   }
+  .last-footer{
+    margin-bottom: 20px;
+  }
 }

@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#000000eb] text-white">
+    <footer className="bg-[#2c3789] text-white">
       <div className="container mx-auto px-6 py-12">
         {/* Logo & Socials */}
         <div className="flex justify-between items-center border-b border-gray-400 pb-6 mb-6">
           <a href="#">
-          <img
-            src="https://vertexpaint.in/img/logo.png"
-            alt="Vertex Paints"
-            className="h-20"
-          />
+            <img
+              src="/images/footer-logo.png"
+              alt="Vertex Paints"
+              className="h-20"
+            />
           </a>
           <div className="flex space-x-6">
             {["facebook-f", "twitter", "instagram"].map((icon, index) => (
@@ -44,13 +44,38 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Products</h3>
             <ul className="footer-li space-y-2 text-gray-300">
-              {["Interior Paints", "Exterior Paints", "Waterproofing", "Wood Finishes"].map((product, index) => (
-                <li key={index}>
-                  <Link to={`/products/${product.toLowerCase().replace(/\s/g, "-")}`}>
-                    {product}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link
+                  to="/products/InteriorPaintsPage"
+                  className="hover:text-[#e51126] transition duration-300"
+                >
+                  Interior Paints
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/products/exterior"
+                  className="hover:text-[#e51126] transition duration-300"
+                >
+                  Exterior Paints
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/products/Waterproofing"
+                  className="hover:text-[#e51126] transition duration-300"
+                >
+                  Waterproofing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/products/WoodFinish"
+                  className="hover:text-[#e51126] transition duration-300"
+                >
+                  Wood Finishes
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -58,13 +83,30 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Services</h3>
             <ul className="footer-li space-y-2 text-gray-300">
-              {["Safe Painting", "Colour Consultancy", "Dealer Locator", "Paint Calculator"].map((service, index) => (
-                <li key={index}>
-                  <Link to={`/services/${service.toLowerCase().replace(/\s/g, "-")}`}>
-                    {service}
-                  </Link>
-                </li>
-              ))}
+            <li>
+                <Link
+                  to="SafePainting"
+                  className="hover:text-[#e51126] transition duration-300"
+                >
+                  Safe Painting
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/ColourConsultancy"
+                  className="hover:text-[#e51126] transition duration-300"
+                >
+                  Colour Consultancy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/DealerLocator"
+                  className="hover:text-[#e51126] transition duration-300"
+                >
+                  Dealer Locator
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -72,30 +114,62 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
             <ul className="text-gray-300">
-              <li className="mb-2">📞 Toll Free: <span className="font-semibold">1800-209-5678</span></li>
-              <li>📧 Email: <span className="font-semibold">support@vertexpaint.com</span></li>
+              <li className="mb-2 flex items-center">
+                <svg
+                  className="w-4 h-4 mr-2 text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+                Toll Free: <span className="font-semibold">1800-209-5678</span>
+              </li>
+              <li>
+                📧 Email:{" "}
+                <span className="font-semibold">support@vertexpaint.com</span>
+              </li>
             </ul>
           </div>
         </div>
       </div>
 
       {/* Bottom Section */}
-      <div className="bg-black py-4 text-gray-400 text-sm flex justify-center">
+      <div className="bg-[#010a4d] p-4 text-gray-400 text-sm flex justify-center">
         <div className="container flex flex-wrap justify-between">
-          <div className="space-x-4">
-            <Link to="/privacy-policy" className="hover:text-[#e51126] transition duration-300">
+          <div className="space-x-4 last-footer">
+            <Link
+              to="/privacy-policy"
+              className="hover:text-[#e51126] transition duration-300"
+            >
               Privacy Policy
             </Link>
-            <Link to="/terms-of-use" className="hover:text-[#e51126] transition duration-300">
+            <Link
+              to="/terms-of-use"
+              className="hover:text-[#e51126] transition duration-300"
+            >
               Terms of Use
             </Link>
-            <Link to="/sitemap" className="hover:text-[#e51126] transition duration-300">
+            <Link
+              to="/sitemap"
+              className="hover:text-[#e51126] transition duration-300"
+            >
               Sitemap
             </Link>
           </div>
           <div>
             © 2025 Vertex Paints Ltd. All rights reserved by{" "}
-            <a className="hover:text-[#e51126] transition duration-300" href="#">
+            <a
+              className="font-extrabold hover:text-[#e51126] transition duration-300"
+              href="https://wipstertechnologies.com/"
+              target="_blank"
+            >
               Wipster Technologies Private Limited
             </a>
           </div>
