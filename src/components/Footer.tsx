@@ -7,13 +7,16 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-12">
         {/* Logo & Socials */}
         <div className="flex justify-between items-center border-b border-gray-400 pb-6 mb-6">
-          <a href="#">
+          <div className="flex flex-row gap-2 justify-center items-center">
+          <a href="/">
             <img
               src="/images/footer-logo.png"
               alt="Vertex Paints"
               className="h-20"
             />
           </a>
+          <h1 className="text-[30px]">Vertex <span className="text-[#e71429]">Paint</span></h1>
+          </div>
           <div className="flex space-x-6">
             {["facebook-f", "twitter", "instagram"].map((icon, index) => (
               <a
