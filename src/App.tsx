@@ -45,6 +45,8 @@ import UltimaExterioremulsions from './pages/products/UltimaExterioremulsions';
 import ApexExterioremulsions from './pages/products/ApexExterioremulsions';
 import AcemExterioremulsions from './pages/products/AcemExterioremulsions';
 import Product1 from './pages/products/Product1';
+import ScrollToTop from './components/ScrollToTop';
+import CraftedCube from './pages/products/CraftedCube';
 
 function App() {
   useEffect(() => {
@@ -55,6 +57,7 @@ function App() {
       <Router>
         <div className="min-h-screen flex flex-col">
           <Navbar />
+          <ScrollToTop />
           <main className="flex-grow">
             <Routes>
               {/* Main Pages */}
@@ -65,6 +68,10 @@ function App() {
               <Route path="/products" element={<ProductsPage />} />
               <Route path="/products/:category" element={<ProductsPage />} />
               <Route path="/products/detail/:id" element={<ProductDetail />} />
+
+              {/* Exterior Crafted Cube*/}
+              <Route path="/Exterior/CraftedCube.tsx" element={<CraftedCube/>} />
+
 
               {/* ultima Exterior Emulsions */}
               <Route path="/UltimaExterioremulsions" element={<UltimaExterioremulsions />} />

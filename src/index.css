@@ -392,6 +392,71 @@ a:hover .icon{
   align-items: center;
   justify-content: center;
 }
+.services-box{
+  position: relative;
+  height:307px ;
+  transition: 0.5s;
+}
+.services-box::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background-color: #e51126;
+  height: 0;
+  width: 2px;
+  transition: 0.5s;
+}
+.services-box:hover::before{
+  height: 307px;
+  width: 2px;
+}
+.services-box::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  background-color: #e51126;
+  height: 0;
+  width: 2px;
+  transition: 0.5s;
+}
+.services-box:hover::after{
+  height: 307px;
+  width: 2px;
+}
+.footer-li li{
+  transition: 0.5s;
+}
+.footer-li li:hover{
+  margin-left: 10px;
+  color: #e51126;
+}
+.mail{
+  transition: 0.5s;
+}
+.mail:hover{
+  color: #e51126;
+}
+.house-box{
+  position: relative;
+}
+/* .house-box::before {
+  content: '';
+  left: 0;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+  position: absolute;
+  opacity: 0;
+  background: linear-gradient(180deg, rgba(4, 13, 67, 0) 66.38%, #e51126 96.91%);
+  
+}
+.house-box:hover::before{
+  opacity: 1; 
+} */
 
 
 

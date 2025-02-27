@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <section className="py-16 bg-[#fff5eb3d]">
       <div className="container mx-auto px-4 flex flex-col items-center">
-        <h2 className="text-3xl font-bold text-center mb-4 gradient-text">Our Services</h2>
+        <h2 className="text-[40px] font-bold text-center mb-4 gradient-text">Our Services</h2>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
           Professional painting services to transform your space
         </p>
@@ -21,7 +21,7 @@ const Services = () => {
           {services.map(service => (
             <div 
               key={service.id}
-              className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow"
+              className="services-box bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow"
             >
               <img 
                 src={service.icon}
