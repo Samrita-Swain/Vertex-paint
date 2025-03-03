@@ -354,7 +354,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .gradient-bg {
-  background: linear-gradient(270deg, #e51126 7.07%, #25398f 98.1%);
+  background: linear-gradient(270deg, #e51126 -3.07%, #25398f 98.1%);
 }
 
 .product-img {

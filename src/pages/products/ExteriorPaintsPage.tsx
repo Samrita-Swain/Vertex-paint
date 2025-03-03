@@ -2,6 +2,8 @@ import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import HouseFormate from "./HouseFormate";
 import ExteriorColor from "./ExteriorColor";
+import Form from "../Form/Form";
+import CalculatorForm from "../Form/CalculatorForm";
 const ExteriorPaintsPage = () => {
   const [activeTab, setActiveTab] = useState("Wall Paints");
   const tabs = ["Wall Paints", "Textures"];
@@ -198,7 +200,7 @@ const ExteriorPaintsPage = () => {
             Elevate your style and imagination with the range of Texture
             Collections
           </p>
-          <button className="inspired-by-button flex items-center gap-2">
+          <button className="inspired-by-button flex items-center">
             Get Inspired <FaArrowRight className="icon" />
           </button>
         </div>
@@ -241,8 +243,10 @@ const ExteriorPaintsPage = () => {
           </div>
         </div>
       </div>
+      <Form /> 
       <HouseFormate />
       <ExteriorColor/>
+      <CalculatorForm />   
     </div>
   );
 };

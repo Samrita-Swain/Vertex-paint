@@ -13,19 +13,19 @@ const CraftedCube = () => {
         {
           title: "V8004P",
           content: "Mellow Orange",
-          boxColor: "#c3cfaa",
+          boxColor: "#f5eee1",
           textColor: "#000"
         },
         {
           title: "V9983P",
           content: "Brick Dust - N",
-          boxColor: "#904c3f",
+          boxColor: "#b45a55",
           textColor: "#000"
         },
         {
           title: "Vertex Fine Square",
           content: "Glazia Greiges",
-          boxColor: "#59614e",
+          boxColor: "#676860",
           textColor: "#000"
         }
       ]
@@ -41,13 +41,13 @@ const CraftedCube = () => {
         {
           title: "V8300P",
           content: "Confetti",
-          boxColor: "#b4bda2",
+          boxColor: "#e1dcd7",
           textColor: "#000"
         },
         {
           title: "V8639P",
           content: "Brick Tone",
-          boxColor: "#7d5d4a",
+          boxColor: "#a06e64",
           textColor: "#000"
         }
       ]
@@ -63,19 +63,19 @@ const CraftedCube = () => {
         {
           title: "V7300P",
           content: "Jet Stream",
-          boxColor: "#b4c6aa",
+          boxColor: "#e1e6e1",
           textColor: "#000"
         },
         {
           title: "V7927P",
           content: "Casablanca",
-          boxColor: "#baa755",
+          boxColor: "#ebc373",
           textColor: "#000"
         },
         {
           title: "V8581P",
           content: "Antique Brass",
-          boxColor: "#614b33",
+          boxColor: "#7d5a46",
           textColor: "#000"
         }
       ]
@@ -91,19 +91,19 @@ const CraftedCube = () => {
         {
           title: "V7891P",
           content: "Wheat Sprig",
-          boxColor: "#bbc290",
+          boxColor: "#ebe1be",
           textColor: "#000"
         },
         {
           title: "V7304P",
           content: "Piece of Sky",
-          boxColor: "#517579",
+          boxColor: "#698ca5",
           textColor: "#000"
         },
         {
           title: "V8566P",
           content: "Tree Bark",
-          boxColor: "#786541",
+          boxColor: "#9b785a",
           textColor: "#000"
         }
       ]
@@ -119,13 +119,13 @@ const CraftedCube = () => {
         {
           title: "V7880P",
           content: "Honey Mustard",
-          boxColor: "#b8b169",
+          boxColor: "#e6cd8c",
           textColor: "#000"
         },
         {
           title: "V8288P",
           content: "Stone Age",
-          boxColor: "#5c675e",
+          boxColor: "#82878c",
           textColor: "#000"
         }
       ]
@@ -196,7 +196,7 @@ const CraftedCube = () => {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 mt-6 w-full text-center">
+        <div className="p-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 mt-6 w-full text-center">
           {/* Main Image */}
           {activeTab.mainImage && (
             <div className="mt-4">
@@ -208,13 +208,13 @@ const CraftedCube = () => {
               
             </div>
           )}
-          <div className="tab-content">
+          <div className="tab-content flex flex-col items-start">
             {/* Content Section */}
           <h2 className="text-2xl font-bold text-left gradient-text">{activeTab.title}</h2>
           <p className="text-lg mt-2 text-gray-700 text-left">{activeTab.description}</p>
 
           {/* Color Swatch Boxes Section */}
-          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-10 w-full">
             {activeTab.contentBoxes && activeTab.contentBoxes.map((box, index) => (
               <div key={index} className="flex flex-col items-center">
                 {/* Color swatch with rounded corners and shadow effect */}

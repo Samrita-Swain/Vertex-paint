@@ -7,11 +7,13 @@ import Services from '../../components/home/Services';
 import LatestStories from '../../components/home/LatestStories';
 import ColorOptions from '../../components/home/ColorOptions';
 import CustomerReviews from '../../components/home/CustomerReviews';
+import Form from '../Form/Form';
 
 const HomePage = () => {
   return (
     <div className="min-h-screen">
       <Hero />
+      <Form />
       <FeaturedProducts />
       <ColorInspiration />
       <ColorOptions />

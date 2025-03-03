@@ -1,6 +1,47 @@
-import { exteriorColor1 } from '../../data/content';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { exteriorColor1 } from "../../data/content";
+import { Link } from "react-router-dom";
+
+// Define our interfaces for type safety
+interface ColorBox {
+  id: string;
+  color: string;
+  view: string;
+  title: string;
+  mainImage: { src: string };
+  contentBoxes: Array<{
+    title: string;
+    content: string;
+    boxColor: string;
+    textColor: string;
+  }>;
+}
+
 const PeacefulSerene = () => {
+  // State to track the active color ID
+  const [activeColorId, setActiveColorId] = useState<string | null>(null);
+
+  // Handle view button click
+  const handleViewClick = (colorId: string, e: React.MouseEvent) => {
+    e.preventDefault(); // Prevent default navigation
+
+    // Toggle the active color - if it's already active, close it
+    setActiveColorId((prevId) => (prevId === colorId ? null : colorId));
+
+    // Scroll to the content if needed
+    if (activeColorId !== colorId) {
+      setTimeout(() => {
+        const detailsElement = document.getElementById(`details-${colorId}`);
+        if (detailsElement) {
+          detailsElement.scrollIntoView({
+            behavior: "smooth",
+            block: "nearest",
+          });
+        }
+      }, 100);
+    }
+  };
+
   return (
     <div>
       <div
@@ -14,42 +55,115 @@ const PeacefulSerene = () => {
         <div className="relative text-white text-center">
           <h1 className="text-[50px] font-bold mb-7">Peaceful & Serene</h1>
         </div>
-
       </div>
+
       <div className="second-banner p-12 flex justify-center items-center">
         <div className="container">
           <div className="content flex justify-center items-center flex-col">
-            {/* <h1 className="gradient-text text-[40px] font-bold text-center">Benefits</h1> */}
-            <p className="mb-[35px] text-center text-[20px]">Tap on any of the shades you like from below and see
-            the magic unfold!</p>
+          <h2 className="gradient-text text-[40px] font-bold text-center">Peaceful & Serene</h2>
+            <p className="mb-[35px] text-center text-[20px]">
+              Tap on any of the shades you like from below and see the magic
+              unfold!
+            </p>
           </div>
-        <div className="grid gap-8 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2">
-        {exteriorColor1.map(color1 => (
-  <article 
-    key={color1.id}
-    className="bg-white rounded-lg overflow-hidden shadow-md group"
-  >
-    <a 
-      href={color1.view} 
-      className="box block p-8 h-[200px]" 
-      style={{ backgroundColor: color1.color }}
-    >
-      
-    </a>
-    
-    <div className="flex items-center justify-end p-4">
-      <Link 
-        to={color1.view}
-        className="px-2 py-2 rounded-lg text-[17px] font-medium bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-[#fec940] flex flex-row gap-2 items-center" 
-        style={{transition: "0.5s"}}
-      >
-        View
-      </Link>
-    </div>
-  </article>
-))}
 
-        </div>
+          <div className="relative">
+            {/* Color grid with details */}
+            <div className="grid gap-8 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2">
+              {exteriorColor1.map((color1, index) => {
+                const isActive = activeColorId === color1.id;
+                const colorData = color1 as ColorBox;
+
+                // Calculate grid position information
+                const colsPerRow =
+                  window.innerWidth >= 1024
+                    ? 5
+                    : window.innerWidth >= 768
+                    ? 4
+                    : window.innerWidth >= 640
+                    ? 3
+                    : 2;
+
+                const rowIndex = Math.floor(index / colsPerRow);
+                const colIndex = index % colsPerRow;
+
+                return (
+                  <React.Fragment key={color1.id}>
+                    {/* Color box */}
+                    <article className="bg-white rounded-lg overflow-hidden shadow-md group">
+                      <div
+                        className="box block p-8 h-[200px]"
+                        style={{ backgroundColor: color1.color }}
+                      ></div>
+
+                      <div className="flex items-center justify-end p-4">
+                        <button
+                          onClick={(e) => handleViewClick(color1.id, e)}
+                          className={`px-2 py-2 rounded-lg text-[17px] font-medium ${
+                            isActive
+                              ? "bg-transparent border border-[#fec940] text-black"
+                              : "bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-[#fec940]"
+                          } flex flex-row gap-2 items-center`}
+                          style={{ transition: "0.5s" }}
+                        >
+                          {isActive ? "Close" : "View"}
+                        </button>
+                      </div>
+                    </article>
+
+                    {/* Details section - shown only when this color is active */}
+                    {isActive && (
+                      <div
+                        id={`details-${color1.id}`}
+                        className="mt-4 bg-white p-6 rounded-lg shadow-md"
+                        style={{
+                          gridColumn: "1 / -1",
+                          gridRow: `${rowIndex + 2}`,
+                          order: rowIndex * colsPerRow + colsPerRow + 1,
+                        }}
+                      >
+                        <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-8">
+                          <div>
+                            <img
+                              src={colorData.mainImage.src}
+                              alt={colorData.title}
+                              className="w-[90%] rounded-lg shadow-sm mb-4"
+                            />
+                          </div>
+                          <div>
+                            <h3 className="text-[22px] font-semibold mb-3">
+                              {colorData.title}
+                            </h3>
+                            <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-4">
+                              {colorData.contentBoxes.map((box, idx) => (
+                                <div
+                                  key={`${colorData.id}-box-${idx}`}
+                                  className="flex flex-col items-center sm:items-start"
+                                >
+                                  <div
+                                    className="w-full max-w-[150px] h-[150px] rounded-md shadow-sm mb-3"
+                                    style={{ backgroundColor: box.boxColor }}
+                                  ></div>
+                                  <div>
+                                    <p className="text-[20px] font-[500]">
+                                      {box.title}
+                                    </p>
+                                    <p className="text-[16px] text-gray-600">
+                                      {box.content}
+                                    </p>
+                                  </div>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </React.Fragment>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </div>
