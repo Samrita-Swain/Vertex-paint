@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", serif !important;
   
 } 
 .exteriorbanner {
@@ -73,11 +73,7 @@ body {
   font-weight: 700;
 }
 
-.coloroptions-band .content p {
-  font-size: 17px;
-  font-weight: 400;
-  color: #4b5563;
-}
+
 
 .coloroptions-image img {
   width: 100%;
@@ -208,7 +204,7 @@ body {
 }
 
 .inspired-by-button{
-  padding: 5px 5px;
+  padding: 5px 15px;
   border-radius: 15px !important;
   background: #fec940;
   font-weight: 500;
@@ -396,6 +392,7 @@ a:hover .icon{
   position: relative;
   height:307px ;
   transition: 0.5s;
+  overflow: hidden;
 }
 .services-box::before{
   position: absolute;
@@ -457,6 +454,14 @@ a:hover .icon{
 .house-box:hover::before{
   opacity: 1; 
 } */
+
+
+.color-box{
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05), 10px 15px 10px rgba(0, 0, 0, 0.05), 10px 15px 15px rgba(0, 0, 0, 0.05), inset -10px -10px 15px rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+}
 
 
 

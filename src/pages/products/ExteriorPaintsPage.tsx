@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import HouseFormate from "./HouseFormate";
+import ExteriorColor from "./ExteriorColor";
 const ExteriorPaintsPage = () => {
   const [activeTab, setActiveTab] = useState("Wall Paints");
   const tabs = ["Wall Paints", "Textures"];
@@ -241,6 +242,7 @@ const ExteriorPaintsPage = () => {
         </div>
       </div>
       <HouseFormate />
+      <ExteriorColor/>
     </div>
   );
 };

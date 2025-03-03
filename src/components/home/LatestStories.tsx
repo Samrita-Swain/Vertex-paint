@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { latestStories } from '../../data/content';
+import { FaArrowRight } from "react-icons/fa";
 
 const LatestStories = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 flex flex-col items-center">
-        <h2 className="text-[40px] font-bold text-center mb-4  gradient-text">Latest Stories</h2>
-        <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+        <h2 className="text-[40px] font-bold text-center  gradient-text">Latest Stories</h2>
+        <p className="mb-[35px] text-gray-600 text-[20px]">
           Get inspired with the latest trends and expert advice
         </p>
 
@@ -30,7 +31,7 @@ const LatestStories = () => {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2 group-hover:text-primary-600 transition-colors">
+                <h3 className="text-xl font-semibold mb-2">
                   {story.title}
                 </h3>
                 <p className="text-gray-600 mb-4">{story.excerpt}</p>
@@ -38,9 +39,9 @@ const LatestStories = () => {
                   <span className="text-sm text-gray-500">{story.date}</span>
                   <Link 
                     to={`/stories/${story.id}`}
-                    className="text-primary-600 font-medium hover:text-primary-700"
+                    className="px-2 py-2 rounded-lg text-[17px] font-medium bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-[#fec940] flex flex-row gap-2 items-center" style={{transition: "0.5s"}}
                   >
-                    Read More →
+                    Read More <FaArrowRight className="icon"/>
                   </Link>
                 </div>
               </div>

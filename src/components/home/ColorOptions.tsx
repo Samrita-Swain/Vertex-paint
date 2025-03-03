@@ -6,7 +6,7 @@ const ColorOptions = () => {
         <div className="flex flex-col items-center">
           <div className="content">
           <h2>Discover our world of <span className="gradient-text">paint and decor</span></h2>
-          <p>One stop solution for all you need to keep your living space intact.</p>
+          <p className="mb-[35px] text-gray-600 text-[20px]">One stop solution for all you need to keep your living space intact.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div data-aos="fade-up">

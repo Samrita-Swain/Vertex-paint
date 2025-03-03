@@ -1,3 +1,5 @@
+import { color, view } from "framer-motion";
+
 export const homeContent = {
   hero: {
     title: "Transform Your Space",
@@ -92,3 +94,92 @@ export const services: Service[] = [
   },
   // ... other services
 ]; 
+
+
+export const exteriorColor = [
+  {
+    id: 'PeacefulSerene',
+    title: 'Peaceful & Serene',
+    category: 'Trends',
+    excerpt: 'Discover the hottest color trends for the upcoming year',
+    image: '/images/peaceful&serene.png',
+    explore: '/Exterior/PeacefulSerene.tsx'
+  },
+  {
+    id: 'PeacefulSerene',
+    title: 'Trendy & Stylish',
+    category: 'Trends',
+    excerpt: 'Discover the hottest color trends for the upcoming year',
+    image: '/images/trendy&stylish.png',
+  },
+  {
+    id: 'soft-&-relaxing',
+    title: 'Soft & Relaxing',
+    category: 'Trends',
+    excerpt: 'Discover the hottest color trends for the upcoming year',
+    image: '/images/soft&relaxing.png',
+  },
+  {
+    id: 'exciting-&-bright',
+    title: 'Exciting & Bright',
+    category: 'Trends',
+    excerpt: 'Discover the hottest color trends for the upcoming year',
+    image: '/images/exciting&brignt.png',
+  }
+];
+
+
+export const exteriorColor1 =[
+  {
+    id:'1',
+    color: '#f5f0e1',
+    view:'/Exterior/CraftedCube.tsx'
+  },
+  {
+    id:'2',
+    color: '#e1dcd7',
+    view:'/Exterior/CraftedCube.tsx'
+  },
+  {
+    id:'3',
+    color: '#ebe6d7',
+    view:'/Exterior/CraftedCube.tsx'
+  },
+  {
+    id:'4',
+    color: '#f0f0e6',
+    view:'/Exterior/CraftedCube.tsx'
+  },
+  {
+    id:'5',
+    color: '#f0ebdc',
+    view:'/Exterior/CraftedCube.tsx'
+  },
+  {
+    id:'6',
+    color: '#f0ebe1',
+    view:'/Exterior/CraftedCube.tsx'
+  },
+  {
+    id:'7',
+    color: '#f5f0dc',
+    view:'/Exterior/CraftedCube.tsx'
+  },
+  {
+    id:'8',
+    color: '#f0ebe1',
+    view:'/Exterior/CraftedCube.tsx'
+  },
+  {
+    id:'9',
+    color: '#f0ebdc',
+    view:'/Exterior/CraftedCube.tsx'
+  },
+  {
+    id:'10',
+    color: '#f0f0e1',
+    view:'/Exterior/CraftedCube.tsx'
+  },
+
+  
+]

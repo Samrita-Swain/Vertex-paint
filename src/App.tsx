@@ -47,6 +47,7 @@ import AcemExterioremulsions from './pages/products/AcemExterioremulsions';
 import Product1 from './pages/products/Product1';
 import ScrollToTop from './components/ScrollToTop';
 import CraftedCube from './pages/products/CraftedCube';
+import PeacefulSerene from './pages/products/PeacefulSerene';
 
 function App() {
   useEffect(() => {
@@ -71,6 +72,9 @@ function App() {
 
               {/* Exterior Crafted Cube*/}
               <Route path="/Exterior/CraftedCube.tsx" element={<CraftedCube/>} />
+
+              {/* Exterior Colours*/}
+              <Route path="/Exterior/PeacefulSerene.tsx" element={<PeacefulSerene/>} />
 
 
               {/* ultima Exterior Emulsions */}

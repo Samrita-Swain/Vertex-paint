@@ -2,9 +2,11 @@ const HouseFormate = () => {
   return (
     <div className="flex flex-col justify-center items-center p-12">
       <div className="container flex flex-col justify-center items-center">
-        <h1 className="gradient-text text-[40px] font-bold text-center mb-[35px]">
+        <h1 className="gradient-text text-[40px] font-bold text-center">
           House Formates
         </h1>
+        <p className="mb-[35px] text-gray-600 text-[20px]">Tap the ‘House Formats’ button to choose a house
+        that looks just like yours!</p>
 
         <div className="houses grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-6 p-6">
           <div

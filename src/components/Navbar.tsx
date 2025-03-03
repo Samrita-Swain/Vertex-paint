@@ -23,7 +23,7 @@ interface MenuDataType {
 
 const MENU_DATA: MenuDataType = {
   PAINTS: {
-    title: 'PAINTS & TEXTURES',
+    title: 'Paints & Textures',
     sections: [
       {
         title: 'Paint Products',
@@ -60,10 +60,10 @@ const MENU_DATA: MenuDataType = {
     ]
   },
   COLOURS: {
-    title: 'COLOURS',
+    title: 'Colours',
     sections: [
       {
-        title: 'BY ROOM',
+        title: 'By Room',
         items: [
           { name: 'Living Room', link: '/colours/living-room' },
           { name: 'Bedroom', link: '/colours/bedroom' },
@@ -72,7 +72,7 @@ const MENU_DATA: MenuDataType = {
         ]
       },
       {
-        title: 'COLOUR COMBINATIONS',
+        title: 'Colour Combinations',
         items: [
           { name: 'Interior Combinations', link: '/colours/interior-combinations' },
           { name: 'Exterior Combinations', link: '/colours/exterior-combinations' },
@@ -82,10 +82,10 @@ const MENU_DATA: MenuDataType = {
     ]
   },
   SERVICES: {
-    title: 'SERVICES',
+    title: 'Services',
     sections: [
       {
-        title: 'PAINTING SERVICES',
+        title: 'Painting Services',
         items: [
           { name: 'Safe Painting Service', link: '/services/safe-painting' },
           { name: 'Waterproofing Solutions', link: '/services/waterproofing' },
@@ -93,7 +93,7 @@ const MENU_DATA: MenuDataType = {
         ]
       },
       {
-        title: 'CONSULTANCY',
+        title: 'Consultancy',
         items: [
           { name: 'Colour Consultancy', link: '/services/colour-consultancy' },
           { name: 'Home Painting', link: '/services/home-painting' },
@@ -103,10 +103,10 @@ const MENU_DATA: MenuDataType = {
     ]
   },
   COMPANY: {
-    title: 'COMPANY',
+    title: 'Company',
     sections: [
       {
-        title: 'ABOUT US',
+        title: 'About Us',
         items: [
           { name: 'Our Story', link: '/about' },
           { name: 'Blog', link: '/blog' },
@@ -151,12 +151,12 @@ const Navbar = () => {
   };
 
   return (
-    <header id="main-header" className="bg-white shadow-sm sticky top-0 z-50 font-times">
+    <header id="main-header" className="bg-white shadow-sm sticky top-0 z-50">
       {/* Top Bar */}
       <div className="gradient-bg">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center h-10">
-            <div className="text-sm-bold text-white font-times">Welcome to Vertex Paints</div>
+            <div className="text-sm-bold text-white">Welcome to Vertex Paints</div>
             <div className="flex items-center space-x-4 text-sm">
               {/* <Link to="/track-order" className="text-gray-600 hover:text-primary-600">Track Order</Link>
               <Link to="/login" className="text-gray-600 hover:text-primary-600">Login</Link> */}
@@ -217,7 +217,7 @@ const Navbar = () => {
                   onMouseEnter={() => setActiveMenu(key)}
                   onMouseLeave={() => setActiveMenu(null)}
                 >
-                  <button className="py-8 font-medium text-gray-700 hover:text-[#e51126] transition-colors duration-200 font-times">
+                  <button className="text-[22px] py-8 font-medium text-gray-700 hover:text-[#e51126] transition-colors duration-200">
                     {data.title}
                     <div className="absolute bottom-6 left-0 w-full h-0.5 gradient-bg transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
                   </button>
@@ -234,7 +234,7 @@ const Navbar = () => {
                         <div className="grid grid-cols-3 gap-8">
                           {data.sections.map((section, idx) => (
                             <div key={idx} className="min-w-[400px]">
-                              <h3 className="font-bold text-gray-900 mb-4 text-sm tracking-wider font-times">
+                              <h3 className="font-bold text-gray-900 mb-4 text-sm tracking-wider">
                                 {section.title}
                               </h3>
                               <ul className="space-y-2">
@@ -242,7 +242,7 @@ const Navbar = () => {
                                   <li key={itemIdx}>
                                     <Link 
                                       to={item.link}
-                                      className="text-gray-600 hover:text-[#e51126] transition-colors duration-200 block py-1 font-times"
+                                      className="text-gray-600 hover:text-[#e51126] transition-colors duration-200 block py-1"
                                       onClick={() => setActiveMenu(null)}
                                     >
                                       {item.name}
@@ -328,16 +328,16 @@ const Navbar = () => {
           <div className="container mx-auto px-4 py-4">
             {Object.entries(MENU_DATA).map(([key, data]) => (
               <div key={key} className="mb-8">
-                <h2 className="font-bold text-xl text-gray-900 mb-4 font-times border-b pb-2">{data.title}</h2>
+                <h2 className="font-bold text-xl text-gray-900 mb-4 border-b pb-2">{data.title}</h2>
                 {data.sections.map((section, idx) => (
                   <div key={idx} className="mb-6 ml-4">
-                    <h3 className="text-md font-bold text-gray-800 mb-3 font-times">{section.title}</h3>
+                    <h3 className="text-md font-bold text-gray-800 mb-3">{section.title}</h3>
                     <ul className="space-y-2 ml-4">
                       {section.items.map((item, itemIdx) => (
                         <li key={itemIdx}>
                           <Link 
                             to={item.link}
-                            className="text-gray-600 hover:text-[#e51126] block py-1 font-times"
+                            className="text-gray-600 hover:text-[#e51126] block py-1"
                             onClick={() => {
                               setIsMobileMenuOpen(false);
                               setActiveMobileMenu(null);

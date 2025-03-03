@@ -4,7 +4,7 @@ const CraftedCube = () => {
   const tabs = [
     {
       id: "A",
-      color: "#c6d1ad",
+      color: "#f7f0e3",
       title: "Crafted Cube - A",
       description:
         "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
@@ -32,7 +32,7 @@ const CraftedCube = () => {
     },
     {
       id: "B",
-      color: "#b6c2a5",
+      color: "#e2dfd8",
       title: "Crafted Cube - B",
       description:
         "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
@@ -54,7 +54,7 @@ const CraftedCube = () => {
     },
     {
       id: "C",
-      color: "#b2c6ac",
+      color: "#e2e8e5",
       title: "Crafted Cube - C",
       description:
         "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
@@ -82,7 +82,7 @@ const CraftedCube = () => {
     },
     {
       id: "D",
-      color: "#c0c492",
+      color: "#efe2c0",
       title: "Crafted Cube - D",
       description:
         "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
@@ -110,7 +110,7 @@ const CraftedCube = () => {
     },
     {
       id: "E",
-      color: "#bbb66d",
+      color: "#e8d18f",
       title: "Crafted Cube - E",
       description:
         "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
@@ -164,7 +164,7 @@ const CraftedCube = () => {
             {tabs.map((tab) => (
               <button
                 key={tab.id}
-                className={`px-8 py-4 text-xl font-semibold rounded-lg transition-all duration-300 w-[100px] h-[100px]
+                className={`px-8 py-4 text-xl font-semibold rounded-lg transition-all duration-300 flex items-center justify-center w-[100px] h-[100px]
                   ${
                     activeTab.id === tab.id
                       ? "text-black font-bold"
@@ -173,7 +173,24 @@ const CraftedCube = () => {
                 style={{ backgroundColor: tab.color }}
                 onClick={() => setActiveTab(tab)}
               >
-                {tab.id}
+                {activeTab.id === tab.id ? (
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    className="h-6 w-6" 
+                    fill="none" 
+                    viewBox="0 0 24 24" 
+                    stroke="currentColor"
+                  >
+                    <path 
+                      strokeLinecap="round" 
+                      strokeLinejoin="round" 
+                      strokeWidth={3} 
+                      d="M5 13l4 4L19 7" 
+                    />
+                  </svg>
+                ) : (
+                  tab.id
+                )}
               </button>
             ))}
           </div>

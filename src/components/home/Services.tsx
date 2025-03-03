@@ -12,8 +12,8 @@ const Services = () => {
   return (
     <section className="py-16 bg-[#fff5eb3d]">
       <div className="container mx-auto px-4 flex flex-col items-center">
-        <h2 className="text-[40px] font-bold text-center mb-4 gradient-text">Our Services</h2>
-        <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+        <h2 className="text-[40px] font-bold text-center gradient-text">Our Services</h2>
+        <p className="mb-[35px] text-gray-600 text-[20px]">
           Professional painting services to transform your space
         </p>
 
