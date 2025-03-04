@@ -106,31 +106,31 @@
 //   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 //     e.preventDefault();
 //     setIsSubmitting(true);
-    
+
 //     const scriptURL = "https://script.google.com/macros/s/AKfycbzt1-3wtz3Mt5TV5Pk4kOM0jGV_lFjI0OspLU3b-8SpYX_YfMMaP_S3aCNxMu3NEObx2g/exec";
-    
+
 //     try {
 //       // Format selected rooms data
 //       const selectedRooms = Object.entries(formData.rooms)
 //         .map(([room, count]) => `${room} (${count})`)
 //         .join(", ");
-      
+
 //       // Create a URLSearchParams object instead of FormData
 //       const params = new URLSearchParams();
-      
+
 //       // Add personal information
 //       params.append("name", formData.personalInfo.name);
 //       params.append("email", formData.personalInfo.email);
 //       params.append("phone", formData.personalInfo.phone);
 //       params.append("address", formData.personalInfo.address);
-      
+
 //       // Add preferences
 //       params.append("budget", formData.preferences.budget);
 //       params.append("timeline", formData.preferences.timeline);
 //       params.append("style", formData.preferences.style);
 //       params.append("additionalNotes", formData.preferences.additionalNotes);
 //       params.append("selectedRooms", selectedRooms);
-  
+
 //       const response = await fetch(scriptURL, {
 //         method: "POST",
 //         headers: {
@@ -139,7 +139,7 @@
 //         body: params.toString(),
 //         mode: "no-cors", // Important for cross-origin requests to Google Scripts
 //       });
-  
+
 //       // Since no-cors returns an opaque response, we can't check response.ok
 //       // We'll assume success
 //       alert("Thanks for contacting us! We will reach out soon.");
@@ -215,9 +215,9 @@
 //                 })}
 //               </div>
 //               <div className="mt-8 flex justify-center">
-//                 <button 
+//                 <button
 //                   type="button"
-//                   className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded" 
+//                   className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded"
 //                   onClick={handleNext}
 //                   disabled={Object.keys(formData.rooms).length === 0}
 //                 >
@@ -231,54 +231,54 @@
 //             <div>
 //               <h2 className="text-2xl font-bold text-center mb-8">Personal Information</h2>
 //               <div className="space-y-4">
-//                 <input 
-//                   type="text" 
-//                   name="name" 
+//                 <input
+//                   type="text"
+//                   name="name"
 //                   value={formData.personalInfo.name}
-//                   placeholder="Full Name" 
-//                   className="w-full p-2 border rounded" 
-//                   onChange={handlePersonalInfoChange} 
-//                   required 
+//                   placeholder="Full Name"
+//                   className="w-full p-2 border rounded"
+//                   onChange={handlePersonalInfoChange}
+//                   required
 //                 />
-//                 <input 
-//                   type="email" 
-//                   name="email" 
+//                 <input
+//                   type="email"
+//                   name="email"
 //                   value={formData.personalInfo.email}
-//                   placeholder="Email" 
-//                   className="w-full p-2 border rounded" 
-//                   onChange={handlePersonalInfoChange} 
-//                   required 
+//                   placeholder="Email"
+//                   className="w-full p-2 border rounded"
+//                   onChange={handlePersonalInfoChange}
+//                   required
 //                 />
-//                 <input 
-//                   type="tel" 
-//                   name="phone" 
+//                 <input
+//                   type="tel"
+//                   name="phone"
 //                   value={formData.personalInfo.phone}
-//                   placeholder="Phone" 
-//                   className="w-full p-2 border rounded" 
-//                   onChange={handlePersonalInfoChange} 
-//                   required 
+//                   placeholder="Phone"
+//                   className="w-full p-2 border rounded"
+//                   onChange={handlePersonalInfoChange}
+//                   required
 //                 />
-//                 <textarea 
-//                   name="address" 
+//                 <textarea
+//                   name="address"
 //                   value={formData.personalInfo.address}
-//                   placeholder="Address" 
-//                   className="w-full p-2 border rounded" 
-//                   rows={3} 
-//                   onChange={handlePersonalInfoChange} 
+//                   placeholder="Address"
+//                   className="w-full p-2 border rounded"
+//                   rows={3}
+//                   onChange={handlePersonalInfoChange}
 //                   required
 //                 ></textarea>
 //               </div>
 //               <div className="mt-8 flex justify-between">
-//                 <button 
+//                 <button
 //                   type="button"
-//                   className="bg-gray-300 hover:bg-gray-400 px-8 py-3 rounded" 
+//                   className="bg-gray-300 hover:bg-gray-400 px-8 py-3 rounded"
 //                   onClick={handlePrevious}
 //                 >
 //                   ← Previous
 //                 </button>
-//                 <button 
+//                 <button
 //                   type="button"
-//                   className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded" 
+//                   className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded"
 //                   onClick={handleNext}
 //                   disabled={!formData.personalInfo.name || !formData.personalInfo.email || !formData.personalInfo.phone || !formData.personalInfo.address}
 //                 >
@@ -309,7 +309,7 @@
 //                     <option value="Over $50,000">Over $50,000</option>
 //                   </select>
 //                 </div>
-                
+
 //                 <div>
 //                   <label className="block mb-1">Timeline</label>
 //                   <select
@@ -327,7 +327,7 @@
 //                     ))}
 //                   </select>
 //                 </div>
-                
+
 //                 <div>
 //                   <label className="block mb-1">Preferred Style</label>
 //                   <select
@@ -345,7 +345,7 @@
 //                     ))}
 //                   </select>
 //                 </div>
-                
+
 //                 <div>
 //                   <label className="block mb-1">Additional Notes</label>
 //                   <textarea
@@ -358,17 +358,17 @@
 //                   ></textarea>
 //                 </div>
 //               </div>
-              
+
 //               <div className="mt-8 flex justify-between">
-//                 <button 
+//                 <button
 //                   type="button"
-//                   className="bg-gray-300 hover:bg-gray-400 px-8 py-3 rounded" 
+//                   className="bg-gray-300 hover:bg-gray-400 px-8 py-3 rounded"
 //                   onClick={handlePrevious}
 //                 >
 //                   ← Previous
 //                 </button>
-//                 <button 
-//                   type="submit" 
+//                 <button
+//                   type="submit"
 //                   className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded"
 //                   disabled={isSubmitting || !formData.preferences.budget || !formData.preferences.timeline || !formData.preferences.style}
 //                 >
@@ -385,30 +385,8 @@
 
 // export default RoomMakeoverForm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // const CalculatorForm = () => {
 
-  
 //   return (
 //     <div className="p-12">
 //       <div className="bg-[#2c3789] text-white p-12 rounded-[30px] w-full mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6 items-center">
@@ -423,9 +401,6 @@
 
 // export default CalculatorForm
 
-
-
-
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -437,11 +412,21 @@ const productPrices: Record<string, number> = {
   "Exterior Primer": 1.8,
   "Weather Coat Paint": 3.2,
   "Exterior Emulsion": 2.8,
-  "Waterproofing": 4.0,
+  Waterproofing: 4.0,
 };
 
-const interiorProducts = ["Wall Primer", "Emulsion Paint", "Ceiling Paint", "Wood Polish"];
-const exteriorProducts = ["Exterior Primer", "Weather Coat Paint", "Exterior Emulsion", "Waterproofing"];
+const interiorProducts = [
+  "Wall Primer",
+  "Emulsion Paint",
+  "Ceiling Paint",
+  "Wood Polish",
+];
+const exteriorProducts = [
+  "Exterior Primer",
+  "Weather Coat Paint",
+  "Exterior Emulsion",
+  "Waterproofing",
+];
 
 const PaintingCalculatorForm: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
@@ -463,12 +448,19 @@ const PaintingCalculatorForm: React.FC = () => {
 
   const handleProductSelect = (product: string) => {
     setSelectedProducts((prev) =>
-      prev.includes(product) ? prev.filter((p) => p !== product) : [...prev, product]
+      prev.includes(product)
+        ? prev.filter((p) => p !== product)
+        : [...prev, product]
     );
   };
 
   const handleSubmit = () => {
-    if (!selectedProject || !selectedSpace || !area || selectedProducts.length === 0) {
+    if (
+      !selectedProject ||
+      !selectedSpace ||
+      !area ||
+      selectedProducts.length === 0
+    ) {
       alert("Please fill out all fields.");
       return;
     }
@@ -487,23 +479,31 @@ const PaintingCalculatorForm: React.FC = () => {
     <div className="p-12">
       <div className="content mb-5 flex flex-col items-center">
         <h6 className=" text-gray-600 text-[20px]">Paint Budget Calculator</h6>
-        <h1 className="gradient-text text-[40px] font-bold">Get Instant Budget Estimates</h1>
+        <h1 className="gradient-text text-[40px] font-bold">
+          Get Instant Budget Estimates
+        </h1>
       </div>
 
-      <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6" data-aos="fade-up">
+      <div
+        className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6"
+        data-aos="fade-up"
+      >
         {/* Left Section: Form */}
         <div className="w-full mx-auto p-6 bg-white shadow-lg rounded-xl">
           {/* Step 1: Select Project Type */}
           <div className="mb-4">
             <h3 className="text-lg font-semibold mb-2">
-              1. Select your type of project <span className="text-red-500">*</span>
+              1. Select your type of project{" "}
+              <span className="text-red-500">*</span>
             </h3>
             <div className="flex gap-4">
               {["Fresh Painting", "Repainting"].map((project) => (
                 <button
                   key={project}
                   className={`flex-1 p-4 border rounded-lg transition ${
-                    selectedProject === project ? "border-black bg-gray-100 shadow-md" : "border-gray-300"
+                    selectedProject === project
+                      ? "border-black bg-gray-100 shadow-md"
+                      : "border-gray-300"
                   }`}
                   onClick={() => handleProjectSelect(project)}
                 >
@@ -523,7 +523,9 @@ const PaintingCalculatorForm: React.FC = () => {
                 <button
                   key={space}
                   className={`flex-1 p-4 border rounded-lg transition ${
-                    selectedSpace === space ? "border-black bg-gray-100 shadow-md" : "border-gray-300"
+                    selectedSpace === space
+                      ? "border-black bg-gray-100 shadow-md"
+                      : "border-gray-300"
                   }`}
                   onClick={() => handleSpaceSelect(space)}
                 >
@@ -536,7 +538,8 @@ const PaintingCalculatorForm: React.FC = () => {
           {/* Step 3: Enter Total Area */}
           <div className="mb-4">
             <h3 className="text-lg font-semibold mb-2">
-              3. Enter total area in SQFT <span className="text-red-500">*</span>
+              3. Enter total area in SQFT{" "}
+              <span className="text-red-500">*</span>
             </h3>
             <input
               type="text"
@@ -547,17 +550,19 @@ const PaintingCalculatorForm: React.FC = () => {
             />
           </div>
 
-          <div className="total-part flex items-center justify-between mt-6 border-gray-300 pt-4">
+          <div className="total-part flex flex-col md:flex-row items-center justify-between mt-6 border-gray-300 pt-4 gap-4">
   {/* Submit Button */}
   <button
-    className="col-span-2 bg-yellow-500 border border-yellow-500 text-black p-3 rounded-[0.5rem] font-bold flex items-center justify-center space-x-2 hover:bg-transparent transition duration-300 !mb-0 !text-[20px] inspired-by-button"
+    className="w-full md:w-auto bg-yellow-500 border border-yellow-500 text-black p-3 rounded-[0.5rem] font-bold flex items-center justify-center space-x-2 hover:bg-transparent transition duration-300 !mb-0 !text-[20px] inspired-by-button"
     onClick={handleSubmit}
   >
     Calculate Now <FaArrowRight className="icon" />
   </button>
 
   {/* Display Total Cost */}
-  <h2 className="text-xl font-bold bg-[#2c3789] text-white p-[10px] rounded-[10px]">Estimated Cost: Rs.{totalCost.toFixed(2)}</h2>
+  <h2 className="text-xl font-bold bg-[#2c3789] text-white p-[10px] rounded-[10px] text-center w-full md:w-auto">
+    Estimated Cost: Rs.{totalCost.toFixed(2)}
+  </h2>
 </div>
 
         </div>
@@ -597,7 +602,6 @@ const PaintingCalculatorForm: React.FC = () => {
                 </button>
               ))}
           </div>
-
         </div>
       </div>
     </div>
