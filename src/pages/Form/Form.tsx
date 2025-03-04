@@ -79,11 +79,11 @@ const Form: React.FC = () => {
 
   return (
     <div className="p-12">
-      <div className="gradient-bg sm:!bg-[#010a4d] text-white p-12 rounded-[30px] w-full mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6 items-center">
+      <div className="bg-[#2c3789] text-white p-12 rounded-[30px] w-full mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6 items-center">
         {/* Left Section */}
         <div className="w-full">
-          <h2 className="text-[40px] font-[500] mb-3">Get Expert Advice</h2>
-          <p className="text-[20px] font-[400] mb-5">
+          <h2 className="text-[40px] font-bold mb-3">Get Expert Advice</h2>
+          <p className="text-[20px] font-[400] text-[#ffffff91]">
             Bid goodbye to your home furnishing hassles with our expert
             supervision
           </p>
@@ -133,7 +133,7 @@ const Form: React.FC = () => {
             </div>
 
             {/* Checkbox Fields */}
-            <label className="col-span-2 flex items-center space-x-2 mb-5">
+            {/* <label className="col-span-2 flex items-center space-x-2 mb-5">
             <button
                 type="button"
                 onClick={() =>
@@ -153,7 +153,7 @@ const Form: React.FC = () => {
                 />
               </button>
               <span>Update me on WhatsApp</span>
-            </label>
+            </label> */}
 
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4 mb-5">
             <label className="flex items-center space-x-2">

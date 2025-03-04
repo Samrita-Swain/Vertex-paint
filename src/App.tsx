@@ -71,10 +71,10 @@ function App() {
               <Route path="/products/detail/:id" element={<ProductDetail />} />
 
               {/* Exterior Crafted Cube*/}
-              <Route path="/Exterior/CraftedCube.tsx" element={<CraftedCube/>} />
+              <Route path="/Exterior/CraftedCube" element={<CraftedCube/>} />
 
               {/* Exterior Colours*/}
-              <Route path="/Exterior/PeacefulSerene.tsx" element={<PeacefulSerene/>} />
+              <Route path="/Exterior/PeacefulSerene" element={<PeacefulSerene/>} />
 
 
               {/* ultima Exterior Emulsions */}

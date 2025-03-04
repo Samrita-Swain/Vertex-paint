@@ -103,7 +103,7 @@ export const exteriorColor = [
     category: 'Trends',
     excerpt: 'Discover the hottest color trends for the upcoming year',
     image: '/images/peaceful&serene.png',
-    explore: '/Exterior/PeacefulSerene.tsx'
+    explore: '/Exterior/PeacefulSerene'
   },
   {
     id: 'PeacefulSerene',
@@ -374,6 +374,328 @@ export const exteriorColor1 =[
           title: "V7941P",
           content: "Turmeric",
           boxColor: "#f8ad00",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'11',
+    color: '#ebe6dc',
+    view:'',
+    title: "Modern Geometry - A",
+      mainImage: { src: "/images/Modern Geometry-A.png" },
+      contentBoxes: [
+        {
+          title: "V8444P",
+          content: "Ice Crystal",
+          boxColor: "#e9e4da",
+          textColor: "#000"
+        },
+        {
+          title: "V8561P",
+          content: "Oak Leaf",
+          boxColor: "#e4c6a3",
+          textColor: "#000"
+        },
+        {
+          title: "Vertex Fine Square",
+          content: "Aristone Brick Red",
+          boxColor: "#6a3a2e",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'12',
+    color: '#f3eee4',
+    view:'',
+    title: "Modern Geometry - B",
+      mainImage: { src: "/images/Modern Geometry-B.png" },
+      contentBoxes: [
+        {
+          title: "VL146P",
+          content: "Sonnet",
+          boxColor: "#f3eee4",
+          textColor: "#000"
+        },
+        {
+          title: "V0N02P",
+          content: "Warmstone",
+          boxColor: "#c1b7a3",
+          textColor: "#000"
+        },
+        {
+          title: "V8454P",
+          content: "Dull Birch",
+          boxColor: "#7b6c5d",
+          textColor: "#000"
+        }
+      ]
+  },
+
+  {
+    id:'13',
+    color: '#f5f0d7',
+    view:'',
+    title: "Modern Geometry - C",
+      mainImage: { src: "/images/Modern Geometry-C.png" },
+      contentBoxes: [
+        {
+          title: "V7964P",
+          content: "Custard Apple",
+          boxColor: "#f3eed5",
+          textColor: "#000"
+        },
+        {
+          title: "V8330P",
+          content: "Nimbus Shower",
+          boxColor: "#b2b7ad",
+          textColor: "#000"
+        },
+        {
+          title: "V9647P",
+          content: "Naval Club - N",
+          boxColor: "#2b588a",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'14',
+    color: '#f4efe5',
+    view:'',
+    title: "Beach House - A",
+      mainImage: { src: "/images/Beach House-A.png" },
+      contentBoxes: [
+        {
+          title: "VL143P",
+          content: "Rain Drop",
+          boxColor: "#f3eee4",
+          textColor: "#000"
+        },
+        {
+          title: "V7342P",
+          content: "Waikiki",
+          boxColor: "#3f80a3",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'15',
+    color: '#f0e6d7',
+    view:'',
+    title: "Modern Geometry - B",
+      mainImage: { src: "/images/Modern Geometry-B.png" },
+      contentBoxes: [
+        {
+          title: "VL146P",
+          content: "Sonnet",
+          boxColor: "#f3eee4",
+          textColor: "#000"
+        },
+        {
+          title: "V0N02P",
+          content: "Warmstone",
+          boxColor: "#c1b7a3",
+          textColor: "#000"
+        },
+        {
+          title: "V8454P",
+          content: "Dull Birch",
+          boxColor: "#7b6c5d",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'16',
+    color: '#f0ebdc',
+    view:'',
+    title: "Lattice House - B",
+      mainImage: { src: "/images/Lattice House-B.png" },
+      contentBoxes: [
+        {
+          title: "VL124P",
+          content: "Pure Ivory",
+          boxColor: "#eee9da",
+          textColor: "#000"
+        },
+        {
+          title: "V7208P",
+          content: "Petal Soft",
+          boxColor: "#9ea8d0",
+          textColor: "#000"
+        },
+        {
+          title: "V8234P",
+          content: "Fleecy Coat",
+          boxColor: "#b2b2b2",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'17',
+    color: '#f0ebe1',
+    view:'',
+    title: "Lattice House - D",
+      mainImage: { src: "/images/Lattice House-D.png" },
+      contentBoxes: [
+        {
+          title: "VL122P",
+          content: "Skimmed Cream",
+          boxColor: "#eee9df",
+          textColor: "#000"
+        },
+        {
+          title: "V7527P",
+          content: "Green Haven",
+          boxColor: "#62a8a3",
+          textColor: "#000"
+        },
+        {
+          title: "V7233P",
+          content: "Ice Cube",
+          boxColor: "#adb7c6",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'18',
+    color: '#efeae0',
+    view:'',
+    title: "Iconic Villa - B",
+      mainImage: { src: "/images/Iconic Villa-B.png" },
+      contentBoxes: [
+        {
+          title: "VL103P",
+          content: "Pearl Star",
+          boxColor: "#eee9df",
+          textColor: "#000"
+        },
+        {
+          title: "V7415P",
+          content: "Steel Mesh",
+          boxColor: "#6c99a3",
+          textColor: "#000"
+        },
+        {
+          title: "V9876P",
+          content: "Happy Canary - N",
+          boxColor: "#f8da71",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'19',
+    color: '#f5f0dc',
+    view:'',
+    title: "Twisting Maze - A",
+      mainImage: { src: "/images/Twisting Maze-A.png" },
+      contentBoxes: [
+        {
+          title: "V7868P",
+          content: "Sun Screen",
+          boxColor: "#f3eeda",
+          textColor: "#000"
+        },
+        {
+          title: "V7713P",
+          content: "Lime Squash",
+          boxColor: "#cbdaa8",
+          textColor: "#000"
+        },
+        {
+          title: "Vertex Fine Square",
+          content: "Granizia Coarse Beige Brown",
+          boxColor: "#80765d",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'20',
+    color: '#f5f0d7',
+    view:'',
+    title: "Twisting Maze - D",
+      mainImage: { src: "/images/Twisting Maze-D.png" },
+      contentBoxes: [
+        {
+          title: "V7884P",
+          content: "Soft Linen",
+          boxColor: "#f3eed5",
+          textColor: "#000"
+        },
+        {
+          title: "V7981P",
+          content: "Dusky Saffron",
+          boxColor: "#c67630",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'21',
+    color: '#e6e6e6',
+    view:'',
+    title: "Grooved Design - A",
+      mainImage: { src: "/images/Grooved Design-A.png" },
+      contentBoxes: [
+        {
+          title: "VL180P",
+          content: "Innocent White",
+          boxColor: "#e4e4e4",
+          textColor: "#000"
+        },
+        {
+          title: "V7303P",
+          content: "Stormy Sea",
+          boxColor: "#587b94",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'22',
+    color: '#f0e6d7',
+    view:'',
+    title: "Grooved Design - B",
+      mainImage: { src: "/images/Grooved Design-B.png" },
+      contentBoxes: [
+        {
+          title: "VL134P",
+          content: "Double Cream",
+          boxColor: "#eee4d5",
+          textColor: "#000"
+        },
+        {
+          title: "V7166P",
+          content: "Intense Purple",
+          boxColor: "#7b76a8",
+          textColor: "#000"
+        }
+      ]
+  },
+  {
+    id:'23',
+    color: '#f5f0dc',
+    view:'',
+    title: "Grooved Design - C",
+      mainImage: { src: "/images/Grooved Design-C.png" },
+      contentBoxes: [
+        {
+          title: "V7948P",
+          content: "Crescent",
+          boxColor: "#f3eeda",
+          textColor: "#000"
+        },
+        {
+          title: "V8261P",
+          content: "Thunder Cloud",
+          boxColor: "#4d4d52",
           textColor: "#000"
         }
       ]

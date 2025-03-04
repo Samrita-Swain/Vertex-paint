@@ -13,7 +13,7 @@ const HouseFormate = () => {
             className="house-box group flex flex-col items-center justify-center bg-white shadow-lg rounded-2xl p-4 transition-all duration-700 ease-out 
       hover:shadow-2xl relative overflow-hidden border-t border-l border-r border-[#efefef] border-opacity-100 hover:border-red-500"
           >
-            <a href="/Exterior/CraftedCube.tsx" className="flex justify-center w-full relative z-10">
+            <a href="/Exterior/CraftedCube" className="flex justify-center w-full relative z-10">
               <img
                 src="/images/Crafted-Cube.png"
                 alt="Crafted Cube"

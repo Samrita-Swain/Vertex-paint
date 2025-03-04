@@ -9,15 +9,23 @@ const ExteriorPaintsPage = () => {
   const tabs = ["Wall Paints", "Textures"];
   return (
     <div>
-      <div className="exteriorbanner p-12">
-        <div className="container flex flex-col items-center">
+     
+      <div
+        className="relative Exteriore-banner p-12 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url(../images/Exterior-banner.jpeg)" }}
+      >
+        {/* Overlay Layer */}
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+
+        {/* Content */}
+        <div className="relative content text-white text-center flex flex-col items-center">
         <h1 className="text-5xl text-white font-semibold mb-4 text-center">
           Exterior Wall Paints
         </h1>
         <p className="text-xl mb-8 text-white text-center">
           Explore the versatile range of exterior paint products for your home!
         </p>
-        <button>
+        <button className="exterior-button">
           View Deatils <FaArrowRight className="icon" />
         </button>
         </div>

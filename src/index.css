@@ -15,7 +15,7 @@ body {
   
 } 
 .exteriorbanner {
-  background-image: url(../public/exterior-texture-banner.webp);
+  background-image: url(../public/images/Exterior-banner.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.exteriorbanner button {
+.exterior-button{
   align-items: center;
   background: #fec940;
   border: 2px solid #fec940;
@@ -39,16 +39,16 @@ body {
   transition: .5s;
   justify-content: center;
 }
-.exteriorbanner button .icon{
+.exterior-button .icon{
   transition: 0.3s;
   margin-left: 10px;
   font-size: 15px
 }
-.exteriorbanner button:hover .icon{
+.exterior-button:hover .icon{
   transform: translateX(5px);
   color: #fff;
 }
-.exteriorbanner button:hover{
+.exterior-button:hover{
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
@@ -301,6 +301,12 @@ body {
   color: #000;
 }
 .UltimaExterioremulsions-banner{
+  height: 65vh;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Exteriore-banner{
   height: 65vh;
   display: flex;
     justify-content: center;

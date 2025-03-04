@@ -115,7 +115,7 @@ const PeacefulSerene = () => {
                     {isActive && (
                       <div
                         id={`details-${color1.id}`}
-                        className="mt-4 bg-white p-6 rounded-lg shadow-md"
+                        className="mt-4 bg-white p-6 rounded-lg shadow-md" data-aos="zoom-in"
                         style={{
                           gridColumn: "1 / -1",
                           gridRow: `${rowIndex + 2}`,
