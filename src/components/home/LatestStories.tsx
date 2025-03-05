@@ -8,7 +8,7 @@ const LatestStories = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 flex flex-col items-center">
         <h2 className="text-[40px] font-bold text-center  gradient-text">Latest Stories</h2>
-        <p className="mb-[35px] text-gray-600 text-[20px]">
+        <p className="mb-[35px] text-gray-600 text-[20px] text-center">
           Get inspired with the latest trends and expert advice
         </p>
 

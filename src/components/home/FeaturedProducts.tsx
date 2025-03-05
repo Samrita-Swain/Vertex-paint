@@ -7,8 +7,8 @@ const FeaturedProducts = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 flex flex-col items-center">
         <div className="text-center mb-12">
-          <h2 className="text-[40px] font-bold gradient-text">Featured Products</h2>
-          <p className="mb-[35px] text-gray-600 text-[20px]">
+          <h2 className="text-[40px] font-bold gradient-text text-center">Featured Products</h2>
+          <p className="mb-[35px] text-gray-600 text-[20px] text-center">
             Discover our premium range of paints designed to transform your space
           </p>
         </div>

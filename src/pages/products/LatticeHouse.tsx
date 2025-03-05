@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CraftedCube = () => {
+const LatticeHouse = () => {
   const tabs = [
     {
       id: "A",
@@ -138,7 +138,7 @@ const CraftedCube = () => {
     <div>
       {/* Banner Section */}
       <div
-        className="relative UltimaExterioremulsions-banner px-12 bg-cover bg-center bg-no-repeat"
+        className="relative UltimaExterioremulsions-banner p-12 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url(../images/color-options-banner.jpg)" }}
       >
         {/* Overlay Layer */}
@@ -146,7 +146,7 @@ const CraftedCube = () => {
 
         {/* Content */}
         <div className="relative content text-white text-center">
-          <h1 className="text-[50px] font-bold">Crafted Cube</h1>
+          <h1 className="text-[50px] font-bold">Lattice House</h1>
           <p className="text-[20px] text-[#ffffffb3]">
             This home boasts an artistic, monolithic style with a contemporary
             flair. The mix of external claddings and textures enhances its
@@ -196,7 +196,7 @@ const CraftedCube = () => {
           </div>
         </div>
 
-        <div className="px-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 mt-6 w-full text-center">
+        <div className="p-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 mt-6 w-full text-center">
           {/* Main Image */}
           {activeTab.mainImage && (
             <div className="mt-4">
@@ -249,4 +249,4 @@ const CraftedCube = () => {
   );
 };
 
-export default CraftedCube;
+export default LatticeHouse;

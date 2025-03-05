@@ -13,7 +13,7 @@ const TDS = () => {
       </div>
 
       <div className="p-12 flex flex-col items-center bg-[#fff5eb]">
-        <h1 className="gradient-text text-[40px] font-bold mb-14">
+        <h1 className="gradient-text text-[40px] font-bold mb-14 text-center">
           Technical Data Sheets
         </h1>
         <div className="tds-product-part grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-8 p-12">

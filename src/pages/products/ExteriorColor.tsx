@@ -3,12 +3,12 @@ import { exteriorColor } from '../../data/content';
 import { FaArrowRight } from "react-icons/fa";
 const ExteriorColor = () => {
   return (
-    <div className="flex flex-col justify-center items-center p-12 bg-[#fff5eb]">
+    <div className="flex flex-col justify-center items-center p-12 bg-[#fff]">
       <div className="container flex flex-col justify-center items-center">
       <h1 className="gradient-text text-[40px] font-bold text-center">
           Colours
         </h1>
-        <p className="mb-[35px] text-gray-600 text-[20px]">Choose a colour theme that sets the perfect mood for your
+        <p className="mb-[35px] text-gray-600 text-[20px] text-center">Choose a colour theme that sets the perfect mood for your
 dream home!</p>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-8">
                   {exteriorColor.map(color => (

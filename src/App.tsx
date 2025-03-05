@@ -48,6 +48,23 @@ import Product1 from './pages/products/Product1';
 import ScrollToTop from './components/ScrollToTop';
 import CraftedCube from './pages/products/CraftedCube';
 import PeacefulSerene from './pages/products/PeacefulSerene';
+import RomanHeritage from './pages/products/RomanHeritage';
+import CuttingEdge from './pages/products/CuttingEdge';
+import CountryStyle from './pages/products/CountryStyle';
+import ElegantSimplicity from './pages/products/ElegantSimplicity';
+import RetroRegal from './pages/products/RetroRegal';
+import EternalTemple from './pages/products/EternalTemple';
+import ModernGeometry from './pages/products/ModernGeometry';
+import GradualElevations from './pages/products/GradualElevations';
+import RetroModern from './pages/products/RetroModern';
+import BeachHouse from './pages/products/BeachHouse';
+import LatticeHouse from './pages/products/LatticeHouse';
+import ModernBaroque from './pages/products/ModernBaroque';
+import CountryHouse from './pages/products/CountryHouse';
+import GroovedDesign from './pages/products/GroovedDesign';
+import IconicVilla from './pages/products/IconicVilla';
+import TwistingMaze from './pages/products/TwistingMaze';
+import ArchedResidence from './pages/products/ArchedResidence';
 
 function App() {
   useEffect(() => {
@@ -73,8 +90,60 @@ function App() {
               {/* Exterior Crafted Cube*/}
               <Route path="/Exterior/CraftedCube" element={<CraftedCube/>} />
 
-              {/* Exterior Colours*/}
-              <Route path="/Exterior/PeacefulSerene" element={<PeacefulSerene/>} />
+              {/* Exterior Roman Heritage*/}
+              <Route path="/Exterior/RomanHeritage" element={<RomanHeritage/>} />
+
+              {/* Exterior Cutting Edge*/}
+              <Route path="/Exterior/CuttingEdge" element={<CuttingEdge/>} />
+
+              {/* Exterior Country Style*/}
+              <Route path="/Exterior/CountryStyle" element={<CountryStyle/>} />
+
+              {/* Exterior Country Style*/}
+              <Route path="/Exterior/CountryStyle" element={<CountryStyle/>} />
+
+              {/* Exterior Elegant Simplicity*/}
+              <Route path="/Exterior/ElegantSimplicity" element={<ElegantSimplicity/>} />
+
+              {/* Exterior Retro Regal*/}
+              <Route path="/Exterior/RetroRegal" element={<RetroRegal/>} />
+
+              {/* Exterior Eternal Temple*/}
+              <Route path="/Exterior/EternalTemple" element={<EternalTemple/>} />
+
+              {/* Exterior Modern Geometry*/}
+              <Route path="/Exterior/ModernGeometry" element={<ModernGeometry/>} />
+
+              {/* Exterior Gradual Elevations*/}
+              <Route path="/Exterior/GradualElevations" element={<GradualElevations/>} />
+
+              {/* Exterior Retro Modern*/}
+              <Route path="/Exterior/RetroModern" element={<RetroModern/>} />
+
+              {/* Exterior Beach House*/}
+              <Route path="/Exterior/BeachHouse" element={<BeachHouse/>} />
+
+              {/* Exterior Lattice House*/}
+              <Route path="/Exterior/LatticeHouse" element={<LatticeHouse/>} />
+
+              {/* Exterior Modern Baroque*/}
+              <Route path="/Exterior/ModernBaroque" element={<ModernBaroque/>} />
+
+              {/* Exterior Country House*/}
+              <Route path="/Exterior/CountryHouse" element={<CountryHouse/>} />
+
+              {/* Exterior Grooved Design*/}
+              <Route path="/Exterior/GroovedDesign" element={<GroovedDesign/>} />
+
+              {/* Exterior Iconic Villa*/}
+              <Route path="/Exterior/IconicVilla" element={<IconicVilla/>} />
+
+              {/* Exterior Twisting Maze*/}
+              <Route path="/Exterior/TwistingMaze" element={<TwistingMaze/>} />
+
+              {/* Exterior Arched Residence*/}
+              <Route path="/Exterior/ArchedResidence" element={<ArchedResidence/>} />
+
 
 
               {/* ultima Exterior Emulsions */}

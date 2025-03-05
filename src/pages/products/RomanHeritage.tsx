@@ -1,131 +1,125 @@
 import { useState } from "react";
 
-const CraftedCube = () => {
+const RomanHeritage = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#dccee4",
+      title: "Roman Heritage - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "Soft shades of lilac and earthy brown, paired with white and grey accents, give this home a gentle, dreamy ambiance that's pleasing to the eye",
+      mainImage: { src: "/images/Roman Heritage-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "V7162P",
+          content: "Quartz Illusion",
+          boxColor: "#aa9eae",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
+          title: "V8527P",
+          content: "Antelope",
+          boxColor: "#ad946c",
           textColor: "#000"
         },
         {
           title: "Vertex Fine Square",
-          content: "Glazia Greiges",
-          boxColor: "#676860",
+          content: "Lumiflakes Coarse Maroon",
+          boxColor: "#a39c96",
           textColor: "#000"
         }
       ]
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#ede7db",
+      title: "Roman Heritage - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "The combination of pale yellow and charcoal grey, highlighted with white accents, creates a sense of calm and balance, giving this home a warm and inviting appeal.",
+      mainImage: { src: "/images/Roman Heritage-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "VL157P",
+          content: "White Canvas",
+          boxColor: "#e0dbcd",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "V7887P",
+          content: "Pine Cone",
+          boxColor: "#c1a362",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#dfeae8",
+      title: "Roman Heritage - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "A breezy hue paired with crisp white and touches of rich wine brings style and grace to this home",
+      mainImage: { src: "/images/Roman Heritage-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V7412P",
+          content: "Whispering Breeze",
+          boxColor: "#bec7c7",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
+          title: "V8304P",
+          content: "Grey Matter",
+          boxColor: "#808080",
           textColor: "#000"
         },
         {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V8109P",
+          content: "Fine Wine",
+          boxColor: "#7b3f49",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#fcdabf",
+      title: "Roman Heritage - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "The home exudes elegance with its soft peach tones paired with slate grey, enhanced by crisp white accents",
+      mainImage: { src: "/images/Roman Heritage-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "V8002P",
+          content: "Bashful Beige",
+          boxColor: "#f8d5bc",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
-          textColor: "#000"
-        },
-        {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V8325P",
+          content: "Eclipse",
+          boxColor: "#535349",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#abd7eb",
+      title: "Roman Heritage - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "Inspired by the serene Mediterranean coast, this home features soothing shades of blue and grey, complemented by refreshing white accents.",
+      mainImage: { src: "/images/Roman Heritage-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V9210P",
+          content: "Soft Blue",
+          boxColor: "#a8d5e9",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V8258P",
+          content: "Winter Moon",
+          boxColor: "#c1c6c6",
           textColor: "#000"
         }
       ]
@@ -146,12 +140,13 @@ const CraftedCube = () => {
 
         {/* Content */}
         <div className="relative content text-white text-center">
-          <h1 className="text-[50px] font-bold">Crafted Cube</h1>
+          <h1 className="text-[50px] font-bold">Roman Heritage</h1>
           <p className="text-[20px] text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          This elegant house design employs the appealing
+aesthetic of repetition, featuring a columned façade
+and tall openings that lend a sense of grandeur. The
+accent walls add a unique character, making the
+home truly distinctive.
           </p>
         </div>
       </div>
@@ -249,4 +244,4 @@ const CraftedCube = () => {
   );
 };
 
-export default CraftedCube;
+export default RomanHeritage;

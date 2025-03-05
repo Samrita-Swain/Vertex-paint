@@ -468,6 +468,11 @@ a:hover .icon{
   background-color: #fff;
   border-radius: 15px;
 }
+.calculator-banner{
+  background-image: url(../public/images/calculator-banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
 
 

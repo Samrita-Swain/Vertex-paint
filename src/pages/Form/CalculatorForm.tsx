@@ -476,20 +476,20 @@ const PaintingCalculatorForm: React.FC = () => {
   };
 
   return (
-    <div className="p-12">
+    <div className="calculator-banner p-12">
       <div className="content mb-5 flex flex-col items-center">
-        <h6 className=" text-gray-600 text-[20px]">Paint Budget Calculator</h6>
-        <h1 className="gradient-text text-[40px] font-bold">
+        <h6 className=" text-gray-600 text-[20px] text-center">Paint Budget Calculator</h6>
+        <h1 className="gradient-text text-[40px] font-bold text-center">
           Get Instant Budget Estimates
         </h1>
       </div>
 
       <div
         className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6"
-        data-aos="fade-up"
+        data-aos="fade-up" data-aos-duration="1500"
       >
         {/* Left Section: Form */}
-        <div className="w-full mx-auto p-6 bg-white shadow-lg rounded-xl">
+        <div className="w-full mx-auto p-6 shadow-lg rounded-xl">
           {/* Step 1: Select Project Type */}
           <div className="mb-4">
             <h3 className="text-lg font-semibold mb-2">
@@ -568,7 +568,7 @@ const PaintingCalculatorForm: React.FC = () => {
         </div>
 
         {/* Right Section: Product Selection and Total Cost */}
-        <div className="w-full p-6 bg-white shadow-lg rounded-xl">
+        <div className="w-full p-6 shadow-lg rounded-xl">
           <h3 className="text-lg font-semibold mb-4">Available Products</h3>
           <div className="grid gap-2">
             {/* Show both lists if no space is selected */}
