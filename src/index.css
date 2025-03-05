@@ -504,3 +504,9 @@ a:hover .icon{
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 423px){
+  .inspired-by-button {
+    font-size: 17px !important;
+  }
+}
