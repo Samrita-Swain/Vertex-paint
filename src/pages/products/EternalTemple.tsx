@@ -4,128 +4,138 @@ const EternalTemple = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#f3ecde",
+      title: "Eternal Temple - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "Striking white spells classic style in this home, complemented gracefully with an elegant brown and accents of olive green",
+      mainImage: { src: "/images/Eternal Temple-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "VL140P",
+          content: "Crushed Ice",
+          boxColor: "#eee9da",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
+          title: "V8015P",
+          content: "Grand Canyon",
+          boxColor: "#cb8f71",
           textColor: "#000"
         },
         {
-          title: "Vertex Fine Square",
-          content: "Glazia Greiges",
-          boxColor: "#676860",
+          title: "V7717P",
+          content: "Vivid Green",
+          boxColor: "#7b8549",
           textColor: "#000"
         }
       ]
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#f4f0e5",
+      title: "Eternal Temple - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "Bright yellow accents blend into hues of striking white and brick red, to give this home a refreshing, sun-kissed vibe",
+      mainImage: { src: "/images/Eternal Temple-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "VL144P",
+          content: "Love Song",
+          boxColor: "#eeeedf",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          content: "Spl Flame Red",
+          boxColor: "#b25849",
+          textColor: "#000"
+        },
+        {
+          title: "V7941P",
+          content: "Turmeric",
+          boxColor: "#f8ad00",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#ecedcb",
+      title: "Eternal Temple - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "Mellow white with tan and accents of deep grey, lend this home a sense of refined elegance.",
+      mainImage: { src: "/images/Eternal Temple-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V7771P",
+          content: "Hushed Hue",
+          boxColor: "#e9e9c6",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
+          title: "V8455P",
+          content: "Tropical Tan",
+          boxColor: "#948a7b",
           textColor: "#000"
         },
         {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V8261P",
+          content: "Thunder Cloud",
+          boxColor: "#4e4e53",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#e9edd3",
+      title: "Eternal Temple - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "Intense blue combined with ultra pale green, with accents of rich aqua green, lend this home a calming nautical feel.",
+      mainImage: { src: "/images/Eternal Temple-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "V7715P",
+          content: "Luminous",
+          boxColor: "#e4e9d0",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
+          title: "V7325P",
+          content: "Twilight Zone",
+          boxColor: "#21588f",
           textColor: "#000"
         },
         {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V7542P",
+          content: "Emerald Valley",
+          boxColor: "#448076",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#fce2a3",
+      title: "Eternal Temple - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "A pastel yellow, aptly complemented with dark brown and accents of blue, give this home an upbeat vibe.",
+      mainImage: { src: "/images/Eternal Temple-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V7921P",
+          content: "Summer Harves",
+          boxColor: "#f8df9e",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          content: "Khakhi",
+          boxColor: "#8f6249",
+          textColor: "#000"
+        },
+        {
+          title: "V7367P",
+          content: "Storm Blue",
+          boxColor: "#628aa3",
           textColor: "#000"
         }
       ]
@@ -148,10 +158,10 @@ const EternalTemple = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-[50px] font-bold">Eternal Temple</h1>
           <p className="text-[20px] text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          This House Format exemplifies luxury. With interlocked
+structures there is a unique appeal to this home. Flat
+domes and mild slopes along with overlapping masses
+also create a feel of contrast and visual interest.
           </p>
         </div>
       </div>

@@ -4,128 +4,123 @@ const RetroRegal = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#f6f3e0",
+      title: "Retro Regal - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "The warm, creamy beige paired with bold greyish-blue accents infuses the home with a vibrant and lively energy.",
+      mainImage: { src: "/images/Retro Regal-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "V7876P",
+          content: "Soft Honey",
+          boxColor: "#f3eeda",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
-          textColor: "#000"
-        },
-        {
-          title: "Vertex Fine Square",
-          content: "Glazia Greiges",
-          boxColor: "#676860",
+          title: "V7304P",
+          content: "Piece of Sky",
+          boxColor: "#678aa3",
           textColor: "#000"
         }
       ]
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#f2eee3",
+      title: "Retro Regal - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "The rich silken beige combined with rustic red accents creates a regal contrast, imbuing the home with an air of sophistication and nobility.",
+      mainImage: { src: "/images/Retro Regal-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "VL104P",
+          content: "Cotton Wool",
+          boxColor: "#eee9df",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "V0533P",
+          content: "Brick Red - N",
+          boxColor: "#a36249",
+          textColor: "#000"
+        }
+        ,
+        {
+          title: "V9514P",
+          content: "Creamy Crust",
+          boxColor: "#cbc1b2",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#e7ebbd",
+      title: "Retro Regal - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "The gentle pastel greens and pinks harmonize beautifully with soft grey-green and bold red accents, lending the home an air of regal elegance.",
+      mainImage: { src: "/images/Retro Regal-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V7778P",
+          content: "Limon",
+          boxColor: "#e4e9b7",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
+          title: "VK137P",
+          content: "Basilico - N",
+          boxColor: "#5d6c62",
           textColor: "#000"
         },
         {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V8019P",
+          content: "Coral Rocks",
+          boxColor: "#f3dac6",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#f3d5ce",
+      title: "Retro Regal - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "The blend of pink and red infuses the home with warmth, enhancing its magnificence and creating a truly captivating atmosphere",
+      mainImage: { src: "/images/Retro Regal-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "VK232P",
+          content: "Strawbella - N",
+          boxColor: "#edcfca",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
-          textColor: "#000"
-        },
-        {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V0336P",
+          content: "Buttercup - N",
+          boxColor: "#dabc94",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#ddd29b",
+      title: "Retro Regal - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "The soft pale yellow, bold red, and a hint of grey unite to give this vintage-style home a refined touch of royal elegance.",
+      mainImage: { src: "/images/Retro Regal-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V7840P",
+          content: "Divine Wine",
+          boxColor: "#dad099",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V8312P",
+          content: "Gothic Grey",
+          boxColor: "#7b8585",
           textColor: "#000"
         }
       ]
@@ -148,10 +143,11 @@ const RetroRegal = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-[50px] font-bold">Retro Regal</h1>
           <p className="text-[20px] text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          Designed with symmetry and meticulous attention to
+detail, this home exudes elegance, especially with its
+standout porch. The blend of red wood, brick,
+monotone tiles, and gables creates an ornate,
+vintage charm.
           </p>
         </div>
       </div>

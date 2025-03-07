@@ -569,7 +569,9 @@ const PaintingCalculatorForm: React.FC = () => {
 
         {/* Right Section: Product Selection and Total Cost */}
         <div className="w-full p-6 shadow-lg rounded-xl">
-          <h3 className="text-lg font-semibold mb-4">Available Products</h3>
+          <h3 className="text-lg font-semibold mb-4">Available Products{" "}
+          <span className="text-red-500">*</span>
+          </h3>
           <div className="grid gap-2">
             {/* Show both lists if no space is selected */}
             {(selectedSpace === "Interior" || selectedSpace === null) &&

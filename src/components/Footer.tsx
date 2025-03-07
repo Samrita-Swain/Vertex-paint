@@ -36,8 +36,8 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-8">
           {/* About Us */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">About Us</h3>
-            <p className="text-gray-300 leading-relaxed">
+            <h3 className="text-[20px] font-semibold mb-4">About Us</h3>
+            <p className="text-gray-300 leading-relaxed text-[18px]">
               Vertex Paints is India's leading paint company with a rich
               heritage of technology and innovation.
             </p>
@@ -45,8 +45,8 @@ const Footer = () => {
 
           {/* Products */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Products</h3>
-            <ul className="footer-li space-y-2 text-gray-300">
+            <h3 className="text-[20px] font-semibold mb-4">Products</h3>
+            <ul className="footer-li space-y-2 text-gray-300 text-[18px]">
               <li>
                 <Link
                   to="/products/InteriorPaintsPage"
@@ -84,8 +84,8 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Services</h3>
-            <ul className="footer-li space-y-2 text-gray-300">
+            <h3 className="text-[20px] font-semibold mb-4">Services</h3>
+            <ul className="footer-li space-y-2 text-gray-300 text-[18px]">
             <li>
                 <Link
                   to="SafePainting"
@@ -115,8 +115,8 @@ const Footer = () => {
 
           {/* Contact Us */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-            <ul className="text-gray-300">
+            <h3 className="text-[20px] font-semibold mb-4">Contact Us</h3>
+            <ul className="text-gray-300 text-[18px]">
               <li className="mb-2 flex items-center">
                 <svg
                   className="w-4 h-4 mr-2 text-black"
@@ -146,7 +146,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="bg-[#010a4d] p-4 text-gray-400 text-sm flex justify-center">
         <div className="container flex flex-wrap justify-between">
-          <div className="space-x-4 last-footer">
+          <div className="space-x-4 last-footer text-[16px]">
             <Link
               to="/privacy-policy"
               className="hover:text-[#e51126] transition duration-300"
@@ -166,7 +166,7 @@ const Footer = () => {
               Sitemap
             </Link>
           </div>
-          <div>
+          <div className="text-[16px]">
             © 2025 Vertex Paints Ltd. All rights reserved by{" "}
             <a
               className="font-extrabold hover:text-[#e51126] transition duration-300"

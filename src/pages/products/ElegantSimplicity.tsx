@@ -4,128 +4,140 @@ const ElegantSimplicity = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#f1ece2",
+      title: "Elegant Simplicity - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "The rich brick red paired with a gentle pink and softened by off-white creates a refined and sophisticated charm in this home.",
+      mainImage: { src: "/images/Elegant Simplicity-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "V0765P",
+          content: "Morning Glory",
+          boxColor: "#eee9df",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
+          title: "V8066P",
+          content: "Tinge of Pink",
+          boxColor: "#f8d5d0",
           textColor: "#000"
         },
         {
-          title: "Vertex Fine Square",
-          content: "Glazia Greiges",
-          boxColor: "#676860",
+          title: "V8615P",
+          content: "Copper Coast",
+          boxColor: "#ad7162",
           textColor: "#000"
         }
       ]
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#dfd5cd",
+      title: "Elegant Simplicity - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "The soft creams accented with deep red create a striking contrast, giving the home a modern and stylish ambiance.",
+      mainImage: { src: "/images/Elegant Simplicity-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "V8756P",
+          content: "Sound of Music",
+          boxColor: "#dad0cb",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "V8649P",
+          content: "Hidden Vale",
+          boxColor: "#b79e94",
+          textColor: "#000"
+        },
+        {
+          title: "V0509P",
+          content: "Geranium",
+          boxColor: "#ad493f",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#d1e3e3",
+      title: "Elegant Simplicity - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "The calming white pairs effortlessly with cool blues, creating a bold yet serene fusion of seaside-inspired hues.",
+      mainImage: { src: "/images/Elegant Simplicity-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V9228P",
+          content: "Solitude",
+          boxColor: "#cbdfdf",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
+          title: "V7411P",
+          content: "Nautilus",
+          boxColor: "#c1dfe4",
           textColor: "#000"
         },
         {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V6134P",
+          content: "Smoke Grey",
+          boxColor: "#6c808f",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#f8eecb",
+      title: "Elegant Simplicity - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "The combination of brick red and soft pink, blended with a serene off-white, imparts a timeless and classic charm to this home.",
+      mainImage: { src: "/images/Elegant Simplicity-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "V7947P",
+          content: "Corn Cob",
+          boxColor: "#f3e9c6",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
+          title: "V8034P",
+          content: "Pink Bib",
+          boxColor: "#f8d0c6",
           textColor: "#000"
         },
         {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V9988P",
+          content: "Rich Maple - N",
+          boxColor: "#c66253",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#d4c3b4",
+      title: "Elegant Simplicity - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "With a beautiful interplay of colors and their shades, this home brings out the warmth of brown and beige, perfectly complemented by refreshing blue accents.",
+      mainImage: { src: "/images/Elegant Simplicity-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V8778P",
+          content: "Walnut Cream",
+          boxColor: "#d0c1b2",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V8568P",
+          content: "Indian Spice",
+          boxColor: "#b7947b",
+          textColor: "#000"
+        },
+        {
+          title: "V8270P",
+          content: "Ink Grey",
+          boxColor: "#4e626c",
           textColor: "#000"
         }
       ]
@@ -148,10 +160,10 @@ const ElegantSimplicity = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-[50px] font-bold">Elegant Simplicity</h1>
           <p className="text-[20px] text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          This sleek and sophisticated home fits together
+effortlessly, much like a jigsaw puzzle. The
+combination of box windows, sloping, and flat roofs
+gives it a sharp, contemporary edge
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { exteriorColor1 } from "../../data/content";
+import { exteriorColor4 } from "../../data/content";
 import { Link } from "react-router-dom";
 
 // Define our interfaces for type safety
@@ -17,7 +17,7 @@ interface ColorBox {
   }>;
 }
 
-const PeacefulSerene = () => {
+const ExcitingBright = () => {
   // State to track the active color ID
   const [activeColorId, setActiveColorId] = useState<string | null>(null);
 
@@ -53,14 +53,14 @@ const PeacefulSerene = () => {
 
         {/* Content */}
         <div className="relative text-white text-center">
-          <h1 className="text-[50px] font-bold mb-7">Peaceful & Serene</h1>
+          <h1 className="text-[50px] font-bold mb-7">Exciting & Bright</h1>
         </div>
       </div>
 
       <div className="second-banner p-12 flex justify-center items-center">
         <div className="container">
           <div className="content flex justify-center items-center flex-col">
-          <h2 className="gradient-text text-[40px] font-bold text-center">Peaceful & Serene</h2>
+          <h2 className="gradient-text text-[40px] font-bold text-center">Exciting & Bright</h2>
             <p className="mb-[35px] text-center text-[20px]">
               Tap on any of the shades you like from below and see the magic
               unfold!
@@ -71,9 +71,9 @@ const PeacefulSerene = () => {
             {/* Color grid with details */}
             <div className="grid gap-8 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2" data-aos="fade-up"
      data-aos-duration="1500">
-              {exteriorColor1.map((color1, index) => {
-                const isActive = activeColorId === color1.id;
-                const colorData = color1 as ColorBox;
+              {exteriorColor4.map((color4, index) => {
+                const isActive = activeColorId === color4.id;
+                const colorData = color4 as ColorBox;
 
                 // Calculate grid position information
                 const colsPerRow =
@@ -89,17 +89,17 @@ const PeacefulSerene = () => {
                 const colIndex = index % colsPerRow;
 
                 return (
-                  <React.Fragment key={color1.id}>
+                  <React.Fragment key={color4.id}>
                     {/* Color box */}
                     <article className="bg-white rounded-lg overflow-hidden shadow-md group">
                       <div
                         className="box block p-8 h-[200px]"
-                        style={{ backgroundColor: color1.color }}
+                        style={{ backgroundColor: color4.color }}
                       ></div>
 
                       <div className="flex items-center justify-end p-4">
                         <button
-                          onClick={(e) => handleViewClick(color1.id, e)}
+                          onClick={(e) => handleViewClick(color4.id, e)}
                           className={`px-2 py-2 rounded-lg text-[17px] font-medium ${
                             isActive
                               ? "bg-transparent border border-[#fec940] text-black"
@@ -115,7 +115,7 @@ const PeacefulSerene = () => {
                     {/* Details section - shown only when this color is active */}
                     {isActive && (
                       <div
-                        id={`details-${color1.id}`}
+                        id={`details-${color4.id}`}
                         className="mt-4 bg-white p-6 rounded-lg shadow-md" data-aos="zoom-in"
                         style={{
                           gridColumn: "1 / -1",
@@ -171,4 +171,4 @@ const PeacefulSerene = () => {
   );
 };
 
-export default PeacefulSerene;
+export default ExcitingBright;

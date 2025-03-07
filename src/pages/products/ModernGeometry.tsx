@@ -148,10 +148,9 @@ const ModernGeometry = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-[50px] font-bold">Modern Geometry</h1>
           <p className="text-[20px] text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          This compact structure is the quintessential,
+contemporary home. With a perpendicular design, this space uses podium stacking to give it a geometric
+appearance. Diverse finishes add to the contemporary look and feel.
           </p>
         </div>
       </div>

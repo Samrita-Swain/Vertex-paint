@@ -507,6 +507,50 @@ a:hover .icon{
 
 @media (max-width: 423px){
   .inspired-by-button {
-    font-size: 17px !important;
+    font-size: 15px !important;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; /* For horizontal scrollbars */
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #e51126 -3.07%, #25398f 98.1%);
+  background-size: cover; /* Ensure gradient applies properly */
+  border-radius: 5px;
+  height: 5px;
 }

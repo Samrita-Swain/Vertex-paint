@@ -65,6 +65,9 @@ import GroovedDesign from './pages/products/GroovedDesign';
 import IconicVilla from './pages/products/IconicVilla';
 import TwistingMaze from './pages/products/TwistingMaze';
 import ArchedResidence from './pages/products/ArchedResidence';
+import TrendyStylish from './pages/products/TrendyStylish';
+import SoftRelaxing from './pages/products/SoftRelaxing';
+import ExcitingBright from './pages/products/ExcitingBright';
 
 function App() {
   useEffect(() => {
@@ -86,6 +89,19 @@ function App() {
               <Route path="/products" element={<ProductsPage />} />
               <Route path="/products/:category" element={<ProductsPage />} />
               <Route path="/products/detail/:id" element={<ProductDetail />} />
+
+
+              {/* Exterior Peaceful & Serene*/}
+              <Route path="/Exterior/PeacefulSerene" element={<PeacefulSerene/>} />
+
+              {/* Exterior Trendy & Stylish*/}
+              <Route path="/Exterior/TrendyStylish" element={<TrendyStylish/>} />
+
+              {/* Exterior Soft & Relaxing*/}
+              <Route path="/Exterior/SoftRelaxing" element={<SoftRelaxing/>} />
+
+               {/* Exterior Soft & Relaxing*/}
+               <Route path="/Exterior/ExcitingBright" element={<ExcitingBright/>} />
 
               {/* Exterior Crafted Cube*/}
               <Route path="/Exterior/CraftedCube" element={<CraftedCube/>} />
