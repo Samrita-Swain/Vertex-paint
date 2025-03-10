@@ -4,128 +4,134 @@ const ModernGeometry = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#eee9de",
+      title: "Modern Geometry - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "An airy pastel peach and striking brick red, set against a background of white, lend this home warmth and style.",
+      mainImage: { src: "/images/Modern Geometry-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "V8444P",
+          content: "Ice Crystal",
+          boxColor: "#e9e4da",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
+          title: "V8561P",
+          content: "Oak Leaf",
+          boxColor: "#e4c6a3",
           textColor: "#000"
         },
         {
           title: "Vertex Fine Square",
-          content: "Glazia Greiges",
-          boxColor: "#676860",
+          content: "Aristone Brick Red",
+          boxColor: "#704034",
           textColor: "#000"
         }
       ]
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#f7f1e9",
+      title: "Modern Geometry - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "Eliciting a verdant vibe, this home comes alive with calming off-white, accompanied by accents of beige and brown",
+      mainImage: { src: "/images/Modern Geometry-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "VL146P",
+          content: "Sonnet",
+          boxColor: "#f3eee4",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "V0N02P",
+          content: "Warmstone",
+          boxColor: "#c1b7a3",
+          textColor: "#000"
+        },
+        {
+          title: "V8454P",
+          content: "Dull Birch",
+          boxColor: "#7b6c5d",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#f7f0db",
+      title: "Modern Geometry - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "A striking off-white, accompanied by accents of royal blue and soft grey, together make this home urbane and contemporary.",
+      mainImage: { src: "/images/Modern Geometry-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V7964P",
+          content: "Custard Apple",
+          boxColor: "#f3eed5",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
+          title: "V8330P",
+          content: "Nimbus Shower",
+          boxColor: "#b2b7ad",
           textColor: "#000"
         },
         {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V9647P",
+          content: "Naval Club - N",
+          boxColor: "#2b588a",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#e7e0c3",
+      title: "Modern Geometry - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "A breezy blue accent combined with creamy beige, make this home an oasis of serenity.",
+      mainImage: { src: "/images/Modern Geometry-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "V3119P",
+          content: "Cashmere - N",
+          boxColor: "#e4dac1",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
-          textColor: "#000"
-        },
-        {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V7443P",
+          content: "Inner Peace",
+          boxColor: "#c1e4df",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#d1d995",
+      title: "Modern Geometry - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "Pastel hues of calming green and yellow olive, blend in with accents of brown, to lend this house an upbeat vibe.",
+      mainImage: { src: "/images/Modern Geometry-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V7768P",
+          content: "Calm Fauna",
+          boxColor: "#cbd58f",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V7838P",
+          content: "Green Beret",
+          boxColor: "#b7a358",
+          textColor: "#000"
+        },
+        {
+          title: "V0419P",
+          content: "Nut Brown - N",
+          boxColor: "#714e44",
           textColor: "#000"
         }
       ]

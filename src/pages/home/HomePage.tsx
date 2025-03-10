@@ -17,9 +17,9 @@ const HomePage = () => {
       <FeaturedProducts />
       <ColorInspiration />
       <ColorOptions />
-      <Services />
+      {/* <Services /> */}
       {/* <PaintCalculator /> */}
-      <LatestStories />
+      {/* <LatestStories /> */}
       <CustomerReviews />
     </div>
   );

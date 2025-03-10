@@ -78,19 +78,19 @@ const Form: React.FC = () => {
   };
 
   return (
-    <div className="p-12">
-      <div className="bg-[#2c3789] text-white p-12 rounded-[30px] w-full mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6 items-center">
-        {/* Left Section */}
-        <div className="w-full">
-          <h2 className="text-[40px] font-bold mb-3">Get Expert Advice</h2>
+    <div className="lg:p-12">
+      <div className="bg-[#2c3789] text-white p-12 lg:rounded-[30px] w-full mx-auto grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-6 items-center">
+        {/* Left Section - Now takes 1/3 of the space */}
+        <div className="w-full lg:col-span-1 md:col-span-1">
+        <h2 className="text-[37px] md:text-[40px] lg:text-[40px] font-bold mb-3">Get Expert Advice</h2>
           <p className="text-[20px] font-[400] text-[#ffffff91]">
             Bid goodbye to your home furnishing hassles with our expert
             supervision
           </p>
         </div>
 
-        {/* Right Section - Form */}
-        <div className="w-full">
+        {/* Right Section - Form - Now takes 2/3 of the space */}
+        <div className="w-full lg:col-span-2 md:col-span-2">
           <form onSubmit={handleSubmit}>
             {/* Input Fields */}
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4 mb-5">
@@ -132,37 +132,16 @@ const Form: React.FC = () => {
               />
             </div>
 
-            {/* Checkbox Fields */}
-            {/* <label className="col-span-2 flex items-center space-x-2 mb-5">
-            <button
-                type="button"
-                onClick={() =>
-                  setFormData((prev) => ({
-                    ...prev,
-                    whatsappUpdates: !prev.whatsappUpdates,
-                  }))
-                }
-                className={`relative w-12 h-6 flex items-center rounded-full transition ${
-                  formData.whatsappUpdates ? "bg-green-500" : "bg-gray-400"
-                }`}
-              >
-                <span
-                  className={`absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-transform transform ${
-                    formData.whatsappUpdates ? "translate-x-6" : "translate-x-0"
-                  }`}
-                />
-              </button>
-              <span>Update me on WhatsApp</span>
-            </label> */}
-
+            {/* Checkbox Fields - Fixed to use different names */}
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4 mb-5">
-            <label className="flex items-center space-x-2">
+              <label className="flex items-center space-x-2">
                 <input
                   type="checkbox"
-                  name="localPainter"
-                  checked={formData.localPainter}
+                  name="constructionWork"
+                  checked={formData.constructionWork}
                   onChange={handleChange}
                   className="w-5 h-5"
+                  style={{ width: '1.25rem', height: '1.25rem' }}
                 />
                 <span>There is construction work going on at my house</span>
               </label>
@@ -174,6 +153,7 @@ const Form: React.FC = () => {
                   checked={formData.localPainter}
                   onChange={handleChange}
                   className="w-5 h-5"
+                  style={{ width: '1.25rem', height: '1.25rem' }}
                 />
                 <span>There is a local painter hired</span>
               </label>

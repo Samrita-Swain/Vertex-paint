@@ -25,9 +25,9 @@ const ExteriorPaintsPage = () => {
         <p className="text-xl mb-8 text-white text-center">
           Explore the versatile range of exterior paint products for your home!
         </p>
-        <button className="exterior-button">
+        {/* <button className="exterior-button">
           View Deatils <FaArrowRight className="icon" />
-        </button>
+        </button> */}
         </div>
       </div>
       <div className="exterior-second-band bg-[#fff5eb] p-12">
@@ -65,21 +65,21 @@ const ExteriorPaintsPage = () => {
                   />
 
                   {/* Centering Content */}
-                  <div className="content absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="text-[35px] font-bold mb-5">Ultima</h1>
+                  <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
+                    <h1 className="text-[35px] font-bold mb-5">Metal Guard</h1>
                     <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto{" "}
                       <span className="text-[18px] font-extrabold">15</span>{" "}
                       Years
                     </p>
-                    <p className="text-[15px] mb-5">Performance Warranty</p>
-                    <a
+                    <p className="text-[15px]">Performance Warranty</p>
+                    {/* <a
                       href="../UltimaExterioremulsions"
                       className="exterior-second-band-button"
                     >
                       Explore
                       <FaArrowRight className="icon" />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
 
@@ -90,17 +90,17 @@ const ExteriorPaintsPage = () => {
                     className="rounded-[10px]"
                   />
                   {/* Centering Content */}
-                  <div className="content absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="text-[35px] font-bold mb-5">Apex</h1>
+                  <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
+                    <h1 className="text-[35px] font-bold mb-5">Silk Shine</h1>
                     <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto <span className="text-[18px] font-extrabold">6</span>{" "}
                       Years
                     </p>
-                    <p className="text-[15px] mb-5">Performance Warranty</p>
-                    <a href="/ApexExterioremulsions" className="exterior-second-band-button">
+                    <p className="text-[15px]">Performance Warranty</p>
+                    {/* <a href="/ApexExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
 
@@ -117,11 +117,11 @@ const ExteriorPaintsPage = () => {
                       Upto <span className="text-[18px] font-extrabold">4</span>{" "}
                       Years
                     </p>
-                    <p className="text-[15px] mb-5">Performance Warranty</p>
-                    <a href="/AcemExterioremulsions" className="exterior-second-band-button">
+                    <p className="text-[15px]">Performance Warranty</p>
+                    {/* <a href="/AcemExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -194,6 +194,139 @@ const ExteriorPaintsPage = () => {
                 </div>
               </div>
             )}
+          </div>
+        </div>
+      </div>
+
+      <div className="exterior-Ultima-band p-12 bg-[#fff] flex flex-col items-center">
+        <h1 className="gradient-text text-[40px] font-bold text-center mb-[35px]">Exterior Emulsions
+        </h1>
+        <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
+          <a href="/Product1"
+            className="ultima-box group relative p-4 cursor-pointer"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/1.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </a>
+          <div
+            className="ultima-box group relative p-4"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/2.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="ultima-box group relative p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="ultima-box group relative p-4"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="ultima-box group relative p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/5.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

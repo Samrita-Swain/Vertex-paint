@@ -41,7 +41,7 @@ import TrackOrderPage from './pages/services/TrackOrderPage';
 import LoginPage from './pages/services/LoginPage';
 import CartPage from './pages/services/CartPage';
 import TDS from './pages/TDS';
-import UltimaExterioremulsions from './pages/products/UltimaExterioremulsions';
+import Exterioremulsions from './pages/products/Exterioremulsions';
 import ApexExterioremulsions from './pages/products/ApexExterioremulsions';
 import AcemExterioremulsions from './pages/products/AcemExterioremulsions';
 import Product1 from './pages/products/Product1';
@@ -162,10 +162,10 @@ function App() {
 
 
 
-              {/* ultima Exterior Emulsions */}
-              <Route path="/UltimaExterioremulsions" element={<UltimaExterioremulsions />} />
+              {/* Exterior Emulsions */}
+              <Route path="/Exterioremulsions" element={<Exterioremulsions />} />
 
-              {/* ultima Exterior Emulsions products */}
+              {/* Exterior Emulsions products */}
               <Route path="/Product1" element={<Product1 />} />
 
               {/* Apex Exterior Emulsions */}
