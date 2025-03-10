@@ -349,6 +349,188 @@ const ExteriorPaintsPage = () => {
               </ul>
             </div>
           </div>
+          <div
+            className="ultima-box group relative p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/7.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="ultima-box group relative p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/8.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="ultima-box group relative p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/9.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="ultima-box group relative p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/10.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="ultima-box group relative p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/11.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="ultima-box group relative p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/12.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="ultima-box group relative p-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div className="flex justify-center items-center h-[150px]">
+                <img
+                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
+                  src="/images/13.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="ultima-content">
+              <h6 className="text-[17px] font-bold mb-[8px]">
+                Apex Ultima Protek Duralife
+              </h6>
+              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+                <li>WALLS of S.T.E.E.L</li>
+                <li>15 years warranty*</li>
+                <li>Advanced PUD Formula</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
