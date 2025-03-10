@@ -1193,7 +1193,7 @@ export const exteriorColor3 =[
     color: '#eae0bd',
     view:'',
     title: "Crafted Cube - D",
-      mainImage: { src: "/images/Crafted-Cube-D.png" },
+      mainImage: { src: "/images/crafted-cube-D.png" },
       contentBoxes: [
         {
           title: "V7891P",
@@ -1219,7 +1219,7 @@ export const exteriorColor3 =[
     color: '#e5cc8b',
     view:'',
     title: "Crafted Cube - E",
-      mainImage: { src: "/images/Crafted-Cube-E.png" },
+      mainImage: { src: "/images/crafted-cube-E.png" },
       contentBoxes: [
         {
           title: "V7880P",
