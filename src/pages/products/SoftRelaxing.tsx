@@ -20,6 +20,18 @@ interface ColorBox {
 const SoftRelaxing = () => {
   // State to track the active color ID
   const [activeColorId, setActiveColorId] = useState<string | null>(null);
+  // Track screen size for responsive layout
+  const [isSmallScreen, setIsSmallScreen] = useState<boolean>(window.innerWidth < 640);
+
+  // Add event listener for screen resize
+  React.useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 640);
+    };
+    
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // Handle view button click
   const handleViewClick = (colorId: string, e: React.MouseEvent) => {
@@ -60,7 +72,7 @@ const SoftRelaxing = () => {
       <div className="second-banner p-12 flex justify-center items-center">
         <div className="container">
           <div className="content flex justify-center items-center flex-col">
-          <h2 className="gradient-text text-[40px] font-bold text-center">Soft & Relaxing</h2>
+            <h2 className="gradient-text text-[40px] font-bold text-center">Soft & Relaxing</h2>
             <p className="mb-[35px] text-center text-[20px]">
               Tap on any of the shades you like from below and see the magic
               unfold!
@@ -75,7 +87,7 @@ const SoftRelaxing = () => {
                 const isActive = activeColorId === color3.id;
                 const colorData = color3 as ColorBox;
 
-                // Calculate grid position information
+                // Calculate grid position information for larger screens
                 const colsPerRow =
                   window.innerWidth >= 1024
                     ? 5
@@ -90,40 +102,88 @@ const SoftRelaxing = () => {
 
                 return (
                   <React.Fragment key={color3.id}>
-                    {/* Color box */}
-                    <article className="bg-white rounded-lg overflow-hidden shadow-md group">
-                      <div
-                        className="box block p-8 h-[200px]"
-                        style={{ backgroundColor: color3.color }}
-                      ></div>
+                    <div className="flex flex-col">
+                      {/* Color box */}
+                      <article className="bg-white rounded-lg overflow-hidden shadow-md group">
+                        <div
+                          className="box block p-8 h-[200px]"
+                          style={{ backgroundColor: color3.color }}
+                        ></div>
 
-                      <div className="flex items-center justify-end p-4">
-                        <button
-                          onClick={(e) => handleViewClick(color3.id, e)}
-                          className={`px-2 py-2 rounded-lg text-[17px] font-medium ${
-                            isActive
-                              ? "bg-transparent border border-[#fec940] text-black"
-                              : "bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-[#fec940]"
-                          } flex flex-row gap-2 items-center`}
-                          style={{ transition: "0.5s" }}
+                        <div className="flex items-center justify-end p-4">
+                          <button
+                            onClick={(e) => handleViewClick(color3.id, e)}
+                            className={`px-2 py-2 rounded-lg text-[17px] font-medium ${
+                              isActive
+                                ? "bg-transparent border border-[#fec940] text-black"
+                                : "bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-[#fec940]"
+                            } flex flex-row gap-2 items-center`}
+                            style={{ transition: "0.5s" }}
+                          >
+                            {isActive ? "Close" : "View"}
+                          </button>
+                        </div>
+                      </article>
+
+                      {/* Details section for small screens - directly below this color box */}
+                      {isActive && isSmallScreen && (
+                        <div
+                          id={`details-${color3.id}`}
+                          className="mt-4 mb-8 bg-white p-4 rounded-lg shadow-md" 
+                          data-aos="zoom-in"
                         >
-                          {isActive ? "Close" : "View"}
-                        </button>
-                      </div>
-                    </article>
+                          <div className="flex flex-col gap-4">
+                            <div>
+                              <img
+                                src={colorData.mainImage.src}
+                                alt={colorData.title}
+                                className="w-full rounded-lg shadow-sm mb-4"
+                              />
+                            </div>
+                            <div>
+                              <h3 className="text-[20px] font-semibold mb-3">
+                                {colorData.title}
+                              </h3>
+                              <div className="grid grid-cols-2 gap-3">
+                                {colorData.contentBoxes.map((box, idx) => (
+                                  <div
+                                    key={`${colorData.id}-box-${idx}`}
+                                    className="flex flex-col items-center"
+                                  >
+                                    <div
+                                      className="w-full max-w-[120px] h-[120px] rounded-md shadow-sm mb-2"
+                                      style={{ backgroundColor: box.boxColor }}
+                                    ></div>
+                                    <div>
+                                      <p className="text-[18px] font-[500]">
+                                        {box.title}
+                                      </p>
+                                      <p className="text-[14px] text-gray-600">
+                                        {box.content}
+                                      </p>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                    </div>
 
-                    {/* Details section - shown only when this color is active */}
-                    {isActive && (
+                    {/* Details section for larger screens - full width row */}
+                    {isActive && !isSmallScreen && (
                       <div
                         id={`details-${color3.id}`}
-                        className="mt-4 bg-white p-6 rounded-lg shadow-md" data-aos="zoom-in"
+                        className="mt-4 bg-white p-6 rounded-lg shadow-md" 
+                        data-aos="zoom-in"
                         style={{
                           gridColumn: "1 / -1",
                           gridRow: `${rowIndex + 2}`,
                           order: rowIndex * colsPerRow + colsPerRow + 1,
                         }}
                       >
-                        <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-8">
+                        <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8">
                           <div>
                             <img
                               src={colorData.mainImage.src}
