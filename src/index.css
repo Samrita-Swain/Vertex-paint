@@ -538,7 +538,7 @@ a:hover .icon{
 /* Width of the scrollbar */
 ::-webkit-scrollbar {
   width: 5px;
-  height: 5px; /* For horizontal scrollbars */
+  height: 5px;  /* For horizontal scrollbars */
 }
 
 /* Track (background) */

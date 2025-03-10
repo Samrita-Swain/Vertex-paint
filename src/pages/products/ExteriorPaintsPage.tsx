@@ -56,17 +56,17 @@ const ExteriorPaintsPage = () => {
           {/* Tab Content */}
           <div className="p-4 text-center">
             {activeTab === "Wall Paints" && (
-              <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]" data-aos="fade-up" data-aos-duration="1500">
+              <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-[2rem]" data-aos="fade-up" data-aos-duration="1500">
                 <div className="first-img relative">
                   <img
-                    src="/images/Metal Guard.png"
+                    src="/images/Fine Square.png"
                     alt=""
                     className="rounded-[10px]"
                   />
 
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="text-[35px] font-bold mb-5">Metal Guard</h1>
+                    <h1 className="text-[30px] font-bold mb-5">Metal Guard</h1>
                     <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto{" "}
                       <span className="text-[18px] font-extrabold">15</span>{" "}
@@ -91,7 +91,7 @@ const ExteriorPaintsPage = () => {
                   />
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="text-[35px] font-bold mb-5">Silk Shine</h1>
+                    <h1 className="text-[30px] font-bold mb-5">Silk Shine</h1>
                     <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto <span className="text-[18px] font-extrabold">6</span>{" "}
                       Years
@@ -106,13 +106,34 @@ const ExteriorPaintsPage = () => {
 
                 <div className="third-img relative">
                   <img
-                    src="/images/ACME.png"
+                    src="/images/Titanium One.png"
                     alt=""
                     className="rounded-[10px]"
                   />
                   {/* Centering Content */}
-                  <div className="content absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="text-[35px] font-bold mb-5">Acme</h1>
+                  <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
+                    <h1 className="text-[30px] font-bold mb-5">Titanium One</h1>
+                    <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
+                      Upto <span className="text-[18px] font-extrabold">4</span>{" "}
+                      Years
+                    </p>
+                    <p className="text-[15px]">Performance Warranty</p>
+                    {/* <a href="/AcemExterioremulsions" className="exterior-second-band-button">
+                      Explore
+                      <FaArrowRight className="icon" />
+                    </a> */}
+                  </div>
+                </div>
+
+                <div className="fourth-img relative">
+                  <img
+                    src="/images/Ultra wrp.png"
+                    alt=""
+                    className="rounded-[10px]"
+                  />
+                  {/* Centering Content */}
+                  <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
+                    <h1 className="text-[30px] font-bold mb-5">Ultra wrp</h1>
                     <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto <span className="text-[18px] font-extrabold">4</span>{" "}
                       Years
@@ -136,7 +157,7 @@ const ExteriorPaintsPage = () => {
                   />
 
                   {/* Centering Content */}
-                  <div className="content absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
+                  <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
                     <h1 className="text-[35px] font-bold mb-5">Ultima</h1>
                     <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto{" "}
@@ -144,10 +165,10 @@ const ExteriorPaintsPage = () => {
                       Years
                     </p>
                     <p className="text-[15px] mb-5">Performance Warranty</p>
-                    <button className="exterior-second-band-button">
+                    {/* <button className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
-                    </button>
+                    </button> */}
                   </div>
                 </div>
 
@@ -158,17 +179,17 @@ const ExteriorPaintsPage = () => {
                     className="rounded-[10px]"
                   />
                   {/* Centering Content */}
-                  <div className="content absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
+                  <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
                     <h1 className="text-[35px] font-bold mb-5">Apex</h1>
                     <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto <span className="text-[18px] font-extrabold">6</span>{" "}
                       Years
                     </p>
                     <p className="text-[15px] mb-5">Performance Warranty</p>
-                    <button className="exterior-second-band-button">
+                    {/* <button className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
-                    </button>
+                    </button> */}
                   </div>
                 </div>
 
@@ -179,17 +200,17 @@ const ExteriorPaintsPage = () => {
                     className="rounded-[10px]"
                   />
                   {/* Centering Content */}
-                  <div className="content absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
+                  <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
                     <h1 className="text-[35px] font-bold mb-5">Acme</h1>
                     <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto <span className="text-[18px] font-extrabold">4</span>{" "}
                       Years
                     </p>
                     <p className="text-[15px] mb-5">Performance Warranty</p>
-                    <button className="exterior-second-band-button">
+                    {/* <button className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
