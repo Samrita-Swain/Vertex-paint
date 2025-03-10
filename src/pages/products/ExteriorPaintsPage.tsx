@@ -351,8 +351,6 @@ const ExteriorPaintsPage = () => {
           </div>
           <div
             className="ultima-box group relative p-4"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
@@ -403,8 +401,6 @@ const ExteriorPaintsPage = () => {
           </div>
           <div
             className="ultima-box group relative p-4"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
@@ -455,8 +451,6 @@ const ExteriorPaintsPage = () => {
           </div>
           <div
             className="ultima-box group relative p-4"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
@@ -507,8 +501,6 @@ const ExteriorPaintsPage = () => {
           </div>
           <div
             className="ultima-box group relative p-4"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
