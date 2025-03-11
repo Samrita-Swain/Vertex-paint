@@ -44,7 +44,6 @@ import TDS from './pages/TDS';
 import Exterioremulsions from './pages/products/Exterioremulsions';
 import ApexExterioremulsions from './pages/products/ApexExterioremulsions';
 import AcemExterioremulsions from './pages/products/AcemExterioremulsions';
-import Product1 from './pages/products/Product1';
 import ScrollToTop from './components/ScrollToTop';
 import CraftedCube from './pages/products/CraftedCube';
 import PeacefulSerene from './pages/products/PeacefulSerene';
@@ -68,6 +67,21 @@ import ArchedResidence from './pages/products/ArchedResidence';
 import TrendyStylish from './pages/products/TrendyStylish';
 import SoftRelaxing from './pages/products/SoftRelaxing';
 import ExcitingBright from './pages/products/ExcitingBright';
+import FineSquare from './pages/products/Finesquare';
+import SilkShine from './pages/products/SilkShine';
+import TitaniumOne from './pages/products/TitaniumOne';
+import UltraWrp from './pages/products/UltraWrp';
+import ExteriorBaseCoat from './pages/products/ExteriarBaseCoat';
+import ACMECementPrimer from './pages/products/ACMECementPrimer';
+import PremiumEmulsion from './pages/products/PremiumEmulsion';
+import ACME from './pages/products/ACME';
+import MattFinish from './pages/products/MattFinish';
+import EasyWash from './pages/products/EasyWash';
+import PrimerBrown from './pages/products/PrimerBrown';
+import MetalGuard from './pages/products/MetalGuard';
+import ACMEWrp from './pages/products/ACMEWrp';
+import BDSeal from './pages/products/BDSeal';
+import CoolRoof from './pages/products/CoolRoof';
 
 function App() {
   useEffect(() => {
@@ -165,8 +179,51 @@ function App() {
               {/* Exterior Emulsions */}
               <Route path="/Exterioremulsions" element={<Exterioremulsions />} />
 
-              {/* Exterior Emulsions products */}
-              <Route path="/Product1" element={<Product1 />} />
+              {/* Exterior Emulsions-ACME-CementPrimer */}
+              <Route path="/Exterior/ACME-CementPrimer" element={<ACMECementPrimer />} />
+
+              {/* Exterior Emulsions-ExteriorBaseCoat */}
+              <Route path="/Exterior/ExteriorBaseCoat" element={<ExteriorBaseCoat />} />
+
+              {/* Exterior Emulsions-Fine Square products */}
+              <Route path="/Exterior/FineSquare" element={<FineSquare />} />
+
+              {/* Exterior Emulsions-Silk Shine products */}
+              <Route path="/Exterior/SilkShine" element={<SilkShine />} />
+
+               {/* Exterior Emulsions-Titanium One products */}
+               <Route path="/Exterior/TitaniumOne" element={<TitaniumOne />} />
+
+               {/* Exterior Emulsions-Ultra Wrp products */}
+               <Route path="/Exterior/UltraWrp" element={<UltraWrp />} />
+
+               {/* Exterior Emulsions-Premium Emulsion products */}
+               <Route path="/Exterior/PremiumEmulsion" element={<PremiumEmulsion />} />
+
+               {/* Exterior Emulsions-ACME products */}
+               <Route path="/Exterior/ACME" element={<ACME />} />
+
+               {/* Exterior Emulsions-MattFinish products */}
+               <Route path="/Exterior/MattFinish" element={<MattFinish />} />
+
+               {/* Exterior Emulsions-EasyWash products */}
+               <Route path="/Exterior/EasyWash" element={<EasyWash />} />
+
+               {/* Exterior Emulsions-Primer Surface Brown products */}
+               <Route path="/Exterior/PrimerSurfaceBrown" element={<PrimerBrown />} />
+
+                {/* Exterior Emulsions-Metal Guard products */}
+                <Route path="/Exterior/MetalGuard" element={<MetalGuard />} />
+
+                {/* Exterior Emulsions-ACME ultra WRP products */}
+                <Route path="/Exterior/ACMEUltraWRP" element={<ACMEWrp />} />
+
+                {/* Exterior Emulsions-BD Seal products */}
+                <Route path="/Exterior/BDSeal" element={<BDSeal />} />
+
+                {/* Exterior Emulsions-Cool Roof products */}
+                <Route path="/Exterior/CoolRoof" element={<CoolRoof />} />
+
 
               {/* Apex Exterior Emulsions */}
               <Route path="/ApexExterioremulsions" element={<ApexExterioremulsions />} />

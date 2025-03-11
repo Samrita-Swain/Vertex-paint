@@ -58,15 +58,17 @@ const ExteriorPaintsPage = () => {
             {activeTab === "Wall Paints" && (
               <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-[2rem]" data-aos="fade-up" data-aos-duration="1500">
                 <div className="first-img relative">
+                  <a href="/Exterior/FineSquare" className="cursor-pointer">
                   <img
                     src="/images/Fine Square.png"
                     alt=""
                     className="rounded-[10px]"
                   />
+                  </a>
 
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="text-[30px] font-bold mb-5">Metal Guard</h1>
+                    <h1 className="text-[30px] font-bold mb-5">Fine Square</h1>
                     <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto{" "}
                       <span className="text-[18px] font-extrabold">15</span>{" "}
@@ -84,11 +86,13 @@ const ExteriorPaintsPage = () => {
                 </div>
 
                 <div className="second-img relative">
+                  <a href="/Exterior/SilkShine" className="cursor-pointer">
                   <img
                     src="/images/Luxury Emulsion.png"
                     alt=""
                     className="rounded-[10px]"
                   />
+                  </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
                     <h1 className="text-[30px] font-bold mb-5">Silk Shine</h1>
@@ -105,11 +109,13 @@ const ExteriorPaintsPage = () => {
                 </div>
 
                 <div className="third-img relative">
+                  <a href="/Exterior/TitaniumOne" className="cursor-pointer">
                   <img
                     src="/images/Titanium One.png"
                     alt=""
                     className="rounded-[10px]"
                   />
+                  </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
                     <h1 className="text-[30px] font-bold mb-5">Titanium One</h1>
@@ -126,14 +132,16 @@ const ExteriorPaintsPage = () => {
                 </div>
 
                 <div className="fourth-img relative">
+                  <a href="/Exterior/UltraWrp" className="cursor-pointer">
                   <img
                     src="/images/Ultra wrp.png"
                     alt=""
                     className="rounded-[10px]"
                   />
+                  </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="text-[30px] font-bold mb-5">Ultra wrp</h1>
+                    <h1 className="text-[30px] font-bold mb-5">Ultra WRP</h1>
                     <p className="text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto <span className="text-[18px] font-extrabold">4</span>{" "}
                       Years
@@ -223,7 +231,7 @@ const ExteriorPaintsPage = () => {
         <h1 className="gradient-text text-[40px] font-bold text-center mb-[35px]">Exterior Emulsions
         </h1>
         <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
-          <a href="/Product1"
+          <a href="/Exterior/ACME-CementPrimer"
             className="ultima-box group relative p-4 cursor-pointer"
             data-aos="zoom-in"
             data-aos-duration="1500"
@@ -239,8 +247,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                ACME Water Thinable Cement Primer
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -249,8 +257,8 @@ const ExteriorPaintsPage = () => {
               </ul>
             </div>
           </a>
-          <div
-            className="ultima-box group relative p-4"
+          <a href="/Exterior/ExteriorBaseCoat"
+            className="ultima-box group relative p-4 cursor-pointer"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
@@ -263,8 +271,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Exterior Base Coat
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -272,9 +280,9 @@ const ExteriorPaintsPage = () => {
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/PremiumEmulsion"
+            className="ultima-box group relative p-4 cursor-pointer"
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
@@ -289,8 +297,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Premium Emulsion
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -298,9 +306,9 @@ const ExteriorPaintsPage = () => {
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/ACME"
+            className="ultima-box group relative p-4 cursor-pointer"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
@@ -313,8 +321,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                ACME
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -322,9 +330,9 @@ const ExteriorPaintsPage = () => {
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/MattFinish"
+            className="ultima-box group relative p-4 cursor-pointer"
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
@@ -339,8 +347,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Ext. /Int. Emulsion Matt Finish
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -348,9 +356,9 @@ const ExteriorPaintsPage = () => {
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/EasyWash"
+            className="ultima-box group relative p-4 cursor-pointer"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
@@ -363,8 +371,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Easy Wash
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -372,9 +380,9 @@ const ExteriorPaintsPage = () => {
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/PrimerSurfaceBrown"
+            className="ultima-box group relative p-4 cursor-pointer"
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
@@ -389,8 +397,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Primer Surface Brown
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -398,9 +406,9 @@ const ExteriorPaintsPage = () => {
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/MetalGuard"
+            className="ultima-box group relative p-4 cursor-pointer"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
@@ -413,8 +421,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Metal Guard
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -422,9 +430,9 @@ const ExteriorPaintsPage = () => {
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/ACMEUltraWRP"
+            className="ultima-box group relative p-4 cursor-pointer"
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
@@ -439,8 +447,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                ACME Ultra WRP
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -448,33 +456,9 @@ const ExteriorPaintsPage = () => {
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
-          >
-            <div>
-              <div className="flex justify-center items-center h-[150px]">
-                <img
-                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
-                  src="/images/11.png"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
-              </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
-                <li>WALLS of S.T.E.E.L</li>
-                <li>15 years warranty*</li>
-                <li>Advanced PUD Formula</li>
-              </ul>
-            </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/BDSeal"
+            className="ultima-box group relative p-4 cursor-pointer"
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
@@ -489,8 +473,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                BD Seal
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -498,9 +482,9 @@ const ExteriorPaintsPage = () => {
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/CoolRoof"
+            className="ultima-box group relative p-4 cursor-pointer"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
@@ -513,8 +497,8 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Cool Roof
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -522,7 +506,7 @@ const ExteriorPaintsPage = () => {
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
+          </a>
         </div>
       </div>
 

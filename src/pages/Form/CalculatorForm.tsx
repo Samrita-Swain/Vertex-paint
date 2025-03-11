@@ -489,7 +489,7 @@ const PaintingCalculatorForm: React.FC = () => {
         data-aos="fade-up" data-aos-duration="1500"
       >
         {/* Left Section: Form */}
-        <div className="w-full mx-auto p-6 shadow-lg rounded-xl">
+        <div className="w-full mx-auto p-6 shadow-lg rounded-xl bg-[#eef3f9a6]">
           {/* Step 1: Select Project Type */}
           <div className="mb-4">
             <h3 className="text-lg font-semibold mb-2">
@@ -568,7 +568,7 @@ const PaintingCalculatorForm: React.FC = () => {
         </div>
 
         {/* Right Section: Product Selection and Total Cost */}
-        <div className="w-full p-6 shadow-lg rounded-xl">
+        <div className="w-full p-6 shadow-lg rounded-xl bg-[#eef3f9a6]">
           <h3 className="text-lg font-semibold mb-4">Available Products{" "}
           <span className="text-red-500">*</span>
           </h3>
