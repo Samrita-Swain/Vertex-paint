@@ -82,7 +82,7 @@ const Form: React.FC = () => {
       <div className="bg-[#2c3789] text-white p-12 lg:rounded-[30px] w-full mx-auto grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-6 items-center">
         {/* Left Section - Now takes 1/3 of the space */}
         <div className="w-full lg:col-span-1 md:col-span-1">
-        <h2 className="text-[37px] md:text-[40px] lg:text-[40px] font-bold mb-3">Get Expert Advice</h2>
+        <h2 className="form-header text-[37px] md:text-[40px] lg:text-[40px] font-bold mb-3">Get Expert Advice</h2>
           <p className="text-[20px] font-[400] text-[#ffffff91]">
             Bid goodbye to your home furnishing hassles with our expert
             supervision

@@ -495,7 +495,11 @@ a:hover .icon{
 
 
 
-
+@media (max-width: 372px){
+  .form-header{
+    font-size: 34px !important;
+  }
+}
 @media (max-width: 768px){
   .overlay-content {
     padding: 30px;
