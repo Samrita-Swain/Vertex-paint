@@ -37,7 +37,7 @@ const ColorOptions = () => {
                 <div className="overlay-content flex flex-col items-start">
                 <h5 className="text-[20px]">Exterior Paints</h5>
                 <p className="text-[#ffffffa6] text-[17px]">Enhance your outdoor spaces with our range of exterior paints and textures tailored for you, from high-end to budget-friendly.</p>
-                <a href="../products/exterior">View Deatils <FaArrowRight className="icon"/></a>
+                <a href="/ExteriorWallPaint">View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>

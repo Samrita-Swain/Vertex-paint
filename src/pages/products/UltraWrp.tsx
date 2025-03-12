@@ -83,34 +83,8 @@ fresh for long.</p>
         <h1 className="gradient-text text-[40px] font-bold text-center mb-[35px]">Exterior Emulsions
         </h1>
         <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
-          {/* <a href="/Product1"
+        <a href="/Exterior/ExteriorBaseCoat"
             className="ultima-box group relative p-4 cursor-pointer"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-          >
-            <div>
-              <div className="flex justify-center items-center h-[150px]">
-                <img
-                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
-                  src="/images/1.png"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
-              </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
-                <li>WALLS of S.T.E.E.L</li>
-                <li>15 years warranty*</li>
-                <li>Advanced PUD Formula</li>
-              </ul>
-            </div>
-          </a> */}
-          <div
-            className="ultima-box group relative p-4"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
@@ -123,8 +97,8 @@ fresh for long.</p>
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Exterior Base Coat
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -132,9 +106,9 @@ fresh for long.</p>
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/PremiumEmulsion"
+            className="ultima-box group relative p-4 cursor-pointer"
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
@@ -149,8 +123,8 @@ fresh for long.</p>
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Premium Emulsion
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -158,9 +132,9 @@ fresh for long.</p>
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/ACME"
+            className="ultima-box group relative p-4 cursor-pointer"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
@@ -173,8 +147,8 @@ fresh for long.</p>
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                ACME
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -182,9 +156,9 @@ fresh for long.</p>
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/MattFinish"
+            className="ultima-box group relative p-4 cursor-pointer"
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
@@ -199,8 +173,8 @@ fresh for long.</p>
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Ext. /Int. Emulsion Matt Finish
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -208,23 +182,23 @@ fresh for long.</p>
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
-          <div
-            className="ultima-box group relative p-4"
+          </a>
+          <a href="/Exterior/EasyWash"
+            className="ultima-box group relative p-4 cursor-pointer"
           >
             <div>
               <div className="flex justify-center items-center h-[150px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
-                  src="/images/2.png"
+                  src="/images/7.png"
                   alt=""
                 />
               </div>
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px]">
-                Apex Ultima Protek Duralife
+              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+                Easy Wash
               </h6>
               <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
@@ -232,7 +206,7 @@ fresh for long.</p>
                 <li>Advanced PUD Formula</li>
               </ul>
             </div>
-          </div>
+          </a>
           
         </div>
       </div>

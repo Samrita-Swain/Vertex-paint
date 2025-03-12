@@ -234,7 +234,7 @@ function App() {
               {/* Paint Routes */}
               <Route path="/products/interior" element={<InteriorPaintsPage />} />
               <Route path="/products/interior/:id" element={<ProductDetail />} />
-              <Route path="/products/exterior" element={<ExteriorPaintsPage />} />
+              <Route path="/ExteriorWallPaint" element={<ExteriorPaintsPage />} />
               <Route path="/products/exterior/:id" element={<ProductDetail />} />
               <Route path="/textures" element={<TexturesPage />} />
               <Route path="/textures/:id" element={<TextureDetail />} />

@@ -477,7 +477,7 @@ a:hover .icon{
 
 
 .bouncing-img {
-  width: 30%; /* Adjust as needed */
+  width: 30%; 
   animation: bounce 1.5s infinite ease-in-out;
 }
 
@@ -503,6 +503,10 @@ a:hover .icon{
   .last-footer{
     margin-bottom: 20px;
   }
+  .bouncing-img {
+    width: 50%; 
+  }
+  
 }
 
 @media (max-width: 423px){

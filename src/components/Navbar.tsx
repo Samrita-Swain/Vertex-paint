@@ -29,7 +29,7 @@ const MENU_DATA: MenuDataType = {
         title: 'Paint Products',
         items: [
           { name: 'Interior Paints', link: '/products/InteriorPaintsPage' },
-          { name: 'Exterior Paints', link: '/products/exterior' },
+          { name: 'Exterior Paints', link: '/ExteriorWallPaint' },
           { name: 'Wall Paints Product Finder', link: '/products/exterior/WallPaintsProductFinder' },
           { name: 'Waterproofing', link: '/products/interior/Waterproofing' },
           { name: 'Wood Paints', link: '/products/interior/Waterproofing' },

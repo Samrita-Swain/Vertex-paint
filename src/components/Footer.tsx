@@ -57,7 +57,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/products/exterior"
+                  to="/ExteriorWallPaint"
                   className="hover:text-[#e51126] transition duration-300"
                 >
                   Exterior Paints
