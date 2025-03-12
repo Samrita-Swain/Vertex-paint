@@ -495,9 +495,9 @@ a:hover .icon{
 
 
 
-@media (max-width: 372px){
+@media (max-width: 387px){
   .form-header{
-    font-size: 34px !important;
+    font-size: 30px !important;
   }
 }
 @media (max-width: 768px){
