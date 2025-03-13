@@ -13,7 +13,7 @@ const FeaturedProducts = () => {
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-[2rem]" data-aos="fade-up" data-aos-duration="1500">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-[2rem] p-12" data-aos="fade-up" data-aos-duration="1500">
                 <div className="first-img relative">
                   <a href="/Exterior/FineSquare" className="cursor-pointer">
                   <img
