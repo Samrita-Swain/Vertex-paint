@@ -72,8 +72,8 @@ const QuickLink = ({
   <div className="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-50 transition duration-500 hover:shadow-lg">
     <img src={icon} alt={title} className="w-24 h-24" />
     <div>
-      <h3 className="font-medium text-gray-900">{title}</h3>
-      <p className="text-sm text-gray-600">{description}</p>
+      <h3 className="text-[17px] font-medium text-gray-900">{title}</h3>
+      <p className="text-[15px] text-gray-600">{description}</p>
     </div>
   </div>
 );
