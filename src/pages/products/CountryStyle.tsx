@@ -13,19 +13,19 @@ const CountryStyle = () => {
         {
           title: "VL155P",
           content: "Pale Sisal",
-          boxColor: "#eeeee4",
+          boxColor: "#f4f2e8",
           textColor: "#000"
         },
         {
           title: "V0509P",
           content: "Geranium",
-          boxColor: "#ad493f",
+          boxColor: "#b34b42",
           textColor: "#000"
         },
         {
           title: "V8780P",
           content: "Southern Sand",
-          boxColor: "#e4dacb",
+          boxColor: "#e6dcd1",
           textColor: "#000"
         }
       ]
@@ -41,13 +41,13 @@ const CountryStyle = () => {
         {
           title: "V7836P",
           content: "Vanilla Ice",
-          boxColor: "#eee9da",
+          boxColor: "#f2efdc",
           textColor: "#000"
         },
         {
           title: "V9867P",
           content: "Mosambi Yellow - N",
-          boxColor: "#eecb6c",
+          boxColor: "#f2d16f",
           textColor: "#000"
         }
       ]
@@ -63,13 +63,13 @@ const CountryStyle = () => {
         {
           title: "V8299P",
           content: "Ice Age",
-          boxColor: "#d5d0cb",
+          boxColor: "#d7d4cf",
           textColor: "#000"
         },
         {
           title: "V8113P",
           content: "Bed of Roses",
-          boxColor: "#daa8b2",
+          boxColor: "#e0abb4",
           textColor: "#000"
         }
       ]
@@ -85,19 +85,19 @@ const CountryStyle = () => {
         {
           title: "V7777P",
           content: "Fresh Sprout",
-          boxColor: "#dadf99",
+          boxColor: "#dce49f",
           textColor: "#000"
         },
         {
           title: "V8106P",
           content: "Daisy Bunch",
-          boxColor: "#dfbcbc",
+          boxColor: "#e5bec0",
           textColor: "#000"
         },
         {
           title: "V9983P",
           content: "Brick Dust - N",
-          boxColor: "#b25853",
+          boxColor: "#b75e56",
           textColor: "#000"
         }
       ]
@@ -113,13 +113,13 @@ const CountryStyle = () => {
         {
           title: "V8417P",
           content: "Herb Bouquet",
-          boxColor: "#a8b299",
+          boxColor: "#acb89e",
           textColor: "#000"
         },
         {
           title: "V9405P",
           content: "Rich Tomato",
-          boxColor: "#a84944",
+          boxColor: "#ab4e49",
           textColor: "#000"
         }
       ]
@@ -191,7 +191,7 @@ external wood façade, it captures the essence of rustic style.
           </div>
         </div>
 
-        <div className="p-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 mt-6 w-full text-center">
+        <div className="p-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 w-full text-center">
           {/* Main Image */}
           {activeTab.mainImage && (
             <div className="mt-4">

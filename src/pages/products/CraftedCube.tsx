@@ -13,13 +13,13 @@ const CraftedCube = () => {
         {
           title: "V8004P",
           content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          boxColor: "#f7f0e3",
           textColor: "#000"
         },
         {
           title: "V9983P",
           content: "Brick Dust - N",
-          boxColor: "#b45a55",
+          boxColor: "#b75e56",
           textColor: "#000"
         },
         {
@@ -41,20 +41,20 @@ const CraftedCube = () => {
         {
           title: "V8300P",
           content: "Confetti",
-          boxColor: "#e1dcd7",
+          boxColor: "#e2dfd8",
           textColor: "#000"
         },
         {
           title: "V8639P",
           content: "Brick Tone",
-          boxColor: "#a06e64",
+          boxColor: "#a37064",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
+      color: "#e8ebeb",
       title: "Crafted Cube - C",
       description:
         "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
@@ -63,19 +63,19 @@ const CraftedCube = () => {
         {
           title: "V7300P",
           content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          boxColor: "#e8ebeb",
           textColor: "#000"
         },
         {
           title: "V7927P",
           content: "Casablanca",
-          boxColor: "#ebc373",
+          boxColor: "#ecc375",
           textColor: "#000"
         },
         {
           title: "V8581P",
           content: "Antique Brass",
-          boxColor: "#7d5a46",
+          boxColor: "#805d47",
           textColor: "#000"
         }
       ]
@@ -91,19 +91,19 @@ const CraftedCube = () => {
         {
           title: "V7891P",
           content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          boxColor: "#efe2c0",
           textColor: "#000"
         },
         {
           title: "V7304P",
           content: "Piece of Sky",
-          boxColor: "#698ca5",
+          boxColor: "#6c90a9",
           textColor: "#000"
         },
         {
           title: "V8566P",
           content: "Tree Bark",
-          boxColor: "#9b785a",
+          boxColor: "#9f795e",
           textColor: "#000"
         }
       ]
@@ -119,13 +119,13 @@ const CraftedCube = () => {
         {
           title: "V7880P",
           content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          boxColor: "#e8d18f",
           textColor: "#000"
         },
         {
           title: "V8288P",
           content: "Stone Age",
-          boxColor: "#82878c",
+          boxColor: "#83898c",
           textColor: "#000"
         }
       ]
@@ -196,7 +196,7 @@ const CraftedCube = () => {
           </div>
         </div>
 
-        <div className="px-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 mt-6 w-full text-center">
+        <div className="px-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 w-full text-center">
           {/* Main Image */}
           {activeTab.mainImage && (
             <div className="mt-4">

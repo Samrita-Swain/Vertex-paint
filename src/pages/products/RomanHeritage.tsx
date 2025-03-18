@@ -13,13 +13,13 @@ const RomanHeritage = () => {
         {
           title: "V7162P",
           content: "Quartz Illusion",
-          boxColor: "#aa9eae",
+          boxColor: "#dccee4",
           textColor: "#000"
         },
         {
           title: "V8527P",
           content: "Antelope",
-          boxColor: "#ad946c",
+          boxColor: "#b39671",
           textColor: "#000"
         },
         {
@@ -41,13 +41,13 @@ const RomanHeritage = () => {
         {
           title: "VL157P",
           content: "White Canvas",
-          boxColor: "#e0dbcd",
+          boxColor: "#ede7db",
           textColor: "#000"
         },
         {
           title: "V7887P",
           content: "Pine Cone",
-          boxColor: "#c1a362",
+          boxColor: "#c4a666",
           textColor: "#000"
         }
       ]
@@ -63,19 +63,19 @@ const RomanHeritage = () => {
         {
           title: "V7412P",
           content: "Whispering Breeze",
-          boxColor: "#bec7c7",
+          boxColor: "#dfeae8",
           textColor: "#000"
         },
         {
           title: "V8304P",
           content: "Grey Matter",
-          boxColor: "#808080",
+          boxColor: "#838585",
           textColor: "#000"
         },
         {
           title: "V8109P",
           content: "Fine Wine",
-          boxColor: "#7b3f49",
+          boxColor: "#81454f",
           textColor: "#000"
         }
       ]
@@ -91,13 +91,13 @@ const RomanHeritage = () => {
         {
           title: "V8002P",
           content: "Bashful Beige",
-          boxColor: "#f8d5bc",
+          boxColor: "#fcdabf",
           textColor: "#000"
         },
         {
           title: "V8325P",
           content: "Eclipse",
-          boxColor: "#535349",
+          boxColor: "#55564f",
           textColor: "#000"
         }
       ]
@@ -113,13 +113,13 @@ const RomanHeritage = () => {
         {
           title: "V9210P",
           content: "Soft Blue",
-          boxColor: "#a8d5e9",
+          boxColor: "#abd7eb",
           textColor: "#000"
         },
         {
           title: "V8258P",
           content: "Winter Moon",
-          boxColor: "#c1c6c6",
+          boxColor: "#c7cacb",
           textColor: "#000"
         }
       ]
@@ -191,7 +191,7 @@ home truly distinctive.
           </div>
         </div>
 
-        <div className="px-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 mt-6 w-full text-center">
+        <div className="px-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 w-full text-center">
           {/* Main Image */}
           {activeTab.mainImage && (
             <div className="mt-4">

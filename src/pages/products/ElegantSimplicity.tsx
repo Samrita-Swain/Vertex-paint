@@ -13,19 +13,19 @@ const ElegantSimplicity = () => {
         {
           title: "V0765P",
           content: "Morning Glory",
-          boxColor: "#eee9df",
+          boxColor: "#f1ece2",
           textColor: "#000"
         },
         {
           title: "V8066P",
           content: "Tinge of Pink",
-          boxColor: "#f8d5d0",
+          boxColor: "#fbd8d3",
           textColor: "#000"
         },
         {
           title: "V8615P",
           content: "Copper Coast",
-          boxColor: "#ad7162",
+          boxColor: "#b37765",
           textColor: "#000"
         }
       ]
@@ -41,19 +41,19 @@ const ElegantSimplicity = () => {
         {
           title: "V8756P",
           content: "Sound of Music",
-          boxColor: "#dad0cb",
+          boxColor: "#dfd5cd",
           textColor: "#000"
         },
         {
           title: "V8649P",
           content: "Hidden Vale",
-          boxColor: "#b79e94",
+          boxColor: "#b9a198",
           textColor: "#000"
         },
         {
           title: "V0509P",
           content: "Geranium",
-          boxColor: "#ad493f",
+          boxColor: "#b34b42",
           textColor: "#000"
         }
       ]
@@ -69,19 +69,19 @@ const ElegantSimplicity = () => {
         {
           title: "V9228P",
           content: "Solitude",
-          boxColor: "#cbdfdf",
+          boxColor: "#d1e3e3",
           textColor: "#000"
         },
         {
           title: "V7411P",
           content: "Nautilus",
-          boxColor: "#c1dfe4",
+          boxColor: "#c4e3e6",
           textColor: "#000"
         },
         {
           title: "V6134P",
           content: "Smoke Grey",
-          boxColor: "#6c808f",
+          boxColor: "#708494",
           textColor: "#000"
         }
       ]
@@ -97,19 +97,19 @@ const ElegantSimplicity = () => {
         {
           title: "V7947P",
           content: "Corn Cob",
-          boxColor: "#f3e9c6",
+          boxColor: "#f8eecb",
           textColor: "#000"
         },
         {
           title: "V8034P",
           content: "Pink Bib",
-          boxColor: "#f8d0c6",
+          boxColor: "#fcd5c8",
           textColor: "#000"
         },
         {
           title: "V9988P",
           content: "Rich Maple - N",
-          boxColor: "#c66253",
+          boxColor: "#cb6755",
           textColor: "#000"
         }
       ]
@@ -125,19 +125,19 @@ const ElegantSimplicity = () => {
         {
           title: "V8778P",
           content: "Walnut Cream",
-          boxColor: "#d0c1b2",
+          boxColor: "#d4c3b4",
           textColor: "#000"
         },
         {
           title: "V8568P",
           content: "Indian Spice",
-          boxColor: "#b7947b",
+          boxColor: "#bb9a80",
           textColor: "#000"
         },
         {
           title: "V8270P",
           content: "Ink Grey",
-          boxColor: "#4e626c",
+          boxColor: "#546571",
           textColor: "#000"
         }
       ]
@@ -208,7 +208,7 @@ gives it a sharp, contemporary edge
           </div>
         </div>
 
-        <div className="p-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 mt-6 w-full text-center">
+        <div className="p-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 w-full text-center">
           {/* Main Image */}
           {activeTab.mainImage && (
             <div className="mt-4">

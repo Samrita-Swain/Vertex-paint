@@ -193,7 +193,7 @@ const TDS = () => {
             }
           >
             <div className="product-img w-[50%]">
-              <img src="/images/7.png" alt="" />
+              <img src="/images/exterior-base-coat.png" alt="" />
             </div>
             <div className="product-content flex flex-col items-center">
               <h1 className="mb-3 text-[19px] text-center">
@@ -287,7 +287,7 @@ const TDS = () => {
             }
           >
             <div className="product-img w-[50%]">
-              <img src="/images/7.png" alt="" />
+              <img src="/images/Silk-Shine.png" alt="" />
             </div>
             <div className="product-content flex flex-col items-center">
               <h1 className="mb-3 text-[19px] text-center">

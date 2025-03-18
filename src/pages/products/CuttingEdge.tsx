@@ -13,19 +13,19 @@ const CuttingEdge = () => {
         {
           title: "V7220P",
           content: "Shy Iris",
-          boxColor: "#e9e9e4",
+          boxColor: "#eeece9",
           textColor: "#000",
         },
         {
           title: "V8439P",
           content: "Wrought Iron",
-          boxColor: "#807b71",
+          boxColor: "#847d73",
           textColor: "#000",
         },
         {
           title: "V7888P",
           content: "Ginger Root",
-          boxColor: "#cbb276",
+          boxColor: "#d1b67b",
           textColor: "#000",
         },
       ],
@@ -41,13 +41,13 @@ const CuttingEdge = () => {
         {
           title: "V7882P",
           content: "Solemn Yellow",
-          boxColor: "#eedfb2",
+          boxColor: "#f2e4b6",
           textColor: "#000",
         },
         {
           title: "V0R05P",
           content: "Mahogany",
-          boxColor: "#6c3f3f",
+          boxColor: "#714143",
           textColor: "#000",
         },
       ],
@@ -63,13 +63,13 @@ const CuttingEdge = () => {
         {
           title: "V7961P",
           content: "Peaches and Cream",
-          boxColor: "#f8da9e",
+          boxColor: "#fedfa2",
           textColor: "#000",
         },
         {
           title: "V9624P",
           content: "Lilac Dusk - N",
-          boxColor: "#716c7b",
+          boxColor: "#746f7f",
           textColor: "#000",
         }
       ],
@@ -85,19 +85,19 @@ const CuttingEdge = () => {
         {
           title: "V7152P",
           content: "Mount Olympus",
-          boxColor: "#bca8cb",
+          boxColor: "#bfadce",
           textColor: "#000",
         },
         {
           title: "V7147P",
           content: "Lavender Laugh",
-          boxColor: "#dad0da",
+          boxColor: "#e0d5dd",
           textColor: "#000",
         },
         {
           title: "V5103P",
           content: "Amber - N",
-          boxColor: "#b77153",
+          boxColor: "#bb7755",
           textColor: "#000",
         },
       ],
@@ -113,19 +113,19 @@ const CuttingEdge = () => {
         {
           title: "V7624P",
           content: "Dry Sage",
-          boxColor: "#99bca3",
+          boxColor: "#9dc0a8",
           textColor: "#000",
         },
         {
           title: "V0615P",
           content: "Silver Grey",
-          boxColor: "#b2b7b2",
+          boxColor: "#b8b9b6",
           textColor: "#000",
         },
         {
           title: "V8304P",
           content: "Grey Matter",
-          boxColor: "#808080",
+          boxColor: "#838585",
           textColor: "#000",
         }
       ],
@@ -195,7 +195,7 @@ const CuttingEdge = () => {
           </div>
         </div>
 
-        <div className="p-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 mt-6 w-full text-center">
+        <div className="p-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 w-full text-center">
           {/* Main Image */}
           {activeTab.mainImage && (
             <div className="mt-4">

@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 interface ColorBox {
   id: string;
   color: string;
+  id_title: string;
+  id_content: string;
   view: string;
   title: string;
   mainImage: { src: string };
@@ -110,7 +112,15 @@ const PeacefulSerene = () => {
                           style={{ backgroundColor: color1.color }}
                         ></div>
 
-                        <div className="flex items-center justify-end p-4">
+                        <div className="flex items-center justify-between p-4">
+                        <div className="shades-info">
+                        <h3 className="text-[18px] font-semibold">
+                                {colorData.id_title}
+                              </h3>
+                              <p className="text-[15px]">
+                                {colorData.id_content}
+                              </p>
+                        </div>
                           <button
                             onClick={(e) => handleViewClick(color1.id, e)}
                             className={`px-2 py-2 rounded-lg text-[17px] font-medium ${
