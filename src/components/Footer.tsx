@@ -15,7 +15,7 @@ const Footer = () => {
               className="h-20"
             />
           </a>
-          <h1 className="text-[25px] font-bold">Vertex <span className="text-[#e71429]">Paint</span></h1>
+          <h1 className="text-[25px] font-bold">Vertex <span className="text-[#e71429]">Paints</span></h1>
           </div>
           <div className="flex space-x-6">
             {["facebook-f", "twitter", "instagram"].map((icon, index) => (
