@@ -146,8 +146,8 @@ const CraftedCube = () => {
 
         {/* Content */}
         <div className="relative content text-white text-center">
-          <h1 className="text-[50px] font-bold">Crafted Cube</h1>
-          <p className="text-[20px] text-[#ffffffb3]">
+          <h1 className="text-5xl font-medium mb-4">Crafted Cube</h1>
+          <p className="text-lg font-normal text-[#ffffffb3]">
             This home boasts an artistic, monolithic style with a contemporary
             flair. The mix of external claddings and textures enhances its
             modern appeal, while a uniquely designed, 5-shaped weather shed adds
@@ -210,8 +210,8 @@ const CraftedCube = () => {
           )}
           <div className="tab-content flex flex-col items-start">
             {/* Content Section */}
-          <h2 className="text-2xl font-bold text-left gradient-text">{activeTab.title}</h2>
-          <p className="text-lg mt-2 text-gray-700 text-left">{activeTab.description}</p>
+          <h2 className="text-3xl font-semibold text-left gradient-text">{activeTab.title}</h2>
+          <p className="text-[17px] font-normal mt-2 text-gray-700 text-left">{activeTab.description}</p>
 
           {/* Color Swatch Boxes Section */}
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-10 w-full">
@@ -236,8 +236,8 @@ const CraftedCube = () => {
                 
                 {/* Color information below the swatch */}
                 <div className="mt-3 text-center">
-                  <p className="font-medium text-black">{box.title}</p>
-                  <p className="text-gray-700">{box.content}</p>
+                  <p className="text-[16px] font-semibold  text-black">{box.title}</p>
+                  <p className="text-[14px] font-normal text-gray-700">{box.content}</p>
                 </div>
               </div>
             ))}

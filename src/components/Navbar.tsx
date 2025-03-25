@@ -28,7 +28,7 @@ const MENU_DATA: MenuDataType = {
       {
         title: 'Paint Products',
         items: [
-          { name: 'Interior Paints', link: '/products/InteriorPaintsPage' },
+          { name: 'Interior Paints', link: '/InteriorWallPaint' },
           { name: 'Exterior Paints', link: '/ExteriorWallPaint' },
           { name: 'Wall Paints Product Finder', link: '/products/exterior/WallPaintsProductFinder' },
           { name: 'Waterproofing', link: '/products/interior/Waterproofing' },
@@ -156,7 +156,7 @@ const Navbar = () => {
       <div className="gradient-bg">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center h-10">
-            <div className="text-sm-bold text-white">Welcome to Vertex Paints</div>
+            <div className="text-[15px] font-normal text-white">Welcome to Vertex Paints</div>
             <div className="flex items-center space-x-4 text-sm">
               {/* <Link to="/track-order" className="text-gray-600 hover:text-primary-600">Track Order</Link>
               <Link to="/login" className="text-gray-600 hover:text-primary-600">Login</Link> */}
@@ -217,14 +217,14 @@ const Navbar = () => {
                   onMouseEnter={() => setActiveMenu(key)}
                   onMouseLeave={() => setActiveMenu(null)}
                 >
-                  <button className="text-[22px] py-8 font-medium text-gray-700 hover:text-[#e51126] transition-colors duration-200">
+                  <button className="text-[17px] py-8 font-medium text-gray-700 hover:text-[#e51126] transition-colors duration-200">
                     {data.title}
                     <div className="absolute bottom-6 left-0 w-full h-0.5 gradient-bg transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200" />
                   </button>
                   
                   {activeMenu === key && (
                     <div 
-                      className="absolute top-full left-1/2 transform -translate-x-1/2 bg-white shadow-lg border-t min-w-[600px] animate-fadeIn"
+                      className="absolute top-full left-1/2 transform -translate-x-1/2 bg-white shadow-lg border-t min-w-[720px] animate-fadeIn"
                       style={{
                         maxWidth: 'calc(100vw - 2rem)',
                         animation: 'fadeIn 0.2s ease-out'
@@ -234,7 +234,7 @@ const Navbar = () => {
                         <div className="grid grid-cols-3 gap-8">
                           {data.sections.map((section, idx) => (
                             <div key={idx} className="min-w-[400px]">
-                              <h3 className="font-bold text-gray-900 mb-4 text-sm tracking-wider">
+                              <h3 className="font-semibold text-gray-900 mb-4 text-sm tracking-wider">
                                 {section.title}
                               </h3>
                               <ul className="space-y-2">
@@ -242,7 +242,7 @@ const Navbar = () => {
                                   <li key={itemIdx}>
                                     <Link 
                                       to={item.link}
-                                      className="text-gray-600 hover:text-[#e51126] transition-colors duration-200 block py-1"
+                                      className="text-gray-600 hover:text-[#e51126] transition-colors duration-200 block py-1 text-[15px]"
                                       onClick={() => setActiveMenu(null)}
                                     >
                                       {item.name}

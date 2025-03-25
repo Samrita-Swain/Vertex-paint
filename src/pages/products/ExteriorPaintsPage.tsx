@@ -19,10 +19,10 @@ const ExteriorPaintsPage = () => {
 
         {/* Content */}
         <div className="relative content text-white text-center flex flex-col items-center">
-        <h1 className="text-5xl text-white font-semibold mb-4 text-center">
+        <h1 className="text-5xl font-medium text-white mb-4 text-center">
           Exterior Wall Paints
         </h1>
-        <p className="text-xl mb-8 text-white text-center">
+        <p className="text-lg font-normal mb-8 text-white text-center">
           Explore the versatile range of exterior paint products for your home!
         </p>
         {/* <button className="exterior-button">
@@ -38,7 +38,7 @@ const ExteriorPaintsPage = () => {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className="flex-1 text-center text-3xl"
+                className="flex-1 text-center text-4xl font-normal"
               >
                 <span
                   className={`relative pb-1 ${
@@ -57,7 +57,7 @@ const ExteriorPaintsPage = () => {
           <div className="p-4 text-center">
             {activeTab === "Wall Paints" && (
               <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-[2rem]" data-aos="fade-up" data-aos-duration="1500">
-                <div className="first-img relative">
+               <div className="first-img relative">
                   <a href="/Exterior/FineSquare" className="cursor-pointer">
                   <img
                     src="/images/Fine Square.png"
@@ -68,13 +68,13 @@ const ExteriorPaintsPage = () => {
 
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-[30px] font-bold mb-5">Fine Square</h1>
+                    <h1 className="exterior-text text-3xl font-medium mb-5">Fine Square</h1>
                     <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto{" "}
-                      <span className="exterior-p text-[18px] font-extrabold">15</span>{" "}
+                      <span className="text-lg font-medium">15</span>{" "}
                       Years
                     </p>
-                    <p className="text-[15px]">Performance Warranty</p>
+                    <p className="exterior-p text-[15px] font-normal">Performance Warranty</p>
                     {/* <a
                       href="../UltimaExterioremulsions"
                       className="exterior-second-band-button"
@@ -95,12 +95,12 @@ const ExteriorPaintsPage = () => {
                   </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-[30px] font-bold mb-5">Silk Shine</h1>
+                    <h1 className="exterior-text text-3xl font-medium mb-5">Silk Shine</h1>
                     <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
-                      Upto <span className="exterior-p text-[18px] font-extrabold">6</span>{" "}
+                      Upto <span className="text-[18px] font-extrabold">6</span>{" "}
                       Years
                     </p>
-                    <p className="text-[15px]">Performance Warranty</p>
+                    <p className="text-[15px] font-normal">Performance Warranty</p>
                     {/* <a href="/ApexExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
@@ -118,12 +118,12 @@ const ExteriorPaintsPage = () => {
                   </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-[30px] font-bold mb-5">Titanium One</h1>
+                    <h1 className="exterior-text text-3xl font-medium mb-5">Titanium One</h1>
                     <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
-                      Upto <span className="text-[18px] font-extrabold">4</span>{" "}
+                      Upto <span className="text-lg font-medium">4</span>{" "}
                       Years
                     </p>
-                    <p className="exterior-p text-[15px]">Performance Warranty</p>
+                    <p className="exterior-p text-[15px] font-normal">Performance Warranty</p>
                     {/* <a href="/AcemExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
@@ -141,12 +141,12 @@ const ExteriorPaintsPage = () => {
                   </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-[30px] font-bold mb-5">Ultra WRP</h1>
+                    <h1 className="exterior-text text-3xl font-medium mb-5">Ultra WRP</h1>
                     <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
-                      Upto <span className="text-[18px] font-extrabold">4</span>{" "}
+                      Upto <span className="text-lg font-medium">4</span>{" "}
                       Years
                     </p>
-                    <p className="exterior-p text-[15px]">Performance Warranty</p>
+                    <p className="exterior-p text-[15px] font-normal">Performance Warranty</p>
                     {/* <a href="/AcemExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
@@ -228,7 +228,7 @@ const ExteriorPaintsPage = () => {
       </div>
 
       <div className="exterior-Ultima-band p-12 bg-[#fff] flex flex-col items-center">
-        <h1 className="gradient-text text-[40px] font-bold text-center mb-[35px]">Exterior Emulsions
+        <h1 className="gradient-text text-4xl font-semibold text-center mb-[35px]">Exterior Emulsions
         </h1>
         <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
           <a href="/Exterior/ACME-CementPrimer"
@@ -512,11 +512,11 @@ const ExteriorPaintsPage = () => {
 
       <div className="inspired-by grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-12 bg-[#f7f2e7] justify-center items-center">
         <div className="inspired-by-content-part" data-aos="fade-right" data-aos-duration="1500">
-          <h6 className="text-[40px] font-[500] mb-3">Get inspired by our</h6>
-          <h1 className="text-[70px] font-[600] w-[89%] leading-[75px] gradient-text mb-3">
+          <h6 className="text-4xl font-medium mb-3">Get inspired by our</h6>
+          <h1 className="text-7xl font-semibold w-[89%] leading-[75px] gradient-text mb-3">
             Exquisite Collections
           </h1>
-          <p className="text-[22px] font-[500] mb-5">
+          <p className="text-lg font-normal mb-5">
             Elevate your style and imagination with the range of Texture
             Collections
           </p>
@@ -563,6 +563,7 @@ const ExteriorPaintsPage = () => {
           </div>
         </div>
       </div>
+      
       <Form /> 
       <HouseFormate />
       <ExteriorColor/>

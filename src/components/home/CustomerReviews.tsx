@@ -41,7 +41,7 @@ const CustomerReviews = () => {
   return (
     <div className="reviews-banner mx-auto p-12">
       <div className="container mx-auto flex flex-col items-center">
-      <h2 className="text-[40px] font-bold text-center mb-12 text-center">What Our <span className="gradient-text">Customer Says!</span></h2>
+      <h2 className="text-4xl font-semibold mb-12 text-center">What Our <span className="gradient-text">Customer Says!</span></h2>
       <Swiper
         modules={[Pagination, Autoplay]}
         slidesPerView={4}
@@ -60,7 +60,7 @@ const CustomerReviews = () => {
           <SwiperSlide key={index}>
             <div className="bg-white shadow-lg rounded-2xl p-6 text-center border border-gray-200">
               <img src={review.image} alt={review.name} className="w-full h-[230px] mx-auto mb-4" />
-              <p className="text-gray-700 italic">"{review.review}"</p>
+              <p className="text-gray-700 text-lg italic">"{review.review}"</p>
               <div className="mt-4 text-yellow-400">
                 {Array.from({ length: review.rating }).map((_, i) => (
                   <span key={i}>⭐</span>

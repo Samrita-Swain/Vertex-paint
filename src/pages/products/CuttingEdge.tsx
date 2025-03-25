@@ -146,8 +146,8 @@ const CuttingEdge = () => {
 
         {/* Content */}
         <div className="relative content text-white text-center">
-          <h1 className="text-[50px] font-bold">Cutting Edge</h1>
-          <p className="text-[20px] text-[#ffffffb3]">
+          <h1 className="text-5xl font-medium mb-4">Cutting Edge</h1>
+          <p className="text-lg font-normal text-[#ffffffb3]">
             With a modern geometric flair, this home showcases the striking
             interplay of horizontal and vertical lines. Pergolas and a stepped
             floor design further enhance its contemporary appeal.
@@ -195,7 +195,7 @@ const CuttingEdge = () => {
           </div>
         </div>
 
-        <div className="p-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 w-full text-center">
+        <div className="px-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 w-full text-center">
           {/* Main Image */}
           {activeTab.mainImage && (
             <div className="mt-4">
@@ -204,45 +204,43 @@ const CuttingEdge = () => {
                 alt={activeTab.title}
                 className="mx-auto w-[100%] rounded-lg shadow-md mb-8"
               />
+              
             </div>
           )}
           <div className="tab-content flex flex-col items-start">
             {/* Content Section */}
-            <h2 className="text-2xl font-bold text-left gradient-text">
-              {activeTab.title}
-            </h2>
-            <p className="text-lg mt-2 text-gray-700 text-left">
-              {activeTab.description}
-            </p>
+          <h2 className="text-3xl font-semibold text-left gradient-text">{activeTab.title}</h2>
+          <p className="text-[17px] font-normal mt-2 text-gray-700 text-left">{activeTab.description}</p>
 
-            {/* Color Swatch Boxes Section */}
-            <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-10 w-full">
-              {activeTab.contentBoxes &&
-                activeTab.contentBoxes.map((box, index) => (
-                  <div key={index} className="flex flex-col items-center">
-                    {/* Color swatch with rounded corners and shadow effect */}
-                    <div className="w-full h-[170px] aspect-square max-w-xs rounded-tl-2xl rounded-tr-2xl rounded-br-2xl shadow-md relative">
-                      {/* Background and shadow effect */}
-                      <div className="absolute -right-2 -bottom-2 w-full h-full bg-gray-400 rounded-tl-2xl rounded-tr-2xl rounded-br-2xl -z-10"></div>
-
-                      {/* Main color box */}
-                      <div className="w-full h-full bg-gray-100 rounded-tl-2xl rounded-tr-2xl rounded-br-2xl overflow-hidden">
-                        {/* Inner color square that acts as the main swatch */}
-                        <div
-                          className="absolute top-6 left-6 right-6 bottom-6"
-                          style={{ backgroundColor: box.boxColor }}
-                        ></div>
-                      </div>
-                    </div>
-
-                    {/* Color information below the swatch */}
-                    <div className="mt-3 text-center">
-                      <p className="font-medium text-black">{box.title}</p>
-                      <p className="text-gray-700">{box.content}</p>
-                    </div>
+          {/* Color Swatch Boxes Section */}
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-10 w-full">
+            {activeTab.contentBoxes && activeTab.contentBoxes.map((box, index) => (
+              <div key={index} className="flex flex-col items-center">
+                {/* Color swatch with rounded corners and shadow effect */}
+                <div className="w-full h-[170px] aspect-square max-w-xs rounded-tl-2xl rounded-tr-2xl rounded-br-2xl shadow-md relative">
+                  {/* Background and shadow effect */}
+                  <div className="absolute -right-2 -bottom-2 w-full h-full bg-gray-400 rounded-tl-2xl rounded-tr-2xl rounded-br-2xl -z-10"></div>
+                  
+                  {/* Main color box */}
+                  <div 
+                    className="w-full h-full bg-gray-100 rounded-tl-2xl rounded-tr-2xl rounded-br-2xl overflow-hidden"
+                  >
+                    {/* Inner color square that acts as the main swatch */}
+                    <div 
+                      className="absolute top-6 left-6 right-6 bottom-6"
+                      style={{ backgroundColor: box.boxColor }}
+                    ></div>
                   </div>
-                ))}
-            </div>
+                </div>
+                
+                {/* Color information below the swatch */}
+                <div className="mt-3 text-center">
+                  <p className="text-[16px] font-semibold  text-black">{box.title}</p>
+                  <p className="text-[14px] font-normal text-gray-700">{box.content}</p>
+                </div>
+              </div>
+            ))}
+          </div>
           </div>
         </div>
       </div>

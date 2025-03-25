@@ -13,14 +13,14 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent">
           <div className="container mx-auto px-4 h-full flex justify-center items-center">
             <div className="max-w-xl text-white flex flex-col justify-center items-center">
-              <h1 className="text-5xl font-bold mb-6 text-center">Transform Your Home</h1>
-              <p className="text-xl mb-8 text-center">
+              <h1 className="text-5xl font-medium mb-6 text-center">Transform Your Home</h1>
+              <p className="text-lg font-normal leading-6 mb-8 text-center">
                 Discover endless possibilities with Asian Paints' range of
                 interior and exterior paints
               </p>
               <Link
                 to="/visualizer"
-                className="px-8 py-3 rounded-lg text-lg font-medium bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-white hover:text-white transition duration-500 text-center"
+                className="px-5 py-3 rounded-lg text-lg font-normal bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-white hover:text-white transition duration-500 text-center"
               >
                 Try Color Visualizer
               </Link>
@@ -72,8 +72,8 @@ const QuickLink = ({
   <div className="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-50 transition duration-500 hover:shadow-lg">
     <img src={icon} alt={title} className="w-24 h-24" />
     <div>
-      <h3 className="text-[17px] font-medium text-gray-900">{title}</h3>
-      <p className="text-[15px] text-gray-600">{description}</p>
+      <h3 className="text-[16px] font-medium text-gray-900">{title}</h3>
+      <p className="text-[15px] font-normal text-gray-600">{description}</p>
     </div>
   </div>
 );

@@ -67,15 +67,15 @@ const TrendyStylish = () => {
 
         {/* Content */}
         <div className="relative text-white text-center">
-          <h1 className="text-[50px] font-bold mb-7">Trendy & Stylish</h1>
+          <h1 className="text-5xl font-medium">Trendy & Stylish</h1>
         </div>
       </div>
 
       <div className="second-banner p-12 flex justify-center items-center">
         <div className="container">
           <div className="content flex justify-center items-center flex-col">
-            <h2 className="gradient-text text-[40px] font-bold text-center">Trendy & Stylish</h2>
-            <p className="mb-[35px] text-center text-[20px]">
+            <h2 className="gradient-text text-4xl font-semibold mb-2 text-center">Trendy & Stylish</h2>
+            <p className="mb-[35px] text-center text-lg font-normal text-gray-600">
               Tap on any of the shades you like from below and see the magic
               unfold!
             </p>
@@ -114,10 +114,10 @@ const TrendyStylish = () => {
 
                         <div className="flex items-center justify-between p-4">
                         <div className="shades-info">
-                        <h3 className="text-[18px] font-semibold">
+                        <h3 className="text-[16px] font-semibold">
                                 {colorData.id_title}
                               </h3>
-                              <p className="text-[15px]">
+                              <p className="text-[14px] font-normal">
                                 {colorData.id_content}
                               </p>
                         </div>
@@ -151,7 +151,7 @@ const TrendyStylish = () => {
                               />
                             </div>
                             <div>
-                              <h3 className="text-[20px] font-semibold mb-3">
+                              <h3 className="text-[17px] font-semibold mb-3">
                                 {colorData.title}
                               </h3>
                               <div className="grid grid-cols-2 gap-3">
@@ -165,10 +165,10 @@ const TrendyStylish = () => {
                                       style={{ backgroundColor: box.boxColor }}
                                     ></div>
                                     <div>
-                                      <p className="text-[18px] font-[500]">
+                                      <p className="text-[16px] font-medium">
                                         {box.title}
                                       </p>
-                                      <p className="text-[14px] text-gray-600">
+                                      <p className="text-[14px] font-normal text-gray-600">
                                         {box.content}
                                       </p>
                                     </div>

@@ -13,7 +13,7 @@ const ACMEWrp = () => {
 
         {/* Content */}
         <div className="relative text-white text-center">
-          <h1 className="text-[50px] font-bold mb-7">ACME Ultra WRP</h1>
+          <h1 className="text-5xl font-medium mb-7">ACME Ultra WRP</h1>
         </div>
 
         {/* Centered Bouncing Image */}
@@ -28,8 +28,8 @@ const ACMEWrp = () => {
       <div className="second-banner p-12 flex justify-center items-center">
         <div className="container">
           <div className="content flex justify-center items-center flex-col">
-            <h1 className="gradient-text text-[40px] font-bold text-center">Benefits</h1>
-            <p className="mb-[35px] text-center">Here's why ACME Ultra WRP is perfect for your home.</p>
+            <h1 className="gradient-text text-4xl font-semibold mb-2 text-center">Benefits</h1>
+            <p className="text-gray-600 text-lg font-normal mb-[35px] text-center">Here's why ACME Ultra WRP is perfect for your home.</p>
           </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-[2rem]">
           <div className="second-band-box flex flex-col justify-center items-center mb-[30px] p-5 rounded-[15px] border-l border-r border-red-500 transition-all shadow-lg h-[250px]" style={{boxShadow: "0 3px 15px rgba(0, 0, 0, .4)"}} data-aos="flip-up" data-aos-duration="1500">
@@ -37,8 +37,8 @@ const ACMEWrp = () => {
               <img src="/images/STRUCTURAL-PROTECTION.png" alt=""/>
             </div>
             <div className="content text-center">
-              <h1 className="text-[17px] font-[600] mb-1">SHEEN</h1>
-              <p>Comes with a comprehensive 3-year
+              <h1 className="text-[17px] font-semibold mb-1">SHEEN</h1>
+              <p className="text-[15px] font-normal">Comes with a comprehensive 3-year
               performance warranty.</p>
             </div>
           </div>
@@ -47,8 +47,8 @@ const ACMEWrp = () => {
               <img src="/images/CRACK-BRIDGING.png" alt="" />
             </div>
             <div className="content text-center">
-              <h1 className="text-[17px] font-[600] mb-1">ANTI-FUNGAL</h1>
-              <p>Advanced anti-algal formula fights the
+              <h1 className="text-[17px] font-semibold mb-1">ANTI-FUNGAL</h1>
+              <p className="text-[15px] font-normal">Advanced anti-algal formula fights the
 formation of algae and protects walls
 from ugly black spots.</p>
             </div>
@@ -58,8 +58,8 @@ from ugly black spots.</p>
               <img src="/images/SUPERIOR-CLEANABILITY.png" alt="" />
             </div>
             <div className="content text-center">
-              <h1 className="text-[17px] font-[600] mb-1">SUPERIOR CLEANABILITY</h1>
-              <p>Excellent dust resistance and ease of cleaning ensuring exteriors look fresh for long.</p>
+              <h1 className="text-[17px] font-semibold mb-1">SUPERIOR CLEANABILITY</h1>
+              <p className="text-[15px] font-normal">Excellent dust resistance and ease of cleaning ensuring exteriors look fresh for long.</p>
             </div>
           </div>
           <div className="second-band-box flex flex-col justify-center items-center mb-[30px] p-5 rounded-[15px] border-l border-r border-red-500 transition-all shadow-lg h-[250px]" style={{boxShadow: "0 3px 15px rgba(0, 0, 0, .4)"}} data-aos="flip-down" data-aos-duration="1500">
@@ -67,8 +67,8 @@ from ugly black spots.</p>
               <img src="/images/LOW-VOC.png" alt="" />
             </div>
             <div className="content text-center">
-              <h1 className="text-[17px] font-[600] mb-1">LOW VOC</h1>
-              <p>Meets the LEED VOC criteria as per Indian Green Building Council.</p>
+              <h1 className="text-[17px] font-semibold mb-1">LOW VOC</h1>
+              <p className="text-[15px] font-normal">Meets the LEED VOC criteria as per Indian Green Building Council.</p>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ from ugly black spots.</p>
       <PaintingCalculatorForm />
 
       <div className="exterior-Ultima-band p-12 bg-[#fff] flex flex-col items-center">
-        <h1 className="gradient-text text-[40px] font-bold text-center mb-[35px]">Exterior Emulsions
+        <h1 className="gradient-text text-4xl font-semibold text-center mb-[35px]">Exterior Emulsions
         </h1>
         <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
         <a href="/Exterior/PrimerSurfaceBrown"

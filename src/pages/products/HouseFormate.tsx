@@ -2,10 +2,10 @@ const HouseFormate = () => {
   return (
     <div className="flex flex-col justify-center items-center p-12">
       <div className="container flex flex-col justify-center items-center">
-        <h1 className="gradient-text text-[40px] font-bold text-center">
+        <h1 className="gradient-text text-4xl font-semibold text-center  mb-2">
           House Formates
         </h1>
-        <p className="mb-[35px] text-gray-600 text-[20px] text-center">Tap the ‘House Formats’ button to choose a house
+        <p className="mb-[35px] text-gray-600 text-lg font-normal text-center">Tap the ‘House Formats’ button to choose a house
         that looks just like yours!</p>
 
         <div className="houses grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-6 p-6">
@@ -23,7 +23,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
               Crafted Cube
             </h6>
           </div>
@@ -42,7 +42,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Roman Heritage
             </h6>
           </div>
@@ -61,7 +61,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Cutting Edge
             </h6>
           </div>
@@ -80,7 +80,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Country Style
             </h6>
           </div>
@@ -99,7 +99,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Elegant Simplicity
             </h6>
           </div>
@@ -118,7 +118,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Retro Regal
             </h6>
           </div>
@@ -137,7 +137,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Eternal Temple
             </h6>
           </div>
@@ -156,7 +156,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Modern Geometry
             </h6>
           </div>
@@ -175,7 +175,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Gradual Elevations
             </h6>
           </div>
@@ -194,7 +194,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Retro Modern
             </h6>
           </div>
@@ -213,7 +213,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Beach House
             </h6>
           </div>
@@ -232,7 +232,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Lattice House
             </h6>
           </div>
@@ -251,7 +251,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Modern Baroque
             </h6>
           </div>
@@ -270,7 +270,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Country House
             </h6>
           </div>
@@ -289,7 +289,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Grooved Design
             </h6>
           </div>
@@ -308,7 +308,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Iconic Villa
             </h6>
           </div>
@@ -327,7 +327,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Twisting Maze
             </h6>
           </div>
@@ -346,7 +346,7 @@ const HouseFormate = () => {
             </a>
 
             {/* Title with Smooth Color Transition */}
-            <h6 className="text-[25px] font-[500] text-black text-center">
+            <h6 className="text-[20px] font-semibold text-black text-center">
             Arched Residence
             </h6>
           </div>

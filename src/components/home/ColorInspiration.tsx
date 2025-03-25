@@ -6,8 +6,8 @@ const ColorInspiration = () => {
   return (
     <section className="py-16 bg-[#fff5eb]">
       <div className="container mx-auto px-4 flex flex-col items-center">
-        <h2 className="text-[40px] font-bold text-center gradient-text">Color Inspiration</h2>
-        <p className="mb-[35px] text-gray-600 text-[20px] text-center">
+        <h2 className="text-4xl font-semibold text-center  mb-2 gradient-text">Color Inspiration</h2>
+        <p className="mb-[35px] text-gray-600 text-lg font-normal text-center">
           Discover trending color combinations and get inspired for your next home makeover
         </p>
 
@@ -26,11 +26,11 @@ const ColorInspiration = () => {
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <h3 className="text-white text-xl font-semibold mb-2">{inspiration.title}</h3>
-                  <p className="text-white/80 mb-4">{inspiration.description}</p>
+                  <h3 className="text-white text-lg font-medium mb-2">{inspiration.title}</h3>
+                  <p className="text-white/80 mb-4 text-lg font-normal">{inspiration.description}</p>
                   <Link 
                     to={`/inspiration/${inspiration.id}`}
-                    className="inline-block bg-white text-gray-900 px-4 py-2 rounded-lg text-sm font-medium transition-colors hover:bg-[#fcc740]" style={{transition: "0.5s"}}
+                    className="inline-block text-lg font-normal bg-white text-gray-900 px-5 py-2 rounded-lg transition-colors hover:bg-[#fcc740]" style={{transition: "0.5s"}}
                   >
                     Explore Colors
                   </Link>

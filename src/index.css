@@ -55,6 +55,36 @@ body {
 }
 
 
+.interior-button{
+  align-items: center;
+  background: #fec940;
+  border: 2px solid #fec940;
+  border-radius: 15px !important;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 5px 15px;
+  transition: .5s;
+  justify-content: center;
+}
+.interior-button .icon{
+  transition: 0.3s;
+  margin-left: 10px;
+  font-size: 15px
+}
+.interior-button:hover .icon{
+  transform: translateX(5px);
+  color: #fff;
+}
+.interior-button:hover{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+
 
 .coloroptions-band {
   padding: 70px 50px;
@@ -67,11 +97,11 @@ body {
   margin-bottom: 55px;
 }
 
-.coloroptions-band .content h2 {
+/* .coloroptions-band .content h2 {
   color: #000;
   font-size: 40px;
   font-weight: 700;
-}
+} */
 
 
 
@@ -168,7 +198,7 @@ body {
   background-color: transparent;
   color: #fff;
 }
-.overlay-content p {
+/* .overlay-content p {
   font-size: 17px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -176,7 +206,7 @@ body {
 .overlay-content h5 {
   font-size: 25px;
   font-weight: 500;
-}
+} */
 
 .coloroptions-band .coloroptions-band-box:hover img {
   transform: translate(5px, 5px) scale(1.1); 
@@ -307,7 +337,19 @@ body {
     align-items: center;
 }
 .Exteriore-banner{
-  height: 65vh;
+  height: 85vh;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Interior-banner{
+  height: 85vh;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InteriorColor-banner{
+  height: 85vh;
   display: flex;
     justify-content: center;
     align-items: center;

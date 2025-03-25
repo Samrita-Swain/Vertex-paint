@@ -7,8 +7,8 @@ const FeaturedProducts = () => {
     <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 flex flex-col items-center">
         <div className="mb-5 flex flex-col items-center">
-          <h2 className="text-[40px] font-bold gradient-text text-center">Exterior Emulsions</h2>
-          <p className="mb-[35px] text-gray-600 text-[20px] text-center">
+          <h2 className="text-4xl font-semibold gradient-text text-center  mb-2">Exterior Emulsions</h2>
+          <p className="mb-[35px] text-gray-600 text-lg font-normal text-center">
             Discover our premium range of paints designed to transform your space
           </p>
         </div>
@@ -25,13 +25,13 @@ const FeaturedProducts = () => {
 
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-[30px] font-bold mb-5">Fine Square</h1>
+                    <h1 className="exterior-text text-3xl font-medium mb-5">Fine Square</h1>
                     <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto{" "}
-                      <span className="text-[18px] font-extrabold">15</span>{" "}
+                      <span className="text-lg font-medium">15</span>{" "}
                       Years
                     </p>
-                    <p className="exterior-p text-[15px]">Performance Warranty</p>
+                    <p className="exterior-p text-[15px] font-normal">Performance Warranty</p>
                     {/* <a
                       href="../UltimaExterioremulsions"
                       className="exterior-second-band-button"
@@ -52,12 +52,12 @@ const FeaturedProducts = () => {
                   </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text exterior-text text-[30px] font-bold mb-5">Silk Shine</h1>
+                    <h1 className="exterior-text text-3xl font-medium mb-5">Silk Shine</h1>
                     <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto <span className="text-[18px] font-extrabold">6</span>{" "}
                       Years
                     </p>
-                    <p className="text-[15px]">Performance Warranty</p>
+                    <p className="text-[15px] font-normal">Performance Warranty</p>
                     {/* <a href="/ApexExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
@@ -75,12 +75,12 @@ const FeaturedProducts = () => {
                   </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-[30px] font-bold mb-5">Titanium One</h1>
+                    <h1 className="exterior-text text-3xl font-medium mb-5">Titanium One</h1>
                     <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
-                      Upto <span className="text-[18px] font-extrabold">4</span>{" "}
+                      Upto <span className="text-lg font-medium">4</span>{" "}
                       Years
                     </p>
-                    <p className="exterior-p text-[15px]">Performance Warranty</p>
+                    <p className="exterior-p text-[15px] font-normal">Performance Warranty</p>
                     {/* <a href="/AcemExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
@@ -98,12 +98,12 @@ const FeaturedProducts = () => {
                   </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-[30px] font-bold mb-5">Ultra WRP</h1>
+                    <h1 className="exterior-text text-3xl font-medium mb-5">Ultra WRP</h1>
                     <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
-                      Upto <span className="text-[18px] font-extrabold">4</span>{" "}
+                      Upto <span className="text-lg font-medium">4</span>{" "}
                       Years
                     </p>
-                    <p className="exterior-p text-[15px]">Performance Warranty</p>
+                    <p className="exterior-p text-[15px] font-normal">Performance Warranty</p>
                     {/* <a href="/AcemExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />

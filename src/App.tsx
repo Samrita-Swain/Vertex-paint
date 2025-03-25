@@ -82,6 +82,7 @@ import MetalGuard from './pages/products/MetalGuard';
 import ACMEWrp from './pages/products/ACMEWrp';
 import BDSeal from './pages/products/BDSeal';
 import CoolRoof from './pages/products/CoolRoof';
+import InteriorColor from './pages/products/InteriorColor';
 
 function App() {
   useEffect(() => {
@@ -232,7 +233,7 @@ function App() {
               <Route path="/AcemExterioremulsions" element={<AcemExterioremulsions />} />
               
               {/* Paint Routes */}
-              <Route path="/products/interior" element={<InteriorPaintsPage />} />
+              <Route path="/InteriorWallPaint" element={<InteriorPaintsPage />} />
               <Route path="/products/interior/:id" element={<ProductDetail />} />
               <Route path="/ExteriorWallPaint" element={<ExteriorPaintsPage />} />
               <Route path="/products/exterior/:id" element={<ProductDetail />} />
@@ -274,6 +275,11 @@ function App() {
               <Route path="/textures" element={<TexturesPage />} />
               <Route path="/textures/:id" element={<TextureDetail />} />
               
+
+              {/* Interior All Color */}
+              <Route path="/InteriorWallPaint/Shades" element={<InteriorColor />} />
+
+
               {/* Colour Routes */}
               <Route path="/colours/rooms" element={<ColourRoomsPage />} />
               <Route path="/colours/:room" element={<RoomColoursPage />} />

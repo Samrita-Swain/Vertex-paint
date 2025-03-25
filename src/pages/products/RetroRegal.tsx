@@ -141,8 +141,8 @@ const RetroRegal = () => {
 
         {/* Content */}
         <div className="relative content text-white text-center">
-          <h1 className="text-[50px] font-bold">Retro Regal</h1>
-          <p className="text-[20px] text-[#ffffffb3]">
+          <h1 className="text-5xl font-medium mb-4">Retro Regal</h1>
+          <p className="text-lg font-normal text-[#ffffffb3]">
           Designed with symmetry and meticulous attention to
 detail, this home exudes elegance, especially with its
 standout porch. The blend of red wood, brick,
@@ -192,7 +192,7 @@ vintage charm.
           </div>
         </div>
 
-        <div className="p-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 mt-6 w-full text-center">
+        <div className="px-12 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center gap-8 w-full text-center">
           {/* Main Image */}
           {activeTab.mainImage && (
             <div className="mt-4">
@@ -206,8 +206,8 @@ vintage charm.
           )}
           <div className="tab-content flex flex-col items-start">
             {/* Content Section */}
-          <h2 className="text-2xl font-bold text-left gradient-text">{activeTab.title}</h2>
-          <p className="text-lg mt-2 text-gray-700 text-left">{activeTab.description}</p>
+          <h2 className="text-3xl font-semibold text-left gradient-text">{activeTab.title}</h2>
+          <p className="text-[17px] font-normal mt-2 text-gray-700 text-left">{activeTab.description}</p>
 
           {/* Color Swatch Boxes Section */}
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-10 w-full">
@@ -232,8 +232,8 @@ vintage charm.
                 
                 {/* Color information below the swatch */}
                 <div className="mt-3 text-center">
-                  <p className="font-medium text-black">{box.title}</p>
-                  <p className="text-gray-700">{box.content}</p>
+                  <p className="text-[16px] font-semibold  text-black">{box.title}</p>
+                  <p className="text-[14px] font-normal text-gray-700">{box.content}</p>
                 </div>
               </div>
             ))}

@@ -15,7 +15,7 @@ const Footer = () => {
               className="h-20"
             />
           </a>
-          <h1 className="text-[25px] font-bold">Vertex <span className="text-[#e71429]">Paints</span></h1>
+          <h1 className="text-xl font-medium">Vertex <span className="text-[#e71429]">Paints</span></h1>
           </div>
           <div className="flex space-x-6">
             {["facebook-f", "twitter", "instagram"].map((icon, index) => (
@@ -36,8 +36,8 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-8">
           {/* About Us */}
           <div>
-            <h3 className="text-[20px] font-semibold mb-4">About Us</h3>
-            <p className="text-gray-300 leading-relaxed text-[18px]">
+            <h3 className="text-xl font-medium mb-2">About Us</h3>
+            <p className="text-gray-300 text-[14px] font-normal leading-6">
               Vertex Paints is India's leading paint company with a rich
               heritage of technology and innovation.
             </p>
@@ -45,8 +45,8 @@ const Footer = () => {
 
           {/* Products */}
           <div>
-            <h3 className="text-[20px] font-semibold mb-4">Products</h3>
-            <ul className="footer-li space-y-2 text-gray-300 text-[18px]">
+            <h3 className="text-[20px] font-semibold mb-2">Products</h3>
+            <ul className="footer-li space-y-2 text-gray-300 text-[14px]  font-normal">
               <li>
                 <Link
                   to="/products/InteriorPaintsPage"
@@ -84,8 +84,8 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-[20px] font-semibold mb-4">Services</h3>
-            <ul className="footer-li space-y-2 text-gray-300 text-[18px]">
+            <h3 className="text-[20px] font-semibold mb-2">Services</h3>
+            <ul className="footer-li space-y-2 text-gray-300 text-[14px] font-normal">
             <li>
                 <Link
                   to="SafePainting"
@@ -115,8 +115,8 @@ const Footer = () => {
 
           {/* Contact Us */}
           <div>
-            <h3 className="text-[20px] font-semibold mb-4">Contact Us</h3>
-            <ul className="text-gray-300 text-[18px]">
+            <h3 className="text-[20px] font-semibold mb-2">Contact Us</h3>
+            <ul className="text-gray-300 text-[14px]  font-normal">
               <li className="mb-2 flex items-center">
                 <svg
                   className="w-4 h-4 mr-2 text-black"
@@ -136,7 +136,7 @@ const Footer = () => {
               </li>
               <li>
                 📧 Email:{" "}
-                <span className="font-semibold">support@vertexpaint.com</span>
+                <span className="font-medium">support@vertexpaint.com</span>
               </li>
             </ul>
           </div>
@@ -144,9 +144,9 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="bg-[#010a4d] p-4 text-gray-400 text-sm flex justify-center">
+      <div className="bg-[#010a4d] p-4 text-gray-400 flex justify-center">
         <div className="container flex flex-wrap justify-between">
-          <div className="space-x-4 last-footer text-[16px]">
+          <div className="space-x-4 last-footer text-[14px]">
             <Link
               to="/privacy-policy"
               className="hover:text-[#e51126] transition duration-300"
@@ -166,7 +166,7 @@ const Footer = () => {
               Sitemap
             </Link>
           </div>
-          <div className="text-[16px]">
+          <div className="text-[14px]">
             © 2025 Vertex Paints Ltd. All rights reserved by{" "}
             <a
               className="font-extrabold hover:text-[#e51126] transition duration-300"

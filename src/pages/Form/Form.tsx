@@ -82,8 +82,8 @@ const Form: React.FC = () => {
       <div className="bg-[#2c3789] text-white p-12 lg:rounded-[30px] w-full mx-auto grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 gap-6 items-center">
         {/* Left Section - Now takes 1/3 of the space */}
         <div className="w-full lg:col-span-1 md:col-span-1">
-        <h2 className="form-header text-[37px] md:text-[40px] lg:text-[40px] font-bold mb-3">Get Expert Advice</h2>
-          <p className="text-[20px] font-[400] text-[#ffffff91]">
+        <h2 className="form-header text-5xl font-medium md:text-[40px] lg:text-[40px] mb-3">Get Expert Advice</h2>
+          <p className="text-lg font-normal text-[#ffffff91]">
             Bid goodbye to your home furnishing hassles with our expert
             supervision
           </p>
@@ -158,7 +158,7 @@ const Form: React.FC = () => {
                 <span>There is a local painter hired</span>
               </label>
             </div>
-            <p className="mb-5 text-[#ffffff91]">
+            <p className="mb-5 text-lg leading-6 text-[#ffffff91]">
               By proceeding, you are authorizing Asian Paints and its suggested
               contractors to get in touch with you through calls, sms, or
               e-mail.
@@ -167,7 +167,7 @@ const Form: React.FC = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="col-span-2 bg-yellow-500 border border-yellow-500 text-black p-3 rounded-[0.5rem] font-bold flex items-center justify-center space-x-2 hover:bg-transparent hover:text-white hover:border-white transition duration-300 !mb-0 !text-[20px] inspired-by-button"
+              className="col-span-2 text-lg font-normal bg-yellow-500 border border-yellow-500 text-black p-3 rounded-[0.5rem] flex items-center justify-center space-x-2 hover:bg-transparent hover:text-white hover:border-white transition duration-300 !mb-0 inspired-by-button"
             >
               Book an appointment <FaArrowRight className="icon" />
             </button>
