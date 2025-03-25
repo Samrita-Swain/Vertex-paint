@@ -4,128 +4,110 @@ const BeachHouse = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#f5f0e7",
+      title: "Beach House - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "A tasteful blue blends well with an earthy brown roof to give this house a pleasant, summery feel",
+      mainImage: { src: "/images/Beach House-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "VL143P",
+          content: "Rain Drop",
+          boxColor: "#f5f0e7",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
-          textColor: "#000"
-        },
-        {
-          title: "Vertex Fine Square",
-          content: "Glazia Greiges",
-          boxColor: "#676860",
+          title: "V7342P",
+          content: "Waikiki",
+          boxColor: "#4386a8",
           textColor: "#000"
         }
       ]
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#e6dcd1",
+      title: "Beach House - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "Shades of red beautifully accentuate a base of beige in this coastal home and give it a warm, welcoming look and feel",
+      mainImage: { src: "/images/Beach House-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "V8780P",
+          content: "Southern Sand",
+          boxColor: "#e6dcd1",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "VK262P",
+          content: "Rosewood Rouge - N",
+          boxColor: "#8a4d4a",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#fae1bc",
+      title: "Beach House - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "Cosy just got a new definition with this stately and classy contrasting colour combination of powder blue and a creamy hue.",
+      mainImage: { src: "/images/Beach House-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V7970P",
+          content: "Nacho Cheese",
+          boxColor: "#fae1bc",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
-          textColor: "#000"
-        },
-        {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V7232P",
+          content: "Thunder",
+          boxColor: "#9fa7ba",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#fee0b1",
+      title: "Beach House - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "A mellow orange with a sober yellow adds to this home’s appeal, making it welcoming and cosy in a unique way.",
+      mainImage: { src: "/images/Beach House-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "V7977P",
+          content: "Mango Duet",
+          boxColor: "#fee0b1",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
-          textColor: "#000"
-        },
-        {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V8023P",
+          content: "Carrot Punch",
+          boxColor: "#e3915f",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#dbdaab",
+      title: "Beach House - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "A nature inspired colour combination of subdued green and royal brown does justice to the coastal vibe of this house.",
+      mainImage: { src: "/images/Beach House-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V7810P",
+          content: "Dry Moss",
+          boxColor: "#dbdaab",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V8693P",
+          content: "Cheerful Cherry",
+          boxColor: "#774a4c",
           textColor: "#000"
         }
       ]
@@ -148,10 +130,10 @@ const BeachHouse = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-5xl font-medium mb-4">Beach House</h1>
           <p className="text-lg font-normal text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          With a breakthrough style, this house is quaintly
+charming. An arrow like central mass and an extruded
+porch give the home a cosy, relaxed feel. Sloping
+roofs lend a distinctive coastal vibe to the home.
           </p>
         </div>
       </div>

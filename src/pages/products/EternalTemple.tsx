@@ -13,13 +13,13 @@ const EternalTemple = () => {
         {
           title: "VL140P",
           content: "Crushed Ice",
-          boxColor: "#eee9da",
+          boxColor: "#f3ecde",
           textColor: "#000"
         },
         {
           title: "V8015P",
           content: "Grand Canyon",
-          boxColor: "#cb8f71",
+          boxColor: "#d19173",
           textColor: "#000"
         },
         {
@@ -41,18 +41,18 @@ const EternalTemple = () => {
         {
           title: "VL144P",
           content: "Love Song",
-          boxColor: "#eeeedf",
+          boxColor: "#f4f0e5",
           textColor: "#000"
         },
         {
           content: "Spl Flame Red",
-          boxColor: "#b25849",
+          boxColor: "#b45e4d",
           textColor: "#000"
         },
         {
           title: "V7941P",
           content: "Turmeric",
-          boxColor: "#f8ad00",
+          boxColor: "#feb200",
           textColor: "#000"
         }
       ]
@@ -68,19 +68,19 @@ const EternalTemple = () => {
         {
           title: "V7771P",
           content: "Hushed Hue",
-          boxColor: "#e9e9c6",
+          boxColor: "#ecedcb",
           textColor: "#000"
         },
         {
           title: "V8455P",
           content: "Tropical Tan",
-          boxColor: "#948a7b",
+          boxColor: "#998d7e",
           textColor: "#000"
         },
         {
           title: "V8261P",
           content: "Thunder Cloud",
-          boxColor: "#4e4e53",
+          boxColor: "#535456",
           textColor: "#000"
         }
       ]
@@ -96,19 +96,19 @@ const EternalTemple = () => {
         {
           title: "V7715P",
           content: "Luminous",
-          boxColor: "#e4e9d0",
+          boxColor: "#e9edd3",
           textColor: "#000"
         },
         {
           title: "V7325P",
           content: "Twilight Zone",
-          boxColor: "#21588f",
+          boxColor: "#275c91",
           textColor: "#000"
         },
         {
           title: "V7542P",
           content: "Emerald Valley",
-          boxColor: "#448076",
+          boxColor: "#478678",
           textColor: "#000"
         }
       ]
@@ -124,18 +124,18 @@ const EternalTemple = () => {
         {
           title: "V7921P",
           content: "Summer Harves",
-          boxColor: "#f8df9e",
+          boxColor: "#fce2a3",
           textColor: "#000"
         },
         {
           content: "Khakhi",
-          boxColor: "#8f6249",
+          boxColor: "#91684c",
           textColor: "#000"
         },
         {
           title: "V7367P",
           content: "Storm Blue",
-          boxColor: "#628aa3",
+          boxColor: "#688ca5",
           textColor: "#000"
         }
       ]

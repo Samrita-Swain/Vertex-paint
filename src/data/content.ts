@@ -291,9 +291,9 @@ export const exteriorColor1 =[
   },
   {
     id:'7',
-    color: '#f4efdb',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f6f3e0',
+    id_title: "V7876P",
+    id_content: "Soft Honey",
     view:'',
     title: "Retro Regal - A",
       mainImage: { src: "/images/Retro Regal-A.png" },
@@ -301,22 +301,22 @@ export const exteriorColor1 =[
         {
           title: "V7876P",
           content: "Soft Honey",
-          boxColor: "#f3eeda",
+          boxColor: "#f6f3e0",
           textColor: "#000"
         },
         {
           title: "V7304P",
           content: "Piece of Sky",
-          boxColor: "#678aa3",
+          boxColor: "#6c90a9",
           textColor: "#000"
         }
       ]
   },
   {
     id:'8',
-    color: '#f0ebe1',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f2eee3',
+    id_title: "VL104P",
+    id_content: "Cotton Wool",
     view:'',
     title: "Retro Regal - B",
       mainImage: { src: "/images/Retro Regal-B.png" },
@@ -324,28 +324,28 @@ export const exteriorColor1 =[
         {
           title: "VL104P",
           content: "Cotton Wool",
-          boxColor: "#eee9df",
+          boxColor: "#f2eee3",
           textColor: "#000"
         },
         {
           title: "V0533P",
           content: "Brick Red - N",
-          boxColor: "#a36249",
+          boxColor: "#a5644d",
           textColor: "#000"
         },
         {
           title: "V9514P",
           content: "Creamy Crust",
-          boxColor: "#cbc1b2",
+          boxColor: "#d1c7b7",
           textColor: "#000"
         }
       ]
   },
   {
     id:'9',
-    color: '#f0ebdc',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f3ecde',
+    id_title: "VL140P",
+    id_content: "Crushed Ice",
     view:'',
     title: "Eternal Temple - A",
       mainImage: { src: "/images/Eternal Temple-A.png" },
@@ -353,13 +353,13 @@ export const exteriorColor1 =[
         {
           title: "VL140P",
           content: "Crushed Ice",
-          boxColor: "#eee9da",
+          boxColor: "#f3ecde",
           textColor: "#000"
         },
         {
           title: "V8015P",
           content: "Grand Canyon",
-          boxColor: "#cb8f71",
+          boxColor: "#d19173",
           textColor: "#000"
         },
         {
@@ -372,9 +372,9 @@ export const exteriorColor1 =[
   },
   {
     id:'10',
-    color: '#f0f0e1',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f4f0e5',
+    id_title: "VL144P",
+    id_content: "Love Song",
     view:'',
     title: "Eternal Temple - B",
       mainImage: { src: "/images/Eternal Temple-B.png" },
@@ -382,28 +382,28 @@ export const exteriorColor1 =[
         {
           title: "VL144P",
           content: "Love Song",
-          boxColor: "#eeeedf",
+          boxColor: "#f4f0e5",
           textColor: "#000"
         },
         {
           
           content: "Spl Flame Red",
-          boxColor: "#b25849",
+          boxColor: "#b45e4d",
           textColor: "#000"
         },
         {
           title: "V7941P",
           content: "Turmeric",
-          boxColor: "#f8ad00",
+          boxColor: "#feb200",
           textColor: "#000"
         }
       ]
   },
   {
     id:'11',
-    color: '#ebe6dc',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#efeadf',
+    id_title: "V8444P",
+    id_content: "Ice Crystal",
     view:'',
     title: "Modern Geometry - A",
       mainImage: { src: "/images/Modern Geometry-A.png" },
@@ -411,13 +411,13 @@ export const exteriorColor1 =[
         {
           title: "V8444P",
           content: "Ice Crystal",
-          boxColor: "#e9e4da",
+          boxColor: "#efeadf",
           textColor: "#000"
         },
         {
           title: "V8561P",
           content: "Oak Leaf",
-          boxColor: "#e4c6a3",
+          boxColor: "#e7c8a9",
           textColor: "#000"
         },
         {
@@ -430,9 +430,9 @@ export const exteriorColor1 =[
   },
   {
     id:'12',
-    color: '#f3eee4',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f7f1e9',
+    id_title: "VL146P",
+    id_content: "Sonnet",
     view:'',
     title: "Modern Geometry - B",
       mainImage: { src: "/images/Modern Geometry-B.png" },
@@ -440,19 +440,19 @@ export const exteriorColor1 =[
         {
           title: "VL146P",
           content: "Sonnet",
-          boxColor: "#f3eee4",
+          boxColor: "#f7f1e9",
           textColor: "#000"
         },
         {
           title: "V0N02P",
           content: "Warmstone",
-          boxColor: "#c1b7a3",
+          boxColor: "#c6b9a6",
           textColor: "#000"
         },
         {
           title: "V8454P",
           content: "Dull Birch",
-          boxColor: "#7b6c5d",
+          boxColor: "#7d705f",
           textColor: "#000"
         }
       ]
@@ -460,9 +460,9 @@ export const exteriorColor1 =[
 
   {
     id:'13',
-    color: '#f5f0d7',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f7f0db',
+    id_title: "V7964P",
+    id_content: "Custard Apple",
     view:'',
     title: "Modern Geometry - C",
       mainImage: { src: "/images/Modern Geometry-C.png" },
@@ -470,28 +470,28 @@ export const exteriorColor1 =[
         {
           title: "V7964P",
           content: "Custard Apple",
-          boxColor: "#f3eed5",
+          boxColor: "#f7f0db",
           textColor: "#000"
         },
         {
           title: "V8330P",
           content: "Nimbus Shower",
-          boxColor: "#b2b7ad",
+          boxColor: "#b8b9b1",
           textColor: "#000"
         },
         {
           title: "V9647P",
           content: "Naval Club - N",
-          boxColor: "#2b588a",
+          boxColor: "#305b90",
           textColor: "#000"
         }
       ]
   },
   {
     id:'14',
-    color: '#f4efe5',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f5f0e7',
+    id_title: "VL143P",
+    id_content: "Rain Drop",
     view:'',
     title: "Beach House - A",
       mainImage: { src: "/images/Beach House-A.png" },
@@ -499,13 +499,13 @@ export const exteriorColor1 =[
         {
           title: "VL143P",
           content: "Rain Drop",
-          boxColor: "#f3eee4",
+          boxColor: "#f5f0e7",
           textColor: "#000"
         },
         {
           title: "V7342P",
           content: "Waikiki",
-          boxColor: "#3f80a3",
+          boxColor: "#4386a8",
           textColor: "#000"
         }
       ]
@@ -1022,9 +1022,9 @@ export const exteriorColor2 =[
   },
   {
     id:'11',
-    color: '#eaeac7',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#ecedcb',
+    id_title: "V7771P",
+    id_content: "Hushed Hue",
     view:'',
     title: "Eternal Temple - C",
       mainImage: { src: "/images/Eternal Temple-C.png" },
@@ -1032,28 +1032,28 @@ export const exteriorColor2 =[
         {
           title: "V7771P",
           content: "Hushed Hue",
-          boxColor: "#e9e9c6",
+          boxColor: "#ecedcb",
           textColor: "#000"
         },
         {
           title: "V8455P",
           content: "Tropical Tan",
-          boxColor: "#948a7b",
+          boxColor: "#998d7e",
           textColor: "#000"
         },
         {
           title: "V8261P",
           content: "Thunder Cloud",
-          boxColor: "#4e4e53",
+          boxColor: "#535456",
           textColor: "#000"
         }
       ]
   },
   {
     id:'12',
-    color: '#e6ebd2',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#e9edd3',
+    id_title: "V7715P",
+    id_content: "Luminous",
     view:'',
     title: "Eternal Temple - D",
       mainImage: { src: "/images/Eternal Temple-D.png" },
@@ -1061,19 +1061,19 @@ export const exteriorColor2 =[
         {
           title: "V7715P",
           content: "Luminous",
-          boxColor: "#e4e9d0",
+          boxColor: "#e9edd3",
           textColor: "#000"
         },
         {
           title: "V7325P",
           content: "Twilight Zone",
-          boxColor: "#21588f",
+          boxColor: "#275c91",
           textColor: "#000"
         },
         {
           title: "V7542P",
           content: "Emerald Valley",
-          boxColor: "#448076",
+          boxColor: "#478678",
           textColor: "#000"
         }
       ]
@@ -1081,9 +1081,9 @@ export const exteriorColor2 =[
 
   {
     id:'13',
-    color: '#ccd690',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#d1d995',
+    id_title: "V7768P",
+    id_content: "Calm Fauna",
     view:'',
     title: "Modern Geometry - E",
       mainImage: { src: "/images/Modern Geometry-E.png" },
@@ -1091,28 +1091,28 @@ export const exteriorColor2 =[
         {
           title: "V7768P",
           content: "Calm Fauna",
-          boxColor: "#cbd58f",
+          boxColor: "#d1d995",
           textColor: "#000"
         },
         {
           title: "V7838P",
           content: "Green Beret",
-          boxColor: "#b7a358",
+          boxColor: "#bda65d",
           textColor: "#000"
         },
         {
           title: "V0419P",
           content: "Nut Brown - N",
-          boxColor: "#714e44",
+          boxColor: "#735346",
           textColor: "#000"
         }
       ]
   },
   {
     id:'14',
-    color: '#90866d',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#918b72',
+    id_title: "V8479P",
+    id_content: "Turtle Shell",
     view:'',
     title: "Gradual Elevations - D",
       mainImage: { src: "/images/Gradual Elevations-D.png" },
@@ -1120,22 +1120,22 @@ export const exteriorColor2 =[
         {
           title: "V8479P",
           content: "Turtle Shell",
-          boxColor: "#8f856c",
+          boxColor: "#918b72",
           textColor: "#000"
         },
         {
           title: "V7386P",
           content: "Blank Slate",
-          boxColor: "#b2cbd0",
+          boxColor: "#b5ced3",
           textColor: "#000"
         }
       ]
   },
   {
     id:'15',
-    color: '#d6e5b3',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#d7e8b5',
+    id_title: "V7713P",
+    id_content: "Lime Squash",
     view:'',
     title: "Retro Modern - E",
       mainImage: { src: "/images/Retro Modern-E.png" },
@@ -1143,22 +1143,22 @@ export const exteriorColor2 =[
         {
           title: "V7713P",
           content: "Lime Squash",
-          boxColor: "#d5e4b2",
+          boxColor: "#d7e8b5",
           textColor: "#000"
         },
         {
           title: "V8565P",
           content: "Cairo Bazaar",
-          boxColor: "#805d44",
+          boxColor: "#86624a",
           textColor: "#000"
         }
       ]
   },
   {
     id:'16',
-    color: '#d6d6a9',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#dbdaab',
+    id_title: "V7810P",
+    id_content: "Dry Moss",
     view:'',
     title: "Beach House - E",
       mainImage: { src: "/images/Beach House-E.png" },
@@ -1166,13 +1166,13 @@ export const exteriorColor2 =[
         {
           title: "V7810P",
           content: "Dry Moss",
-          boxColor: "#d5d5a8",
+          boxColor: "#dbdaab",
           textColor: "#000"
         },
         {
           title: "V8693P",
           content: "Cheerful Cherry",
-          boxColor: "#714449",
+          boxColor: "#774a4c",
           textColor: "#000"
         }
       ]
@@ -1404,9 +1404,9 @@ export const exteriorColor3 =[
   },
   {
     id:'6',
-    color: '#dbd19a',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#ddd29b',
+    id_title: "V7840P",
+    id_content: "Divine Wine",
     view:'',
     title: "Retro Regal - E",
       mainImage: { src: "/images/Retro Regal-E.png" },
@@ -1414,22 +1414,22 @@ export const exteriorColor3 =[
         {
           title: "V7840P",
           content: "Divine Wine",
-          boxColor: "#dad099",
+          boxColor: "#ddd29b",
           textColor: "#000"
         },
         {
           title: "V8312P",
           content: "Gothic Grey",
-          boxColor: "#7b8585",
+          boxColor: "#7f888a",
           textColor: "#000"
         }
       ]
   },
   {
     id:'7',
-    color: '#f9e09f',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#fce2a3',
+    id_title: "V7921P",
+    id_content: "Summer Harvest",
     view:'',
     title: "Eternal Temple - E",
       mainImage: { src: "/images/Eternal Temple-E.png" },
@@ -1437,28 +1437,28 @@ export const exteriorColor3 =[
         {
           title: "V7921P",
           content: "Summer Harvest",
-          boxColor: "#f8df9e",
+          boxColor: "#fce2a3",
           textColor: "#000"
         },
         {
           content: "Khakhi",
-          boxColor: "#8f6249",
+          boxColor: "#91684c",
           textColor: "#000"
         }
         ,
         {
           title: "V7367P",
           content: "Storm Blue",
-          boxColor: "#628aa3",
+          boxColor: "#688ca5",
           textColor: "#000"
         }
       ]
   },
   {
     id:'8',
-    color: '#e5dbc2',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#e7e0c3',
+    id_title: "V3119P",
+    id_content: "Cashmere - N",
     view:'',
     title: "Modern Geometry - D",
       mainImage: { src: "/images/Modern Geometry-D.png" },
@@ -1466,22 +1466,22 @@ export const exteriorColor3 =[
         {
           title: "V3119P",
           content: "Cashmere - N",
-          boxColor: "#e4dac1",
+          boxColor: "#e7e0c3",
           textColor: "#000"
         },
         {
           title: "V7443P",
           content: "Inner Peace",
-          boxColor: "#c1e4df",
+          boxColor: "#c6e6e4",
           textColor: "#000"
         }
       ]
   },
   {
     id:'9',
-    color: '#f4e5bd',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f8e8be',
+    id_title: "V7930P",
+    id_content: "Hearth",
     view:'',
     title: "Gradual Elevations - A",
       mainImage: { src: "/images/Gradual Elevations-A.png" },
@@ -1489,13 +1489,13 @@ export const exteriorColor3 =[
         {
           title: "V7930P",
           content: "Hearth",
-          boxColor: "#f3e4bc",
+          boxColor: "#f8e8be",
           textColor: "#000"
         },
         {
           title: "V8085P",
           content: "Scarlet",
-          boxColor: "#ad353f",
+          boxColor: "#b13944",
           textColor: "#000"
         },
         {
@@ -1508,9 +1508,9 @@ export const exteriorColor3 =[
   },
   {
     id:'10',
-    color: '#c7c281',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#ccc585',
+    id_title: "V7832P",
+    id_content: "Golden Apple",
     view:'',
     title: "Gradual Elevations - C",
       mainImage: { src: "/images/Gradual Elevations-C.png" },
@@ -1518,22 +1518,22 @@ export const exteriorColor3 =[
         {
           title: "V7832P",
           content: "Golden Apple",
-          boxColor: "#c6c180",
+          boxColor: "#ccc585",
           textColor: "#000"
         },
         {
           title: "VL152P",
           content: "Cream Pie",
-          boxColor: "#f3eee4",
+          boxColor: "#f6f3e8",
           textColor: "#000"
         }
       ]
   },
   {
     id:'11',
-    color: '#f4ead6',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f7efd7',
+    id_title: "V7956P",
+    id_content: "Honey Dew",
     view:'',
     title: "Retro Modern - A",
       mainImage: { src: "/images/Retro Modern-A.png" },
@@ -1541,13 +1541,13 @@ export const exteriorColor3 =[
         {
           title: "V7956P",
           content: "Honey Dew",
-          boxColor: "#f3e9d5",
+          boxColor: "#f7efd7",
           textColor: "#000"
         },
         {
           title: "V7950P",
           content: "Fire Globe",
-          boxColor: "#f8b244",
+          boxColor: "#feb747",
           textColor: "#000"
         },
         {
@@ -1560,9 +1560,9 @@ export const exteriorColor3 =[
   },
   {
     id:'12',
-    color: '#f9e0a9',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#fee2aa',
+    id_title: "V7953P",
+    id_content: "Fairy Glitte",
     view:'',
     title: "Retro Modern - B",
       mainImage: { src: "/images/Retro Modern-B.png" },
@@ -1570,13 +1570,13 @@ export const exteriorColor3 =[
         {
           title: "V7953P",
           content: "Fairy Glitte",
-          boxColor: "#f8dfa8",
+          boxColor: "#fee2aa",
           textColor: "#000"
         },
         {
           title: "V7975P",
           content: "Roasted Sesame",
-          boxColor: "#f8b267",
+          boxColor: "#feb46d",
           textColor: "#000"
         }
       ]
@@ -1584,9 +1584,9 @@ export const exteriorColor3 =[
 
   {
     id:'13',
-    color: '#f9e0b8',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#fae1bc',
+    id_title: "V7970P",
+    id_content: "Nacho Cheese",
     view:'',
     title: "Beach House - C",
       mainImage: { src: "/images/Beach House-C.png" },
@@ -1594,22 +1594,22 @@ export const exteriorColor3 =[
         {
           title: "V7970P",
           content: "Nacho Cheese",
-          boxColor: "#f8dfb7",
+          boxColor: "#fae1bc",
           textColor: "#000"
         },
         {
           title: "V7232P",
           content: "Thunder",
-          boxColor: "#99a3b7",
+          boxColor: "#9fa7ba",
           textColor: "#000"
         }
       ]
   },
   {
     id:'14',
-    color: '#f9dbae',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#fee0b1',
+    id_title: "V7977P",
+    id_content: "Mango Duet",
     view:'',
     title: "Beach House - D",
       mainImage: { src: "/images/Beach House-D.png" },
@@ -1617,13 +1617,13 @@ export const exteriorColor3 =[
         {
           title: "V7977P",
           content: "Mango Duet",
-          boxColor: "#f8daad",
+          boxColor: "#fee0b1",
           textColor: "#000"
         },
         {
           title: "V8023P",
           content: "Carrot Punch",
-          boxColor: "#df8f5d",
+          boxColor: "#e3915f",
           textColor: "#000"
         }
       ]
@@ -2023,9 +2023,9 @@ export const exteriorColor4 =[
   },
   {
     id:'6',
-    color: '#efd1cc',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f3d5ce',
+    id_title: "VK232P",
+    id_content: "Strawbella - N",
     view:'',
     title: "Retro Regal - D",
       mainImage: { src: "/images/Retro Regal-D.png" },
@@ -2033,22 +2033,22 @@ export const exteriorColor4 =[
         {
           title: "VK232P",
           content: "Strawbella - N",
-          boxColor: "#eed0cb",
+          boxColor: "#f3d5ce",
           textColor: "#000"
         },
         {
           title: "V0336P",
           content: "Buttercup - N",
-          boxColor: "#dabc94",
+          boxColor: "#dec197",
           textColor: "#000"
         }
       ]
   },
   {
     id:'7',
-    color: '#814a4a',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#824b4f',
+    id_title: "V8101P",
+    id_content: "Milan Red",
     view:'',
     title: "Gradual Elevations - B",
       mainImage: { src: "/images/Gradual Elevations-B.png" },
@@ -2056,22 +2056,22 @@ export const exteriorColor4 =[
         {
           title: "V8101P",
           content: "Milan Red",
-          boxColor: "#804949",
+          boxColor: "#824b4f",
           textColor: "#000"
         },
         {
           title: "V7860P",
           content: "Thick Cream",
-          boxColor: "#eee9d5",
+          boxColor: "#f4eed9",
           textColor: "#000"
         }
       ]
   },
   {
     id:'8',
-    color: '#f9e0d6',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#fbe3d8',
+    id_title: "V8035P",
+    id_content: "Rose Bud",
     view:'',
     title: "Gradual Elevations - E",
       mainImage: { src: "/images/Gradual Elevations-E.png" },
@@ -2079,51 +2079,51 @@ export const exteriorColor4 =[
         {
           title: "V8035P",
           content: "Rose Bud",
-          boxColor: "#f8dfd5",
+          boxColor: "#fbe3d8",
           textColor: "#000"
         },
         {
           title: "V0U42P",
           content: "Wedgewood",
-          boxColor: "#71949e",
+          boxColor: "#7796a0",
           textColor: "#000"
         }
       ]
   },
   {
     id:'9',
-    color: '#f4dbc7',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f7dec8',
+    id_title: "V8019P",
+    id_content: "Coral Rocks",
     view:'',
     title: "Retro Modern - C",
       mainImage: { src: "/images/Retro Modern-C.png" },
       contentBoxes: [
         {
-          title: "VL140P",
-          content: "Crushed Ice",
-          boxColor: "#eee9da",
+          title: "V8019P",
+          content: "Coral Rocks",
+          boxColor: "#f7dec8",
           textColor: "#000"
         },
         {
-          title: "V8015P",
-          content: "Grand Canyon",
-          boxColor: "#cb8f71",
+          title: "V7778P",
+          content: "Limon",
+          boxColor: "#e7ebbd",
           textColor: "#000"
         },
         {
-          title: "V7717P",
-          content: "Vivid Green",
-          boxColor: "#7b8549",
+          title: "K137",
+          content: "Basilico - N",
+          boxColor: "#637165",
           textColor: "#000"
         }
       ]
   },
   {
     id:'10',
-    color: '#eadbcc',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#efdfce',
+    id_title: "V8580P",
+    id_content: "Memories",
     view:'',
     title: "Retro Modern - D",
       mainImage: { src: "/images/Retro Modern-D.png" },
@@ -2131,28 +2131,28 @@ export const exteriorColor4 =[
         {
           title: "V8580P",
           content: "Memories",
-          boxColor: "#e9dacb",
+          boxColor: "#efdfce",
           textColor: "#000"
         },
         {
           title: "V7369P",
           content: "Harbor Fog",
-          boxColor: "#94b7c6",
+          boxColor: "#96bdcc",
           textColor: "#000"
         },
         {
           title: "V8574P",
           content: "Burnished Caramel",
-          boxColor: "#947158",
+          boxColor: "#99745c",
           textColor: "#000"
         }
       ]
   },
   {
     id:'11',
-    color: '#e5dbcc',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#e6dcd1',
+    id_title: "V8780P",
+    id_content: "Southern Sand",
     view:'',
     title: "Beach House - B",
       mainImage: { src: "/images/Beach House-B.png" },
@@ -2160,13 +2160,13 @@ export const exteriorColor4 =[
         {
           title: "V8780P",
           content: "Southern Sand",
-          boxColor: "#e4dacb",
+          boxColor: "#e6dcd1",
           textColor: "#000"
         },
         {
           title: "VK262P",
           content: "Rosewood Rouge - N",
-          boxColor: "#854944",
+          boxColor: "#8a4d4a",
           textColor: "#000"
         }
       ]

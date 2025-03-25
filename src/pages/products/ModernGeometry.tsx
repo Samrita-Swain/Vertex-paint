@@ -4,7 +4,7 @@ const ModernGeometry = () => {
   const tabs = [
     {
       id: "A",
-      color: "#eee9de",
+      color: "#efeadf",
       title: "Modern Geometry - A",
       description:
         "An airy pastel peach and striking brick red, set against a background of white, lend this home warmth and style.",
@@ -13,13 +13,13 @@ const ModernGeometry = () => {
         {
           title: "V8444P",
           content: "Ice Crystal",
-          boxColor: "#e9e4da",
+          boxColor: "#efeadf",
           textColor: "#000"
         },
         {
           title: "V8561P",
           content: "Oak Leaf",
-          boxColor: "#e4c6a3",
+          boxColor: "#e7c8a9",
           textColor: "#000"
         },
         {
@@ -41,19 +41,19 @@ const ModernGeometry = () => {
         {
           title: "VL146P",
           content: "Sonnet",
-          boxColor: "#f3eee4",
+          boxColor: "#f7f1e9",
           textColor: "#000"
         },
         {
           title: "V0N02P",
           content: "Warmstone",
-          boxColor: "#c1b7a3",
+          boxColor: "#c6b9a6",
           textColor: "#000"
         },
         {
           title: "V8454P",
           content: "Dull Birch",
-          boxColor: "#7b6c5d",
+          boxColor: "#7d705f",
           textColor: "#000"
         }
       ]
@@ -69,19 +69,19 @@ const ModernGeometry = () => {
         {
           title: "V7964P",
           content: "Custard Apple",
-          boxColor: "#f3eed5",
+          boxColor: "#f7f0db",
           textColor: "#000"
         },
         {
           title: "V8330P",
           content: "Nimbus Shower",
-          boxColor: "#b2b7ad",
+          boxColor: "#b8b9b1",
           textColor: "#000"
         },
         {
           title: "V9647P",
           content: "Naval Club - N",
-          boxColor: "#2b588a",
+          boxColor: "#305b90",
           textColor: "#000"
         }
       ]
@@ -97,13 +97,13 @@ const ModernGeometry = () => {
         {
           title: "V3119P",
           content: "Cashmere - N",
-          boxColor: "#e4dac1",
+          boxColor: "#e7e0c3",
           textColor: "#000"
         },
         {
           title: "V7443P",
           content: "Inner Peace",
-          boxColor: "#c1e4df",
+          boxColor: "#c6e6e4",
           textColor: "#000"
         }
       ]
@@ -119,19 +119,19 @@ const ModernGeometry = () => {
         {
           title: "V7768P",
           content: "Calm Fauna",
-          boxColor: "#cbd58f",
+          boxColor: "#d1d995",
           textColor: "#000"
         },
         {
           title: "V7838P",
           content: "Green Beret",
-          boxColor: "#b7a358",
+          boxColor: "#bda65d",
           textColor: "#000"
         },
         {
           title: "V0419P",
           content: "Nut Brown - N",
-          boxColor: "#714e44",
+          boxColor: "#735346",
           textColor: "#000"
         }
       ]

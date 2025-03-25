@@ -13,13 +13,13 @@ const RetroRegal = () => {
         {
           title: "V7876P",
           content: "Soft Honey",
-          boxColor: "#f3eeda",
+          boxColor: "#f6f3e0",
           textColor: "#000"
         },
         {
           title: "V7304P",
           content: "Piece of Sky",
-          boxColor: "#678aa3",
+          boxColor: "#6c90a9",
           textColor: "#000"
         }
       ]
@@ -35,20 +35,20 @@ const RetroRegal = () => {
         {
           title: "VL104P",
           content: "Cotton Wool",
-          boxColor: "#eee9df",
+          boxColor: "#f2eee3",
           textColor: "#000"
         },
         {
           title: "V0533P",
           content: "Brick Red - N",
-          boxColor: "#a36249",
+          boxColor: "#a5644d",
           textColor: "#000"
         }
         ,
         {
           title: "V9514P",
           content: "Creamy Crust",
-          boxColor: "#cbc1b2",
+          boxColor: "#d1c7b7",
           textColor: "#000"
         }
       ]
@@ -64,19 +64,19 @@ const RetroRegal = () => {
         {
           title: "V7778P",
           content: "Limon",
-          boxColor: "#e4e9b7",
+          boxColor: "#e7ebbd",
           textColor: "#000"
         },
         {
           title: "VK137P",
           content: "Basilico - N",
-          boxColor: "#5d6c62",
+          boxColor: "#637165",
           textColor: "#000"
         },
         {
           title: "V8019P",
           content: "Coral Rocks",
-          boxColor: "#f3dac6",
+          boxColor: "#f7dec8",
           textColor: "#000"
         }
       ]
@@ -92,13 +92,13 @@ const RetroRegal = () => {
         {
           title: "VK232P",
           content: "Strawbella - N",
-          boxColor: "#edcfca",
+          boxColor: "#f3d5ce",
           textColor: "#000"
         },
         {
           title: "V0336P",
           content: "Buttercup - N",
-          boxColor: "#dabc94",
+          boxColor: "#dec197",
           textColor: "#000"
         }
       ]
@@ -114,13 +114,13 @@ const RetroRegal = () => {
         {
           title: "V7840P",
           content: "Divine Wine",
-          boxColor: "#dad099",
+          boxColor: "#ddd29b",
           textColor: "#000"
         },
         {
           title: "V8312P",
           content: "Gothic Grey",
-          boxColor: "#7b8585",
+          boxColor: "#7f888a",
           textColor: "#000"
         }
       ]
