@@ -620,3 +620,24 @@ a:hover .icon{
   border-radius: 5px;
   height: 5px;
 }
+
+
+.calculate-button{
+  padding: 5px 15px;
+  border-radius: 15px !important;
+  background: #fec940;
+  font-weight: 500;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+  border: 2px solid #fec940;
+  transition: 0.5s;
+  font-size: 15px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculate-button:hover{
+  background-color: transparent;
+  border: 1px solid #000;
+}

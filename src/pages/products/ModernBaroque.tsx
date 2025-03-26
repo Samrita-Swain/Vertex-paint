@@ -4,28 +4,22 @@ const ModernBaroque = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#e6dece",
+      title: "Modern Baroque - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "With a simple base colour and a vibrant dash of aquamarine as an accent, this house looks stately and royal",
+      mainImage: { src: "/images/Modern Baroque-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "V8499P",
+          content: "Meadow Lark",
+          boxColor: "#e6dece",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
-          textColor: "#000"
-        },
-        {
-          title: "Vertex Fine Square",
-          content: "Glazia Greiges",
-          boxColor: "#676860",
+          title: "V7511P",
+          content: "Valley Green",
+          boxColor: "#2d9f96",
           textColor: "#000"
         }
       ]
@@ -33,99 +27,87 @@ const ModernBaroque = () => {
     {
       id: "B",
       color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      title: "Modern Baroque - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "A subdued light pink colour comes together beautifully with deep blue accents to give this modern home a dignified look.",
+      mainImage: { src: "/images/Modern Baroque-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "V8643P",
+          content: "Almond Kiss",
+          boxColor: "#e8c8bd",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "V7293P",
+          content: "Mystic Dream",
+          boxColor: "#3d4c60",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#fee3c9",
+      title: "Modern Baroque - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "This home looks flamboyant and stands out with a red border, combining really well with the base warm tint",
+      mainImage: { src: "/images/Modern Baroque-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V7994P",
+          content: "Peach Rose",
+          boxColor: "#fee3c9",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
-          textColor: "#000"
-        },
-        {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "VK004P",
+          content: "Heady Wine -N",
+          boxColor: "#a5464d",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#b5d1cd",
+      title: "Modern Baroque - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "A light blue hue works wonders with dark grey accents to give this home an elaborate, classy vibe.",
+      mainImage: { src: "/images/Modern Baroque-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "V7482P",
+          content: "Sparkling Water",
+          boxColor: "#b5d1cd",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
-          textColor: "#000"
-        },
-        {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V6129P",
+          content: "Pilgrim",
+          boxColor: "#a0a5ad",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#a2a3c6",
+      title: "Modern Baroque - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "This house has a suave look and feel. Its decorative structure is balanced with a mix of muted violet and a beautiful brown.",
+      mainImage: { src: "/images/Modern Baroque-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V7168P",
+          content: "Orchid Bloom",
+          boxColor: "#a2a3c6",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V8528P",
+          content: "Bush Land",
+          boxColor: "#bfa080",
           textColor: "#000"
         }
       ]
@@ -148,10 +130,11 @@ const ModernBaroque = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-5xl font-medium mb-4">Modern Baroque</h1>
           <p className="text-lg font-normal text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          This House Format blends classic and
+contemporary. Roman columns and intricate,
+detailed railings give it an ornate look. At the same
+time, smart use of staggered terraces make it look
+contemporary and cool.
           </p>
         </div>
       </div>

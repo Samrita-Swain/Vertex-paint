@@ -4,27 +4,27 @@ const CountryHouse = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#f8e2e2",
+      title: "Country House - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "A classy grey texture accents two warm shades of pink, lending this home a cheerful and vibrant aesthetic.",
+      mainImage: { src: "/images/Country House-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "V8092P",
+          content: "Pink Mist",
+          boxColor: "#f8e2e2",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
+          title: "V8088P",
+          content: "Rose Bouquet",
+          boxColor: "#f3abb7",
           textColor: "#000"
         },
         {
           title: "Vertex Fine Square",
-          content: "Glazia Greiges",
+          content: "Amara Grey",
           boxColor: "#676860",
           textColor: "#000"
         }
@@ -32,100 +32,94 @@ const CountryHouse = () => {
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#f2ecd2",
+      title: "Country House - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "With a main rich and soothing cream colour complemented by subtle brown accents, this house sets the perfect mood for peace and quiet.",
+      mainImage: { src: "/images/Country House-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "V7843P",
+          content: "Margarine",
+          boxColor: "#f2ecd2",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "V9872P",
+          content: "Olive Tapenade - N",
+          boxColor: "#9f7848",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#fde4c2",
+      title: "Country House - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "This compact suburban home is brought to life by this beautiful colour blend of creamy orange and grey accents turning it into a cosy haven.",
+      mainImage: { src: "/images/Country House-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V7978P",
+          content: "Orange Frost",
+          boxColor: "#fde4c2",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
-          textColor: "#000"
-        },
-        {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V0643P",
+          content: "Steel Grey",
+          boxColor: "#a0a3a2",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#e4d1bf",
+      title: "Country House - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "A main peach colour blended with a contrasting theme of muted red and bright lavender accents lend this suburban home a vivid vibe.",
+      mainImage: { src: "/images/Country House-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "V0940P",
+          content: "Antique White",
+          boxColor: "#e4d1bf",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
+          title: "V9988P",
+          content: "Rich Maple - N",
+          boxColor: "#cb6755",
           textColor: "#000"
         },
         {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V7192P",
+          content: "Senate Purple",
+          boxColor: "#9996b0",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#fcebbc",
+      title: "Country House - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "A vibrant accent of purple gels well with a rich cream background to create a vivid, lively and welcoming feel for this cottage.",
+      mainImage: { src: "/images/Country House-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V7946P",
+          content: "Sunny Side Up",
+          boxColor: "#fcebbc",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V7158P",
+          content: "Royale Robes",
+          boxColor: "#827ab0",
           textColor: "#000"
         }
       ]
@@ -148,10 +142,11 @@ const CountryHouse = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-5xl font-medium mb-4">Country House</h1>
           <p className="text-lg font-normal text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          This home uses geometrical blocks and chunks to
+give it a unique character. With compact massing
+and linear textures, this House Format has a
+suburban feel. Smooth and classy finishing lends it
+a cottage like vibe.
           </p>
         </div>
       </div>

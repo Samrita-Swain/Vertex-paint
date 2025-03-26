@@ -83,6 +83,8 @@ import ACMEWrp from './pages/products/ACMEWrp';
 import BDSeal from './pages/products/BDSeal';
 import CoolRoof from './pages/products/CoolRoof';
 import InteriorColor from './pages/products/InteriorColor';
+import InteriorColorOptions from './pages/products/InteriorColorOptions';
+import CalculateNow from './pages/products/CalculateNow';
 
 function App() {
   useEffect(() => {
@@ -104,6 +106,14 @@ function App() {
               <Route path="/products" element={<ProductsPage />} />
               <Route path="/products/:category" element={<ProductsPage />} />
               <Route path="/products/detail/:id" element={<ProductDetail />} />
+
+              {/* Calculate Now */}
+              <Route path="/CalculateNow" element={<CalculateNow />} />
+
+
+              {/* Interior Color Shades */}
+              <Route path="/InteriorWallPaint/Shades" element={<InteriorColorOptions />} />
+
 
 
               {/* Exterior Peaceful & Serene*/}

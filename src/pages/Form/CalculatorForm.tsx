@@ -73,7 +73,7 @@ const PaintingCalculatorForm: React.FC = () => {
   };
 
   return (
-    <div className="calculator-banner p-12">
+    <div className="calculator-banner p-10">
       <div className="content mb-5 flex flex-col items-center">
         <h6 className=" text-gray-600 text-lg font-normal mb-2 text-center">Paint Budget Calculator</h6>
         <h1 className="mb-[35px] gradient-text text-4xl font-semibold text-center">

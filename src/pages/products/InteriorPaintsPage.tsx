@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
+import CalculatorForm from "../Form/CalculatorForm";
 
 const colors = [
   {
@@ -115,16 +116,17 @@ const InteriorColor = () => {
       </div>
 
       {/* Color Selection Section */}
-      <div className="p-12 bg-white">
+      <div className="p-10 bg-white">
   <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-12 items-center">
     {/* Left Section - Takes More Width on Larger Screens */}
-    <div className="lg:col-span-2 space-y-8">
+    <div className="lg:col-span-2 space-y-8" data-aos="zoom-in"
+              data-aos-duration="1500">
       {/* Full-width Image */}
       <div className="w-full">
         <img
           src={selectedColor.image}
           alt={`${selectedColor.name} image`}
-          className="w-full h-[390px] md:h-[300px] sm:h-[200px] object-cover rounded-lg shadow-md"
+          className="w-full lg:h-[520px] md:h-[460px] sm:h-[330px] object-cover rounded-lg shadow-md"
         />
       </div>
 
@@ -169,7 +171,8 @@ const InteriorColor = () => {
     </div>
 
     {/* Right Section */}
-    <div className="space-y-6 flex flex-col items-start">
+    <div className="space-y-6 flex flex-col items-start" data-aos="fade-left"
+          data-aos-duration="1500">
       <h1 className="gradient-text text-5xl font-semibold md:text-4xl sm:text-3xl">
         Popular Shades
       </h1>
@@ -177,12 +180,15 @@ const InteriorColor = () => {
         From elegant neutrals to rich, vibrant hues, our popular shades
         collection offers the perfect palette to transform your space.
       </p>
-      <button className="inspired-by-button flex items-center">
+      <a href="/InteriorWallPaint/Shades" className="inspired-by-button flex items-center">
         View All Shades <FaArrowRight className="icon" />
-      </button>
+      </a>
     </div>
   </div>
 </div>
+
+
+<CalculatorForm /> 
 
 
     </div>

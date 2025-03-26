@@ -4,27 +4,27 @@ const LatticeHouse = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#f1e8d8",
+      title: "Lattice House - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "Subtle grey textures along with earthy brown and grey accents, team up against a beige backdrop, to create a home that’s warm and inviting.",
+      mainImage: { src: "/images/Lattice House-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "VL136P",
+          content: "Pebble White",
+          boxColor: "#f1e8d8",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
+          title: "V8558P",
+          content: "African Desert",
+          boxColor: "#ac7d5a",
           textColor: "#000"
         },
         {
           title: "Vertex Fine Square",
-          content: "Glazia Greiges",
+          content: "Lumiflakes Coarse White",
           boxColor: "#676860",
           textColor: "#000"
         }
@@ -32,100 +32,112 @@ const LatticeHouse = () => {
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#f3eedd",
+      title: "Lattice House - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "Pastel purple and cool grey against a backdrop of creamy beige, render this home a serene appeal.",
+      mainImage: { src: "/images/Lattice House-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "VL124P",
+          content: "Pure Ivory",
+          boxColor: "#f3eedd",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "V7208P",
+          content: "Petal Soft",
+          boxColor: "#a4aed6",
+          textColor: "#000"
+        },
+        {
+          title: "V8234P",
+          content: "Fleecy Coat",
+          boxColor: "#b8b4b5",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#f6ead2",
+      title: "Lattice House - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "Creamy beige with accents of a rich brownish-magenta and pale pink, usher into this home, a rooted yet cosy vibe.",
+      mainImage: { src: "/images/Lattice House-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V7931P",
+          content: "Shredded Wheat",
+          boxColor: "#f6ead2",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
+          title: "V8103P",
+          content: "Mauve Medley",
+          boxColor: "#af7779",
           textColor: "#000"
         },
         {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V8098P",
+          content: "Pink Dollop",
+          boxColor: "#fad5db",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#f3efe1",
+      title: "Lattice House - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "Rich bottle green and cool grey create vivid accents against a creamy beige wall, and lend this home a verdant look.",
+      mainImage: { src: "/images/Lattice House-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "VL122P",
+          content: "Skimmed Cream",
+          boxColor: "#f3efe1",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
+          title: "V7527P",
+          content: "Green Haven",
+          boxColor: "#66aea5",
           textColor: "#000"
         },
         {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V7233P",
+          content: "Ice Cube",
+          boxColor: "#b0bac8",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#f0e5e5",
+      title: "Lattice House - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "A pale blush pink along with accents of earthy brown and sunshine yellow, enliven this home and lend it an alluring vibe.",
+      mainImage: { src: "/images/Lattice House-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V9108P",
+          content: "Iris Ice",
+          boxColor: "#f0e5e5",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V0318P",
+          content: "Light Biscuit - N",
+          boxColor: "#ddad90",
+          textColor: "#000"
+        },
+        {
+          title: "V7944P",
+          content: "Sunspot",
+          boxColor: "#fee090",
           textColor: "#000"
         }
       ]
@@ -148,10 +160,11 @@ const LatticeHouse = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-5xl font-medium mb-4">Lattice House</h1>
           <p className="text-lg font-normal text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          With a boxed façade and a geometric look, this
+House Format is minimally compact and elegant. It
+has an earthy appeal with an irregular yet linear
+design. We can also see a beautiful combination of
+wood and metal.
           </p>
         </div>
       </div>

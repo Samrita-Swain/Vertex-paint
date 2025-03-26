@@ -4,27 +4,27 @@ const TwistingMaze = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#f6f3dd",
+      title: "Twisting Maze - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "A nature inspired theme of green with a beige brown texture accompanies the subtle base colour perfectly and gels extremely well with the surroundings.",
+      mainImage: { src: "/images/Twisting Maze-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "V7868P",
+          content: "Sun Screen",
+          boxColor: "#f6f3dd",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
+          title: "V7713P",
+          content: "Lime Squash",
+          boxColor: "#cdddad",
           textColor: "#000"
         },
         {
           title: "Vertex Fine Square",
-          content: "Glazia Greiges",
+          content: "Granizia Coarse Beige Brown",
           boxColor: "#676860",
           textColor: "#000"
         }
@@ -32,50 +32,44 @@ const TwistingMaze = () => {
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#f7f2c6",
+      title: "Twisting Maze - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "The grey accents against a soft pale yellow base create a stunning visual effect, adding depth and elegance to the house. The grey also complements the floor tiles, tying the design together seamlessly.",
+      mainImage: { src: "/images/Twisting Maze-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "V7866P",
+          content: "Butter Scotch",
+          boxColor: "#f7f2c6",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "V8295P",
+          content: "Sleigh Bells",
+          boxColor: "#858585",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#eee1cd",
+      title: "Twisting Maze - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "The rich, luxurious deep red contrasts beautifully with the off-white base, highlighting the complexity of the structure. Thoughtful use of wood further enhances the home's beauty and sophistication.",
+      mainImage: { src: "/images/Twisting Maze-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V8532P",
+          content: "Easter Lily",
+          boxColor: "#eee1cd",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
-          textColor: "#000"
-        },
-        {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V8709P",
+          content: "Vine Yard",
+          boxColor: "#7a4f58",
           textColor: "#000"
         }
       ]
@@ -83,27 +77,21 @@ const TwistingMaze = () => {
     {
       id: "D",
       color: "#efe2c0",
-      title: "Crafted Cube - D",
+      title: "Twisting Maze - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "The rich blend of orange and brown enhances the calming beige tones, beautifully complementing the refined woodwork and adding a graceful warmth to the space.",
+      mainImage: { src: "/images/Twisting Maze-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "V7884P",
+          content: "Soft Linen",
+          boxColor: "#f7f2da",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
-          textColor: "#000"
-        },
-        {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V7981P",
+          content: "Dusky Saffron",
+          boxColor: "#c97c34",
           textColor: "#000"
         }
       ]
@@ -111,21 +99,27 @@ const TwistingMaze = () => {
     {
       id: "E",
       color: "#e8d18f",
-      title: "Crafted Cube - E",
+      title: "Twisting Maze - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "The calm greyish base, paired with vibrant rose accents, strikes a perfect aesthetic balance, giving the house a premium and sophisticated allure.",
+      mainImage: { src: "/images/Twisting Maze-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V8298P",
+          content: "Silver Trinket",
+          boxColor: "#d7d3cd",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V8167P",
+          content: "Muted Scarlet",
+          boxColor: "#c698c0",
+          textColor: "#000"
+        },
+        {
+          title: "V9584P",
+          content: "Fervent Fuchsia - N",
+          boxColor: "#af5987",
           textColor: "#000"
         }
       ]
@@ -148,10 +142,10 @@ const TwistingMaze = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-5xl font-medium mb-4">Twisting Maze</h1>
           <p className="text-lg font-normal text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          With interwoven yet linear structures, this house has a
+complex design that draws attention and admiration.
+Intersecting planes give it a contemporary appeal
+adding to its aspirational quotient.
           </p>
         </div>
       </div>

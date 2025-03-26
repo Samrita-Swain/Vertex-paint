@@ -541,9 +541,9 @@ export const exteriorColor1 =[
   },
   {
     id:'16',
-    color: '#f0ebdc',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f3eedd',
+    id_title: "VL124P",
+    id_content: "Pure Ivory",
     view:'',
     title: "Lattice House - B",
       mainImage: { src: "/images/Lattice House-B.png" },
@@ -551,28 +551,28 @@ export const exteriorColor1 =[
         {
           title: "VL124P",
           content: "Pure Ivory",
-          boxColor: "#eee9da",
+          boxColor: "#f3eedd",
           textColor: "#000"
         },
         {
           title: "V7208P",
           content: "Petal Soft",
-          boxColor: "#9ea8d0",
+          boxColor: "#a4aed6",
           textColor: "#000"
         },
         {
           title: "V8234P",
           content: "Fleecy Coat",
-          boxColor: "#b2b2b2",
+          boxColor: "#b8b4b5",
           textColor: "#000"
         }
       ]
   },
   {
     id:'17',
-    color: '#f0ebe1',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f3efe1',
+    id_title: "VL122P",
+    id_content: "Skimmed Cream",
     view:'',
     title: "Lattice House - D",
       mainImage: { src: "/images/Lattice House-D.png" },
@@ -580,28 +580,28 @@ export const exteriorColor1 =[
         {
           title: "VL122P",
           content: "Skimmed Cream",
-          boxColor: "#eee9df",
+          boxColor: "#f3efe1",
           textColor: "#000"
         },
         {
           title: "V7527P",
           content: "Green Haven",
-          boxColor: "#62a8a3",
+          boxColor: "#66aea5",
           textColor: "#000"
         },
         {
           title: "V7233P",
           content: "Ice Cube",
-          boxColor: "#adb7c6",
+          boxColor: "#b0bac8",
           textColor: "#000"
         }
       ]
   },
   {
     id:'18',
-    color: '#efeae0',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f3eee2',
+    id_title: "VL103P",
+    id_content: "Pearl Star",
     view:'',
     title: "Iconic Villa - B",
       mainImage: { src: "/images/Iconic Villa-B.png" },
@@ -609,28 +609,28 @@ export const exteriorColor1 =[
         {
           title: "VL103P",
           content: "Pearl Star",
-          boxColor: "#eee9df",
+          boxColor: "#f3eee2",
           textColor: "#000"
         },
         {
           title: "V7415P",
           content: "Steel Mesh",
-          boxColor: "#6c99a3",
+          boxColor: "#709ca7",
           textColor: "#000"
         },
         {
           title: "V9876P",
           content: "Happy Canary - N",
-          boxColor: "#f8da71",
+          boxColor: "#fedc74",
           textColor: "#000"
         }
       ]
   },
   {
     id:'19',
-    color: '#f5f0dc',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f6f3dd',
+    id_title: "V7868P",
+    id_content: "Sun Screen",
     view:'',
     title: "Twisting Maze - A",
       mainImage: { src: "/images/Twisting Maze-A.png" },
@@ -638,13 +638,13 @@ export const exteriorColor1 =[
         {
           title: "V7868P",
           content: "Sun Screen",
-          boxColor: "#f3eeda",
+          boxColor: "#f6f3dd",
           textColor: "#000"
         },
         {
           title: "V7713P",
           content: "Lime Squash",
-          boxColor: "#cbdaa8",
+          boxColor: "#cdddad",
           textColor: "#000"
         },
         {
@@ -657,9 +657,9 @@ export const exteriorColor1 =[
   },
   {
     id:'20',
-    color: '#f5f0d7',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f7f2da',
+    id_title: "V7884P",
+    id_content: "Soft Linen",
     view:'',
     title: "Twisting Maze - D",
       mainImage: { src: "/images/Twisting Maze-D.png" },
@@ -667,22 +667,22 @@ export const exteriorColor1 =[
         {
           title: "V7884P",
           content: "Soft Linen",
-          boxColor: "#f3eed5",
+          boxColor: "#f7f2da",
           textColor: "#000"
         },
         {
           title: "V7981P",
           content: "Dusky Saffron",
-          boxColor: "#c67630",
+          boxColor: "#c97c34",
           textColor: "#000"
         }
       ]
   },
   {
     id:'21',
-    color: '#e6e6e6',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#e8ebeb',
+    id_title: "VL180P",
+    id_content: "Innocent White",
     view:'',
     title: "Grooved Design - A",
       mainImage: { src: "/images/Grooved Design-A.png" },
@@ -690,22 +690,22 @@ export const exteriorColor1 =[
         {
           title: "VL180P",
           content: "Innocent White",
-          boxColor: "#e4e4e4",
+          boxColor: "#e8ebeb",
           textColor: "#000"
         },
         {
           title: "V7303P",
           content: "Stormy Sea",
-          boxColor: "#587b94",
+          boxColor: "#5b7e98",
           textColor: "#000"
         }
       ]
   },
   {
     id:'22',
-    color: '#f0e6d7',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f0eada',
+    id_title: "VL134P",
+    id_content: "Double Cream",
     view:'',
     title: "Grooved Design - B",
       mainImage: { src: "/images/Grooved Design-B.png" },
@@ -713,22 +713,22 @@ export const exteriorColor1 =[
         {
           title: "VL134P",
           content: "Double Cream",
-          boxColor: "#eee4d5",
+          boxColor: "#f0eada",
           textColor: "#000"
         },
         {
           title: "V7166P",
           content: "Intense Purple",
-          boxColor: "#7b76a8",
+          boxColor: "#7d7cab",
           textColor: "#000"
         }
       ]
   },
   {
     id:'23',
-    color: '#f5f0dc',
-    id_title: "V9983P",
-    id_content: "Brick Dust - N",
+    color: '#f7f0dd',
+    id_title: "V7948P",
+    id_content: "Crescent",
     view:'',
     title: "Grooved Design - C",
       mainImage: { src: "/images/Grooved Design-C.png" },
@@ -736,13 +736,13 @@ export const exteriorColor1 =[
         {
           title: "V7948P",
           content: "Crescent",
-          boxColor: "#f3eeda",
+          boxColor: "#f7f0dd",
           textColor: "#000"
         },
         {
           title: "V8261P",
           content: "Thunder Cloud",
-          boxColor: "#4d4d52",
+          boxColor: "#535456",
           textColor: "#000"
         }
       ]
@@ -1179,9 +1179,9 @@ export const exteriorColor2 =[
   },
   {
     id:'17',
-    color: '#b3cccc',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#b5d1cd',
+    id_title: "V7482P",
+    id_content: "Sparkling Water",
     view:'',
     title: "Modern Baroque - D",
       mainImage: { src: "/images/Modern Baroque-D.png" },
@@ -1189,22 +1189,22 @@ export const exteriorColor2 =[
         {
           title: "V7482P",
           content: "Sparkling Water",
-          boxColor: "#b2cbcb",
+          boxColor: "#b5d1cd",
           textColor: "#000"
         },
         {
           title: "V6129P",
           content: "Pilgrim",
-          boxColor: "#9ea3a8",
+          boxColor: "#a0a5ad",
           textColor: "#000"
         }
       ]
   },
   {
     id:'18',
-    color: '#c3d2b4',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#c6d4b6',
+    id_title: "V7690P",
+    id_content: "Forest Foliage",
     view:'',
     title: "Arched Residence - B",
       mainImage: { src: "/images/Arched Residence-B.png" },
@@ -1212,22 +1212,22 @@ export const exteriorColor2 =[
         {
           title: "V7690P",
           content: "Forest Foliage",
-          boxColor: "#c1d0b2",
+          boxColor: "#c6d4b6",
           textColor: "#000"
         },
         {
           title: "V8255P",
           content: "Stone Path",
-          boxColor: "#6c717b",
+          boxColor: "#6f757e",
           textColor: "#000"
         }
       ]
   },
   {
     id:'19',
-    color: '#9aaeb8',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#9fb1bb',
+    id_title: "V8266P",
+    id_content: "Bali Blue",
     view:'',
     title: "Arched Residence - E",
       mainImage: { src: "/images/Arched Residence-E.png" },
@@ -1235,22 +1235,22 @@ export const exteriorColor2 =[
         {
           title: "V8266P",
           content: "Bali Blue",
-          boxColor: "#99adb7",
+          boxColor: "#9fb1bb",
           textColor: "#000"
         },
         {
           title: "V7366P",
           content: "Ashberry",
-          boxColor: "#446c7b",
+          boxColor: "#486e81",
           textColor: "#000"
         }
       ]
   },
   {
     id:'20',
-    color: '#e0eacc',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#e5ebcd',
+    id_title: "V2353P",
+    id_content: "Alto - N",
     view:'',
     title: "Iconic Villa - E",
       mainImage: { src: "/images/Iconic Villa-E.png" },
@@ -1258,13 +1258,13 @@ export const exteriorColor2 =[
         {
           title: "V2353P",
           content: "Alto - N",
-          boxColor: "#dfe9cb",
+          boxColor: "#e5ebcd",
           textColor: "#000"
         },
         {
           title: "V8101P",
           content: "Milan Red",
-          boxColor: "#804949",
+          boxColor: "#824b4f",
           textColor: "#000"
         }
       ]
@@ -1630,9 +1630,9 @@ export const exteriorColor3 =[
   },
   {
     id:'15',
-    color: '#f4e5d1',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f6ead2',
+    id_title: "V7931P",
+    id_content: "Shredded Wheat",
     view:'',
     title: "Lattice House - C",
       mainImage: { src: "/images/Lattice House-C.png" },
@@ -1640,28 +1640,28 @@ export const exteriorColor3 =[
         {
           title: "V7931P",
           content: "Shredded Wheat",
-          boxColor: "#f3e4d0",
+          boxColor: "#f6ead2",
           textColor: "#000"
         },
         {
           title: "V8103P",
           content: "Mauve Medley",
-          boxColor: "#ad7176",
+          boxColor: "#af7779",
           textColor: "#000"
         },
         {
           title: "V8098P",
           content: "Pink Dollop",
-          boxColor: "#f8d0d5",
+          boxColor: "#fad5db",
           textColor: "#000"
         }
       ]
   },
   {
     id:'16',
-    color: '#efead1',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f2ecd2',
+    id_title: "V7843P",
+    id_content: "Margarine",
     view:'',
     title: "Country House - B",
       mainImage: { src: "/images/Country House-B.png" },
@@ -1669,22 +1669,22 @@ export const exteriorColor3 =[
         {
           title: "V7843P",
           content: "Margarine",
-          boxColor: "#eee9d0",
+          boxColor: "#f2ecd2",
           textColor: "#000"
         },
         {
           title: "V9872P",
           content: "Olive Tapenade - N",
-          boxColor: "#997644",
+          boxColor: "#9f7848",
           textColor: "#000"
         }
       ]
   },
   {
     id:'17',
-    color: '#f9eab8',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#fcebbc',
+    id_title: "V7946P",
+    id_content: "Sunny Side Up",
     view:'',
     title: "Country House - E",
       mainImage: { src: "/images/Country House-E.png" },
@@ -1692,22 +1692,22 @@ export const exteriorColor3 =[
         {
           title: "V7946P",
           content: "Sunny Side Up",
-          boxColor: "#f8e9b7",
+          boxColor: "#fcebbc",
           textColor: "#000"
         },
         {
           title: "V7158P",
           content: "Royale Robes",
-          boxColor: "#8076ad",
+          boxColor: "#827ab0",
           textColor: "#000"
         }
       ]
   },
   {
     id:'18',
-    color: '#efdb9f',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f2e0a3',
+    id_title: "V0399P",
+    id_content: "Pineapple - N",
     view:'',
     title: "Arched Residence - C",
       mainImage: { src: "/images/Arched Residence-C.png" },
@@ -1715,22 +1715,22 @@ export const exteriorColor3 =[
         {
           title: "V0399P",
           content: "Pineapple - N",
-          boxColor: "#eeda9e",
+          boxColor: "#f2e0a3",
           textColor: "#000"
         },
         {
           title: "V7526P",
           content: "Jade Impact",
-          boxColor: "#3f8f80",
+          boxColor: "#439186",
           textColor: "#000"
         }
       ]
   },
   {
     id:'19',
-    color: '#d1b89a',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#d4ba9d',
+    id_title: "V4215P",
+    id_content: "Swiss Coffee",
     view:'',
     title: "Arched Residence - D",
       mainImage: { src: "/images/Arched Residence-D.png" },
@@ -1738,22 +1738,22 @@ export const exteriorColor3 =[
         {
           title: "V4215P",
           content: "Swiss Coffee",
-          boxColor: "#d0b799",
+          boxColor: "#d4ba9d",
           textColor: "#000"
         },
         {
           title: "V8535P",
           content: "Brown Tan",
-          boxColor: "#ad8a67",
+          boxColor: "#af8c6b",
           textColor: "#000"
         }
       ]
   },
   {
     id:'20',
-    color: '#ead6a9',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#ebd9ad',
+    id_title: "V7890P",
+    id_content: "Sisal Mat",
     view:'',
     title: "Iconic Villa - A",
       mainImage: { src: "/images/Iconic Villa-A.png" },
@@ -1761,13 +1761,13 @@ export const exteriorColor3 =[
         {
           title: "V7890P",
           content: "Sisal Mat",
-          boxColor: "#e9d5a8",
+          boxColor: "#ebd9ad",
           textColor: "#000"
         },
         {
           title: "V7877P",
           content: "Ripe Olive",
-          boxColor: "#b59739",
+          boxColor: "#ba9c40",
           textColor: "#000"
         },
         {
@@ -1780,9 +1780,9 @@ export const exteriorColor3 =[
   },
   {
     id:'21',
-    color: '#efe5d1',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f0e6d2',
+    id_title: "V0942P",
+    id_content: "Daybreak",
     view:'',
     title: "Iconic Villa - C",
       mainImage: { src: "/images/Iconic Villa-C.png" },
@@ -1790,28 +1790,28 @@ export const exteriorColor3 =[
         {
           title: "V0942P",
           content: "Daybreak",
-          boxColor: "#eee4d0",
+          boxColor: "#f0e6d2",
           textColor: "#000"
         },
         {
           title: "V9643P",
           content: "Sailor’s Stripes - N",
-          boxColor: "#3f4e71",
+          boxColor: "#415273",
           textColor: "#000"
         },
         {
           title: "V7959P",
           content: "Orange Crush",
-          boxColor: "#f8bc67",
+          boxColor: "#fec169",
           textColor: "#000"
         }
       ]
   },
   {
     id:'22',
-    color: '#f9e5b8',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#fae7bc',
+    id_title: "V7954P",
+    id_content: "Dreamsicle",
     view:'',
     title: "Iconic Villa - D",
       mainImage: { src: "/images/Iconic Villa-D.png" },
@@ -1819,22 +1819,22 @@ export const exteriorColor3 =[
         {
           title: "V7954P",
           content: "Dreamsicle",
-          boxColor: "#f8e4b7",
+          boxColor: "#fae7bc",
           textColor: "#000"
         },
         {
           title: "V8206P",
           content: "Cardinal",
-          boxColor: "#806c76",
+          boxColor: "#82717c",
           textColor: "#000"
         }
       ]
   },
   {
     id:'23',
-    color: '#f4efc2',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f7f2c6',
+    id_title: "V7866P",
+    id_content: "Butter Scotch",
     view:'',
     title: "Twisting Maze - B",
       mainImage: { src: "/images/Twisting Maze-B.png" },
@@ -1842,22 +1842,22 @@ export const exteriorColor3 =[
         {
           title: "V7866P",
           content: "Butter Scotch",
-          boxColor: "#f3eec1",
+          boxColor: "#f7f2c6",
           textColor: "#000"
         },
         {
           title: "V8295P",
           content: "Sleigh Bells",
-          boxColor: "#808080",
+          boxColor: "#858585",
           textColor: "#000"
         }
       ]
   },
   {
     id:'24',
-    color: '#f4eac7',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f9efc8',
+    id_title: "V7834P",
+    id_content: "Gold Gleam",
     view:'',
     title: "Grooved Design - D",
       mainImage: { src: "/images/Grooved Design-D.png" },
@@ -1865,13 +1865,13 @@ export const exteriorColor3 =[
         {
           title: "V7834P",
           content: "Gold Gleam",
-          boxColor: "#f3e9c6",
+          boxColor: "#f9efc8",
           textColor: "#000"
         },
         {
           title: "V7767P",
           content: "Harvest Season",
-          boxColor: "#c6c67b",
+          boxColor: "#ccc97d",
           textColor: "#000"
         }
       ]
@@ -2173,9 +2173,9 @@ export const exteriorColor4 =[
   },
   {
     id:'12',
-    color: '#efe0e0',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f0e5e5',
+    id_title: "V9108P",
+    id_content: "Iris Ice",
     view:'',
     title: "Lattice House - E",
       mainImage: { src: "/images/Lattice House-E.png" },
@@ -2183,19 +2183,19 @@ export const exteriorColor4 =[
         {
           title: "V9108P",
           content: "Iris Ice",
-          boxColor: "#eedfdf",
+          boxColor: "#f0e5e5",
           textColor: "#000"
         },
         {
           title: "V0318P",
           content: "Light Biscuit - N",
-          boxColor: "#daa88a",
+          boxColor: "#ddad90",
           textColor: "#000"
         },
         {
           title: "V7944P",
           content: "Sunspot",
-          boxColor: "#f8da8a",
+          boxColor: "#fee090",
           textColor: "#000"
         }
       ]
@@ -2204,8 +2204,8 @@ export const exteriorColor4 =[
   {
     id:'13',
     color: '#e5dbcc',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    id_title: "V8499P",
+    id_content: "Meadow Lark",
     view:'',
     title: "Modern Baroque - A",
       mainImage: { src: "/images/Modern Baroque-A.png" },
@@ -2213,22 +2213,22 @@ export const exteriorColor4 =[
         {
           title: "V8499P",
           content: "Meadow Lark",
-          boxColor: "#e4dacb",
+          boxColor: "#e6dece",
           textColor: "#000"
         },
         {
           title: "V7511P",
           content: "Valley Green",
-          boxColor: "#2b9994",
+          boxColor: "#2d9f96",
           textColor: "#000"
         }
       ]
   },
   {
     id:'14',
-    color: '#e5c7b8',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#e8c8bd',
+    id_title: "V8643P",
+    id_content: "Almond Kiss",
     view:'',
     title: "Modern Baroque - B",
       mainImage: { src: "/images/Modern Baroque-B.png" },
@@ -2236,22 +2236,22 @@ export const exteriorColor4 =[
         {
           title: "V8643P",
           content: "Almond Kiss",
-          boxColor: "#e4c6b7",
+          boxColor: "#e8c8bd",
           textColor: "#000"
         },
         {
           title: "V7293P",
           content: "Mystic Dream",
-          boxColor: "#3a495d",
+          boxColor: "#3d4c60",
           textColor: "#000"
         }
       ]
   },
   {
     id:'15',
-    color: '#f9e0c7',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#fee3c9',
+    id_title: "V7994P",
+    id_content: "Peach Rose",
     view:'',
     title: "Modern Baroque - C",
       mainImage: { src: "/images/Modern Baroque-C.png" },
@@ -2259,22 +2259,22 @@ export const exteriorColor4 =[
         {
           title: "V7994P",
           content: "Peach Rose",
-          boxColor: "#f8dfc6",
+          boxColor: "#fee3c9",
           textColor: "#000"
         },
         {
           title: "VK004P",
           content: "Heady Wine - N",
-          boxColor: "#a34449",
+          boxColor: "#a5464d",
           textColor: "#000"
         }
       ]
   },
   {
     id:'16',
-    color: '#9f9fc2',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#a2a3c6',
+    id_title: "V7168P",
+    id_content: "Orchid Bloom",
     view:'',
     title: "Modern Baroque - E",
       mainImage: { src: "/images/Modern Baroque-E.png" },
@@ -2282,22 +2282,22 @@ export const exteriorColor4 =[
         {
           title: "V7168P",
           content: "Orchid Bloom",
-          boxColor: "#9e9ec1",
+          boxColor: "#a2a3c6",
           textColor: "#000"
         },
         {
           title: "V8528P",
           content: "Bush Land",
-          boxColor: "#bc9e7b",
+          boxColor: "#bfa080",
           textColor: "#000"
         }
       ]
   },
   {
     id:'17',
-    color: '#f4e0e0',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#f8e2e2',
+    id_title: "V8092P",
+    id_content: "Pink Mist",
     view:'',
     title: "Country House - A",
       mainImage: { src: "/images/Country House-A.png" },
@@ -2305,13 +2305,13 @@ export const exteriorColor4 =[
         {
           title: "V8092P",
           content: "Pink Mist",
-          boxColor: "#f3dfdf",
+          boxColor: "#f8e2e2",
           textColor: "#000"
         },
         {
           title: "V8088P",
           content: "Rose Bouquet",
-          boxColor: "#eea8b2",
+          boxColor: "#f3abb7",
           textColor: "#000"
         },
         {
@@ -2324,9 +2324,9 @@ export const exteriorColor4 =[
   },
   {
     id:'18',
-    color: '#f9e0bd',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#fde4c2',
+    id_title: "V7978P",
+    id_content: "Orange Frost",
     view:'',
     title: "Country House - C",
       mainImage: { src: "/images/Country House-C.png" },
@@ -2334,22 +2334,22 @@ export const exteriorColor4 =[
         {
           title: "V7978P",
           content: "Orange Frost",
-          boxColor: "#f8dfbc",
+          boxColor: "#fde4c2",
           textColor: "#000"
         },
         {
           title: "V0643P",
           content: "Steel Grey",
-          boxColor: "#9e9e9e",
+          boxColor: "#a0a3a2",
           textColor: "#000"
         }
       ]
   },
   {
     id:'19',
-    color: '#e0ccbd',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#e4d1bf',
+    id_title: "V0940P",
+    id_content: "Antique White",
     view:'',
     title: "Country House - D",
       mainImage: { src: "/images/Country House-D.png" },
@@ -2357,28 +2357,28 @@ export const exteriorColor4 =[
         {
           title: "V0940P",
           content: "Antique White",
-          boxColor: "#dfcbbc",
+          boxColor: "#e4d1bf",
           textColor: "#000"
         },
         {
           title: "V9988P",
           content: "Rich Maple - N",
-          boxColor: "#c66253",
+          boxColor: "#cb6755",
           textColor: "#000"
         },
         {
           title: "V7192P",
           content: "Senate Purple",
-          boxColor: "#9595ad",
+          boxColor: "#9996b0",
           textColor: "#000"
         }
       ]
   },
   {
     id:'20',
-    color: '#dbd1db',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#ded6dc',
+    id_title: "V9139P",
+    id_content: "Berry Shake",
     view:'',
     title: "Arched Residence - A",
       mainImage: { src: "/images/Arched Residence-A.png" },
@@ -2386,28 +2386,28 @@ export const exteriorColor4 =[
         {
           title: "V9139P",
           content: "Berry Shake",
-          boxColor: "#dad0da",
+          boxColor: "#ded6dc",
           textColor: "#000"
         },
         {
           title: "V7957P",
           content: "Orange Peel",
-          boxColor: "#f89926",
+          boxColor: "#fe9b29",
           textColor: "#000"
         },
         {
           title: "V7161P",
           content: "Potpourri",
-          boxColor: "#c6bcda",
+          boxColor: "#cac0df",
           textColor: "#000"
         }
       ]
   },
   {
     id:'21',
-    color: '#eae0cc',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#eee1cd',
+    id_title: "V8532P",
+    id_content: "Easter Lily",
     view:'',
     title: "Twisting Maze - C",
       mainImage: { src: "/images/Twisting Maze-C.png" },
@@ -2415,22 +2415,22 @@ export const exteriorColor4 =[
         {
           title: "V8532P",
           content: "Easter Lily",
-          boxColor: "#e9dfcb",
+          boxColor: "#eee1cd",
           textColor: "#000"
         },
         {
           title: "V8709P",
           content: "Vine Yard",
-          boxColor: "#764953",
+          boxColor: "#7a4f58",
           textColor: "#000"
         }
       ]
   },
   {
     id:'22',
-    color: '#d6d1cc',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#d7d3cd',
+    id_title: "V8298P",
+    id_content: "Silver Trinket",
     view:'',
     title: "Twisting Maze - E",
       mainImage: { src: "/images/Twisting Maze-E.png" },
@@ -2438,28 +2438,28 @@ export const exteriorColor4 =[
         {
           title: "V8298P",
           content: "Silver Trinket",
-          boxColor: "#d5d0cb",
+          boxColor: "#d7d3cd",
           textColor: "#000"
         },
         {
           title: "V8167P",
           content: "Muted Scarlet",
-          boxColor: "#c194bc",
+          boxColor: "#c698c0",
           textColor: "#000"
         },
         {
           title: "V9584P",
           content: "Fervent Fuchsia - N",
-          boxColor: "#ad5385",
+          boxColor: "#af5987",
           textColor: "#000"
         }
       ]
   },
   {
     id:'23',
-    color: '#f9d1a9',
-    id_title: "V8300P",
-    id_content: "Confetti",
+    color: '#fdd6ab',
+    id_title: "V7969P",
+    id_content: "Coral Beach",
     view:'',
     title: "Grooved Design - E",
       mainImage: { src: "/images/Grooved Design-E.png" },
@@ -2467,13 +2467,13 @@ export const exteriorColor4 =[
         {
           title: "V7969P",
           content: "Coral Beach",
-          boxColor: "#f8d0a8",
+          boxColor: "#fdd6ab",
           textColor: "#000"
         },
         {
           title: "V7809P",
           content: "Chinese Tea",
-          boxColor: "#cbc18a",
+          boxColor: "#d0c38f",
           textColor: "#000"
         }
       ]

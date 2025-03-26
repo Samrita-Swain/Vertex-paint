@@ -4,128 +4,116 @@ const ArchedResidence = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#ded6dc",
+      title: "Arched Residence - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "The lively pairing of soft lavender and bright orange gives this house a unique and memorable charm, ensuring it leaves a lasting impression.",
+      mainImage: { src: "/images/Arched Residence-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "V9139P",
+          content: "Berry Shake",
+          boxColor: "#ded6dc",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
+          title: "V7957P",
+          content: "Orange Peel",
+          boxColor: "#fe9b29",
           textColor: "#000"
         },
         {
-          title: "Vertex Fine Square",
-          content: "Glazia Greiges",
-          boxColor: "#676860",
+          title: "V7161P",
+          content: "Potpourri",
+          boxColor: "#cac0df",
           textColor: "#000"
         }
       ]
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#c6d4b6",
+      title: "Arched Residence - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "The earthy combination of muted green and grey fills the house with a fresh, natural vibe, adding a touch of dignified elegance to its character.",
+      mainImage: { src: "/images/Arched Residence-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "V7690P",
+          content: "Forest Foliage",
+          boxColor: "#c6d4b6",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "V8255P",
+          content: "Stone Path",
+          boxColor: "#6f757e",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#f2e0a3",
+      title: "Arched Residence - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+        "The refined mix of pale yellow and green, along with sophisticated woodwork, brings a lively energy to this house, creating a smooth and expansive atmosphere.",
+      mainImage: { src: "/images/Arched Residence-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V0399P",
+          content: "Pineapple - N",
+          boxColor: "#f2e0a3",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
-          textColor: "#000"
-        },
-        {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V7526P",
+          content: "Jade Impact",
+          boxColor: "#439186",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#d4ba9d",
+      title: "Arched Residence - D",
       description:
         "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+      mainImage: { src: "/images/Arched Residence-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "V4215P",
+          content: "Swiss Coffee",
+          boxColor: "#d4ba9d",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
-          textColor: "#000"
-        },
-        {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V8535P",
+          content: "Brown Tan",
+          boxColor: "#af8c6b",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#9fb1bb",
+      title: "Arched Residence - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "The harmonious blend of blue hues, complemented by elegant woodwork, gives this home a regal and luxurious ambiance.",
+      mainImage: { src: "/images/Arched Residence-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V8266P",
+          content: "Bali Blue",
+          boxColor: "#9fb1bb",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V7366P",
+          content: "Ashberry",
+          boxColor: "#486e81",
           textColor: "#000"
         }
       ]
@@ -148,10 +136,9 @@ const ArchedResidence = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-5xl font-medium mb-4">Arched Residence</h1>
           <p className="text-lg font-normal text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          Radiating opulence, this home’s mirrored, arched
+windows evoke a palatial aura. The soaring double height foyer and beautifully tended garden further
+enhance the villa, capturing luxury in every detail.
           </p>
         </div>
       </div>

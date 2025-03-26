@@ -33,6 +33,20 @@ const InteriorColorOptions = () => {
 
   return (
     <div>
+      <div
+        className="relative InteriorColor-banner p-12 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url(../images/color-options.jpg)" }}
+      >
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative content text-white text-center flex flex-col items-center">
+          <h1 className="text-5xl text-white font-semibold mb-4">
+            Interior Wall Paints
+          </h1>
+          <p className="text-lg font-normal">
+            Explore the exclusive range of wall paint colors for every space.
+          </p>
+        </div>
+      </div>
        {/* Main Content */}
        <div className="flex p-12 h-screen bg-white">
         {/* Color Section */}

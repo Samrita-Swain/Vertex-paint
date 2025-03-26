@@ -4,27 +4,27 @@ const IconicVilla = () => {
   const tabs = [
     {
       id: "A",
-      color: "#f7f0e3",
-      title: "Crafted Cube - A",
+      color: "#ebd9ad",
+      title: "Iconic Villa - A",
       description:
-        "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+        "A beautiful blend of earthy colours, brown and beige invigorate this house and lends it a warm sun-kissed aura.",
+      mainImage: { src: "/images/Iconic Villa-A.png" },
       contentBoxes: [
         {
-          title: "V8004P",
-          content: "Mellow Orange",
-          boxColor: "#f5eee1",
+          title: "V7890P",
+          content: "Sisal Mat",
+          boxColor: "#ebd9ad",
           textColor: "#000"
         },
         {
-          title: "V9983P",
-          content: "Brick Dust - N",
-          boxColor: "#b45a55",
+          title: "V7877P",
+          content: "Ripe Olive",
+          boxColor: "#ba9c40",
           textColor: "#000"
         },
         {
           title: "Vertex Fine Square",
-          content: "Glazia Greiges",
+          content: "Aristone Yellow",
           boxColor: "#676860",
           textColor: "#000"
         }
@@ -32,100 +32,100 @@ const IconicVilla = () => {
     },
     {
       id: "B",
-      color: "#e2dfd8",
-      title: "Crafted Cube - B",
+      color: "#f3eee2",
+      title: "Iconic Villa - B",
       description:
-        "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+        "Accents of lively yellow and blue blend in beautifully with the base white in this home enlivening and elevating it effortlessly.",
+      mainImage: { src: "/images/Iconic Villa-B.png" },
       contentBoxes: [
         {
-          title: "V8300P",
-          content: "Confetti",
-          boxColor: "#e1dcd7",
+          title: "VL103P",
+          content: "Pearl Star",
+          boxColor: "#f3eee2",
           textColor: "#000"
         },
         {
-          title: "V8639P",
-          content: "Brick Tone",
-          boxColor: "#a06e64",
+          title: "V7415P",
+          content: "Steel Mesh",
+          boxColor: "#709ca7",
+          textColor: "#000"
+        },
+        {
+          title: "V9876P",
+          content: "Happy Canary - N",
+          boxColor: "#fedc74",
           textColor: "#000"
         }
       ]
     },
     {
       id: "C",
-      color: "#e2e8e5",
-      title: "Crafted Cube - C",
+      color: "#f0e6d2",
+      title: "Iconic Villa - C",
       description:
-        "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
+        "A contrasting colour combination of fresh beige and accents of dark blue and orange add a refreshing and formal perspective to this modern structure.",
       mainImage: { src: "/images/crafted-cube-C.png" },
       contentBoxes: [
         {
-          title: "V7300P",
-          content: "Jet Stream",
-          boxColor: "#e1e6e1",
+          title: "V0942P",
+          content: "Daybreak",
+          boxColor: "#f0e6d2",
           textColor: "#000"
         },
         {
-          title: "V7927P",
-          content: "Casablanca",
-          boxColor: "#ebc373",
+          title: "V9643P",
+          content: "Sailor’s Stripes - N",
+          boxColor: "#415273",
           textColor: "#000"
         },
         {
-          title: "V8581P",
-          content: "Antique Brass",
-          boxColor: "#7d5a46",
+          title: "V7959P",
+          content: "Orange Crush",
+          boxColor: "#fec169",
           textColor: "#000"
         }
       ]
     },
     {
       id: "D",
-      color: "#efe2c0",
-      title: "Crafted Cube - D",
+      color: "#fae7bc",
+      title: "Iconic Villa - D",
       description:
-        "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+        "A lively main colour beige complemented by subtle undertones of purple, highlights the elegant woodwork in this house and makes it look classy.",
+      mainImage: { src: "/images/Iconic Villa-D.png" },
       contentBoxes: [
         {
-          title: "V7891P",
-          content: "Wheat Sprig",
-          boxColor: "#ebe1be",
+          title: "V7954P",
+          content: "Dreamsicle",
+          boxColor: "#fae7bc",
           textColor: "#000"
         },
         {
-          title: "V7304P",
-          content: "Piece of Sky",
-          boxColor: "#698ca5",
-          textColor: "#000"
-        },
-        {
-          title: "V8566P",
-          content: "Tree Bark",
-          boxColor: "#9b785a",
+          title: "V8206P",
+          content: "Cardinal",
+          boxColor: "#82717c",
           textColor: "#000"
         }
       ]
     },
     {
       id: "E",
-      color: "#e8d18f",
-      title: "Crafted Cube - E",
+      color: "#e5ebcd",
+      title: "Iconic Villa - E",
       description:
-        "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+        "A regal colour combination of a formal maroon and a subtle green lends this house a modern and trendy aesthetic.",
+      mainImage: { src: "/images/Iconic Villa-E.png" },
       contentBoxes: [
         {
-          title: "V7880P",
-          content: "Honey Mustard",
-          boxColor: "#e6cd8c",
+          title: "V2353P",
+          content: "Alto - N",
+          boxColor: "#e5ebcd",
           textColor: "#000"
         },
         {
-          title: "V8288P",
-          content: "Stone Age",
-          boxColor: "#82878c",
+          title: "V8101P",
+          content: "Milan Red",
+          boxColor: "#824b4f",
           textColor: "#000"
         }
       ]
@@ -148,10 +148,11 @@ const IconicVilla = () => {
         <div className="relative content text-white text-center">
           <h1 className="text-5xl font-medium mb-4">Iconic Villa</h1>
           <p className="text-lg font-normal text-[#ffffffb3]">
-            This home boasts an artistic, monolithic style with a contemporary
-            flair. The mix of external claddings and textures enhances its
-            modern appeal, while a uniquely designed, 5-shaped weather shed adds
-            a striking, unconventional touch.
+          This architectural style, with its emphasis on
+horizontal planes, gives the house a spacious
+feel. The open façade design, smart wood
+accents, and elegantly spaced structures
+contribute to its modern and stylish appearance.
           </p>
         </div>
       </div>
