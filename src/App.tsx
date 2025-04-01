@@ -1,18 +1,19 @@
 import './index.css'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "aos/dist/aos.css";
+import { PacmanLoader } from "react-spinners";
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+
+// Pages
 import HomePage from './pages/home/HomePage';
 import ColorVisualizerPage from './pages/ColorVisualizer';
 import ProductsPage from './pages/products/ProductsPage';
 import ProductDetail from './pages/products/ProductDetail';
 import ServicesPage from './pages/services/ServicesPage';
-import SafePaintingPage from './pages/services/SafePaintingPage';
-import ColourConsultancyPage from './pages/services/ColourConsultancyPage';
-import DealerLocatorPage from './pages/services/DealerLocatorPage';
-import PaintCalculatorPage from './pages/services/PaintCalculatorPage';
 import AboutPage from './pages/about/AboutPage';
 import ContactPage from './pages/contact/ContactPage';
 import BlogPage from './pages/blog/BlogPage';
@@ -41,12 +42,13 @@ import TrackOrderPage from './pages/services/TrackOrderPage';
 import LoginPage from './pages/services/LoginPage';
 import CartPage from './pages/services/CartPage';
 import TDS from './pages/TDS';
-import Exterioremulsions from './pages/products/Exterioremulsions';
-import ApexExterioremulsions from './pages/products/ApexExterioremulsions';
-import AcemExterioremulsions from './pages/products/AcemExterioremulsions';
-import ScrollToTop from './components/ScrollToTop';
-import CraftedCube from './pages/products/CraftedCube';
+import CalculateNow from './pages/products/CalculateNow';
+import InteriorColorOptions from './pages/products/InteriorColorOptions';
 import PeacefulSerene from './pages/products/PeacefulSerene';
+import TrendyStylish from './pages/products/TrendyStylish';
+import SoftRelaxing from './pages/products/SoftRelaxing';
+import ExcitingBright from './pages/products/ExcitingBright';
+import CraftedCube from './pages/products/CraftedCube';
 import RomanHeritage from './pages/products/RomanHeritage';
 import CuttingEdge from './pages/products/CuttingEdge';
 import CountryStyle from './pages/products/CountryStyle';
@@ -64,15 +66,12 @@ import GroovedDesign from './pages/products/GroovedDesign';
 import IconicVilla from './pages/products/IconicVilla';
 import TwistingMaze from './pages/products/TwistingMaze';
 import ArchedResidence from './pages/products/ArchedResidence';
-import TrendyStylish from './pages/products/TrendyStylish';
-import SoftRelaxing from './pages/products/SoftRelaxing';
-import ExcitingBright from './pages/products/ExcitingBright';
+import ACMECementPrimer from './pages/products/ACMECementPrimer';
+import ExteriorBaseCoat from './pages/products/ExteriarBaseCoat';
 import FineSquare from './pages/products/Finesquare';
 import SilkShine from './pages/products/SilkShine';
 import TitaniumOne from './pages/products/TitaniumOne';
 import UltraWrp from './pages/products/UltraWrp';
-import ExteriorBaseCoat from './pages/products/ExteriarBaseCoat';
-import ACMECementPrimer from './pages/products/ACMECementPrimer';
 import PremiumEmulsion from './pages/products/PremiumEmulsion';
 import ACME from './pages/products/ACME';
 import MattFinish from './pages/products/MattFinish';
@@ -82,22 +81,82 @@ import MetalGuard from './pages/products/MetalGuard';
 import ACMEWrp from './pages/products/ACMEWrp';
 import BDSeal from './pages/products/BDSeal';
 import CoolRoof from './pages/products/CoolRoof';
-import InteriorColor from './pages/products/InteriorColor';
-import InteriorColorOptions from './pages/products/InteriorColorOptions';
-import CalculateNow from './pages/products/CalculateNow';
+import ApexExterioremulsions from './pages/products/ApexExterioremulsions';
+import AcemExterioremulsions from './pages/products/AcemExterioremulsions';
+import SafePaintingPage from './pages/services/SafePaintingPage';
+import ColourConsultancyPage from './pages/services/ColourConsultancyPage';
+import DealerLocatorPage from './pages/services/DealerLocatorPage';
+import PaintCalculatorPage from './pages/services/PaintCalculatorPage';
+import InteriorColor from './pages/products/InteriorPaintsPage';
+import Exterioremulsions from './pages/products/Exterioremulsions';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    // Dynamically create the gradient background
+    const backgroundElement = document.querySelector('.background') as HTMLElement | null;
+  
+  if (backgroundElement) {
+    backgroundElement.style.animation = 'movingGradient 35s linear infinite';
+  }
+
+  }, []);
+
   useEffect(() => {
     import("aos").then((AOS) => AOS.default.init());
   }, []);
+
   return (
-    <div className="font-times">
-      <Router>
+    <Router>
+      {loading ? (
+         <div className="relative flex justify-center items-center min-h-screen bg-white overflow-hidden">
+         {/* Background with gradient animation */}
+         <div className="absolute top-[-100%] left-[-100%] w-[200%] h-[200%] bg-[radial-gradient(circle_at_100%_50%,transparent_20%,#e00717_21%,#e00717_34%,transparent_35%,transparent),radial-gradient(circle_at_0%_50%,transparent_20%,#e00717_21%,#e00717_34%,transparent_35%,transparent)] opacity-[0.07]"></div>
+     
+         {/* Wrapper for Image and Text */}
+         <div className="flex flex-col items-center">
+           {/* Image Component */}
+           <div className="relative z-10 w-[150px] h-[150px]  mb-5">
+             {/* Replace the cube with an image */}
+             <img 
+               src="/images/Vertex Paint logo.png"  // Replace with your image URL
+               alt="Loading Image" 
+               className="w-full h-full object-cover mb-5" 
+             />
+           </div>
+     
+           {/* Loading Text */}
+           <div className="flex space-x-2">
+              {"VERTEX PAINTS".split("").map((letter, index) => (
+                <span
+                  key={index}
+                  className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#2b388c] to-[#d6152f] animate-bounce"
+                  style={{ 
+                    animationDelay: `${index * 0.1}s`,
+                    animationDuration: "1.5s",
+                    animationTimingFunction: "ease-in-out"
+                  }}
+                >
+                  {letter}
+                </span>
+              ))}
+            </div>
+         </div>
+       </div>
+     ) : (
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <ScrollToTop />
           <main className="flex-grow">
-            <Routes>
+          <Routes>
               {/* Main Pages */}
               <Route path="/" element={<HomePage />} />
               <Route path="/visualizer" element={<ColorVisualizerPage />} />
@@ -137,8 +196,7 @@ function App() {
               {/* Exterior Cutting Edge*/}
               <Route path="/Exterior/CuttingEdge" element={<CuttingEdge/>} />
 
-              {/* Exterior Country Style*/}
-              <Route path="/Exterior/CountryStyle" element={<CountryStyle/>} />
+              
 
               {/* Exterior Country Style*/}
               <Route path="/Exterior/CountryStyle" element={<CountryStyle/>} />
@@ -323,9 +381,9 @@ function App() {
           </main>
           <Footer />
         </div>
-      </Router>
-    </div>
+      )}
+    </Router>
   );
 }
 
-export default App; 
+export default App;
