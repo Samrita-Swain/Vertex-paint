@@ -90,65 +90,127 @@ import PaintCalculatorPage from './pages/services/PaintCalculatorPage';
 import InteriorColor from './pages/products/InteriorPaintsPage';
 import Exterioremulsions from './pages/products/Exterioremulsions';
 
+
 function App() {
   const [loading, setLoading] = useState(true);
+  const [fadeOut, setFadeOut] = useState(false);
+  const [mainContentVisible, setMainContentVisible] = useState(false);
+  const [mainContentOpacity, setMainContentOpacity] = useState(0);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
+    // Start the fade out animation after 2 seconds
+    const timerFade = setTimeout(() => {
+      setFadeOut(true);
     }, 2000);
-    return () => clearTimeout(timer);
+    
+    // Make main content visible but with 0 opacity when loading starts to fade
+    const timerShowContent = setTimeout(() => {
+      setMainContentVisible(true);
+    }, 3000);
+    
+    // Start increasing opacity of main content
+    const timerStartOpacity = setTimeout(() => {
+      setMainContentOpacity(0.2);
+      
+      // Gradually increase opacity
+      const opacityInterval = setInterval(() => {
+        setMainContentOpacity(prev => {
+          const newOpacity = prev + 0.2;
+          if (newOpacity >= 1) {
+            clearInterval(opacityInterval);
+            return 1;
+          }
+          return newOpacity;
+        });
+      }, 200); // Increase opacity every 200ms
+      
+      // Clean up interval
+      return () => clearInterval(opacityInterval);
+    }, 2000);
+    
+    // Remove loading screen when fade out completes
+    const timerRemove = setTimeout(() => {
+      setLoading(false);
+    }, 2400);
+    
+    return () => {
+      clearTimeout(timerFade);
+      clearTimeout(timerShowContent);
+      clearTimeout(timerStartOpacity);
+      clearTimeout(timerRemove);
+    };
+  }, []);
+
+  useEffect(() => {
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes loadingBefore {
+        0%   {transform:translateX(-14px);}
+        50%  {transform:translateX(14px);}
+        100% {transform:translateX(-14px);}
+      }
+      
+      @keyframes loadingAfter {
+        0%   {transform:translateX(-50px);}
+        50%  {transform:translateX(50px);}
+        100% {transform:translateX(-50px);}
+      }
+    `;
+    document.head.appendChild(style);
+    
+    return () => {
+      document.head.removeChild(style);
+    };
   }, []);
 
   useEffect(() => {
     // Dynamically create the gradient background
     const backgroundElement = document.querySelector('.background') as HTMLElement | null;
   
-  if (backgroundElement) {
-    backgroundElement.style.animation = 'movingGradient 35s linear infinite';
-  }
-
+    if (backgroundElement) {
+      backgroundElement.style.animation = 'movingGradient 35s linear infinite';
+    }
   }, []);
 
   useEffect(() => {
     import("aos").then((AOS) => AOS.default.init());
   }, []);
-
   return (
     <Router>
       {loading ? (
-         <div className="relative flex justify-center items-center min-h-screen bg-white overflow-hidden">
-         {/* Background with gradient animation */}
-         <div className="absolute top-[-100%] left-[-100%] w-[200%] h-[200%] bg-[radial-gradient(circle_at_100%_50%,transparent_20%,#e00717_21%,#e00717_34%,transparent_35%,transparent),radial-gradient(circle_at_0%_50%,transparent_20%,#e00717_21%,#e00717_34%,transparent_35%,transparent)] opacity-[0.07]"></div>
-     
-         {/* Wrapper for Image and Text */}
+         <div 
+         className={`fixed w-full h-full z-50 flex justify-center items-center min-h-screen bg-white overflow-hidden transition-opacity duration-1000 ease-in-out ${fadeOut ? 'opacity-0' : 'opacity-100'}`}
+       >
          <div className="flex flex-col items-center">
-           {/* Image Component */}
-           <div className="relative z-10 w-[150px] h-[150px]  mb-5">
-             {/* Replace the cube with an image */}
+           <div className="relative z-10 w-[150px] h-[150px] mb-5">
              <img 
-               src="/images/Vertex Paint logo.png"  // Replace with your image URL
+               src="/images/Vertex Paint logo.png"  
                alt="Loading Image" 
                className="w-full h-full object-cover mb-5" 
+               data-aos="zoom-out" 
+               data-aos-duration="1500"
              />
            </div>
-     
-           {/* Loading Text */}
-           <div className="flex space-x-2">
-              {"VERTEX PAINTS".split("").map((letter, index) => (
-                <span
-                  key={index}
-                  className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#2b388c] to-[#d6152f] animate-bounce"
-                  style={{ 
-                    animationDelay: `${index * 0.1}s`,
-                    animationDuration: "1.5s",
-                    animationTimingFunction: "ease-in-out"
-                  }}
-                >
-                  {letter}
-                </span>
-              ))}
-            </div>
+
+           <div className="flex items-center justify-center">
+             <div className="relative w-[300px] text-center uppercase font-black">
+               <span className="relative text-2xl z-10 text-white">Vertex Paints</span>
+               
+               <div 
+                 className="absolute top-0 left-0 right-0 bottom-0 m-auto w-[300px] h-[36px] bg-[#1b3289]"
+                 style={{
+                   animation: '2s loadingBefore infinite ease-in-out'
+                 }}
+               ></div>
+               
+               <div 
+                 className="absolute top-0 left-0 right-0 bottom-0 m-auto w-[14px] h-[60px] bg-[#f0be3c] opacity-50"
+                 style={{
+                   animation: '2s loadingAfter infinite ease-in-out'
+                 }}
+               ></div>
+             </div>
+           </div>
          </div>
        </div>
      ) : (
