@@ -38,7 +38,7 @@ const ExteriorPaintsPage = () => {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className="flex-1 text-center text-4xl font-normal"
+                className="flex-1 text-center text-3xl font-normal"
               >
                 <span
                   className={`relative pb-1 ${
