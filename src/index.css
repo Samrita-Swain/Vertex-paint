@@ -348,11 +348,22 @@ body {
     justify-content: center;
     align-items: center;
 }
-.InteriorColor-banner{
+/* .InteriorColor-banner{
   height: 85vh;
   display: flex;
     justify-content: center;
     align-items: center;
+} */
+.InteriorColor-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
+  max-width: 100vw;
 }
 
 .ultima-box {

@@ -36,7 +36,7 @@ const InteriorColor = () => {
     <div>
       {/* Banner Section */}
       <div
-        className="relative InteriorColor-banner p-12 bg-cover bg-center bg-no-repeat w-full"
+        className="relative InteriorColor-banner p-12 bg-cover bg-center bg-no-repeat w-fullrelative InteriorColor-banner px-6 md:px-12 py-12  w-full"
         style={{ backgroundImage: "url(../images/Interior-banner.jpg)" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -117,80 +117,90 @@ const InteriorColor = () => {
 
       {/* Color Selection Section */}
       <div className="p-10 bg-white">
-  <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-12 items-center">
-    {/* Left Section - Takes More Width on Larger Screens */}
-    <div className="lg:col-span-2 space-y-8" data-aos="zoom-in"
-              data-aos-duration="1500">
-      {/* Full-width Image */}
-      <div className="w-full">
-        <img
-          src={selectedColor.image}
-          alt={`${selectedColor.name} image`}
-          className="w-full lg:h-[520px] md:h-[460px] sm:h-[330px] object-cover rounded-lg shadow-md"
-        />
-      </div>
-
-      {/* Color Tabs with Responsiveness */}
-      <div className="flex flex-row gap-4">
-        {colors.map((color) => (
+        <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-12 items-center">
+          {/* Left Section - Takes More Width on Larger Screens */}
           <div
-            key={color.name}
-            onClick={() => setSelectedColor(color)}
-            className={`cursor-pointer rounded-lg transition transform ${
-              selectedColor.name === color.name ? "shadow-2xl" : "shadow-lg"
-            }`}
-            style={{ width: "20%" }} 
+            className="lg:col-span-2 space-y-8"
+            data-aos="zoom-in-right"
+            data-aos-duration="1500"
           >
-            {/* Color Block */}
-            <div
-              className="rounded-t-lg"
-              style={{
-                backgroundColor: color.hex,
-                height: "50px",
-              }}
-            />
+            {/* Full-width Image */}
+            <div className="w-full">
+              <img
+                src={selectedColor.image}
+                alt={`${selectedColor.name} image`}
+                className="w-full lg:h-[520px] md:h-[460px] sm:h-[330px] object-cover rounded-lg shadow-md"
+              />
+            </div>
 
-            {/* Color Name */}
-            <div
-              className={`p-2 rounded-b-lg text-center font-medium text-[12px] transition ${
-                selectedColor.name === color.name
-                  ? "text-black"
-                  : "text-black bg-white"
-              }`}
-              style={{
-                backgroundColor:
-                  selectedColor.name === color.name ? color.hex : "white",
-              }}
-            >
-              <div>{color.name}</div>
-              <div className="text-[11px] text-gray-600">{color.code}</div>
+            {/* Color Tabs with Responsiveness */}
+            <div className="flex flex-row gap-4">
+              {colors.map((color) => (
+                <div
+                  key={color.name}
+                  onClick={() => setSelectedColor(color)}
+                  className={`cursor-pointer rounded-lg transition transform ${
+                    selectedColor.name === color.name
+                      ? "shadow-2xl"
+                      : "shadow-lg"
+                  }`}
+                  style={{ width: "20%" }}
+                >
+                  {/* Color Block */}
+                  <div
+                    className="rounded-t-lg"
+                    style={{
+                      backgroundColor: color.hex,
+                      height: "50px",
+                    }}
+                  />
+
+                  {/* Color Name */}
+                  <div
+                    className={`p-2 rounded-b-lg text-center font-medium text-[12px] transition ${
+                      selectedColor.name === color.name
+                        ? "text-black"
+                        : "text-black bg-white"
+                    }`}
+                    style={{
+                      backgroundColor:
+                        selectedColor.name === color.name ? color.hex : "white",
+                    }}
+                  >
+                    <div>{color.name}</div>
+                    <div className="text-[11px] text-gray-600">
+                      {color.code}
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
-        ))}
+
+          {/* Right Section */}
+          <div
+            className="space-y-6 flex flex-col items-start"
+            data-aos="zoom-in-left"
+            data-aos-duration="1500"
+          >
+            <h1 className="gradient-text text-5xl font-semibold md:text-4xl sm:text-3xl">
+              Popular Shades
+            </h1>
+            <p className="text-lg font-normal text-gray-700 leading-relaxed sm:text-base">
+              From elegant neutrals to rich, vibrant hues, our popular shades
+              collection offers the perfect palette to transform your space.
+            </p>
+            <a
+              href="/InteriorWallPaint/Shades"
+              className="inspired-by-button flex items-center"
+            >
+              View All Shades <FaArrowRight className="icon" />
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
 
-    {/* Right Section */}
-    <div className="space-y-6 flex flex-col items-start" data-aos="fade-left"
-          data-aos-duration="1500">
-      <h1 className="gradient-text text-5xl font-semibold md:text-4xl sm:text-3xl">
-        Popular Shades
-      </h1>
-      <p className="text-lg font-normal text-gray-700 leading-relaxed sm:text-base">
-        From elegant neutrals to rich, vibrant hues, our popular shades
-        collection offers the perfect palette to transform your space.
-      </p>
-      <a href="/InteriorWallPaint/Shades" className="inspired-by-button flex items-center">
-        View All Shades <FaArrowRight className="icon" />
-      </a>
-    </div>
-  </div>
-</div>
-
-
-<CalculatorForm /> 
-
-
+      <CalculatorForm />
     </div>
   );
 };
