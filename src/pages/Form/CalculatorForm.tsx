@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
+import Swal from "sweetalert2";
+
 
 const productPrices: Record<string, number> = {
   "Wall Primer": 1.5,
@@ -10,6 +12,17 @@ const productPrices: Record<string, number> = {
   "Weather Coat Paint": 3.2,
   "Exterior Emulsion": 2.8,
   Waterproofing: 4.0,
+};
+
+const productImages: Record<string, string> = {
+  "Wall Primer": "/images/1.png",
+  "Emulsion Paint": "/images/2.png",
+  "Ceiling Paint": "/images/3.png",
+  "Wood Polish": "/images/4.png",
+  "Exterior Primer": "/images/5.png",
+  "Weather Coat Paint": "/images/6.png",
+  "Exterior Emulsion": "/images/7.png",
+  Waterproofing: "/images/8.png",
 };
 
 const interiorProducts = [
@@ -52,30 +65,33 @@ const PaintingCalculatorForm: React.FC = () => {
   };
 
   const handleSubmit = () => {
-    if (
-      !selectedProject ||
-      !selectedSpace ||
-      !area ||
-      selectedProducts.length === 0
-    ) {
-      alert("Please fill out all fields.");
+    if (!selectedProject || !selectedSpace || !area || selectedProducts.length === 0) {
+      Swal.fire({
+        icon: "warning",
+        title: "Incomplete Information",
+        text: "Please fill out all fields before calculating.",
+        confirmButtonColor: "#fbbf24", // Yellow color
+      });
       return;
     }
-
+  
     const areaValue = parseFloat(area);
-    let cost = 0;
-
-    selectedProducts.forEach((product) => {
-      cost += (productPrices[product] || 0) * areaValue;
-    });
-
+    let cost = selectedProducts.reduce(
+      (sum, product) => sum + (productPrices[product] || 0) * areaValue,
+      0
+    );
+  
     setTotalCost(cost);
+
   };
+  
 
   return (
     <div className="calculator-banner p-10">
       <div className="content mb-5 flex flex-col items-center">
-        <h6 className=" text-gray-600 text-lg font-normal mb-2 text-center">Paint Budget Calculator</h6>
+        <h6 className=" text-gray-600 text-lg font-normal mb-2 text-center">
+          Paint Budget Calculator
+        </h6>
         <h1 className="mb-[35px] gradient-text text-4xl font-semibold text-center">
           Get Instant Budget Estimates
         </h1>
@@ -83,7 +99,8 @@ const PaintingCalculatorForm: React.FC = () => {
 
       <div
         className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-6"
-        data-aos="fade-up" data-aos-duration="1500"
+        data-aos="fade-up"
+        data-aos-duration="1500"
       >
         {/* Left Section: Form */}
         <div className="w-full mx-auto p-6 shadow-lg rounded-xl bg-[#f3f3f3e0]">
@@ -148,34 +165,34 @@ const PaintingCalculatorForm: React.FC = () => {
           </div>
 
           <div className="total-part flex flex-col md:flex-row items-center justify-between mt-6 border-gray-300 pt-4 gap-4">
-  {/* Submit Button */}
-  <button
-    className="w-full md:w-auto bg-yellow-500 border border-yellow-500 text-black p-3 rounded-[0.5rem] font-medium flex items-center justify-center space-x-2 hover:bg-transparent transition duration-300 !mb-0 inspired-by-button !text-lg"
-    onClick={handleSubmit}
-  >
-    Calculate Now <FaArrowRight className="icon" />
-  </button>
+            {/* Submit Button */}
+            <button
+              className="w-full md:w-auto bg-yellow-500 border border-yellow-500 text-black p-3 rounded-[0.5rem] font-medium flex items-center justify-center space-x-2 hover:bg-transparent transition duration-300 !mb-0 inspired-by-button !text-lg"
+              onClick={handleSubmit}
+            >
+              Calculate Now <FaArrowRight className="icon" />
+            </button>
 
-  {/* Display Total Cost */}
-  <h2 className="text-lg font-medium bg-[#2c3789] text-white p-[10px] rounded-[10px] text-center w-full md:w-auto">
-    Estimated Cost: Rs.{totalCost.toFixed(2)}
-  </h2>
-</div>
-
+            {/* Display Total Cost */}
+            <h2 className="text-lg font-medium bg-[#2c3789] text-white p-[10px] rounded-[10px] text-center w-full md:w-auto">
+              Estimated Cost: Rs.{totalCost.toFixed(2)}
+            </h2>
+          </div>
         </div>
 
         {/* Right Section: Product Selection and Total Cost */}
         <div className="w-full p-6 shadow-lg rounded-xl bg-[#f3f3f3e0]">
-          <h3 className="text-lg font-semibold mb-4">Available Products{" "}
-          <span className="text-red-500">*</span>
+          <h3 className="text-lg font-semibold mb-4">
+            Available Products <span className="text-red-500">*</span>
           </h3>
-          <div className="grid gap-2">
-            {/* Show both lists if no space is selected */}
+
+          {/* Scrollable Product List */}
+          <div className="grid gap-2 max-h-80 overflow-y-auto custom-scrollbar">
             {(selectedSpace === "Interior" || selectedSpace === null) &&
               interiorProducts.map((product) => (
                 <button
                   key={product}
-                  className={`p-3 border rounded-lg text-left transition ${
+                  className={`p-3 border rounded-lg flex justify-between items-center text-left transition ${
                     selectedProducts.includes(product)
                       ? "border-black bg-gray-100 shadow-md"
                       : "border-gray-300"
@@ -183,6 +200,11 @@ const PaintingCalculatorForm: React.FC = () => {
                   onClick={() => handleProductSelect(product)}
                 >
                   {product} - Rs.{productPrices[product]} per SQFT
+                  <img
+                    src={productImages[product]}
+                    alt={product}
+                    className="w-12 h-12 rounded"
+                  />
                 </button>
               ))}
 
@@ -190,7 +212,7 @@ const PaintingCalculatorForm: React.FC = () => {
               exteriorProducts.map((product) => (
                 <button
                   key={product}
-                  className={`p-3 border rounded-lg text-left transition ${
+                  className={`p-3 border rounded-lg flex justify-between items-center text-left transition ${
                     selectedProducts.includes(product)
                       ? "border-black bg-gray-100 shadow-md"
                       : "border-gray-300"
@@ -198,6 +220,11 @@ const PaintingCalculatorForm: React.FC = () => {
                   onClick={() => handleProductSelect(product)}
                 >
                   {product} - Rs.{productPrices[product]} per SQFT
+                  <img
+                    src={productImages[product]}
+                    alt={product}
+                    className="w-12 h-12 rounded"
+                  />
                 </button>
               ))}
           </div>

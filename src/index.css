@@ -680,3 +680,21 @@ a:hover .icon{
 
 
 
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px !important; /* Adjust scrollbar width */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f3f3f3 !important; /* Off-white scrollbar track */
+  border-radius: 10px !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #d6d6d6 !important; /* Light grey thumb */
+  border-radius: 10px !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #c0c0c0 !important; /* Darker grey on hover */
+}

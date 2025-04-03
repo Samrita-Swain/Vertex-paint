@@ -36,7 +36,7 @@ const InteriorColor = () => {
     <div>
       {/* Banner Section */}
       <div
-        className="relative InteriorColor-banner p-12 bg-cover bg-center bg-no-repeat"
+        className="relative InteriorColor-banner p-12 bg-cover bg-center bg-no-repeat w-full"
         style={{ backgroundImage: "url(../images/Interior-banner.jpg)" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
