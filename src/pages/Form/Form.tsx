@@ -83,8 +83,8 @@ const Form: React.FC = () => {
         {/* Left Section - Now takes 1/3 of the space */}
         <div className="w-full lg:col-span-1 md:col-span-1">
         <h2 className="form-header text-5xl font-medium md:text-[40px] lg:text-[40px] mb-3">Get Expert Advice</h2>
-          <p className="text-lg font-normal text-[#ffffff91]">
-            Bid goodbye to your home furnishing hassles with our expert
+          <p className="text-[16px] font-normal text-[#ffffff91]">
+            Big goodbye to your home furnishing hassles with our expert
             supervision
           </p>
         </div>
@@ -100,7 +100,7 @@ const Form: React.FC = () => {
                 placeholder="Enter your name"
                 value={formData.name}
                 onChange={handleChange}
-                className="p-3 rounded bg-white text-black w-full"
+                className="p-3 rounded bg-white text-black w-full !text-[14px]"
                 required
               />
               <input
@@ -109,7 +109,7 @@ const Form: React.FC = () => {
                 placeholder="+91 Enter mobile number"
                 value={formData.mobile}
                 onChange={handleChange}
-                className="p-3 rounded bg-white text-black w-full"
+                className="p-3 rounded bg-white text-black w-full !text-[14px]"
                 required
               />
               <input
@@ -118,7 +118,7 @@ const Form: React.FC = () => {
                 placeholder="Enter your Pincode"
                 value={formData.pincode}
                 onChange={handleChange}
-                className="p-3 rounded bg-white text-black w-full"
+                className="p-3 rounded bg-white text-black w-full !text-[14px]"
                 required
               />
               <input
@@ -127,7 +127,7 @@ const Form: React.FC = () => {
                 placeholder="Enter your email"
                 value={formData.email}
                 onChange={handleChange}
-                className="p-3 rounded bg-white text-black w-full"
+                className="p-3 rounded bg-white text-black w-full !text-[14px]"
                 required
               />
             </div>
@@ -143,7 +143,7 @@ const Form: React.FC = () => {
                   className="w-5 h-5"
                   style={{ width: '1.25rem', height: '1.25rem' }}
                 />
-                <span>There is construction work going on at my house</span>
+                <span className="text-[13px]">There is construction work going on at my house</span>
               </label>
 
               <label className="flex items-center space-x-2">
@@ -155,10 +155,10 @@ const Form: React.FC = () => {
                   className="w-5 h-5"
                   style={{ width: '1.25rem', height: '1.25rem' }}
                 />
-                <span>There is a local painter hired</span>
+                <span className="text-[13px]">There is a local painter hired</span>
               </label>
             </div>
-            <p className="mb-5 text-lg leading-6 text-[#ffffff91]">
+            <p className="mb-5 text-[16px] leading-6 text-[#ffffff91]">
               By proceeding, you are authorizing Asian Paints and its suggested
               contractors to get in touch with you through calls, sms, or
               e-mail.

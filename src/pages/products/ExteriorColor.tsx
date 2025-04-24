@@ -8,7 +8,7 @@ const ExteriorColor = () => {
       <h1 className="gradient-text text-4xl font-semibold mb-2 text-center">
           Colours
         </h1>
-        <p className="mb-[35px] text-gray-600 text-lg font-normal text-center">Choose a colour theme that sets the perfect mood for your
+        <p className="mb-[35px] text-gray-600 text-md font-normal text-center">Choose a colour theme that sets the perfect mood for your
 dream home!</p>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-8">
                   {exteriorColor.map(color => (
@@ -29,14 +29,14 @@ dream home!</p>
                         </div>
                       </div>
                       <div className="p-6">
-                        <h3 className="text-[17px] font-semibold mb-2">
+                        <h3 className="text-[16px] font-semibold mb-2">
                           {color.title}
                         </h3>
-                        <p className="text-gray-600 text-[15px] font-normal mb-4">{color.excerpt}</p>
+                        <p className="text-gray-600 text-[14px] font-normal mb-4">{color.excerpt}</p>
                         <div className="flex items-center justify-between">
                           <Link 
                             to={`${color.explore}`}
-                            className="rounded-lg text-lg font-noemal bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-[#fec940] flex flex-row gap-2 items-center" style={{transition: "0.5s", padding:"5px 15px"}}
+                            className="rounded-lg text-sm font-noemal bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-[#fec940] flex flex-row gap-2 items-center" style={{transition: "0.5s", padding:"5px 15px"}}
                           >
                             Explore <FaArrowRight className="icon"/>
                           </Link>

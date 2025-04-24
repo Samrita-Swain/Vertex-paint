@@ -38,7 +38,7 @@ const ExteriorPaintsPage = () => {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className="flex-1 text-center text-3xl font-normal"
+                className="flex-1 text-center text-2xl font-normal"
               >
                 <span
                   className={`relative pb-1 ${
@@ -68,13 +68,13 @@ const ExteriorPaintsPage = () => {
 
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-3xl font-medium mb-5">Fine Square</h1>
-                    <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
+                    <h1 className="exterior-text text-xl font-medium mb-3">Fine Square</h1>
+                    <p className="exterior-p text-[12px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto{" "}
                       <span className="text-lg font-medium">15</span>{" "}
                       Years
                     </p>
-                    <p className="exterior-p text-[15px] font-normal">Performance Warranty</p>
+                    <p className="exterior-p text-[13px] font-normal">Performance Warranty</p>
                     {/* <a
                       href="../UltimaExterioremulsions"
                       className="exterior-second-band-button"
@@ -95,12 +95,12 @@ const ExteriorPaintsPage = () => {
                   </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-3xl font-medium mb-5">Silk Shine</h1>
-                    <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
+                    <h1 className="exterior-text text-xl font-medium mb-3">Silk Shine</h1>
+                    <p className="exterior-p text-[12px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto <span className="text-[18px] font-extrabold">6</span>{" "}
                       Years
                     </p>
-                    <p className="text-[15px] font-normal">Performance Warranty</p>
+                    <p className="text-[13px] font-normal">Performance Warranty</p>
                     {/* <a href="/ApexExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
@@ -118,12 +118,12 @@ const ExteriorPaintsPage = () => {
                   </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-3xl font-medium mb-5">Titanium One</h1>
-                    <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
+                    <h1 className="exterior-text text-xl font-medium mb-3">Titanium One</h1>
+                    <p className="exterior-p text-[12px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto <span className="text-lg font-medium">4</span>{" "}
                       Years
                     </p>
-                    <p className="exterior-p text-[15px] font-normal">Performance Warranty</p>
+                    <p className="exterior-p text-[13px] font-normal">Performance Warranty</p>
                     {/* <a href="/AcemExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
@@ -141,12 +141,12 @@ const ExteriorPaintsPage = () => {
                   </a>
                   {/* Centering Content */}
                   <div className="content w-full absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center p-4 rounded-[10px] flex flex-col items-center">
-                    <h1 className="exterior-text text-3xl font-medium mb-5">Ultra WRP</h1>
-                    <p className="exterior-p text-[14px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
+                    <h1 className="exterior-text text-xl font-medium mb-3">Ultra WRP</h1>
+                    <p className="exterior-p text-[12px] bg-[#ffffff33] mb-2 rounded-[8px] px-3 py-1">
                       Upto <span className="text-lg font-medium">4</span>{" "}
                       Years
                     </p>
-                    <p className="exterior-p text-[15px] font-normal">Performance Warranty</p>
+                    <p className="exterior-p text-[13px] font-normal">Performance Warranty</p>
                     {/* <a href="/AcemExterioremulsions" className="exterior-second-band-button">
                       Explore
                       <FaArrowRight className="icon" />
@@ -236,8 +236,8 @@ const ExteriorPaintsPage = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
-            <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+            <div>
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/1.png"
@@ -247,10 +247,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 ACME Water Thinable Cement Primer
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -260,8 +260,8 @@ const ExteriorPaintsPage = () => {
           <a href="/Exterior/ExteriorBaseCoat"
             className="ultima-box group relative p-4 cursor-pointer"
           >
-            <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+            <div>
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/2.png"
@@ -271,10 +271,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 Exterior Base Coat
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -286,8 +286,8 @@ const ExteriorPaintsPage = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
-            <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+            <div>
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/3.png"
@@ -297,10 +297,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 Premium Emulsion
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -310,8 +310,8 @@ const ExteriorPaintsPage = () => {
           <a href="/Exterior/ACME"
             className="ultima-box group relative p-4 cursor-pointer"
           >
-            <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+            <div>
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/4.png"
@@ -321,10 +321,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 ACME
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -336,8 +336,8 @@ const ExteriorPaintsPage = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
-            <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+            <div>
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/5.png"
@@ -347,10 +347,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 Ext. /Int. Emulsion Matt Finish
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -360,8 +360,8 @@ const ExteriorPaintsPage = () => {
           <a href="/Exterior/EasyWash"
             className="ultima-box group relative p-4 cursor-pointer"
           >
-            <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+            <div>
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/7.png"
@@ -371,10 +371,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 Easy Wash
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -386,8 +386,8 @@ const ExteriorPaintsPage = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
-            <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+            <div>
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/8.png"
@@ -397,10 +397,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 Primer Surface Brown
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -411,7 +411,7 @@ const ExteriorPaintsPage = () => {
             className="ultima-box group relative p-4 cursor-pointer"
           >
             <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/9.png"
@@ -421,10 +421,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 Metal Guard
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -437,7 +437,7 @@ const ExteriorPaintsPage = () => {
             data-aos-duration="1500"
           >
             <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/10.png"
@@ -447,10 +447,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 ACME Ultra WRP
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -463,7 +463,7 @@ const ExteriorPaintsPage = () => {
             data-aos-duration="1500"
           >
             <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/12.png"
@@ -473,10 +473,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 BD Seal
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -486,8 +486,8 @@ const ExteriorPaintsPage = () => {
           <a href="/Exterior/CoolRoof"
             className="ultima-box group relative p-4 cursor-pointer"
           >
-            <div className="mb-5">
-              <div className="flex justify-center items-center h-[150px]">
+            <div>
+              <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
                   src="/images/13.png"
@@ -497,10 +497,10 @@ const ExteriorPaintsPage = () => {
             </div>
 
             <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
+              <h6 className="text-[16px] font-semibold mb-[8px] text-center">
                 Cool Roof
               </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
+              <ul className="list-disc ml-4 text-md text-[14px] font-[400]">
                 <li>WALLS of S.T.E.E.L</li>
                 <li>15 years warranty*</li>
                 <li>Advanced PUD Formula</li>
@@ -512,11 +512,11 @@ const ExteriorPaintsPage = () => {
 
       <div className="inspired-by grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-12 bg-[#f7f2e7] justify-center items-center">
         <div className="inspired-by-content-part" data-aos="fade-right" data-aos-duration="1500">
-          <h6 className="text-4xl font-medium mb-3">Get inspired by our</h6>
-          <h1 className="text-7xl font-semibold w-[89%] leading-[75px] gradient-text mb-3">
+          <h6 className="text-3xl font-medium mb-3">Get inspired by our</h6>
+          <h1 className="text-6xl font-semibold w-[60%] leading-[65px] gradient-text mb-3">
             Exquisite Collections
           </h1>
-          <p className="text-lg font-normal mb-5">
+          <p className="text-[17px] font-normal mb-5">
             Elevate your style and imagination with the range of Texture
             Collections
           </p>

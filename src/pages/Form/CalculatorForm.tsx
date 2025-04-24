@@ -167,14 +167,14 @@ const PaintingCalculatorForm: React.FC = () => {
           <div className="total-part flex flex-col md:flex-row items-center justify-between mt-6 border-gray-300 pt-4 gap-4">
             {/* Submit Button */}
             <button
-              className="w-full md:w-auto bg-yellow-500 border border-yellow-500 text-black p-3 rounded-[0.5rem] font-medium flex items-center justify-center space-x-2 hover:bg-transparent transition duration-300 !mb-0 inspired-by-button !text-lg"
+              className="w-full md:w-auto bg-yellow-500 border border-yellow-500 text-black p-3 rounded-[0.5rem] font-medium flex items-center justify-center space-x-2 hover:bg-transparent transition duration-300 !mb-0 inspired-by-button"
               onClick={handleSubmit}
             >
               Calculate Now <FaArrowRight className="icon" />
             </button>
 
             {/* Display Total Cost */}
-            <h2 className="text-lg font-medium bg-[#2c3789] text-white p-[10px] rounded-[10px] text-center w-full md:w-auto">
+            <h2 className="text-md font-medium bg-[#2c3789] text-white p-[10px] rounded-[10px] text-center w-full md:w-auto">
               Estimated Cost: Rs.{totalCost.toFixed(2)}
             </h2>
           </div>

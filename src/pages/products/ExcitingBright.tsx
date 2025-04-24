@@ -75,7 +75,7 @@ const ExcitingBright = () => {
               <div className="container">
                 <div className="content flex justify-center items-center flex-col">
                   <h2 className="gradient-text text-4xl font-semibold mb-2 text-center">Exciting & Bright</h2>
-                  <p className="text-gray-600 mb-[35px] text-center text-lg font-normal">
+                  <p className="text-gray-600 mb-[35px] text-center text-md font-normal">
                     Tap on any of the shades you like from below and see the magic
                     unfold!
                   </p>
@@ -114,16 +114,16 @@ const ExcitingBright = () => {
       
                               <div className="flex items-center justify-between p-4">
                               <div className="shades-info">
-                              <h3 className="text-[16px] font-semibold">
+                              <h3 className="text-[15px] font-semibold">
                                       {colorData.id_title}
                                     </h3>
-                                    <p className="text-[14px] font-normal">
+                                    <p className="text-[13px] font-normal">
                                       {colorData.id_content}
                                     </p>
                               </div>
                               <button
                                   onClick={(e) => handleViewClick(color4.id, e)}
-                                  className={`px-2 py-2 rounded-lg text-[17px] font-medium ${
+                                  className={`px-2 py-2 rounded-lg text-[15px] font-medium ${
                                     isActive
                                       ? "bg-transparent border border-[#fec940] text-black"
                                       : "bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-[#fec940]"
@@ -151,7 +151,7 @@ const ExcitingBright = () => {
                                     />
                                   </div>
                                   <div>
-                                    <h3 className="text-[17px] font-semibold mb-3">
+                                    <h3 className="text-[15px] font-semibold mb-3">
                                       {colorData.title}
                                     </h3>
                                     <div className="grid grid-cols-2 gap-3">
@@ -165,10 +165,10 @@ const ExcitingBright = () => {
                                             style={{ backgroundColor: box.boxColor }}
                                           ></div>
                                           <div>
-                                            <p className="text-[16px] font-medium">
+                                            <p className="text-[15px] font-medium">
                                               {box.title}
                                             </p>
-                                            <p className="text-[14px] font-normal text-gray-600">
+                                            <p className="text-[13px] font-normal text-gray-600">
                                               {box.content}
                                             </p>
                                           </div>
@@ -216,10 +216,10 @@ const ExcitingBright = () => {
                                           style={{ backgroundColor: box.boxColor }}
                                         ></div>
                                         <div>
-                                          <p className="text-[16px] font-semibold">
+                                          <p className="text-[15px] font-semibold">
                                             {box.title}
                                           </p>
-                                          <p className="text-[14px] font-normal text-gray-600">
+                                          <p className="text-[13px] font-normal text-gray-600">
                                             {box.content}
                                           </p>
                                         </div>
