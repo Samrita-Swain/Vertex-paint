@@ -8,7 +8,7 @@ const TwistingMaze = () => {
       title: "Twisting Maze - A",
       description:
         "A nature inspired theme of green with a beige brown texture accompanies the subtle base colour perfectly and gels extremely well with the surroundings.",
-      mainImage: { src: "/images/Twisting Maze-A.png" },
+      mainImage: { src: "/images/Twisting Maze-A.jpg" },
       contentBoxes: [
         {
           title: "V7868P",
@@ -36,7 +36,7 @@ const TwistingMaze = () => {
       title: "Twisting Maze - B",
       description:
         "The grey accents against a soft pale yellow base create a stunning visual effect, adding depth and elegance to the house. The grey also complements the floor tiles, tying the design together seamlessly.",
-      mainImage: { src: "/images/Twisting Maze-B.png" },
+      mainImage: { src: "/images/Twisting Maze-B.jpg" },
       contentBoxes: [
         {
           title: "V7866P",
@@ -58,7 +58,7 @@ const TwistingMaze = () => {
       title: "Twisting Maze - C",
       description:
         "The rich, luxurious deep red contrasts beautifully with the off-white base, highlighting the complexity of the structure. Thoughtful use of wood further enhances the home's beauty and sophistication.",
-      mainImage: { src: "/images/Twisting Maze-C.png" },
+      mainImage: { src: "/images/Twisting Maze-C.jpg" },
       contentBoxes: [
         {
           title: "V8532P",
@@ -80,7 +80,7 @@ const TwistingMaze = () => {
       title: "Twisting Maze - D",
       description:
         "The rich blend of orange and brown enhances the calming beige tones, beautifully complementing the refined woodwork and adding a graceful warmth to the space.",
-      mainImage: { src: "/images/Twisting Maze-D.png" },
+      mainImage: { src: "/images/Twisting Maze-D.jpg" },
       contentBoxes: [
         {
           title: "V7884P",
@@ -102,7 +102,7 @@ const TwistingMaze = () => {
       title: "Twisting Maze - E",
       description:
         "The calm greyish base, paired with vibrant rose accents, strikes a perfect aesthetic balance, giving the house a premium and sophisticated allure.",
-      mainImage: { src: "/images/Twisting Maze-E.png" },
+      mainImage: { src: "/images/Twisting Maze-E.jpg" },
       contentBoxes: [
         {
           title: "V8298P",

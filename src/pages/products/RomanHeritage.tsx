@@ -8,7 +8,7 @@ const RomanHeritage = () => {
       title: "Roman Heritage - A",
       description:
         "Soft shades of lilac and earthy brown, paired with white and grey accents, give this home a gentle, dreamy ambiance that's pleasing to the eye",
-      mainImage: { src: "/images/Roman Heritage-A.png" },
+      mainImage: { src: "/images/Roman Heritage-A.jpg" },
       contentBoxes: [
         {
           title: "V7162P",
@@ -36,7 +36,7 @@ const RomanHeritage = () => {
       title: "Roman Heritage - B",
       description:
         "The combination of pale yellow and charcoal grey, highlighted with white accents, creates a sense of calm and balance, giving this home a warm and inviting appeal.",
-      mainImage: { src: "/images/Roman Heritage-B.png" },
+      mainImage: { src: "/images/Roman Heritage-B.jpg" },
       contentBoxes: [
         {
           title: "VL157P",
@@ -58,7 +58,7 @@ const RomanHeritage = () => {
       title: "Roman Heritage - C",
       description:
         "A breezy hue paired with crisp white and touches of rich wine brings style and grace to this home",
-      mainImage: { src: "/images/Roman Heritage-C.png" },
+      mainImage: { src: "/images/Roman Heritage-C.jpg" },
       contentBoxes: [
         {
           title: "V7412P",
@@ -86,7 +86,7 @@ const RomanHeritage = () => {
       title: "Roman Heritage - D",
       description:
         "The home exudes elegance with its soft peach tones paired with slate grey, enhanced by crisp white accents",
-      mainImage: { src: "/images/Roman Heritage-D.png" },
+      mainImage: { src: "/images/Roman Heritage-D.jpg" },
       contentBoxes: [
         {
           title: "V8002P",
@@ -108,7 +108,7 @@ const RomanHeritage = () => {
       title: "Roman Heritage - E",
       description:
         "Inspired by the serene Mediterranean coast, this home features soothing shades of blue and grey, complemented by refreshing white accents.",
-      mainImage: { src: "/images/Roman Heritage-E.png" },
+      mainImage: { src: "/images/Roman Heritage-E.jpg" },
       contentBoxes: [
         {
           title: "V9210P",

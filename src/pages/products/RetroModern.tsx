@@ -8,7 +8,7 @@ const RetroModern = () => {
       title: "Retro Modern - A",
       description:
         "A dash of vivid yellow combined with an earthy brown texture give this home a flourish. The calm off-white also provides a solid contrast to give it flair.",
-      mainImage: { src: "/images/Retro Modern-A.png" },
+      mainImage: { src: "/images/Retro Modern-A.jpg" },
       contentBoxes: [
         {
           title: "V7956P",
@@ -36,7 +36,7 @@ const RetroModern = () => {
       title: "Retro Modern - B",
       description:
         "With various shades of yellow, this house has a unique character that makes it eye-catching.",
-      mainImage: { src: "/images/Retro Modern-B.png" },
+      mainImage: { src: "/images/Retro Modern-B.jpg" },
       contentBoxes: [
         {
           title: "V7953P",
@@ -58,7 +58,7 @@ const RetroModern = () => {
       title: "Retro Modern - C",
       description:
         "A contrasting and appealing colour combination of different shades of green and a light pink gives this house an opulent and novel look.",
-      mainImage: { src: "/images/Retro Modern-C.png" },
+      mainImage: { src: "/images/Retro Modern-C.jpg" },
       contentBoxes: [
         {
           title: "V8019P",
@@ -86,7 +86,7 @@ const RetroModern = () => {
       title: "Retro Modern - D",
       description:
         "A unique blend of a cool blue and a chocolate brown lends this home a contemporary and classy finish. These accents combine really well with a pale pink base.",
-      mainImage: { src: "/images/Retro Modern-D.png" },
+      mainImage: { src: "/images/Retro Modern-D.jpg" },
       contentBoxes: [
         {
           title: "V8580P",
@@ -114,7 +114,7 @@ const RetroModern = () => {
       title: "Retro Modern - E",
       description:
         "A pastel green mixes really well with a classic brown to give this home a refreshing look and an inviting appeal.",
-      mainImage: { src: "/images/Retro Modern-E.png" },
+      mainImage: { src: "/images/Retro Modern-E.jpg" },
       contentBoxes: [
         {
           title: "V7713P",

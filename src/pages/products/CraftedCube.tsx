@@ -8,7 +8,7 @@ const CraftedCube = () => {
       title: "Crafted Cube - A",
       description:
         "A subtle grey texture combined with earthy red accents creates a charming contrast against the white base, giving this house a look that is both graceful and inviting.",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+      mainImage: { src: "/images/Crafted Cube-A.jpg" },
       contentBoxes: [
         {
           title: "V8004P",
@@ -36,7 +36,7 @@ const CraftedCube = () => {
       title: "Crafted Cube - B",
       description:
         "A gentle brown paired with off-white gives this house a refined, artistic, and distinguished appeal.",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+      mainImage: { src: "/images/Crafted Cube-B.jpg" },
       contentBoxes: [
         {
           title: "V8300P",
@@ -58,7 +58,7 @@ const CraftedCube = () => {
       title: "Crafted Cube - C",
       description:
         "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+      mainImage: { src: "/images/Crafted Cube-C.jpg" },
       contentBoxes: [
         {
           title: "V7300P",
@@ -86,7 +86,7 @@ const CraftedCube = () => {
       title: "Crafted Cube - D",
       description:
         "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+      mainImage: { src: "/images/Crafted Cube-D.jpg" },
       contentBoxes: [
         {
           title: "V7891P",
@@ -114,7 +114,7 @@ const CraftedCube = () => {
       title: "Crafted Cube - E",
       description:
         "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+      mainImage: { src: "/images/Crafted Cube-E.jpg" },
       contentBoxes: [
         {
           title: "V7880P",

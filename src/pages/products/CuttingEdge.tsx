@@ -8,7 +8,7 @@ const CuttingEdge = () => {
       title: "Cutting-edge - A",
       description:
         "The blend of sophisticated grey with vibrant yellow accents gives this home a bold and rejuvenating appearance.",
-      mainImage: { src: "/images/Cutting-edge-A.png" },
+      mainImage: { src: "/images/Cutting-edge - A.jpg" },
       contentBoxes: [
         {
           title: "V7220P",
@@ -36,7 +36,7 @@ const CuttingEdge = () => {
       title: "Cutting-edge - B",
       description:
         "The combination of refreshing beige and vibrant maroon effortlessly blends to accentuate the architectural tones of the structure.",
-      mainImage: { src: "/images/Cutting-edge-B.png" },
+      mainImage: { src: "/images/Cutting-edge - B.jpg" },
       contentBoxes: [
         {
           title: "V7882P",
@@ -58,7 +58,7 @@ const CuttingEdge = () => {
       title: "Cutting-edge - C",
       description:
         "In this modern home, the warm buttery yellow paired with soft lilac-grey creates an energizing and vibrant atmosphere.",
-      mainImage: { src: "/images/Cutting-edge-C.png" },
+      mainImage: { src: "/images/Cutting-edge - C.jpg" },
       contentBoxes: [
         {
           title: "V7961P",
@@ -80,7 +80,7 @@ const CuttingEdge = () => {
       title: "Cutting-edge - D",
       description:
         "This home exudes a trendy vibe with the perfect fusion of warm orange accents and cool grey with lavender undertones.",
-      mainImage: { src: "/images/Cutting-edge-D.png" },
+      mainImage: { src: "/images/Cutting-edge - D.jpg" },
       contentBoxes: [
         {
           title: "V7152P",
@@ -108,7 +108,7 @@ const CuttingEdge = () => {
       title: "Cutting-edge - E",
       description:
         "The soft green tones paired with calming grey accents create a vibrant and refreshing atmosphere in this home.",
-      mainImage: { src: "/images/Cutting-edge-E.png" },
+      mainImage: { src: "/images/Cutting-edge - E.jpg" },
       contentBoxes: [
         {
           title: "V7624P",

@@ -8,7 +8,7 @@ const ModernBaroque = () => {
       title: "Modern Baroque - A",
       description:
         "With a simple base colour and a vibrant dash of aquamarine as an accent, this house looks stately and royal",
-      mainImage: { src: "/images/Modern Baroque-A.png" },
+      mainImage: { src: "/images/Modern Baroque-A.jpg" },
       contentBoxes: [
         {
           title: "V8499P",
@@ -30,7 +30,7 @@ const ModernBaroque = () => {
       title: "Modern Baroque - B",
       description:
         "A subdued light pink colour comes together beautifully with deep blue accents to give this modern home a dignified look.",
-      mainImage: { src: "/images/Modern Baroque-B.png" },
+      mainImage: { src: "/images/Modern Baroque-B.jpg" },
       contentBoxes: [
         {
           title: "V8643P",
@@ -52,7 +52,7 @@ const ModernBaroque = () => {
       title: "Modern Baroque - C",
       description:
         "This home looks flamboyant and stands out with a red border, combining really well with the base warm tint",
-      mainImage: { src: "/images/Modern Baroque-C.png" },
+      mainImage: { src: "/images/Modern Baroque-C.jpg" },
       contentBoxes: [
         {
           title: "V7994P",
@@ -74,7 +74,7 @@ const ModernBaroque = () => {
       title: "Modern Baroque - D",
       description:
         "A light blue hue works wonders with dark grey accents to give this home an elaborate, classy vibe.",
-      mainImage: { src: "/images/Modern Baroque-D.png" },
+      mainImage: { src: "/images/Modern Baroque-D.jpg" },
       contentBoxes: [
         {
           title: "V7482P",
@@ -96,7 +96,7 @@ const ModernBaroque = () => {
       title: "Modern Baroque - E",
       description:
         "This house has a suave look and feel. Its decorative structure is balanced with a mix of muted violet and a beautiful brown.",
-      mainImage: { src: "/images/Modern Baroque-E.png" },
+      mainImage: { src: "/images/Modern Baroque-E.jpg" },
       contentBoxes: [
         {
           title: "V7168P",

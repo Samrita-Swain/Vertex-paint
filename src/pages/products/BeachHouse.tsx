@@ -8,7 +8,7 @@ const BeachHouse = () => {
       title: "Beach House - A",
       description:
         "A tasteful blue blends well with an earthy brown roof to give this house a pleasant, summery feel",
-      mainImage: { src: "/images/Beach House-A.png" },
+      mainImage: { src: "/images/Beach House-A.jpg" },
       contentBoxes: [
         {
           title: "VL143P",
@@ -30,7 +30,7 @@ const BeachHouse = () => {
       title: "Beach House - B",
       description:
         "Shades of red beautifully accentuate a base of beige in this coastal home and give it a warm, welcoming look and feel",
-      mainImage: { src: "/images/Beach House-B.png" },
+      mainImage: { src: "/images/Beach House-B.jpg" },
       contentBoxes: [
         {
           title: "V8780P",
@@ -52,7 +52,7 @@ const BeachHouse = () => {
       title: "Beach House - C",
       description:
         "Cosy just got a new definition with this stately and classy contrasting colour combination of powder blue and a creamy hue.",
-      mainImage: { src: "/images/Beach House-C.png" },
+      mainImage: { src: "/images/Beach House-C.jpg" },
       contentBoxes: [
         {
           title: "V7970P",
@@ -74,7 +74,7 @@ const BeachHouse = () => {
       title: "Beach House - D",
       description:
         "A mellow orange with a sober yellow adds to this home’s appeal, making it welcoming and cosy in a unique way.",
-      mainImage: { src: "/images/Beach House-D.png" },
+      mainImage: { src: "/images/Beach House-D.jpg" },
       contentBoxes: [
         {
           title: "V7977P",
@@ -96,7 +96,7 @@ const BeachHouse = () => {
       title: "Beach House - E",
       description:
         "A nature inspired colour combination of subdued green and royal brown does justice to the coastal vibe of this house.",
-      mainImage: { src: "/images/Beach House-E.png" },
+      mainImage: { src: "/images/Beach House-E.jpg" },
       contentBoxes: [
         {
           title: "V7810P",

@@ -8,7 +8,7 @@ const RetroRegal = () => {
       title: "Retro Regal - A",
       description:
         "The warm, creamy beige paired with bold greyish-blue accents infuses the home with a vibrant and lively energy.",
-      mainImage: { src: "/images/Retro Regal-A.png" },
+      mainImage: { src: "/images/Retro Regal-A.jpg" },
       contentBoxes: [
         {
           title: "V7876P",
@@ -30,7 +30,7 @@ const RetroRegal = () => {
       title: "Retro Regal - B",
       description:
         "The rich silken beige combined with rustic red accents creates a regal contrast, imbuing the home with an air of sophistication and nobility.",
-      mainImage: { src: "/images/Retro Regal-B.png" },
+      mainImage: { src: "/images/Retro Regal-B.jpg" },
       contentBoxes: [
         {
           title: "VL104P",
@@ -59,7 +59,7 @@ const RetroRegal = () => {
       title: "Retro Regal - C",
       description:
         "The gentle pastel greens and pinks harmonize beautifully with soft grey-green and bold red accents, lending the home an air of regal elegance.",
-      mainImage: { src: "/images/Retro Regal-C.png" },
+      mainImage: { src: "/images/Retro Regal-C.jpg" },
       contentBoxes: [
         {
           title: "V7778P",
@@ -87,7 +87,7 @@ const RetroRegal = () => {
       title: "Retro Regal - D",
       description:
         "The blend of pink and red infuses the home with warmth, enhancing its magnificence and creating a truly captivating atmosphere",
-      mainImage: { src: "/images/Retro Regal-D.png" },
+      mainImage: { src: "/images/Retro Regal-D.jpg" },
       contentBoxes: [
         {
           title: "VK232P",
@@ -109,7 +109,7 @@ const RetroRegal = () => {
       title: "Retro Regal - E",
       description:
         "The soft pale yellow, bold red, and a hint of grey unite to give this vintage-style home a refined touch of royal elegance.",
-      mainImage: { src: "/images/Retro Regal-E.png" },
+      mainImage: { src: "/images/Retro Regal-E.jpg" },
       contentBoxes: [
         {
           title: "V7840P",

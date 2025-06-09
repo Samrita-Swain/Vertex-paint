@@ -8,7 +8,7 @@ const IconicVilla = () => {
       title: "Iconic Villa - A",
       description:
         "A beautiful blend of earthy colours, brown and beige invigorate this house and lends it a warm sun-kissed aura.",
-      mainImage: { src: "/images/Iconic Villa-A.png" },
+      mainImage: { src: "/images/Iconic Villa - A.jpg" },
       contentBoxes: [
         {
           title: "V7890P",
@@ -36,7 +36,7 @@ const IconicVilla = () => {
       title: "Iconic Villa - B",
       description:
         "Accents of lively yellow and blue blend in beautifully with the base white in this home enlivening and elevating it effortlessly.",
-      mainImage: { src: "/images/Iconic Villa-B.png" },
+      mainImage: { src: "/images/Iconic Villa  - B.jpg" },
       contentBoxes: [
         {
           title: "VL103P",
@@ -64,7 +64,7 @@ const IconicVilla = () => {
       title: "Iconic Villa - C",
       description:
         "A contrasting colour combination of fresh beige and accents of dark blue and orange add a refreshing and formal perspective to this modern structure.",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+      mainImage: { src: "/images/Iconic Villa - C.jpg" },
       contentBoxes: [
         {
           title: "V0942P",

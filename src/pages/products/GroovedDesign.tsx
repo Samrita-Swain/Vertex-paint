@@ -8,7 +8,7 @@ const GroovedDesign = () => {
       title: "Grooved Design - A",
       description:
         "An aqua accent theme works wonders with a fresh white to give this home a cool summery look and feel.",
-      mainImage: { src: "/images/Grooved Design-A.png" },
+      mainImage: { src: "/images/Grooved Design-A.jpg" },
       contentBoxes: [
         {
           title: "VL180P",
@@ -30,7 +30,7 @@ const GroovedDesign = () => {
       title: "Grooved Design - B",
       description:
         "Sombre purple accents work beautifully with a calm white base colour to give this home a breezy vibe.",
-      mainImage: { src: "/images/Grooved Design-B.png" },
+      mainImage: { src: "/images/Grooved Design-B.jpg" },
       contentBoxes: [
         {
           title: "VL134P",
@@ -52,7 +52,7 @@ const GroovedDesign = () => {
       title: "Grooved Design - C",
       description:
         "This home has a classy combination of a warm white and dark grey accents that add to the spacious character of this house.",
-      mainImage: { src: "/images/Grooved Design-C.png" },
+      mainImage: { src: "/images/Grooved Design-C.jpg" },
       contentBoxes: [
         {
           title: "V7948P",
@@ -74,7 +74,7 @@ const GroovedDesign = () => {
       title: "Grooved Design - D",
       description:
         "With a light green hue as the base and a fresh olive as the accent, this home has a warm and airy look and feel.",
-      mainImage: { src: "/images/Grooved Design-D.png" },
+      mainImage: { src: "/images/Grooved Design-D.jpg" },
       contentBoxes: [
         {
           title: "V7834P",
@@ -96,7 +96,7 @@ const GroovedDesign = () => {
       title: "Grooved Design - E",
       description:
         "A bright and vibrant theme makes this home stand out. Light orange works really well with a subtle ochre to create a warmly welcoming personality.",
-      mainImage: { src: "/images/Grooved Design-E.png" },
+      mainImage: { src: "/images/Grooved Design-E.jpg" },
       contentBoxes: [
         {
           title: "V7969P",

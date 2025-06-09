@@ -8,7 +8,7 @@ const LatticeHouse = () => {
       title: "Lattice House - A",
       description:
         "Subtle grey textures along with earthy brown and grey accents, team up against a beige backdrop, to create a home that’s warm and inviting.",
-      mainImage: { src: "/images/Lattice House-A.png" },
+      mainImage: { src: "/images/Lattice House-A.jpg" },
       contentBoxes: [
         {
           title: "VL136P",
@@ -36,7 +36,7 @@ const LatticeHouse = () => {
       title: "Lattice House - B",
       description:
         "Pastel purple and cool grey against a backdrop of creamy beige, render this home a serene appeal.",
-      mainImage: { src: "/images/Lattice House-B.png" },
+      mainImage: { src: "/images/Lattice House-B.jpg" },
       contentBoxes: [
         {
           title: "VL124P",
@@ -64,7 +64,7 @@ const LatticeHouse = () => {
       title: "Lattice House - C",
       description:
         "Creamy beige with accents of a rich brownish-magenta and pale pink, usher into this home, a rooted yet cosy vibe.",
-      mainImage: { src: "/images/Lattice House-C.png" },
+      mainImage: { src: "/images/Lattice House-C.jpg" },
       contentBoxes: [
         {
           title: "V7931P",
@@ -92,7 +92,7 @@ const LatticeHouse = () => {
       title: "Lattice House - D",
       description:
         "Rich bottle green and cool grey create vivid accents against a creamy beige wall, and lend this home a verdant look.",
-      mainImage: { src: "/images/Lattice House-D.png" },
+      mainImage: { src: "/images/Lattice House-D.jpg" },
       contentBoxes: [
         {
           title: "VL122P",
@@ -120,7 +120,7 @@ const LatticeHouse = () => {
       title: "Lattice House - E",
       description:
         "A pale blush pink along with accents of earthy brown and sunshine yellow, enliven this home and lend it an alluring vibe.",
-      mainImage: { src: "/images/Lattice House-E.png" },
+      mainImage: { src: "/images/Lattice House-E.jpg" },
       contentBoxes: [
         {
           title: "V9108P",

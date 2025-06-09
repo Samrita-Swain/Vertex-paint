@@ -8,7 +8,7 @@ const CountryStyle = () => {
       title: "Country-style - A",
       description:
         "With its subtle charm, beige blends effortlessly with bold brick red, giving the home a cozy and inviting personality",
-      mainImage: { src: "/images/Country-style-A.png" },
+      mainImage: { src: "/images/Country-style-A.jpg" },
       contentBoxes: [
         {
           title: "VL155P",
@@ -36,7 +36,7 @@ const CountryStyle = () => {
       title: "Country-style - B",
       description:
         "The majestic white is perfectly paired with a lively yellow, creating a vibrant pop of color that stands out against the expanse of white.",
-      mainImage: { src: "/images/Country-style-B.png" },
+      mainImage: { src: "/images/Country-style-B.jpg" },
       contentBoxes: [
         {
           title: "V7836P",
@@ -58,7 +58,7 @@ const CountryStyle = () => {
       title: "Country-style - C",
       description:
         "Featuring an appealing blend of yellow and brown accents against a calming white base, this house exudes an exquisite and artistic charm.",
-      mainImage: { src: "/images/Country-style-C.png" },
+      mainImage: { src: "/images/Country-style-C.jpg" },
       contentBoxes: [
         {
           title: "V8299P",
@@ -80,7 +80,7 @@ const CountryStyle = () => {
       title: "Country-style - D",
       description:
         "The harmonious fusion of vibrant green and earthy red creates a refreshing atmosphere in this home, while a touch of soft pink adds a unique character to the space.",
-      mainImage: { src: "/images/Country-style-D.png" },
+      mainImage: { src: "/images/Country-style-D.jpg" },
       contentBoxes: [
         {
           title: "V7777P",
@@ -108,7 +108,7 @@ const CountryStyle = () => {
       title: "Country-style - E",
       description:
         "With pale yellow as the primary color and dark grey accents, this house exudes a warm and inviting atmosphere",
-      mainImage: { src: "/images/Country-style-E.png" },
+      mainImage: { src: "/images/Country-style-E.jpg" },
       contentBoxes: [
         {
           title: "V8417P",

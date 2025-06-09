@@ -8,7 +8,7 @@ const ArchedResidence = () => {
       title: "Arched Residence - A",
       description:
         "The lively pairing of soft lavender and bright orange gives this house a unique and memorable charm, ensuring it leaves a lasting impression.",
-      mainImage: { src: "/images/Arched Residence-A.png" },
+      mainImage: { src: "/images/Arched Residence-A.jpg" },
       contentBoxes: [
         {
           title: "V9139P",
@@ -36,7 +36,7 @@ const ArchedResidence = () => {
       title: "Arched Residence - B",
       description:
         "The earthy combination of muted green and grey fills the house with a fresh, natural vibe, adding a touch of dignified elegance to its character.",
-      mainImage: { src: "/images/Arched Residence-B.png" },
+      mainImage: { src: "/images/Arched Residence-B.jpg" },
       contentBoxes: [
         {
           title: "V7690P",
@@ -58,7 +58,7 @@ const ArchedResidence = () => {
       title: "Arched Residence - C",
       description:
         "The refined mix of pale yellow and green, along with sophisticated woodwork, brings a lively energy to this house, creating a smooth and expansive atmosphere.",
-      mainImage: { src: "/images/Arched Residence-C.png" },
+      mainImage: { src: "/images/Arched Residence-C.jpg" },
       contentBoxes: [
         {
           title: "V0399P",
@@ -80,7 +80,7 @@ const ArchedResidence = () => {
       title: "Arched Residence - D",
       description:
         "A touch of subdued blue against the warm off-white creates a delightful and stylish combination,while the subtle addition of brown brings an extra layer of sophistication to the structure",
-      mainImage: { src: "/images/Arched Residence-D.png" },
+      mainImage: { src: "/images/Arched Residence-D.jpg" },
       contentBoxes: [
         {
           title: "V4215P",
@@ -102,7 +102,7 @@ const ArchedResidence = () => {
       title: "Arched Residence - E",
       description:
         "The harmonious blend of blue hues, complemented by elegant woodwork, gives this home a regal and luxurious ambiance.",
-      mainImage: { src: "/images/Arched Residence-E.png" },
+      mainImage: { src: "/images/Arched Residence-E.jpg" },
       contentBoxes: [
         {
           title: "V8266P",
