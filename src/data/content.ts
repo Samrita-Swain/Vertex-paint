@@ -1536,7 +1536,7 @@ export const exteriorColor3 =[
     id_content: "Honey Dew",
     view:'',
     title: "Retro Modern - A",
-      mainImage: { src: "/images/Retro Modern-A.png" },
+      mainImage: { src: "/images/Retro Modern-A.jpg" },
       contentBoxes: [
         {
           title: "V7956P",
@@ -1565,7 +1565,7 @@ export const exteriorColor3 =[
     id_content: "Fairy Glitte",
     view:'',
     title: "Retro Modern - B",
-      mainImage: { src: "/images/Retro Modern-B.png" },
+      mainImage: { src: "/images/Retro Modern-B.jpg" },
       contentBoxes: [
         {
           title: "V7953P",
@@ -1589,7 +1589,7 @@ export const exteriorColor3 =[
     id_content: "Nacho Cheese",
     view:'',
     title: "Beach House - C",
-      mainImage: { src: "/images/Beach House-C.png" },
+      mainImage: { src: "/images/Beach House-C.jpg" },
       contentBoxes: [
         {
           title: "V7970P",
@@ -1612,7 +1612,7 @@ export const exteriorColor3 =[
     id_content: "Mango Duet",
     view:'',
     title: "Beach House - D",
-      mainImage: { src: "/images/Beach House-D.png" },
+      mainImage: { src: "/images/Beach House-D.jpg" },
       contentBoxes: [
         {
           title: "V7977P",
@@ -1635,7 +1635,7 @@ export const exteriorColor3 =[
     id_content: "Shredded Wheat",
     view:'',
     title: "Lattice House - C",
-      mainImage: { src: "/images/Lattice House-C.png" },
+      mainImage: { src: "/images/Lattice House-C.jpg" },
       contentBoxes: [
         {
           title: "V7931P",
@@ -1664,7 +1664,7 @@ export const exteriorColor3 =[
     id_content: "Margarine",
     view:'',
     title: "Country House - B",
-      mainImage: { src: "/images/Country House-B.png" },
+      mainImage: { src: "/images/Country House-B.jpg" },
       contentBoxes: [
         {
           title: "V7843P",
@@ -1687,7 +1687,7 @@ export const exteriorColor3 =[
     id_content: "Sunny Side Up",
     view:'',
     title: "Country House - E",
-      mainImage: { src: "/images/Country House-E.png" },
+      mainImage: { src: "/images/Country House-E.jpg" },
       contentBoxes: [
         {
           title: "V7946P",
@@ -1710,7 +1710,7 @@ export const exteriorColor3 =[
     id_content: "Pineapple - N",
     view:'',
     title: "Arched Residence - C",
-      mainImage: { src: "/images/Arched Residence-C.png" },
+      mainImage: { src: "/images/Arched Residence-C.jpg" },
       contentBoxes: [
         {
           title: "V0399P",
@@ -1733,7 +1733,7 @@ export const exteriorColor3 =[
     id_content: "Swiss Coffee",
     view:'',
     title: "Arched Residence - D",
-      mainImage: { src: "/images/Arched Residence-D.png" },
+      mainImage: { src: "/images/Arched Residence-D.jpg" },
       contentBoxes: [
         {
           title: "V4215P",
@@ -1756,7 +1756,7 @@ export const exteriorColor3 =[
     id_content: "Sisal Mat",
     view:'',
     title: "Iconic Villa - A",
-      mainImage: { src: "/images/Iconic Villa-A.png" },
+      mainImage: { src: "/images/Iconic Villa - A.jpg" },
       contentBoxes: [
         {
           title: "V7890P",
@@ -1785,7 +1785,7 @@ export const exteriorColor3 =[
     id_content: "Daybreak",
     view:'',
     title: "Iconic Villa - C",
-      mainImage: { src: "/images/Iconic Villa-C.png" },
+      mainImage: { src: "/images/Iconic Villa - C.jpg" },
       contentBoxes: [
         {
           title: "V0942P",
@@ -1837,7 +1837,7 @@ export const exteriorColor3 =[
     id_content: "Butter Scotch",
     view:'',
     title: "Twisting Maze - B",
-      mainImage: { src: "/images/Twisting Maze-B.png" },
+      mainImage: { src: "/images/Twisting Maze-B.jpg" },
       contentBoxes: [
         {
           title: "V7866P",
@@ -1860,7 +1860,7 @@ export const exteriorColor3 =[
     id_content: "Gold Gleam",
     view:'',
     title: "Grooved Design - D",
-      mainImage: { src: "/images/Grooved Design-D.png" },
+      mainImage: { src: "/images/Grooved Design-D.jpg" },
       contentBoxes: [
         {
           title: "V7834P",
@@ -1888,7 +1888,7 @@ export const exteriorColor4 =[
     id_content: "Quartz Illusion",
     view:'',
     title: "Roman Heritage - A",
-      mainImage: { src: "/images/Roman Heritage-A.png" },
+      mainImage: { src: "/images/Roman Heritage-A.jpg" },
       contentBoxes: [
         {
           title: "V7162P",
@@ -1916,7 +1916,7 @@ export const exteriorColor4 =[
     id_content: "Bashful Beige",
     view:'',
     title: "Roman Heritage - D",
-      mainImage: { src: "/images/Roman Heritage-D.png" },
+      mainImage: { src: "/images/Roman Heritage-D.jpg" },
       contentBoxes: [
         {
           title: "V8002P",
@@ -1938,8 +1938,8 @@ export const exteriorColor4 =[
     id_title: "V7152P",
     id_content: "Mount Olympus",
     view:'',
-    title: "Cutting-edge - D",
-      mainImage: { src: "/images/Cutting-edge-D.png" },
+    title: "Cutting Edge - D",
+      mainImage: { src: "/images/Cutting-edge - D.jpg" },
       contentBoxes: [
         {
           title: "V7152P",
@@ -2028,7 +2028,7 @@ export const exteriorColor4 =[
     id_content: "Strawbella - N",
     view:'',
     title: "Retro Regal - D",
-      mainImage: { src: "/images/Retro Regal-D.png" },
+      mainImage: { src: "/images/Retro Regal-D.jpg" },
       contentBoxes: [
         {
           title: "VK232P",
@@ -2097,7 +2097,7 @@ export const exteriorColor4 =[
     id_content: "Coral Rocks",
     view:'',
     title: "Retro Modern - C",
-      mainImage: { src: "/images/Retro Modern-C.png" },
+      mainImage: { src: "/images/Retro Modern-C.jpg" },
       contentBoxes: [
         {
           title: "V8019P",
@@ -2126,7 +2126,7 @@ export const exteriorColor4 =[
     id_content: "Memories",
     view:'',
     title: "Retro Modern - D",
-      mainImage: { src: "/images/Retro Modern-D.png" },
+      mainImage: { src: "/images/Retro Modern-D.jpg" },
       contentBoxes: [
         {
           title: "V8580P",
@@ -2155,7 +2155,7 @@ export const exteriorColor4 =[
     id_content: "Southern Sand",
     view:'',
     title: "Beach House - B",
-      mainImage: { src: "/images/Beach House-B.png" },
+      mainImage: { src: "/images/Beach House-B.jpg" },
       contentBoxes: [
         {
           title: "V8780P",
@@ -2178,7 +2178,7 @@ export const exteriorColor4 =[
     id_content: "Iris Ice",
     view:'',
     title: "Lattice House - E",
-      mainImage: { src: "/images/Lattice House-E.png" },
+      mainImage: { src: "/images/Lattice House-E.jpg" },
       contentBoxes: [
         {
           title: "V9108P",
@@ -2208,7 +2208,7 @@ export const exteriorColor4 =[
     id_content: "Meadow Lark",
     view:'',
     title: "Modern Baroque - A",
-      mainImage: { src: "/images/Modern Baroque-A.png" },
+      mainImage: { src: "/images/Modern Baroque-A.jpg" },
       contentBoxes: [
         {
           title: "V8499P",
@@ -2231,7 +2231,7 @@ export const exteriorColor4 =[
     id_content: "Almond Kiss",
     view:'',
     title: "Modern Baroque - B",
-      mainImage: { src: "/images/Modern Baroque-B.png" },
+      mainImage: { src: "/images/Modern Baroque-B.jpg" },
       contentBoxes: [
         {
           title: "V8643P",
@@ -2254,7 +2254,7 @@ export const exteriorColor4 =[
     id_content: "Peach Rose",
     view:'',
     title: "Modern Baroque - C",
-      mainImage: { src: "/images/Modern Baroque-C.png" },
+      mainImage: { src: "/images/Modern Baroque-C.jpg" },
       contentBoxes: [
         {
           title: "V7994P",
@@ -2277,7 +2277,7 @@ export const exteriorColor4 =[
     id_content: "Orchid Bloom",
     view:'',
     title: "Modern Baroque - E",
-      mainImage: { src: "/images/Modern Baroque-E.png" },
+      mainImage: { src: "/images/Modern Baroque-E.jpg" },
       contentBoxes: [
         {
           title: "V7168P",
@@ -2300,7 +2300,7 @@ export const exteriorColor4 =[
     id_content: "Pink Mist",
     view:'',
     title: "Country House - A",
-      mainImage: { src: "/images/Country House-A.png" },
+      mainImage: { src: "/images/Country House-A.jpg" },
       contentBoxes: [
         {
           title: "V8092P",
@@ -2329,7 +2329,7 @@ export const exteriorColor4 =[
     id_content: "Orange Frost",
     view:'',
     title: "Country House - C",
-      mainImage: { src: "/images/Country House-C.png" },
+      mainImage: { src: "/images/Country House-C.jpg" },
       contentBoxes: [
         {
           title: "V7978P",
@@ -2352,7 +2352,7 @@ export const exteriorColor4 =[
     id_content: "Antique White",
     view:'',
     title: "Country House - D",
-      mainImage: { src: "/images/Country House-D.png" },
+      mainImage: { src: "/images/Country House-D.jpg" },
       contentBoxes: [
         {
           title: "V0940P",
@@ -2381,7 +2381,7 @@ export const exteriorColor4 =[
     id_content: "Berry Shake",
     view:'',
     title: "Arched Residence - A",
-      mainImage: { src: "/images/Arched Residence-A.png" },
+      mainImage: { src: "/images/Arched Residence-A.jpg" },
       contentBoxes: [
         {
           title: "V9139P",
@@ -2410,7 +2410,7 @@ export const exteriorColor4 =[
     id_content: "Easter Lily",
     view:'',
     title: "Twisting Maze - C",
-      mainImage: { src: "/images/Twisting Maze-C.png" },
+      mainImage: { src: "/images/Twisting Maze-C.jpg" },
       contentBoxes: [
         {
           title: "V8532P",
@@ -2433,7 +2433,7 @@ export const exteriorColor4 =[
     id_content: "Silver Trinket",
     view:'',
     title: "Twisting Maze - E",
-      mainImage: { src: "/images/Twisting Maze-E.png" },
+      mainImage: { src: "/images/Twisting Maze-E.jpg" },
       contentBoxes: [
         {
           title: "V8298P",
@@ -2462,7 +2462,7 @@ export const exteriorColor4 =[
     id_content: "Coral Beach",
     view:'',
     title: "Grooved Design - E",
-      mainImage: { src: "/images/Grooved Design-E.png" },
+      mainImage: { src: "/images/Grooved Design-E.jpg" },
       contentBoxes: [
         {
           title: "V7969P",
