@@ -140,7 +140,7 @@ export const exteriorColor1 =[
     id_content: "Mellow Orange",
     view:'',
     title: "Crafted Cube - A",
-      mainImage: { src: "/images/crafted-cube-A.png" },
+      mainImage: { src: "/images/Crafted Cube-A.jpg" },
       contentBoxes: [
         {
           title: "V8004P",
@@ -168,7 +168,7 @@ export const exteriorColor1 =[
     id_content: "Confetti",
     view:'',
     title: "Crafted Cube - B",
-      mainImage: { src: "/images/crafted-cube-B.png" },
+      mainImage: { src: "/images/Crafted Cube-B.jpg" },
       contentBoxes: [
         {
           title: "V8300P",
@@ -191,7 +191,7 @@ export const exteriorColor1 =[
     id_content: "White Canvas",
     view:'',
     title: "Roman Heritage - B",
-      mainImage: { src: "/images/Roman Heritage-B.png" },
+      mainImage: { src: "/images/Roman Heritage-B.jpg" },
       contentBoxes: [
         {
           title: "VL157P",
@@ -213,9 +213,9 @@ export const exteriorColor1 =[
     id_title: "VL155P",
     id_content: "Pale Sisal",
     view:'',
-    title: "Country-style - A",
+    title: "Country Style - A",
       
-      mainImage: { src: "/images/Country-style-A.png" },
+      mainImage: { src: "/images/Country-style-A.jpg" },
       contentBoxes: [
         {
           title: "VL155P",
@@ -243,8 +243,8 @@ export const exteriorColor1 =[
     id_title: "V7836P",
     id_content: "Vanilla Ice",
     view:'',
-    title: "Country-style - B",
-      mainImage: { src: "/images/Country-style-B.png" },
+    title: "Country Style - B",
+      mainImage: { src: "/images/Country-style-B.jpg" },
       contentBoxes: [
         {
           title: "V7836P",
@@ -296,7 +296,7 @@ export const exteriorColor1 =[
     id_content: "Soft Honey",
     view:'',
     title: "Retro Regal - A",
-      mainImage: { src: "/images/Retro Regal-A.png" },
+      mainImage: { src: "/images/Retro Regal-A.jpg" },
       contentBoxes: [
         {
           title: "V7876P",
@@ -319,7 +319,7 @@ export const exteriorColor1 =[
     id_content: "Cotton Wool",
     view:'',
     title: "Retro Regal - B",
-      mainImage: { src: "/images/Retro Regal-B.png" },
+      mainImage: { src: "/images/Retro Regal-B.jpg" },
       contentBoxes: [
         {
           title: "VL104P",
@@ -494,7 +494,7 @@ export const exteriorColor1 =[
     id_content: "Rain Drop",
     view:'',
     title: "Beach House - A",
-      mainImage: { src: "/images/Beach House-A.png" },
+      mainImage: { src: "/images/Beach House-A.jpg" },
       contentBoxes: [
         {
           title: "VL143P",
@@ -546,7 +546,7 @@ export const exteriorColor1 =[
     id_content: "Pure Ivory",
     view:'',
     title: "Lattice House - B",
-      mainImage: { src: "/images/Lattice House-B.png" },
+      mainImage: { src: "/images/Lattice House-B.jpg" },
       contentBoxes: [
         {
           title: "VL124P",
@@ -575,7 +575,7 @@ export const exteriorColor1 =[
     id_content: "Skimmed Cream",
     view:'',
     title: "Lattice House - D",
-      mainImage: { src: "/images/Lattice House-D.png" },
+      mainImage: { src: "/images/Lattice House-D.jpg" },
       contentBoxes: [
         {
           title: "VL122P",
@@ -604,7 +604,7 @@ export const exteriorColor1 =[
     id_content: "Pearl Star",
     view:'',
     title: "Iconic Villa - B",
-      mainImage: { src: "/images/Iconic Villa-B.png" },
+      mainImage: { src: "/images/Iconic Villa - B.jpg" },
       contentBoxes: [
         {
           title: "VL103P",
@@ -633,7 +633,7 @@ export const exteriorColor1 =[
     id_content: "Sun Screen",
     view:'',
     title: "Twisting Maze - A",
-      mainImage: { src: "/images/Twisting Maze-A.png" },
+      mainImage: { src: "/images/Twisting Maze-A.jpg" },
       contentBoxes: [
         {
           title: "V7868P",
@@ -662,7 +662,7 @@ export const exteriorColor1 =[
     id_content: "Soft Linen",
     view:'',
     title: "Twisting Maze - D",
-      mainImage: { src: "/images/Twisting Maze-D.png" },
+      mainImage: { src: "/images/Twisting Maze-D.jpg" },
       contentBoxes: [
         {
           title: "V7884P",
@@ -685,7 +685,7 @@ export const exteriorColor1 =[
     id_content: "Innocent White",
     view:'',
     title: "Grooved Design - A",
-      mainImage: { src: "/images/Grooved Design-A.png" },
+      mainImage: { src: "/images/Grooved Design-A.jpg" },
       contentBoxes: [
         {
           title: "VL180P",
@@ -708,7 +708,7 @@ export const exteriorColor1 =[
     id_content: "Double Cream",
     view:'',
     title: "Grooved Design - B",
-      mainImage: { src: "/images/Grooved Design-B.png" },
+      mainImage: { src: "/images/Grooved Design-B.jpg" },
       contentBoxes: [
         {
           title: "VL134P",
@@ -731,7 +731,7 @@ export const exteriorColor1 =[
     id_content: "Crescent",
     view:'',
     title: "Grooved Design - C",
-      mainImage: { src: "/images/Grooved Design-C.png" },
+      mainImage: { src: "/images/Grooved Design-C.jpg" },
       contentBoxes: [
         {
           title: "V7948P",
@@ -759,7 +759,7 @@ export const exteriorColor2 =[
     id_content: "Jet Stream",
     view:'',
     title: "Crafted Cube - C",
-      mainImage: { src: "/images/crafted-cube-C.png" },
+      mainImage: { src: "/images/Crafted Cube-C.jpg" },
       contentBoxes: [
         {
           title: "V7300P",
@@ -787,7 +787,7 @@ export const exteriorColor2 =[
     id_content: "Confetti",
     view:'',
     title: "Roman Heritage - C",
-      mainImage: { src: "/images/Roman Heritage-C.png" },
+      mainImage: { src: "/images/Roman Heritage-C.JPg" },
       contentBoxes: [
         {
           title: "V7412P",
@@ -816,7 +816,7 @@ export const exteriorColor2 =[
     id_content: "Confetti",
     view:'',
     title: "Roman Heritage - B",
-      mainImage: { src: "/images/Roman Heritage-B.png" },
+      mainImage: { src: "/images/Roman Heritage-B.JPg" },
       contentBoxes: [
         {
           title: "VL157P",
@@ -840,7 +840,7 @@ export const exteriorColor2 =[
     view:'',
     title: "Cutting Edge - A",
       
-      mainImage: { src: "/images/Cutting-edge-A.png" },
+      mainImage: { src: "/images/Cutting-edge - A.jpg" },
       contentBoxes: [
         {
           title: "V7220P",
@@ -869,7 +869,7 @@ export const exteriorColor2 =[
     id_content: "Dry Sage",
     view:'',
     title: "Cutting-edge - E",
-      mainImage: { src: "/images/Cutting-edge-E.png" },
+      mainImage: { src: "/images/Cutting-edge - E.jpg" },
       contentBoxes: [
         {
           title: "V7624P",
@@ -898,8 +898,8 @@ export const exteriorColor2 =[
     id_title: "V8299P",
     id_content: "Ice Age",
     view:'',
-    title: "Country-style - C",
-      mainImage: { src: "/images/Country-style-C.png" },
+    title: "Country Style - C",
+      mainImage: { src: "/images/Country-Style-C.jpg" },
       contentBoxes: [
         {
           title: "V8299P",
@@ -921,8 +921,8 @@ export const exteriorColor2 =[
     id_title: "V7777P",
     id_content: "Fresh Sprout",
     view:'',
-    title: "Country-style - D",
-      mainImage: { src: "/images/Country-style-D.png" },
+    title: "Country Style - D",
+      mainImage: { src: "/images/Country-Style-D.jpg" },
       contentBoxes: [
         {
           title: "V7777P",
@@ -951,8 +951,8 @@ export const exteriorColor2 =[
     id_title: "V8417P",
     id_content: "Herb Bouquet",
     view:'',
-    title: "Country-style - E",
-      mainImage: { src: "/images/Country-style-E.png" },
+    title: "Country Style - E",
+      mainImage: { src: "/images/Country-Style-E.jpg" },
       contentBoxes: [
         {
           title: "V8417P",
@@ -1003,8 +1003,8 @@ export const exteriorColor2 =[
     id_title: "V8300P",
     id_content: "Confetti",
     view:'',
-    title: "Country-style - E",
-      mainImage: { src: "/images/Country-style-E.png" },
+    title: "Country Style - E",
+      mainImage: { src: "/images/Country-Style-E.jpg" },
       contentBoxes: [
         {
           title: "V8417P",
@@ -1161,7 +1161,7 @@ export const exteriorColor2 =[
     id_content: "Dry Moss",
     view:'',
     title: "Beach House - E",
-      mainImage: { src: "/images/Beach House-E.png" },
+      mainImage: { src: "/images/Beach House-E.jpg" },
       contentBoxes: [
         {
           title: "V7810P",
@@ -1184,7 +1184,7 @@ export const exteriorColor2 =[
     id_content: "Sparkling Water",
     view:'',
     title: "Modern Baroque - D",
-      mainImage: { src: "/images/Modern Baroque-D.png" },
+      mainImage: { src: "/images/Modern Baroque-D.jpg" },
       contentBoxes: [
         {
           title: "V7482P",
@@ -1207,7 +1207,7 @@ export const exteriorColor2 =[
     id_content: "Forest Foliage",
     view:'',
     title: "Arched Residence - B",
-      mainImage: { src: "/images/Arched Residence-B.png" },
+      mainImage: { src: "/images/Arched Residence-B.jpg" },
       contentBoxes: [
         {
           title: "V7690P",
@@ -1230,7 +1230,7 @@ export const exteriorColor2 =[
     id_content: "Bali Blue",
     view:'',
     title: "Arched Residence - E",
-      mainImage: { src: "/images/Arched Residence-E.png" },
+      mainImage: { src: "/images/Arched Residence-E.jpg" },
       contentBoxes: [
         {
           title: "V8266P",
@@ -1281,7 +1281,7 @@ export const exteriorColor3 =[
     id_content: "Wheat Spring",
     view:'',
     title: "Crafted Cube - D",
-      mainImage: { src: "/images/crafted-cube-D.png" },
+      mainImage: { src: "/images/crafted Cube-D.jpg" },
       contentBoxes: [
         {
           title: "V7891P",
@@ -1309,7 +1309,7 @@ export const exteriorColor3 =[
     id_content: "Honey Mustard",
     view:'',
     title: "Crafted Cube - E",
-      mainImage: { src: "/images/crafted-cube-E.png" },
+      mainImage: { src: "/images/crafted Cube-E.jpg" },
       contentBoxes: [
         {
           title: "V7880P",
@@ -1332,7 +1332,7 @@ export const exteriorColor3 =[
     id_content: "Solemn Yellow",
     view:'',
     title: "Cutting-edge - B",
-      mainImage: { src: "/images/Cutting-edge-B.png" },
+      mainImage: { src: "/images/Cutting-edge - B.jpg" },
       contentBoxes: [
         {
           title: "V7882P",
@@ -1356,7 +1356,7 @@ export const exteriorColor3 =[
     view:'',
     title: "Cutting-edge - C",
       
-      mainImage: { src: "/images/Cutting-edge-C.png" },
+      mainImage: { src: "/images/Cutting-edge - C.jpg" },
       contentBoxes: [
         {
           title: "V7961P",
@@ -1409,7 +1409,7 @@ export const exteriorColor3 =[
     id_content: "Divine Wine",
     view:'',
     title: "Retro Regal - E",
-      mainImage: { src: "/images/Retro Regal-E.png" },
+      mainImage: { src: "/images/Retro Regal-E.jpg" },
       contentBoxes: [
         {
           title: "V7840P",

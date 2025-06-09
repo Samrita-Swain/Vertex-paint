@@ -36,7 +36,7 @@ const IconicVilla = () => {
       title: "Iconic Villa - B",
       description:
         "Accents of lively yellow and blue blend in beautifully with the base white in this home enlivening and elevating it effortlessly.",
-      mainImage: { src: "/images/Iconic Villa  - B.jpg" },
+      mainImage: { src: "/images/Iconic Villa - B.jpg" },
       contentBoxes: [
         {
           title: "VL103P",

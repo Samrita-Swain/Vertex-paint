@@ -8,7 +8,7 @@ const CountryHouse = () => {
       title: "Country House - A",
       description:
         "A classy grey texture accents two warm shades of pink, lending this home a cheerful and vibrant aesthetic.",
-      mainImage: { src: "/images/Country House - A.jpg" },
+      mainImage: { src: "/images/Country House-A.jpg" },
       contentBoxes: [
         {
           title: "V8092P",
@@ -36,7 +36,7 @@ const CountryHouse = () => {
       title: "Country House - B",
       description:
         "With a main rich and soothing cream colour complemented by subtle brown accents, this house sets the perfect mood for peace and quiet.",
-      mainImage: { src: "/images/Country-House- B.jpg" },
+      mainImage: { src: "/images/Country House-B.jpg" },
       contentBoxes: [
         {
           title: "V7843P",
@@ -58,7 +58,7 @@ const CountryHouse = () => {
       title: "Country House - C",
       description:
         "This compact suburban home is brought to life by this beautiful colour blend of creamy orange and grey accents turning it into a cosy haven.",
-      mainImage: { src: "/images/Country House - C.jpg" },
+      mainImage: { src: "/images/Country House-C.jpg" },
       contentBoxes: [
         {
           title: "V7978P",
@@ -80,7 +80,7 @@ const CountryHouse = () => {
       title: "Country House - D",
       description:
         "A main peach colour blended with a contrasting theme of muted red and bright lavender accents lend this suburban home a vivid vibe.",
-      mainImage: { src: "/images/Country House-D.png" },
+      mainImage: { src: "/images/Country House-D.JPg" },
       contentBoxes: [
         {
           title: "V0940P",
@@ -108,7 +108,7 @@ const CountryHouse = () => {
       title: "Country House - E",
       description:
         "A vibrant accent of purple gels well with a rich cream background to create a vivid, lively and welcoming feel for this cottage.",
-      mainImage: { src: "/images/Country House - E.jpg" },
+      mainImage: { src: "/images/Country House-E.jpg" },
       contentBoxes: [
         {
           title: "V7946P",

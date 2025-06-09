@@ -8,7 +8,7 @@ const GradualElevations = () => {
       title: "/images/Gradual Elevations - A.jpg",
       description:
         "A vivid red with an earthy beige together lend a vibrant yet approachable look and feel to this house.",
-      mainImage: { src: "/images/Gradual Elevations - A.jpg" },
+      mainImage: { src: "/images/Gradual Elevations-A.png" },
       contentBoxes: [
         {
           title: "V7930P",
@@ -36,7 +36,7 @@ const GradualElevations = () => {
       title: "Gradual Elevations - B",
       description:
         "A deep maroon accentuates the subtle beige beautifully to give this home a becoming feel.",
-      mainImage: { src: "/images/Gradual Elevations - B.jpg" },
+      mainImage: { src: "/images/Gradual Elevations-B.png" },
       contentBoxes: [
         {
           title: "V8101P",
@@ -58,7 +58,7 @@ const GradualElevations = () => {
       title: "Gradual Elevations - C",
       description:
         "A unique shade of yellow with a pleasant white make for a combination that lends warmth and a distinctive appeal.",
-      mainImage: { src: "/images/Gradual Elevations - C.jpg" },
+      mainImage: { src: "/images/Gradual Elevations-C.png" },
       contentBoxes: [
         {
           title: "V7832P",
@@ -102,7 +102,7 @@ const GradualElevations = () => {
       title: "Gradual Elevations - E",
       description:
         "A dash of a pale blue along with a blush pink make this house look fashionable and still retain its homely character.",
-      mainImage: { src: "/images/Gradual Elevations - E.jpg" },
+      mainImage: { src: "/images/Gradual Elevations-E.png" },
       contentBoxes: [
         {
           title: "V8035P",
