@@ -6,31 +6,31 @@ import "swiper/css/pagination";
 
 const reviews = [
   {
-    name: "John Doe",
+    name: "Shivanshi Swain",
     review: "Amazing service! Highly recommend to everyone.",
     rating: 5,
     image: "/images/apex-banner.jpg"
   },
   {
-    name: "Jane Smith",
+    name: "RajNandini Das",
     review: "Great experience, will definitely come back again!",
     rating: 4,
     image: "/images/tdsbanner.jpeg"
   },
   {
-    name: "Alice Brown",
+    name: "Pritam Pattnayak",
     review: "Customer service was top-notch. Loved it!",
     rating: 5,
     image: "/images/Wallpapers.webp"
   },
   {
-    name: "Robert Wilson",
+    name: "Vaishnavi Bharadwaj",
     review: "Affordable and reliable, very satisfied.",
     rating: 4,
     image: "/images/Wood-Paints.webp"
   },
   {
-    name: "Jane Smith",
+    name: "Pritish Dhal",
     review: "Great experience, will definitely come back again!",
     rating: 4,
     image: "/images/tdsbanner.jpeg"
