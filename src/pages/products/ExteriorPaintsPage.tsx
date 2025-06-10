@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import HouseFormate from "./HouseFormate";
 import ExteriorColor from "./ExteriorColor";
@@ -7,9 +7,26 @@ import CalculatorForm from "../Form/CalculatorForm";
 const ExteriorPaintsPage = () => {
   const [activeTab, setActiveTab] = useState("Wall Paints");
   const tabs = ["Wall Paints", "Textures"];
+
+  // Handle hash fragment scrolling
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      // Small delay to ensure the page is fully rendered
+      setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      }, 100);
+    }
+  }, []);
   return (
     <div>
-     
+
       <div
         className="relative Exteriore-banner p-12 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url(../images/Exterior-banner.jpeg)" }}
@@ -563,11 +580,11 @@ const ExteriorPaintsPage = () => {
           </div>
         </div>
       </div>
-      
-      <Form /> 
+
+      <Form />
       <HouseFormate />
       <ExteriorColor/>
-      <CalculatorForm />   
+      <CalculatorForm />
     </div>
   );
 };

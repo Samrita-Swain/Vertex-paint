@@ -1,6 +1,6 @@
 const HouseFormate = () => {
   return (
-    <div className="flex flex-col justify-center items-center p-12">
+    <div id="house-formate" className="flex flex-col justify-center items-center p-12">
       <div className="container flex flex-col justify-center items-center">
         <h1 className="gradient-text text-4xl font-semibold text-center  mb-2">
           House Formates
@@ -10,7 +10,7 @@ const HouseFormate = () => {
 
         <div className="houses grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-6 p-6">
           <div
-            className="house-box group flex flex-col items-center justify-center bg-white shadow-lg rounded-2xl p-4 transition-all duration-700 ease-out mb-5 
+            className="house-box group flex flex-col items-center justify-center bg-white shadow-lg rounded-2xl p-4 transition-all duration-700 ease-out mb-5
       hover:shadow-2xl relative overflow-hidden border-t border-l border-r border-[#efefef] border-opacity-100 hover:border-red-500" data-aos="zoom-in"
               data-aos-duration="1500"
           >

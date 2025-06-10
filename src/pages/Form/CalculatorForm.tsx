@@ -27,25 +27,25 @@ const productPrices: Record<string, number> = {
 };
 
 const productImages: Record<string, string> = {
-  "FINE SQUARE EXTERIOR EMULSION": "/images/1.png",
+  "FINE SQUARE EXTERIOR EMULSION": "/images/fine-square.png",
   "PREMIUM EMLUSION": "/images/premium-eml.png",
   "SELECT MATT FINISH": "/images/matt-finish.png",
-  "SELECT SHEEN": "/images/1.png",
+  "SELECT SHEEN": "/images/Select-sheen.png",
   "ACME EXTERIOR EMULSION": "/images/acme-exterior-eml.png",
-  "ACME WRP ( WATER REPPELENT PAINT)": "/images/1.png",
+  "ACME WRP ( WATER REPPELENT PAINT)": "/images/acme-water-thinnable-primer.png",
   "FINE SQUARE - HI SHEEN": "/images/1.png",
-  "SILK SHINE - SUPER GLOSS": "/images/silk-shine-super-gloss.png",
-  "TITANIUM ONE": "/images/1.png",
+  "SILK SHINE - SUPER GLOSS": "/images/Super-gloss.png",
+  "TITANIUM ONE": "/images/titanium-one.png",
   "ULTRA WRP EXT EMULSION": "/images/ultra-wrp-ext-eml.png",
   "FINE SQUARE INTERIOR EMULSION": "/images/fine-square.png",
-  "SILK SHINE - PEARL GLOSS": "/images/1.png",
+  "SILK SHINE - PEARL GLOSS": "/images/Pearl-gloss.png",
   "CEILING WHITE": "/images/1.png",
   "EASY WASH LUXURY EMULSION": "/images/easy-wash-luxury-eml.png",
   "Silk Shine Special Effect paints": "/images/1.png",
   "ACME WATER THINNABLE PRIMER": "/images/acme-water-thinnable-primer.png",
   "VERTEX WATER THINNABLE PRIMER": "/images/1.png",
   "BASE COAT": "/images/exterior-base-coat.png",
-  "ULTRA WALL SEALER 3IN1": "/images/1.png",
+  "ULTRA WALL SEALER 3IN1": "/images/ULTRA-WALL-SEALER.png",
 };
 
 const interiorProducts = [

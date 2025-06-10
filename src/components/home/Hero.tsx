@@ -18,12 +18,20 @@ const Hero = () => {
                 Discover endless possibilities with Asian Paints' range of
                 interior and exterior paints
               </p>
-              <Link
-                to="/visualizer"
+              <div className="flex gap-4">
+                <Link
+                to="/InteriorWallPaint/Shades"
                 className="px-5 py-3 rounded-lg text-lg font-normal bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-white hover:text-white transition duration-500 text-center"
               >
-                Try Color Visualizer
+                Interior Shades
               </Link>
+              <Link
+                to="/ExteriorWallPaint#house-formate"
+                className="px-5 py-3 rounded-lg text-lg font-normal bg-[#fec940] border border-[#fec940] text-black hover:bg-transparent hover:border-white hover:text-white transition duration-500 text-center"
+              >
+                Exterior Shades
+              </Link>
+              </div>
             </div>
           </div>
         </div>
