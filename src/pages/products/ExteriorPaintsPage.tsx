@@ -253,7 +253,7 @@ const ExteriorPaintsPage = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
-            <div>
+            <div className="mb-5">
               <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
@@ -277,7 +277,7 @@ const ExteriorPaintsPage = () => {
           <a href="/Exterior/ExteriorBaseCoat"
             className="ultima-box group relative p-4 cursor-pointer"
           >
-            <div>
+            <div className="mb-5">
               <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
@@ -303,7 +303,7 @@ const ExteriorPaintsPage = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
-            <div>
+            <div className="mb-5">
               <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
@@ -327,7 +327,7 @@ const ExteriorPaintsPage = () => {
           <a href="/Exterior/ACME"
             className="ultima-box group relative p-4 cursor-pointer"
           >
-            <div>
+            <div className="mb-5">
               <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
@@ -353,7 +353,7 @@ const ExteriorPaintsPage = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
-            <div>
+            <div className="mb-5">
               <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
@@ -377,7 +377,7 @@ const ExteriorPaintsPage = () => {
           <a href="/Exterior/EasyWash"
             className="ultima-box group relative p-4 cursor-pointer"
           >
-            <div>
+            <div className="mb-5">
               <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
@@ -403,7 +403,7 @@ const ExteriorPaintsPage = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
-            <div>
+            <div className="mb-5">
               <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"
@@ -503,7 +503,7 @@ const ExteriorPaintsPage = () => {
           <a href="/Exterior/CoolRoof"
             className="ultima-box group relative p-4 cursor-pointer"
           >
-            <div>
+            <div className="mb-5">
               <div className="flex justify-center items-center h-[115px]">
                 <img
                   className="w-[50%] transition-transform duration-300 group-hover:scale-110"

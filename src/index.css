@@ -577,6 +577,13 @@ a:hover .icon{
   }
   
 }
+@media (max-width: 1024px) {
+  .inspired-by .w-\[60\%\] {
+    width: 100% !important;
+}
+  
+}
+
 @media (min-width: 500px) and (max-width: 767px){
   .exterior-text{
     font-size: 45px !important;
@@ -610,9 +617,6 @@ a:hover .icon{
 .px-12 {
     padding-left: 1rem;
     padding-right: 1rem;
-}
-.inspired-by .w-\[60\%\] {
-    width: 100%;
 }
 }
 
