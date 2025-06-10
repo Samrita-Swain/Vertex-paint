@@ -91,7 +91,7 @@ const InteriorColorOptions = () => {
         </div>
       </div>
        {/* Main Content */}
-       <div className="flex flex-col lg:flex-row p-8 lg:p-12 min-h-screen bg-gradient-to-br from-gray-50 to-white">
+       <div className="flex flex-col lg:flex-row p-8 lg:p-12 min-h-screen bg-gradient-to-br from-gray-50 to-white tabbuttom-interior">
         {/* Color Section */}
         <div className="w-full lg:w-1/2 p-6">
           <div className="mb-8">
@@ -223,7 +223,7 @@ const InteriorColorOptions = () => {
             </div>
 
             {/* Scrollable Content */}
-            <div className="pb-6">
+            <div className="p-2">
               {/* Full Screen Image */}
               <div className="relative h-[50vh]">
                 <img

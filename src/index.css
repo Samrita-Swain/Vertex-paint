@@ -563,6 +563,9 @@ a:hover .icon{
   .bouncing-img {
     width: 50%; 
   }
+  .tabbuttom-interior .p-6 {
+    padding: 0px !important;
+}
   
 }
 
