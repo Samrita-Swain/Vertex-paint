@@ -49,7 +49,7 @@ const Footer = () => {
             <ul className="footer-li space-y-2 text-gray-300 text-[14px]  font-normal">
               <li>
                 <Link
-                  to="/products/InteriorPaintsPage"
+                  to="/InteriorWallPaint"
                   className="hover:text-[#e51126] transition duration-300"
                 >
                   Interior Paints
@@ -65,18 +65,42 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/products/Waterproofing"
+                  to="/UnderCoat"
                   className="hover:text-[#e51126] transition duration-300"
                 >
-                  Waterproofing
+                  Under Coat
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/products/WoodFinish"
+                  to="/MetalPaints"
                   className="hover:text-[#e51126] transition duration-300"
                 >
-                  Wood Finishes
+                  Metal Paints
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/WoodPaints"
+                  className="hover:text-[#e51126] transition duration-300"
+                >
+                  Wood Paints
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/WaterProofingAndConstructionChemicals"
+                  className="hover:text-[#e51126] transition duration-300"
+                >
+                  Water Proofing And Construction Chemicals
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/OtherSurface"
+                  className="hover:text-[#e51126] transition duration-300"
+                >
+                  Other Surface
                 </Link>
               </li>
             </ul>

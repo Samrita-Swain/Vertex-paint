@@ -28,16 +28,13 @@ const MENU_DATA: MenuDataType = {
       {
         title: 'Paint Products',
         items: [
-          { name: 'Interior Paints', link: '/InteriorWallPaint' },
-          { name: 'Exterior Paints', link: '/ExteriorWallPaint' },
-          { name: 'Wall Paints Product Finder', link: '/products/exterior/WallPaintsProductFinder' },
-          { name: 'Waterproofing', link: '/products/interior/Waterproofing' },
-          { name: 'Wood Paints', link: '/products/interior/Waterproofing' },
-          { name: 'Wood Paint Product Finder', link: '/products/interior/Waterproofing' },
-          { name: 'Metal Paints', link: '/products/interior/Waterproofing' },
-          { name: 'Brushes & Ancillaries', link: '/products/interior/Waterproofing' },
-          { name: 'Adhesives', link: '/products/interior/Waterproofing' },
-          { name: 'Undercoats', link: '/products/interior/Waterproofing' }
+          { name: 'INTERIOR PAINTS', link: '/InteriorWallPaint' },
+          { name: 'EXTERIOR PAINTS', link: '/ExteriorWallPaint' },
+          { name: 'UNDERCOAT', link: '/UnderCoat' },
+          { name: 'METAL PAINTS', link: '/MetalPaints' },
+          { name: 'WOOD PAINTS', link: '/WoodPaints' },
+          { name: 'WATER PROOFING AND CONSTRUCTION CHEMICALS', link: '/WaterProofingAndConstructionChemicals' },
+          { name: 'OTHER SURFACE', link: '/OtherSurface' },
         ]
       },
       {
@@ -233,7 +230,7 @@ const Navbar = () => {
                       <div className="p-8">
                         <div className="grid grid-cols-3 gap-8">
                           {data.sections.map((section, idx) => (
-                            <div key={idx} className="min-w-[400px]">
+                            <div key={idx} className="min-w-[250px]">
                               <h3 className="font-semibold text-gray-900 mb-4 text-sm tracking-wider">
                                 {section.title}
                               </h3>

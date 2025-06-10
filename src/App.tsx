@@ -89,6 +89,11 @@ import DealerLocatorPage from './pages/services/DealerLocatorPage';
 import PaintCalculatorPage from './pages/services/PaintCalculatorPage';
 import InteriorColor from './pages/products/InteriorPaintsPage';
 import Exterioremulsions from './pages/products/Exterioremulsions';
+import UnderCoat from './pages/products/UnderCoat';
+import OtherSurface from './pages/products/OtherSurface';
+import WoodPaints from './pages/products/WoodPaints';
+import MetalPaints from './pages/products/MetalPaints';
+import WaterProofingAndConstructionChemicals from './pages/products/WaterProfingAndConstructionChemicals';
 
 
 function App() {
@@ -235,6 +240,8 @@ function App() {
               {/* Interior Color Shades */}
               <Route path="/InteriorWallPaint/Shades" element={<InteriorColorOptions />} />
 
+              
+
 
 
               {/* Exterior Peaceful & Serene*/}
@@ -367,6 +374,11 @@ function App() {
               <Route path="/products/interior/:id" element={<ProductDetail />} />
               <Route path="/ExteriorWallPaint" element={<ExteriorPaintsPage />} />
               <Route path="/products/exterior/:id" element={<ProductDetail />} />
+              <Route path="/UnderCoat" element={<UnderCoat />} />
+              <Route path="/MetalPaints" element={<MetalPaints />} />
+              <Route path="/WoodPaints" element={<WoodPaints />} />
+              <Route path="/WaterProofingAndConstructionChemicals" element={<WaterProofingAndConstructionChemicals />} />
+              <Route path="/OtherSurface" element={<OtherSurface />} />
               <Route path="/textures" element={<TexturesPage />} />
               <Route path="/textures/:id" element={<TextureDetail />} />
               
