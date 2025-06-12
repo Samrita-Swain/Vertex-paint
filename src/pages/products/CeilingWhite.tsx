@@ -1,24 +1,11 @@
 import PaintingCalculatorForm from "../Form/CalculatorForm";
 
-const TitaniumOne = () => {
-  const allProducts = [
+const CeilingWhite = () => {
+    const allProducts = [
   {
-      name: "Ultra WRP Exterior Emulsion",
-      image: "/images/ultra-wrp-ext-eml.png",
-      href: "/ExteriorWallPaint/UltraWRPExteriorEmulsion",
-      features: [
-      "WALLS of S.T.E.E.L",
-      "15 years warranty*",
-      "Advanced PUD Formula",
-    ],
-      price: 619,
-      unit: "per L",
-    },
-    {
-      name: "Fine Square Exterior Emulsion",
+      name: "Fine Square Interior Emulsion",
       image: "/images/fine-square.png",
-      href: "/ExteriorWallPaint/FineSquareExteriorEmulsion",
-      animation: true,
+      href: "/InteriorWallPaint/FineSquareInterriorEmulsion",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -28,44 +15,44 @@ const TitaniumOne = () => {
       unit: "per L",
     },
     {
-      name: "Premium Emlusion",
-      image: "/images/premium-eml.png",
-      href: "/ExteriorWallPaint/PremiumEmlusion",
-      features: [
-      "WALLS of S.T.E.E.L",
-      "15 years warranty*",
-      "Advanced PUD Formula",
-    ],
-      price: 233,
-      unit: "per L",
-    },
-    {
-      name: "Select Matt Finish",
-      image: "/images/matt-finish.png",
-      href: "/ExteriorWallPaint/SelectMattFinish",
-      features: [
-      "WALLS of S.T.E.E.L",
-      "15 years warranty*",
-      "Advanced PUD Formula",
-    ],
+      name: "Silk Shine - Pearl Gloss",
+      image: "/images/Pearl-gloss.png",
+      href: "/InteriorWallPaint/SilkShine_PearlGloss",
       animation: true,
-      price: 276,
-      unit: "per L",
-    },
-    {
-      name: "Select Sheen",
-      image: "/images/Select-sheen.png",
-      href: "/ExteriorWallPaint/SelectSheen",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
       "Advanced PUD Formula",
     ],
-      price: 0,
+      price: 515,
       unit: "per L",
     },
+    {
+     name: "Easy Wash Luxury Emulsion",
+      image: "/images/easy-wash-luxury-eml.png",
+      href: "/InteriorWallPaint/EasyWashLuxuryEmulsion",
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 597,
+      unit: "per L",
+    },
+    {
+      name: "Silk Shine Special Effect paints",
+      image: "/images/acme-exterior-eml.png",
+      href: "/InteriorWallPaint/SilkShineSpecialEffectpaints",
+      animation: true,
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 664,
+      unit: "per L",
+    }
 ];
-
   return (
     <div>
       <div
@@ -77,13 +64,13 @@ const TitaniumOne = () => {
 
         {/* Content */}
         <div className="relative text-white text-center">
-          <h1 className="text-[50px] font-bold mb-7">Titanium One</h1>
+          <h1 className="text-5xl font-medium mb-7">Ceiling White</h1>
         </div>
 
         {/* Centered Bouncing Image */}
         <div className="bounce-container flex justify-center items-center mt-6">
           <img
-            src="/images/titanium-one.png"
+            src="/images/ceiling-white.png"
             alt="Bouncing"
             className="bouncing-img w-[30%]"
           />
@@ -92,50 +79,47 @@ const TitaniumOne = () => {
       <div className="second-banner p-12 flex justify-center items-center">
         <div className="container">
           <div className="content flex justify-center items-center flex-col">
-            <h1 className="gradient-text text-[40px] font-bold text-center">Benefits</h1>
-            <p className="mb-[35px] text-center">Here's why Titanium One is perfect for your home.</p>
+            <h1 className="gradient-text text-4xl font-semibold mb-2 text-center">Benefits</h1>
+            <p className="text-gray-600 mb-[35px] text-lg font-normal text-center">Here's why Acme Water Thinnable Cement Primer is perfect for your home.</p>
           </div>
           <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-[2rem]">
           <div className="second-band-box flex flex-col justify-center items-center mb-[30px] p-5 rounded-[15px] border-l border-r border-red-500 transition-all shadow-lg h-[250px]" style={{boxShadow: "0 3px 15px rgba(0, 0, 0, .4)"}} data-aos="flip-up" data-aos-duration="1500">
-            <div className="image mb-5 w-[17%]">
-              <img src="/images/CRACK-BRIDGING.png" alt=""/>
+            <div className="image mb-5 w-[20%]">
+              <img src="/images/STRUCTURAL-PROTECTION.png" alt=""/>
             </div>
             <div className="content text-center">
-              <h1 className="text-[17px] font-[600] mb-1">HIGHLY WATER RESISTANCE</h1>
-              <p>Offers self-priming capabilities with
-exceptional coverage of up to 220 square
-feet per liter per coat.</p>
+              <h1 className="text-[17px] font-semibold mb-1">SHEEN</h1>
+              <p className="text-[15px] font-normal">Comes with a comprehensive 3-year
+              performance warranty.</p>
             </div>
           </div>
           <div className="second-band-box flex flex-col justify-center items-center mb-[30px] p-5 rounded-[15px] border-l border-r border-red-500 transition-all shadow-lg h-[250px]" style={{boxShadow: "0 3px 15px rgba(0, 0, 0, .4)"}} data-aos="flip-down" data-aos-duration="1500">
-            <div className="image mb-5 w-[20%]">
-              <img src="/images/DUST-PICK-UP.png" alt="" />
+            <div className="image mb-5 w-[17%]">
+              <img src="/images/CRACK-BRIDGING.png" alt="" />
             </div>
             <div className="content text-center">
-              <h1 className="text-[17px] font-[600] mb-1">DUST PICK-UP RESISTANCE</h1>
-              <p>Displays superior resistance against dust
-              and other elements.</p>
+              <h1 className="text-[17px] font-semibold mb-1">ANTI-FUNGAL</h1>
+              <p className="text-[15px] font-normal">Advanced anti-algal formula fights the
+formation of algae and protects walls
+from ugly black spots.</p>
             </div>
           </div>
           <div className="second-band-box flex flex-col justify-center items-center mb-[30px] p-5 rounded-[15px] border-l border-r border-red-500 transition-all shadow-lg h-[250px]" style={{boxShadow: "0 3px 15px rgba(0, 0, 0, .4)"}} data-aos="flip-up" data-aos-duration="1500">
-            <div className="image mb-5 w-[20%]">
-              <img src="/images/Super.png" alt="" />
+            <div className="image mb-5 w-[17%]">
+              <img src="/images/SUPERIOR-CLEANABILITY.png" alt="" />
             </div>
             <div className="content text-center">
-              <h1 className="text-[17px] font-[600] mb-1">EXCELLENT OPACITY</h1>
-              <p>Provides walls with a vibrant glow
-              and a luxurious finish.</p>
+              <h1 className="text-[17px] font-semibold mb-1">SUPERIOR CLEANABILITY</h1>
+              <p className="text-[15px] font-normal">Excellent dust resistance and ease of cleaning ensuring exteriors look fresh for long.</p>
             </div>
           </div>
           <div className="second-band-box flex flex-col justify-center items-center mb-[30px] p-5 rounded-[15px] border-l border-r border-red-500 transition-all shadow-lg h-[250px]" style={{boxShadow: "0 3px 15px rgba(0, 0, 0, .4)"}} data-aos="flip-down" data-aos-duration="1500">
             <div className="image mb-5 w-[20%]">
-              <img src="/images/ANTI-ALGAL.png" alt="" />
+              <img src="/images/LOW-VOC.png" alt="" />
             </div>
             <div className="content text-center">
-              <h1 className="text-[17px] font-[600] mb-1">ANTI-ALGAL</h1>
-              <p>Advanced anti-algal formula fights the
-formation of algae and protects walls
-from ugly black spots.</p>
+              <h1 className="text-[17px] font-semibold mb-1">LOW VOC</h1>
+              <p className="text-[15px] font-normal">Meets the LEED VOC criteria as per Indian Green Building Council.</p>
             </div>
           </div>
         </div>
@@ -143,11 +127,11 @@ from ugly black spots.</p>
       </div>
       <PaintingCalculatorForm />
 
-       <div className="exterior-Ultima-band p-12 bg-[#fff] flex flex-col items-center">
+      <div className="exterior-Ultima-band p-12 bg-[#fff] flex flex-col items-center">
         <h1 className="gradient-text text-4xl font-semibold text-center mb-[35px]">
           Other Products
         </h1>
-        <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
+        <div className="ultimaproducts grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 gap-[2rem]">
           {allProducts.map((product, index) => (
             <a
               key={index}
@@ -187,9 +171,8 @@ from ugly black spots.</p>
           ))}
         </div>
       </div>
-
     </div>
   );
 };
 
-export default TitaniumOne;
+export default CeilingWhite;

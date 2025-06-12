@@ -37,7 +37,7 @@ const WoodPaints = () => {
       {/* Banner Section */}
       <div
         className="relative InteriorColor-banner p-12 bg-cover bg-center bg-no-repeat w-fullrelative InteriorColor-banner px-6 md:px-12 py-12  w-full"
-        style={{ backgroundImage: "url(../images/woodpaint-banner.jpg)" }}
+        style={{ backgroundImage: "url(../images/wood-paint.jpg)" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative content text-white text-center flex flex-col items-center">

@@ -29,6 +29,72 @@ const colors = [
   },
 ];
 
+const allProducts = [
+    {
+      name: "Fine Square Interior Emulsion",
+      image: "/images/fine-square.png",
+      href: "/InteriorWallPaint/FineSquareInterriorEmulsion",
+      animation: true,
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 0,
+      unit: "per L",
+    },
+    {
+      name: "Silk Shine - Pearl Gloss",
+      image: "/images/Pearl-gloss.png",
+      href: "/InteriorWallPaint/SilkShine_PearlGloss",
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 515,
+      unit: "per L",
+    },
+    {
+      name: "Ceiling White",
+      image: "/images/ceiling-white.png",
+      href: "/InteriorWallPaint/CeilingWhite",
+      animation: true,
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 597,
+      unit: "per L",
+    },
+    {
+      name: "Easy Wash Luxury Emulsion",
+      image: "/images/easy-wash-luxury-eml.png",
+      href: "/InteriorWallPaint/EasyWashLuxuryEmulsion",
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 664,
+      unit: "per L",
+    },
+    {
+      name: "Silk Shine Special Effect paints",
+      image: "/images/acme-exterior-eml.png",
+      href: "/InteriorWallPaint/SilkShineSpecialEffectpaints",
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      animation: true,
+      price: 0,
+      unit: "per L",
+    }
+  ];
+
 const InteriorColor = () => {
   const [selectedColor, setSelectedColor] = useState(colors[0]);
 
@@ -187,6 +253,51 @@ const InteriorColor = () => {
               View All Shades <FaArrowRight className="icon" />
             </a>
           </div>
+        </div>
+      </div>
+
+      <div className="exterior-Ultima-band p-12 bg-[#fff] flex flex-col items-center">
+        <h1 className="gradient-text text-4xl font-semibold text-center mb-[35px]">
+          Other Products
+        </h1>
+        <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
+          {allProducts.map((product, index) => (
+            <a
+              key={index}
+              href={product.href}
+              className="ultima-box group relative p-4 cursor-pointer border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+              {...(product.animation && {
+                "data-aos": "zoom-in",
+                "data-aos-duration": "1500",
+              })}
+            >
+              <div className="mb-5">
+                <div className="flex justify-center items-center h-[115px]">
+                  <img
+                    className="w-[35%] transition-transform duration-300 group-hover:scale-110"
+                    src={product.image}
+                    alt={product.name}
+                  />
+                </div>
+              </div>
+              <div className="ultima-content">
+                <h6 className="text-[16px] font-semibold mb-[8px] text-center">
+                  {product.name}
+                </h6>
+                <ul className="list-disc ml-4 text-md text-[14px] font-[400] mb-4">
+                {product.features.map((feature, i) => (
+                  <li key={i}>{feature}</li>
+                ))}
+              </ul>
+                <p className="text-center text-[15px] font-medium text-gray-700">
+                  MRP <span className="font-bold text-black">₹ {product.price}.00</span>
+                </p>
+                <p className="text-center text-[12px] text-gray-500 italic">
+                  (Inclusive of all taxes) {product.unit}
+                </p>
+              </div>
+            </a>
+          ))}
         </div>
       </div>
 

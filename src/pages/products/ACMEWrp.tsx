@@ -2,6 +2,72 @@ import PaintingCalculatorForm from "../Form/CalculatorForm";
 import React from 'react'
 
 const ACMEWrp = () => {
+  const allProducts = [
+  {
+      name: "Fine Square - HI SHEEN",
+      image: "/images/9.png",
+      href: "/ExteriorWallPaint/FineSquareHiSheen",
+      animation: true,
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 0,
+      unit: "per L",
+    },
+    {
+      name: "Silk Shine - Super Gloss",
+      image: "/images/Super-gloss.png",
+      href: "/ExteriorWallPaint/SilkShine_SuperGloss",
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 486,
+      unit: "per L",
+    },
+    {
+      name: "Titanium One",
+      image: "/images/titanium-one.png",
+      href: "/ExteriorWallPaint/TitaniumOne",
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      animation: true,
+      price: 579,
+      unit: "per L",
+    },
+    {
+      name: "Ultra WRP Exterior Emulsion",
+      image: "/images/ultra-wrp-ext-eml.png",
+      href: "/ExteriorWallPaint/UltraWRPExteriorEmulsion",
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 619,
+      unit: "per L",
+    },
+    {
+      name: "Fine Square Exterior Emulsion",
+      image: "/images/fine-square.png",
+      href: "/ExteriorWallPaint/FineSquareExteriorEmulsion",
+      animation: true,
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 0,
+      unit: "per L",
+    },
+];
+
   return (
     <div>
       <div
@@ -13,13 +79,13 @@ const ACMEWrp = () => {
 
         {/* Content */}
         <div className="relative text-white text-center">
-          <h1 className="text-5xl font-medium mb-7">ACME Ultra WRP</h1>
+          <h1 className="text-5xl font-medium mb-7"> ACME WRP (Water Reppelent Paint)</h1>
         </div>
 
         {/* Centered Bouncing Image */}
         <div className="bounce-container flex justify-center items-center mt-6">
           <img
-            src="/images/10.png"
+            src="/images/acme-water-thinnable-primer.png"
             alt="Bouncing"
             className="bouncing-img w-[30%]"
           />
@@ -77,137 +143,47 @@ from ugly black spots.</p>
       <PaintingCalculatorForm />
 
       <div className="exterior-Ultima-band p-12 bg-[#fff] flex flex-col items-center">
-        <h1 className="gradient-text text-4xl font-semibold text-center mb-[35px]">Exterior Emulsions
+        <h1 className="gradient-text text-4xl font-semibold text-center mb-[35px]">
+          Other Products
         </h1>
         <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
-        <a href="/Exterior/PrimerSurfaceBrown"
-            className="ultima-box group relative p-4 cursor-pointer"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-          >
-            <div>
-              <div className="flex justify-center items-center h-[150px]">
-                <img
-                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
-                  src="/images/8.png"
-                  alt=""
-                />
+          {allProducts.map((product, index) => (
+            <a
+              key={index}
+              href={product.href}
+              className="ultima-box group relative p-4 cursor-pointer border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+              {...(product.animation && {
+                "data-aos": "zoom-in",
+                "data-aos-duration": "1500",
+              })}
+            >
+              <div className="mb-5">
+                <div className="flex justify-center items-center h-[115px]">
+                  <img
+                    className="w-[35%] transition-transform duration-300 group-hover:scale-110"
+                    src={product.image}
+                    alt={product.name}
+                  />
+                </div>
               </div>
-            </div>
-
-            <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
-                Primer Surface Brown
-              </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
-                <li>WALLS of S.T.E.E.L</li>
-                <li>15 years warranty*</li>
-                <li>Advanced PUD Formula</li>
+              <div className="ultima-content">
+                <h6 className="text-[16px] font-semibold mb-[8px] text-center">
+                  {product.name}
+                </h6>
+                <ul className="list-disc ml-4 text-md text-[14px] font-[400] mb-4">
+                {product.features.map((feature, i) => (
+                  <li key={i}>{feature}</li>
+                ))}
               </ul>
-            </div>
-          </a>
-          <a href="/Exterior/MetalGuard"
-            className="ultima-box group relative p-4 cursor-pointer"
-          >
-            <div>
-              <div className="flex justify-center items-center h-[150px]">
-                <img
-                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
-                  src="/images/9.png"
-                  alt=""
-                />
+                <p className="text-center text-[15px] font-medium text-gray-700">
+                  MRP <span className="font-bold text-black">₹ {product.price}.00</span>
+                </p>
+                <p className="text-center text-[12px] text-gray-500 italic">
+                  (Inclusive of all taxes) {product.unit}
+                </p>
               </div>
-            </div>
-
-            <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
-                Metal Guard
-              </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
-                <li>WALLS of S.T.E.E.L</li>
-                <li>15 years warranty*</li>
-                <li>Advanced PUD Formula</li>
-              </ul>
-            </div>
-          </a>
-          
-          <a href="/Exterior/BDSeal"
-            className="ultima-box group relative p-4 cursor-pointer"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-          >
-            <div>
-              <div className="flex justify-center items-center h-[150px]">
-                <img
-                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
-                  src="/images/12.png"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
-                BD Seal
-              </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
-                <li>WALLS of S.T.E.E.L</li>
-                <li>15 years warranty*</li>
-                <li>Advanced PUD Formula</li>
-              </ul>
-            </div>
-          </a>
-          <a href="/Exterior/CoolRoof"
-            className="ultima-box group relative p-4 cursor-pointer"
-          >
-            <div>
-              <div className="flex justify-center items-center h-[150px]">
-                <img
-                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
-                  src="/images/13.png"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
-                Cool Roof
-              </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
-                <li>WALLS of S.T.E.E.L</li>
-                <li>15 years warranty*</li>
-                <li>Advanced PUD Formula</li>
-              </ul>
-            </div>
-          </a>
-          <a href="/Exterior/ACME-CementPrimer"
-            className="ultima-box group relative p-4 cursor-pointer"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-          >
-            <div>
-              <div className="flex justify-center items-center h-[150px]">
-                <img
-                  className="w-[50%] transition-transform duration-300 group-hover:scale-110"
-                  src="/images/1.png"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div className="ultima-content">
-              <h6 className="text-[17px] font-bold mb-[8px] text-center">
-                ACME Water Thinable Cement Primer
-              </h6>
-              <ul className="list-disc ml-4 text-md text-[15px] font-[400]">
-                <li>WALLS of S.T.E.E.L</li>
-                <li>15 years warranty*</li>
-                <li>Advanced PUD Formula</li>
-              </ul>
-            </div>
-          </a>
-          
+            </a>
+          ))}
         </div>
       </div>
     </div>

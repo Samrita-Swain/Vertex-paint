@@ -48,28 +48,44 @@ const ColorOptions = () => {
                   <img src="/images/Wall-Textures.webp" alt="" />
                 </div>
                 <div className="coloroptions-box-content">
-                  <h5>Wall Textures</h5>
+                  <h5>Under Coat</h5>
                 </div>
                 <div className="overlay-content flex flex-col items-start">
-                <h5 className="text-[20px]">Wall Textures</h5>
+                <h5 className="text-[20px]">Under Coat</h5>
                 <p className="text-[#ffffffa6] text-[15px] mb-5">Transform your interiors with special texture finishes- Royale Play, inspired by themes around the world, for a personalized.</p>
-                <a>View Deatils <FaArrowRight className="icon"/></a>
+                <a href="/undercoat">View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1500">
+             <div data-aos="fade-up" data-aos-duration="1500">
               <div className="coloroptions-band-box">
               <div className="overlay"></div>
                 <div className="coloroptions-image">
-                  <img src="/images/Wallpapers.webp" alt="" />
+                  <img src="/images/Metal-Paints.jpg" alt="" />
                 </div>
                 <div className="coloroptions-box-content">
-                  <h5>Wallpapers</h5>
+                  <h5>Metal Paints</h5>
                 </div>
                 <div className="overlay-content flex flex-col items-start">
-                <h5 className="text-[20px]">Wallpapers</h5>
-                <p className="text-[#ffffffa6] text-[15px] mb-5">Discover our extensive wallpaper collections, offering a range of designs from Artisanal to exclusive Sabyasachi collection.</p>
-                <a>View Deatils <FaArrowRight className="icon"/></a>
+                <h5 className="text-[20px]">Metal Paints</h5>
+                <p className="text-[#ffffffa6] text-[15px] mb-5">Explore our range of enamel paints for specially formulated paints that protect and beautify surfaces, and are easy-to-clean.</p>
+                <a href="/MetalPaints">View Deatils <FaArrowRight className="icon"/></a>
+                </div>
+              </div>
+            </div>
+             <div data-aos="fade-up" data-aos-duration="1500">
+              <div className="coloroptions-band-box">
+              <div className="overlay"></div>
+                <div className="coloroptions-image">
+                  <img src="/images/Wood-Paints.webp" alt="" />
+                </div>
+                <div className="coloroptions-box-content">
+                  <h5>Wood Paints</h5>
+                </div>
+                <div className="overlay-content flex flex-col items-start">
+                <h5 className="text-[20px]">Wood Paints</h5>
+                <p className="text-[#ffffffa6] text-[15px] mb-5">Delve into our wood finishing options, offering a spectrum of finishes from Clear to Coloured, suitable for all wood types.</p>
+                <a href="/WoodPaints">View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>
@@ -85,39 +101,23 @@ const ColorOptions = () => {
                 <div className="overlay-content flex flex-col items-start">
                 <h5 className="text-[20px]">Water- Proofing</h5>
                 <p className="text-[#ffffffa6] text-[15px] mb-5">Explore our waterproofing solutions, designed to shield all areas from terrace or bathroom, guaranteeing a leak-proof space.</p>
-                <a>View Deatils <FaArrowRight className="icon"/></a>
+                <a href="/WaterProofingAndConstructionChemicals">View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1500">
+             <div data-aos="fade-up" data-aos-duration="1500">
               <div className="coloroptions-band-box">
               <div className="overlay"></div>
                 <div className="coloroptions-image">
-                  <img src="/images/Wood-Paints.webp" alt="" />
+                  <img src="/images/Wallpapers.webp" alt="" />
                 </div>
                 <div className="coloroptions-box-content">
-                  <h5>Wood Paints</h5>
+                  <h5>Other Surface</h5>
                 </div>
                 <div className="overlay-content flex flex-col items-start">
-                <h5 className="text-[20px]">Wood Paints</h5>
-                <p className="text-[#ffffffa6] text-[15px] mb-5">Delve into our wood finishing options, offering a spectrum of finishes from Clear to Coloured, suitable for all wood types.</p>
-                <a>View Deatils <FaArrowRight className="icon"/></a>
-                </div>
-              </div>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="1500">
-              <div className="coloroptions-band-box">
-              <div className="overlay"></div>
-                <div className="coloroptions-image">
-                  <img src="/images/Metal-Paints.jpg" alt="" />
-                </div>
-                <div className="coloroptions-box-content">
-                  <h5>Metal Paints</h5>
-                </div>
-                <div className="overlay-content flex flex-col items-start">
-                <h5 className="text-[20px]">Metal Paints</h5>
-                <p className="text-[#ffffffa6] text-[15px] mb-5">Explore our range of enamel paints for specially formulated paints that protect and beautify surfaces, and are easy-to-clean.</p>
-                <a>View Deatils <FaArrowRight className="icon"/></a>
+                <h5 className="text-[20px]">Other Surface</h5>
+                <p className="text-[#ffffffa6] text-[15px] mb-5">Discover our extensive wallpaper collections, offering a range of designs from Artisanal to exclusive Sabyasachi collection.</p>
+                <a href="/othersurface">View Deatils <FaArrowRight className="icon"/></a>
                 </div>
               </div>
             </div>

@@ -66,21 +66,22 @@ import GroovedDesign from './pages/products/GroovedDesign';
 import IconicVilla from './pages/products/IconicVilla';
 import TwistingMaze from './pages/products/TwistingMaze';
 import ArchedResidence from './pages/products/ArchedResidence';
-import ACMECementPrimer from './pages/products/ACMECementPrimer';
-import ExteriorBaseCoat from './pages/products/ExteriarBaseCoat';
+import FineSquareInteriorEmulsion from './pages/products/FineSquareInteriorEmulsion';
+import FineSquareExteriorEmulsion from './pages/products/FineSquareExteriorEmulsion';
+import PremiumEmlusion from './pages/products/PremiumEmlusion';
 import FineSquare from './pages/products/Finesquare';
 import SilkShine from './pages/products/SilkShine';
 import TitaniumOne from './pages/products/TitaniumOne';
 import UltraWrp from './pages/products/UltraWrp';
-import PremiumEmulsion from './pages/products/PremiumEmulsion';
-import ACME from './pages/products/ACME';
-import MattFinish from './pages/products/MattFinish';
-import EasyWash from './pages/products/EasyWash';
+import SelectMattFinish from './pages/products/SelectMattFinish';
+import SelectSheen from './pages/products/SelectSheen';
+import ACMEExteriorEmulsion from './pages/products/ACMEExteriorEmulsion';
 import PrimerBrown from './pages/products/PrimerBrown';
-import MetalGuard from './pages/products/MetalGuard';
+import FS_HISHEEN from './pages/products/FS_HISHEEN';
 import ACMEWrp from './pages/products/ACMEWrp';
+import SilkShine_SuperGloss from './pages/products/SilkShine_SuperGloss';
 import BDSeal from './pages/products/BDSeal';
-import CoolRoof from './pages/products/CoolRoof';
+import UltraWRPExteriorEmulsion from './pages/products/UltraWRPExteriorEmulsion';
 import ApexExterioremulsions from './pages/products/ApexExterioremulsions';
 import AcemExterioremulsions from './pages/products/AcemExterioremulsions';
 import SafePaintingPage from './pages/services/SafePaintingPage';
@@ -94,6 +95,10 @@ import OtherSurface from './pages/products/OtherSurface';
 import WoodPaints from './pages/products/WoodPaints';
 import MetalPaints from './pages/products/MetalPaints';
 import WaterProofingAndConstructionChemicals from './pages/products/WaterProfingAndConstructionChemicals';
+import SS_PearlGloss from './pages/products/SS_PearlGloss';
+import CeilingWhite from './pages/products/CeilingWhite';
+import EasyWashLuxuryEmulsion from './pages/products/EasyWashLuxuryEmulsion';
+import SilkShineSpecialEffectpaints from './pages/products/SilkShineSpecialEffectpaints';
 
 
 function App() {
@@ -240,6 +245,17 @@ function App() {
               {/* Interior Color Shades */}
               <Route path="/InteriorWallPaint/Shades" element={<InteriorColorOptions />} />
 
+              {/* Interior Emulsions-Fine Square Interior Emulsion */}
+              <Route path="/InteriorWallPaint/FineSquareInterriorEmulsion" element={<FineSquareInteriorEmulsion />} />
+              {/* Interior Emulsions-SilkShine_PearlGloss */}
+              <Route path="/InteriorWallPaint/SilkShine_PearlGloss" element={<SS_PearlGloss />} />
+              {/* Interior Emulsions-Ceiling White */}
+              <Route path="/InteriorWallPaint/CeilingWhite" element={<CeilingWhite />} />
+              {/* Interior Emulsions-Easy Wash Luxury Emulsion */}
+              <Route path="/InteriorWallPaint/EasyWashLuxuryEmulsion" element={<EasyWashLuxuryEmulsion />} />
+              {/* Interior Emulsions-Easy Wash Luxury Emulsion */}
+              <Route path="/InteriorWallPaint/SilkShineSpecialEffectpaints" element={<SilkShineSpecialEffectpaints />} />
+
               
 
 
@@ -317,11 +333,11 @@ function App() {
               {/* Exterior Emulsions */}
               <Route path="/Exterioremulsions" element={<Exterioremulsions />} />
 
-              {/* Exterior Emulsions-ACME-CementPrimer */}
-              <Route path="/Exterior/ACME-CementPrimer" element={<ACMECementPrimer />} />
+              {/* Exterior Emulsions-Fine Square Exterior Emulsion */}
+              <Route path="/ExteriorWallPaint/FineSquareExteriorEmulsion" element={<FineSquareExteriorEmulsion />} />
 
-              {/* Exterior Emulsions-ExteriorBaseCoat */}
-              <Route path="/Exterior/ExteriorBaseCoat" element={<ExteriorBaseCoat />} />
+              {/* Exterior Emulsions-Premium Emlusion */}
+              <Route path="/ExteriorWallPaint/PremiumEmlusion" element={<PremiumEmlusion />} />
 
               {/* Exterior Emulsions-Fine Square products */}
               <Route path="/Exterior/FineSquare" element={<FineSquare />} />
@@ -329,38 +345,39 @@ function App() {
               {/* Exterior Emulsions-Silk Shine products */}
               <Route path="/Exterior/SilkShine" element={<SilkShine />} />
 
-               {/* Exterior Emulsions-Titanium One products */}
-               <Route path="/Exterior/TitaniumOne" element={<TitaniumOne />} />
 
                {/* Exterior Emulsions-Ultra Wrp products */}
                <Route path="/Exterior/UltraWrp" element={<UltraWrp />} />
 
-               {/* Exterior Emulsions-Premium Emulsion products */}
-               <Route path="/Exterior/PremiumEmulsion" element={<PremiumEmulsion />} />
 
-               {/* Exterior Emulsions-ACME products */}
-               <Route path="/Exterior/ACME" element={<ACME />} />
+               {/* Exterior Emulsions-Select Matt Finish */}
+               <Route path="/ExteriorWallPaint/SelectMattFinish" element={<SelectMattFinish />} />
 
-               {/* Exterior Emulsions-MattFinish products */}
-               <Route path="/Exterior/MattFinish" element={<MattFinish />} />
+               {/* Exterior Emulsions-Select Sheen products */}
+               <Route path="/ExteriorWallPaint/SelectSheen" element={<SelectSheen />} />
 
-               {/* Exterior Emulsions-EasyWash products */}
-               <Route path="/Exterior/EasyWash" element={<EasyWash />} />
+               {/* Exterior Emulsions-ACME Exterior Emulsion products */}
+               <Route path="/ExteriorWallPaint/ACMEExteriorEmulsion" element={<ACMEExteriorEmulsion />} />
 
                {/* Exterior Emulsions-Primer Surface Brown products */}
-               <Route path="/Exterior/PrimerSurfaceBrown" element={<PrimerBrown />} />
+               <Route path="/ExteriorWallPaint/PrimerSurfaceBrown" element={<PrimerBrown />} />
 
-                {/* Exterior Emulsions-Metal Guard products */}
-                <Route path="/Exterior/MetalGuard" element={<MetalGuard />} />
+                {/* Exterior Emulsions-Fine Square-Hi Sheen products */}
+                <Route path="/ExteriorWallPaint/FineSquareHiSheen" element={<FS_HISHEEN />} />
 
                 {/* Exterior Emulsions-ACME ultra WRP products */}
-                <Route path="/Exterior/ACMEUltraWRP" element={<ACMEWrp />} />
+                <Route path="/ExteriorWallPaint/ACMEWRP" element={<ACMEWrp />} />
 
+                {/* Exterior Emulsions-ACME ultra WRP products */}
+                <Route path="/ExteriorWallPaint/SilkShine_SuperGloss" element={<SilkShine_SuperGloss />} />
+
+                 {/* Exterior Emulsions-Titanium One products */}
+               <Route path="/ExteriorWallPaint/TitaniumOne" element={<TitaniumOne />} />
                 {/* Exterior Emulsions-BD Seal products */}
                 <Route path="/Exterior/BDSeal" element={<BDSeal />} />
 
-                {/* Exterior Emulsions-Cool Roof products */}
-                <Route path="/Exterior/CoolRoof" element={<CoolRoof />} />
+                {/* Exterior Emulsions-Ultra WRP Exterior Emulsion products */}
+                <Route path="/ExteriorWallPaint/UltraWRPExteriorEmulsion" element={<UltraWRPExteriorEmulsion />} />
 
 
               {/* Apex Exterior Emulsions */}
