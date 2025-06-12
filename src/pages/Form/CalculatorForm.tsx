@@ -221,7 +221,7 @@ const PaintingCalculatorForm: React.FC = () => {
           </h3>
 
           {/* Scrollable Product List */}
-          <div className="grid gap-2 max-h-80 overflow-y-auto custom-scrollbar">
+          <div className="grid gap-2 max-h-80 overflow-y-auto custom-scrollbar coloroptions">
             {(selectedSpace === "Interior" || selectedSpace === null) &&
               interiorProducts.map((product) => (
                 <button
