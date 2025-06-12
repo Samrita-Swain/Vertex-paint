@@ -6,7 +6,7 @@ const AcmeWaterThinnablePrimer = () => {
  {
       name: "Vertex Water Thinnable Primer",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/PremiumEmlusion",
+      href: "/UnderCoat/VertexWaterThinnablePrimer",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -18,7 +18,7 @@ const AcmeWaterThinnablePrimer = () => {
     {
       name: "Base Coat",
       image: "/images/exterior-base-coat.png",
-      href: "/ExteriorWallPaint/SelectMattFinish",
+      href: "/UnderCoat/BaseCoat",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -31,7 +31,7 @@ const AcmeWaterThinnablePrimer = () => {
     {
       name: "ultra Wall Sealer 3IN1",
       image: "/images/ULTRA-WALL-SEALER.png",
-      href: "/ExteriorWallPaint/SelectSheen",
+      href: "/UnderCoat/ultraWallSealer3IN1",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -43,7 +43,7 @@ const AcmeWaterThinnablePrimer = () => {
     {
       name: "Fine Square Interior Primer",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/ACMEExteriorEmulsion",
+      href: "/UnderCoat/FineSquareInteriorPrimer",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
@@ -56,7 +56,7 @@ const AcmeWaterThinnablePrimer = () => {
     {
       name: "MG-RED OXIDE",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/ACMEWRP",
+      href: "/UnderCoat/MG_RedOxide",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",

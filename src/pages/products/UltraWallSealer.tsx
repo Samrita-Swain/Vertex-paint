@@ -6,7 +6,7 @@ const ultraWallSealer3IN1 = () => {
  {
       name: "Fine Square Interior Primer",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/ACMEExteriorEmulsion",
+      href: "/UnderCoat/FineSquareInteriorPrimer",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
@@ -19,7 +19,7 @@ const ultraWallSealer3IN1 = () => {
     {
       name: "MG-RED OXIDE",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/ACMEWRP",
+      href: "/UnderCoat/MG_RedOxide",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -31,7 +31,7 @@ const ultraWallSealer3IN1 = () => {
     {
       name: "ZINCHROMATE PRIMER",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/FineSquareHiSheen",
+      href: "/UnderCoat/ZinchromatePrimer",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
@@ -44,7 +44,7 @@ const ultraWallSealer3IN1 = () => {
     {
       name: "Zin Phosphate Primer White",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/SilkShine_SuperGloss",
+      href: "/UnderCoat/ZinPhosphatePrimerWhite",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -56,7 +56,7 @@ const ultraWallSealer3IN1 = () => {
     {
       name: "1k PU Primer Surface Brown",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/TitaniumOne",
+      href: "/UnderCoat/1k_PU_PrimerSurfaceBrown",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",

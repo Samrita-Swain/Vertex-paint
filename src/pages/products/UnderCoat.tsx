@@ -70,7 +70,7 @@ const UnderCoat = () => {
     {
       name: "MG-RED OXIDE",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/ACMEWRP",
+      href: "/UnderCoat/MG_RedOxide",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -82,7 +82,7 @@ const UnderCoat = () => {
     {
       name: "ZINCHROMATE PRIMER",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/FineSquareHiSheen",
+      href: "/UnderCoat/ZinchromatePrimer",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
@@ -95,7 +95,7 @@ const UnderCoat = () => {
     {
       name: "Zin Phosphate Primer White",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/SilkShine_SuperGloss",
+      href: "/UnderCoat/ZinPhosphatePrimerWhite",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -107,7 +107,7 @@ const UnderCoat = () => {
     {
       name: "1k PU Primer Surface Brown",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/TitaniumOne",
+      href: "/UnderCoat/1k_PU_PrimerSurfaceBrown",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -120,7 +120,7 @@ const UnderCoat = () => {
     {
       name: "1k PU Primer Surface White",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/UltraWRPExteriorEmulsion",
+      href: "/UnderCoat/1k_PU_PrimerSurfaceWhite",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -132,7 +132,7 @@ const UnderCoat = () => {
     {
       name: "Damp Proof Wall Putty",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/UltraWRPExteriorEmulsion",
+      href: "/UnderCoat/DampProofWallPutty",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
@@ -145,7 +145,7 @@ const UnderCoat = () => {
     {
       name: "Premium Wall Putty",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/UltraWRPExteriorEmulsion",
+      href: "/UnderCoat/PremiumWallPutty",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -157,7 +157,7 @@ const UnderCoat = () => {
     {
       name: "Titanium Wall Putty",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/UltraWRPExteriorEmulsion",
+      href: "/UnderCoat/TitaniumWallPutty",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",

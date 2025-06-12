@@ -1,12 +1,37 @@
 import PaintingCalculatorForm from "../Form/CalculatorForm";
 import React from 'react'
 
-const UltraWRPExteriorEmulsion = () => {
+const ZinPhosphatePrimerWhite = () => {
   const allProducts = [
  {
-      name: "Fine Square Exterior Emulsion",
-      image: "/images/finesquare.png",
-      href: "/ExteriorWallPaint/FineSquareExteriorEmulsion",
+      name: "1k PU Primer Surface Brown",
+      image: "/images/1.png",
+      href: "/UnderCoat/1k_PU_PrimerSurfaceBrown",
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      animation: true,
+      price: 0,
+      unit: "per L",
+    },
+    {
+      name: "1k PU Primer Surface White",
+      image: "/images/1.png",
+      href: "/UnderCoat/1k_PU_PrimerSurfaceWhite",
+      features: [
+      "WALLS of S.T.E.E.L",
+      "15 years warranty*",
+      "Advanced PUD Formula",
+    ],
+      price: 0,
+      unit: "per L",
+    },
+    {
+      name: "Damp Proof Wall Putty",
+      image: "/images/1.png",
+      href: "/UnderCoat/DampProofWallPutty",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
@@ -17,34 +42,9 @@ const UltraWRPExteriorEmulsion = () => {
       unit: "per L",
     },
     {
-      name: "Premium Emlusion",
-      image: "/images/premium-eml.png",
-      href: "/ExteriorWallPaint/PremiumEmlusion",
-      features: [
-      "WALLS of S.T.E.E.L",
-      "15 years warranty*",
-      "Advanced PUD Formula",
-    ],
-      price: 233,
-      unit: "per L",
-    },
-    {
-      name: "Select Matt Finish",
-      image: "/images/matt-finish.png",
-      href: "/ExteriorWallPaint/SelectMattFinish",
-      features: [
-      "WALLS of S.T.E.E.L",
-      "15 years warranty*",
-      "Advanced PUD Formula",
-    ],
-      animation: true,
-      price: 276,
-      unit: "per L",
-    },
-    {
-      name: "Select Sheen",
-      image: "/images/Select-sheen.png",
-      href: "/ExteriorWallPaint/SelectSheen",
+      name: "Premium Wall Putty",
+      image: "/images/1.png",
+      href: "/UnderCoat/PremiumWallPutty",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -54,16 +54,16 @@ const UltraWRPExteriorEmulsion = () => {
       unit: "per L",
     },
     {
-      name: "ACME Exterior Emulsion",
-      image: "/images/acme-exterior-eml.png",
-      href: "/ExteriorWallPaint/ACMEExteriorEmulsion",
+      name: "Titanium Wall Putty",
+      image: "/images/1.png",
+      href: "/UnderCoat/TitaniumWallPutty",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
       "Advanced PUD Formula",
     ],
-      price: 465,
+      price: 0,
       unit: "per L",
     },
 ];
@@ -79,13 +79,13 @@ const UltraWRPExteriorEmulsion = () => {
 
         {/* Content */}
         <div className="relative text-white text-center">
-          <h1 className="text-5xl font-medium mb-7">Ultra WRP Exterior Emulsion</h1>
+          <h1 className="text-5xl font-medium mb-7">Zin Phosphate Primer White</h1>
         </div>
 
         {/* Centered Bouncing Image */}
         <div className="bounce-container flex justify-center items-center mt-6">
           <img
-            src="/images/ultra-wrp-ext-eml.png"
+            src="/images/1.png"
             alt="Bouncing"
             className="bouncing-img w-[30%]"
           />
@@ -190,4 +190,4 @@ from ugly black spots.</p>
   );
 };
 
-export default UltraWRPExteriorEmulsion;
+export default ZinPhosphatePrimerWhite;

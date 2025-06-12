@@ -6,7 +6,7 @@ const BaseCoat = () => {
  {
       name: "ultra Wall Sealer 3IN1",
       image: "/images/ULTRA-WALL-SEALER.png",
-      href: "/ExteriorWallPaint/SelectSheen",
+      href: "/UnderCoat/ultraWallSealer3IN1",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -18,7 +18,7 @@ const BaseCoat = () => {
     {
       name: "Fine Square Interior Primer",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/ACMEExteriorEmulsion",
+      href: "/UnderCoat/FineSquareInteriorPrimer",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
@@ -31,7 +31,7 @@ const BaseCoat = () => {
     {
       name: "MG-RED OXIDE",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/ACMEWRP",
+      href: "/UnderCoat/MG_RedOxide",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -43,7 +43,7 @@ const BaseCoat = () => {
     {
       name: "ZINCHROMATE PRIMER",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/FineSquareHiSheen",
+      href: "/UnderCoat/ZinchromatePrimer",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
@@ -56,7 +56,7 @@ const BaseCoat = () => {
     {
       name: "Zin Phosphate Primer White",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/SilkShine_SuperGloss",
+      href: "/UnderCoat/ZinPhosphatePrimerWhite",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",

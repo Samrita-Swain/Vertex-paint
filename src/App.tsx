@@ -104,6 +104,14 @@ import AcmeWaterThinnablePrimer from './pages/products/AcmeWaterThinnablePrimer'
 import VertexWaterThinnablePrimer from './pages/products/VertexWaterThinnablePrimer';
 import BaseCoat from './pages/products/BaseCoat';
 import FineSquareInteriorPrimer from './pages/products/FineSquareInteriorPrimer';
+import MGRedOxide from './pages/products/MGRedOxide';
+import ZinchromatePrimer from './pages/products/ZinchromatePrimer';
+import ZinPhosphatePrimerWhite from './pages/products/ZinPhosphatePrimerWhite';
+import PrimerSurfaceBrown from './pages/products/PrimerSurfaceBrown';
+import PrimerSurfaceWhite from './pages/products/PrimerSurfaceWhite';
+import DampProofWallPutty from './pages/products/DampProofWallPutty';
+import PremiumWallPutty from './pages/products/PremiumWallPutty';
+import TitaniumWallPutty from './pages/products/TitaniumWallPutty';
 
 
 function App() {
@@ -272,6 +280,22 @@ function App() {
               <Route path="/UnderCoat/ultraWallSealer3IN1" element={<UltraWallSealer />} />
               {/* Under Coat-ultra Wall Sealer 3IN1 */}
               <Route path="/UnderCoat/FineSquareInteriorPrimer" element={<FineSquareInteriorPrimer />} />
+              {/* Under Coat-MG Red Oxide */}
+              <Route path="/UnderCoat/MG_RedOxide" element={<MGRedOxide />} />
+               {/* Under Coat-Zin chromate Primer */}
+              <Route path="/UnderCoat/ZinchromatePrimer" element={<ZinchromatePrimer />} />
+              {/* Under Coat-Zin Phosphate Primer White */}
+              <Route path="/UnderCoat/ZinPhosphatePrimerWhite" element={<ZinPhosphatePrimerWhite />} />
+              {/* Under Coat-Primer Surface Brown */}
+              <Route path="/UnderCoat/1k_PU_PrimerSurfaceBrown" element={<PrimerSurfaceBrown />} />
+              {/* Under Coat-Primer Surface white */}
+              <Route path="/UnderCoat/1k_PU_PrimerSurfaceWhite" element={<PrimerSurfaceWhite />} />
+              {/* Under Coat-Damp Proof Wall Putty */}
+              <Route path="/UnderCoat/DampProofWallPutty" element={<DampProofWallPutty />} />
+              {/* Under Coat-Premium Wall Putty */}
+              <Route path="/UnderCoat/PremiumWallPutty" element={<PremiumWallPutty />} />
+              {/* Under Coat-Titanium Wall Putty */}
+              <Route path="/UnderCoat/TitaniumWallPutty" element={<TitaniumWallPutty />} />
 
               {/* Exterior Peaceful & Serene*/}
               <Route path="/Exterior/PeacefulSerene" element={<PeacefulSerene/>} />

@@ -6,7 +6,7 @@ const VertexWaterThinnablePrimer = () => {
  {
       name: "Base Coat",
       image: "/images/exterior-base-coat.png",
-      href: "/ExteriorWallPaint/SelectMattFinish",
+      href: "/UnderCoat/BaseCoat",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -19,7 +19,7 @@ const VertexWaterThinnablePrimer = () => {
     {
       name: "ultra Wall Sealer 3IN1",
       image: "/images/ULTRA-WALL-SEALER.png",
-      href: "/ExteriorWallPaint/SelectSheen",
+      href: "/UnderCoat/ultraWallSealer3IN1",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -31,7 +31,7 @@ const VertexWaterThinnablePrimer = () => {
     {
       name: "Fine Square Interior Primer",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/ACMEExteriorEmulsion",
+      href: "/UnderCoat/FineSquareInteriorPrimer",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
@@ -44,7 +44,7 @@ const VertexWaterThinnablePrimer = () => {
     {
       name: "MG-RED OXIDE",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/ACMEWRP",
+      href: "/UnderCoat/MG_RedOxide",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -56,7 +56,7 @@ const VertexWaterThinnablePrimer = () => {
     {
       name: "ZINCHROMATE PRIMER",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/FineSquareHiSheen",
+      href: "/UnderCoat/ZinchromatePrimer",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",

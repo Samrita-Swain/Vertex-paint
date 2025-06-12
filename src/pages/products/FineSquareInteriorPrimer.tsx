@@ -6,7 +6,7 @@ const FineSquareInteriorPrimer = () => {
  {
       name: "MG-RED OXIDE",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/ACMEWRP",
+      href: "/UnderCoat/MG_RedOxide",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -18,7 +18,7 @@ const FineSquareInteriorPrimer = () => {
     {
       name: "ZINCHROMATE PRIMER",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/FineSquareHiSheen",
+      href: "/UnderCoat/ZinchromatePrimer",
       animation: true,
       features: [
       "WALLS of S.T.E.E.L",
@@ -31,7 +31,7 @@ const FineSquareInteriorPrimer = () => {
     {
       name: "Zin Phosphate Primer White",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/SilkShine_SuperGloss",
+      href: "/UnderCoat/ZinPhosphatePrimerWhite",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -43,7 +43,7 @@ const FineSquareInteriorPrimer = () => {
     {
       name: "1k PU Primer Surface Brown",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/TitaniumOne",
+      href: "/UnderCoat/1k_PU_PrimerSurfaceBrown",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -56,7 +56,7 @@ const FineSquareInteriorPrimer = () => {
     {
       name: "1k PU Primer Surface White",
       image: "/images/1.png",
-      href: "/ExteriorWallPaint/UltraWRPExteriorEmulsion",
+      href: "/UnderCoat/1k_PU_PrimerSurfaceWhite",
       features: [
       "WALLS of S.T.E.E.L",
       "15 years warranty*",
@@ -78,13 +78,13 @@ const FineSquareInteriorPrimer = () => {
 
         {/* Content */}
         <div className="relative text-white text-center">
-          <h1 className="text-5xl font-medium mb-7">Ultra Wall Sealer</h1>
+          <h1 className="text-5xl font-medium mb-7">Fine Square Interior Primer</h1>
         </div>
 
         {/* Centered Bouncing Image */}
         <div className="bounce-container flex justify-center items-center mt-6">
           <img
-            src="/images/ULTRA-WALL-SEALER.png"
+            src="/images/1.png"
             alt="Bouncing"
             className="bouncing-img w-[30%]"
           />

@@ -16,7 +16,7 @@ const TitaniumOne = () => {
     },
     {
       name: "Fine Square Exterior Emulsion",
-      image: "/images/fine-square.png",
+      image: "/images/finesquare.png",
       href: "/ExteriorWallPaint/FineSquareExteriorEmulsion",
       animation: true,
       features: [
