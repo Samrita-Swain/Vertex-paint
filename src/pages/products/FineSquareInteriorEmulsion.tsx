@@ -73,7 +73,7 @@ const FineSquareExteriorEmulsion = () => {
         {/* Centered Bouncing Image */}
         <div className="bounce-container flex justify-center items-center mt-6">
           <img
-            src="/images/fine-square.png"
+            src="/images/finesquare.png"
             alt="Bouncing"
             className="bouncing-img w-[30%]"
           />

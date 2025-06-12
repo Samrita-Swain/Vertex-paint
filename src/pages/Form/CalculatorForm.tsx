@@ -27,7 +27,7 @@ const productPrices: Record<string, number> = {
 };
 
 const productImages: Record<string, string> = {
-  "FINE SQUARE EXTERIOR EMULSION": "/images/fine-square.png",
+  "FINE SQUARE EXTERIOR EMULSION": "/images/finesquare.png",
   "PREMIUM EMLUSION": "/images/premium-eml.png",
   "SELECT MATT FINISH": "/images/matt-finish.png",
   "ACME EXTERIOR EMULSION": "/images/acme-exterior-eml.png",
@@ -37,7 +37,7 @@ const productImages: Record<string, string> = {
   "SILK SHINE - SUPER GLOSS": "/images/Super-gloss.png",
   "TITANIUM ONE": "/images/titanium-one.png",
   "ULTRA WRP EXT EMULSION": "/images/ultra-wrp-ext-eml.png",
-  "FINE SQUARE INTERIOR EMULSION": "/images/fine-square.png",
+  "FINE SQUARE INTERIOR EMULSION": "/images/finesquare.png",
   "SILK SHINE - PEARL GLOSS": "/images/Pearl-gloss.png",
   "CEILING WHITE": "/images/ceiling-white.png",
   "EASY WASH LUXURY EMULSION": "/images/easy-wash-luxury-eml.png",

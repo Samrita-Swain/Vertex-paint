@@ -32,7 +32,7 @@ const colors = [
 const allProducts = [
     {
       name: "Fine Square Interior Emulsion",
-      image: "/images/fine-square.png",
+      image: "/images/finesquare.png",
       href: "/InteriorWallPaint/FineSquareInterriorEmulsion",
       animation: true,
       features: [
