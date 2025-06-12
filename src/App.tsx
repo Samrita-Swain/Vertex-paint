@@ -126,6 +126,15 @@ import WoodGuard from './pages/products/WoodGuard';
 import TrueWoodPUClear from './pages/products/TrueWoodPUClear';
 import ClearVarnish from './pages/products/ClearVarnish';
 import BDSealOtherSurface from './pages/products/BDSealOtherSurface';
+import VertexCoolDampProof from './pages/products/VertexCoolDampProof';
+import SmartPolymer from './pages/products/SmartPolymer';
+import WaterproofingTexture from './pages/products/WaterproofingTexture';
+import RoofDampGuard from './pages/products/RoofDampGuard';
+import TileAdhesive from './pages/products/TileAdhesive';
+import TankSeal from './pages/products/TankSeal';
+import Procrete from './pages/products/Procrete';
+import ReadyPlast from './pages/products/ReadyPlast';
+import StoneClear from './pages/products/StoneClear';
 
 
 function App() {
@@ -340,6 +349,27 @@ function App() {
               <Route path="/WoodPaints/TrueWood_1k_PU_Clear" element={<TrueWoodPUClear />} />
               {/* Wood Paints-Clear Varnish */}
               <Route path="/WoodPaints/ClearVarnish" element={<ClearVarnish />} />
+
+
+               {/* Water Profing And Construction Chemicals-Vertex Cool Damp Proof */}
+              <Route path="/WaterProofing/VertexCoolDampProof" element={<VertexCoolDampProof />} />
+              {/* Water Profing And Construction Chemicals-Smart Polymer */}
+              <Route path="/WaterProofing/SmartPolymer" element={<SmartPolymer />} />
+              {/* Water Profing And Construction Chemicals-Waterproofing Texture */}
+              <Route path="/WaterProofing/WaterproofingTexture" element={<WaterproofingTexture />} />
+              {/* Water Profing And Construction Chemicals-Roof Damp Guard */}
+              <Route path="/WaterProofing/RoofDampGuard" element={<RoofDampGuard />} />
+              {/* Water Profing And Construction Chemicals-Tile Adhesive */}
+              <Route path="/WaterProofing/TileAdhesive" element={<TileAdhesive />} />
+              {/* Water Profing And Construction Chemicals-Tank Seal */}
+              <Route path="/WaterProofing/TankSeal" element={<TankSeal />} />
+              {/* Water Profing And Construction Chemicals-Procrete */}
+              <Route path="/WaterProofing/Procrete" element={<Procrete />} />
+              {/* Water Profing And Construction Chemicals-Ready Plast */}
+              <Route path="/WaterProofing/ReadyPlast" element={<ReadyPlast />} />
+              {/* Water Profing And Construction Chemicals-Stone Clear */}
+              <Route path="/WaterProofing/StoneClear" element={<StoneClear />} />
+
 
 
 
