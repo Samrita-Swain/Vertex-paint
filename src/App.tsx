@@ -91,6 +91,7 @@ import PaintCalculatorPage from './pages/services/PaintCalculatorPage';
 import InteriorColor from './pages/products/InteriorPaintsPage';
 import Exterioremulsions from './pages/products/Exterioremulsions';
 import UnderCoat from './pages/products/UnderCoat';
+import UltraWallSealer from "./pages/products/UltraWallSealer";
 import OtherSurface from './pages/products/OtherSurface';
 import WoodPaints from './pages/products/WoodPaints';
 import MetalPaints from './pages/products/MetalPaints';
@@ -99,6 +100,10 @@ import SS_PearlGloss from './pages/products/SS_PearlGloss';
 import CeilingWhite from './pages/products/CeilingWhite';
 import EasyWashLuxuryEmulsion from './pages/products/EasyWashLuxuryEmulsion';
 import SilkShineSpecialEffectpaints from './pages/products/SilkShineSpecialEffectpaints';
+import AcmeWaterThinnablePrimer from './pages/products/AcmeWaterThinnablePrimer';
+import VertexWaterThinnablePrimer from './pages/products/VertexWaterThinnablePrimer';
+import BaseCoat from './pages/products/BaseCoat';
+import FineSquareInteriorPrimer from './pages/products/FineSquareInteriorPrimer';
 
 
 function App() {
@@ -257,8 +262,16 @@ function App() {
               <Route path="/InteriorWallPaint/SilkShineSpecialEffectpaints" element={<SilkShineSpecialEffectpaints />} />
 
               
-
-
+              {/* Under Coat-Acme Water Thinnable Primer */}
+              <Route path="/UnderCoat/AcmeWaterThinnablePrimer" element={<AcmeWaterThinnablePrimer />} />
+              {/* Under Coat-Vertex Water Thinnable Primer */}
+              <Route path="/UnderCoat/VertexWaterThinnablePrimer" element={<VertexWaterThinnablePrimer />} />
+              {/* Under Coat-Base Coat */}
+              <Route path="/UnderCoat/BaseCoat" element={<BaseCoat />} />
+              {/* Under Coat-ultra Wall Sealer 3IN1 */}
+              <Route path="/UnderCoat/ultraWallSealer3IN1" element={<UltraWallSealer />} />
+              {/* Under Coat-ultra Wall Sealer 3IN1 */}
+              <Route path="/UnderCoat/FineSquareInteriorPrimer" element={<FineSquareInteriorPrimer />} />
 
               {/* Exterior Peaceful & Serene*/}
               <Route path="/Exterior/PeacefulSerene" element={<PeacefulSerene/>} />
