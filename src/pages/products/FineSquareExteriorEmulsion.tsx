@@ -78,7 +78,7 @@ const UltraWRPExteriorEmulsion = () => {
 
         {/* Content */}
         <div className="relative text-white text-center">
-          <h1 className="text-5xl font-medium mb-7">Ultra WRP Exterior Emulsion</h1>
+          <h1 className="text-5xl font-medium mb-7">Fine Square Exterior Emulsion</h1>
         </div>
 
         {/* Centered Bouncing Image */}
