@@ -120,6 +120,12 @@ import MetalClearGloss from './pages/products/MetalClearGloss';
 import MetalClearMatt from './pages/products/MetalClearMatt';
 import PremiumGlossEnamel from './pages/products/PremiumGlossEnamel';
 import PUHighPerformanceEnamel from './pages/products/PUHighPerformanceEnamel';
+import PremiumGlossEnamelWoodPaints from './pages/products/PremiumGlossEnamelWoodPaints';
+import PUHighPerformanceEnamelWoodPaints from './pages/products/PUHighPerformanceEnamelWoodPaints';
+import WoodGuard from './pages/products/WoodGuard';
+import TrueWoodPUClear from './pages/products/TrueWoodPUClear';
+import ClearVarnish from './pages/products/ClearVarnish';
+import BDSealOtherSurface from './pages/products/BDSealOtherSurface';
 
 
 function App() {
@@ -321,6 +327,28 @@ function App() {
               <Route path="/MetalPaints/PremiumGlossEnamel" element={<PremiumGlossEnamel />} />
               {/* Metal Paints-1K PU High Performance Enamel */}
               <Route path="/MetalPaints/1K_PU_HighPerformanceEnamel" element={<PUHighPerformanceEnamel />} />
+
+
+
+              {/* Wood Paints-Premium Gloss Enamel */}
+              <Route path="/WoodPaints/PremiumGlossEnamel" element={<PremiumGlossEnamelWoodPaints />} />
+              {/* Wood Paints-1K PU High Performance Enamel  */}
+              <Route path="/WoodPaints/1K_PU_HighPerformanceEnamel" element={<PUHighPerformanceEnamelWoodPaints />} />
+              {/* Wood Paints-Wood Guard */}
+              <Route path="/WoodPaints/WoodGuard" element={<WoodGuard />} />
+              {/* Wood Paints-TRUE WOOD - 1k PU Clear */}
+              <Route path="/WoodPaints/TrueWood_1k_PU_Clear" element={<TrueWoodPUClear />} />
+              {/* Wood Paints-Clear Varnish */}
+              <Route path="/WoodPaints/ClearVarnish" element={<ClearVarnish />} />
+
+
+
+              {/* Other Surface-BD Seal */}
+              <Route path="/OtherSurface/BDSeal" element={<BDSealOtherSurface />} />
+
+
+
+
 
               {/* Exterior Peaceful & Serene*/}
               <Route path="/Exterior/PeacefulSerene" element={<PeacefulSerene/>} />

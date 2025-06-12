@@ -6,7 +6,7 @@ import CalculatorForm from "../Form/CalculatorForm";
 
 const MetalPaints = () => {
 
-  const underCoatProducts = [
+  const MetalPaintProducts = [
     {
       name: "Aluminum",
       image: "/images/1.png",
@@ -189,7 +189,7 @@ const MetalPaints = () => {
           Metal Paints
         </h1>
         <div className="ultimaproducts grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-[2rem]">
-          {underCoatProducts.map((product, index) => (
+          {MetalPaintProducts.map((product, index) => (
             <a
               key={index}
               href={product.href}
