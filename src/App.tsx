@@ -112,6 +112,14 @@ import PrimerSurfaceWhite from './pages/products/PrimerSurfaceWhite';
 import DampProofWallPutty from './pages/products/DampProofWallPutty';
 import PremiumWallPutty from './pages/products/PremiumWallPutty';
 import TitaniumWallPutty from './pages/products/TitaniumWallPutty';
+import Aluminum from './pages/products/Aluminum';
+import PUAluminumPaint from './pages/products/PUAluminumPaint';
+import PUMetallicGoldenPaint from './pages/products/PUMetallicGoldenPaint';
+import SilverAshEmerlandGreen from './pages/products/SilverAshEmerlandGreen';
+import MetalClearGloss from './pages/products/MetalClearGloss';
+import MetalClearMatt from './pages/products/MetalClearMatt';
+import PremiumGlossEnamel from './pages/products/PremiumGlossEnamel';
+import PUHighPerformanceEnamel from './pages/products/PUHighPerformanceEnamel';
 
 
 function App() {
@@ -296,6 +304,23 @@ function App() {
               <Route path="/UnderCoat/PremiumWallPutty" element={<PremiumWallPutty />} />
               {/* Under Coat-Titanium Wall Putty */}
               <Route path="/UnderCoat/TitaniumWallPutty" element={<TitaniumWallPutty />} />
+
+              {/* Metal Paints-Aluminum */}
+              <Route path="/MetalPaints/Aluminum" element={<Aluminum />} />
+              {/* Metal Paints-PU Aluminum Paint */}
+              <Route path="/MetalPaints/PU_AluminumPaint" element={<PUAluminumPaint />} />
+              {/* Metal Paints-PU Metallic Golden Paint */}
+              <Route path="/MetalPaints/PU_MetallicGoldenPaint" element={<PUMetallicGoldenPaint />} />
+              {/* Metal Paints-Silver Ash, Emerland Green */}
+              <Route path="/MetalPaints/Silver_Ash_Emerland_Green" element={<SilverAshEmerlandGreen />} />
+              {/* Metal Paints-Metal Clear Gloss */}
+              <Route path="/MetalPaints/MetalClearGloss" element={<MetalClearGloss />} />
+              {/* Metal Paints-Metal Clear Matt */}
+              <Route path="/MetalPaints/MetalClearMatt" element={<MetalClearMatt />} />
+              {/* Metal Paints-Premium Gloss Enamel */}
+              <Route path="/MetalPaints/PremiumGlossEnamel" element={<PremiumGlossEnamel />} />
+              {/* Metal Paints-1K PU High Performance Enamel */}
+              <Route path="/MetalPaints/1K_PU_HighPerformanceEnamel" element={<PUHighPerformanceEnamel />} />
 
               {/* Exterior Peaceful & Serene*/}
               <Route path="/Exterior/PeacefulSerene" element={<PeacefulSerene/>} />
