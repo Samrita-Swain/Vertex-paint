@@ -125,7 +125,7 @@ const TDS = () => {
             }
           >
             <div className="product-img w-[50%]">
-              <img src="/images/12.png" alt="" />
+              <img src="/images/BD_seal.png" alt="" />
             </div>
             <div className="product-content flex flex-col items-center">
               <h1 className="mb-3 text-[16px] text-center">BD Seal</h1>

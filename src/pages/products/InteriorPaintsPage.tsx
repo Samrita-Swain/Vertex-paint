@@ -81,7 +81,7 @@ const allProducts = [
       unit: "per L",
     },
     {
-      name: "Silk Shine Special Effect paints",
+      name: "Silk Shine Special Effect",
       image: "/images/acme-exterior-eml.png",
       href: "/InteriorWallPaint/SilkShineSpecialEffectpaints",
       features: [
