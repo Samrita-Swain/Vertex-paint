@@ -74,7 +74,7 @@ const ExteriorPaintsPage = () => {
       unit: "per L",
     },
     {
-      name: "ACME WRP (Water Reppelent Paint)",
+      name: "ACME WRP (Water Repellent Paint)",
       image: "/images/acme-water-thinnable-primer.png",
       href: "/ExteriorWallPaint/ACMEWRP",
       features: [
