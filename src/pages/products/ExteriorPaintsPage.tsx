@@ -87,7 +87,7 @@ const ExteriorPaintsPage = () => {
     },
     {
       name: "Fine Square - HI SHEEN",
-      image: "/images/9.png",
+      image: "/images/1.png",
       href: "/ExteriorWallPaint/FineSquareHiSheen",
       animation: true,
       features: [

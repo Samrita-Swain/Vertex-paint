@@ -102,7 +102,7 @@ export const exteriorColor = [
     title: 'Peaceful & Serene',
     category: 'Trends',
     excerpt: 'Discover the hottest color trends for the upcoming year',
-    image: '/images/peaceful&serene.jpg',
+    image: '/images/PeacefulSerene.jpg',
     explore: '/Exterior/PeacefulSerene'
   },
   {
@@ -110,7 +110,7 @@ export const exteriorColor = [
     title: 'Trendy & Stylish',
     category: 'Trends',
     excerpt: 'Discover the hottest color trends for the upcoming year',
-    image: '/images/trendy&stylish.jpg',
+    image: '/images/TrendyStylish.jpg',
     explore: '/Exterior/TrendyStylish'
   },
   {
@@ -118,7 +118,7 @@ export const exteriorColor = [
     title: 'Soft & Relaxing',
     category: 'Trends',
     excerpt: 'Discover the hottest color trends for the upcoming year',
-    image: '/images/soft&relaxing.jpg',
+    image: '/images/SoftRelaxing.jpg',
     explore: '/Exterior/SoftRelaxing'
   },
   {
@@ -126,7 +126,7 @@ export const exteriorColor = [
     title: 'Exciting & Bright',
     category: 'Trends',
     excerpt: 'Discover the hottest color trends for the upcoming year',
-    image: '/images/exciting&bright.jpg',
+    image: '/images/excitingbright.jpg',
     explore: '/Exterior/ExcitingBright'
   }
 ];
