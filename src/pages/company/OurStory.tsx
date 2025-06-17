@@ -21,7 +21,7 @@ const OurStory = () => {
 
             </div>
             <div>
-                <div className="ourpurpose bg-gradient-to-br from-gray-50 to-white p-4 sm:p-6 md:p-8 lg:p-12">
+                <div className="ourpurpose bg-gradient-to-br from-gray-50 to-white p-12">
                     <div className="container mx-auto max-w-6xl">
                         <div className="text-center mb-8 sm:mb-12 md:mb-16">
                         <h1 className="gradient-text text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 item-left">
