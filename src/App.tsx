@@ -135,6 +135,7 @@ import TankSeal from './pages/products/TankSeal';
 import Procrete from './pages/products/Procrete';
 import ReadyPlast from './pages/products/ReadyPlast';
 import StoneClear from './pages/products/StoneClear';
+import OurStory from './pages/company/OurStory';
 
 
 function App() {
@@ -276,6 +277,9 @@ function App() {
 
               {/* Calculate Now */}
               <Route path="/CalculateNow" element={<CalculateNow />} />
+
+              {/* Company Details */}
+              <Route path="/AboutUs/OurStory" element={<OurStory />} />
 
 
               {/* Interior Color Shades */}

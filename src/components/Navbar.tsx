@@ -62,18 +62,18 @@ const MENU_DATA: MenuDataType = {
       {
         title: 'By Room',
         items: [
-          { name: 'Living Room', link: '/colours/living-room' },
-          { name: 'Bedroom', link: '/colours/bedroom' },
-          { name: 'Kitchen', link: '/colours/kitchen' },
-          { name: 'View All Rooms', link: '/colours/rooms' }
+          { name: 'Living Room', link: '/' },
+          { name: 'Bedroom', link: '/' },
+          { name: 'Kitchen', link: '/' },
+          { name: 'View All Rooms', link: '/' }
         ]
       },
       {
         title: 'Colour Combinations',
         items: [
-          { name: 'Interior Combinations', link: '/colours/interior-combinations' },
-          { name: 'Exterior Combinations', link: '/colours/exterior-combinations' },
-          { name: 'View All', link: '/colours/combinations' }
+          { name: 'Interior Combinations', link: '/' },
+          { name: 'Exterior Combinations', link: '/' },
+          { name: 'View All', link: '/' }
         ]
       }
     ]
@@ -84,17 +84,17 @@ const MENU_DATA: MenuDataType = {
       {
         title: 'Painting Services',
         items: [
-          { name: 'Safe Painting Service', link: '/services/safe-painting' },
-          { name: 'Waterproofing Solutions', link: '/services/waterproofing' },
-          { name: 'Book a Painter', link: '/services/book-painter' }
+          { name: 'Safe Painting Service', link: '/' },
+          { name: 'Waterproofing Solutions', link: '/' },
+          { name: 'Book a Painter', link: '/' }
         ]
       },
       {
         title: 'Consultancy',
         items: [
-          { name: 'Colour Consultancy', link: '/services/colour-consultancy' },
-          { name: 'Home Painting', link: '/services/home-painting' },
-          { name: 'Find a Contractor', link: '/services/find-contractor' }
+          { name: 'Colour Consultancy', link: '/' },
+          { name: 'Home Painting', link: '/' },
+          { name: 'Find a Contractor', link: '/' }
         ]
       }
     ]
@@ -105,7 +105,7 @@ const MENU_DATA: MenuDataType = {
       {
         title: 'About Us',
         items: [
-          { name: 'Our Story', link: '/about' },
+          { name: 'Our Story', link: '/AboutUs/OurStory' },
           { name: 'Blog', link: '/blog' },
           { name: 'Contact Us', link: '/contact' }
         ]
